@@ -1,0 +1,1167 @@
+2021-10-07 11:05:04,757 - MARKET - INFO   : Hello
+2021-10-07 11:05:05,077 - MARKET - INFO   : req time:0 sec
+2021-10-07 11:05:05,081 - MARKET - ERROR   : err_key'btcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'btcinr'
+2021-10-07 11:05:05,085 - MARKET - ERROR   : err_key'xrpinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xrpinr'
+2021-10-07 11:05:05,086 - MARKET - ERROR   : err_key'ethinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ethinr'
+2021-10-07 11:05:05,090 - MARKET - ERROR   : err_key'trxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'trxinr'
+2021-10-07 11:05:05,092 - MARKET - ERROR   : err_key'eosinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'eosinr'
+2021-10-07 11:05:05,099 - MARKET - ERROR   : err_key'zilinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'zilinr'
+2021-10-07 11:05:05,101 - MARKET - ERROR   : err_key'batinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'batinr'
+2021-10-07 11:05:05,102 - MARKET - ERROR   : err_key'zrxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'zrxinr'
+2021-10-07 11:05:05,104 - MARKET - ERROR   : err_key'omginr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'omginr'
+2021-10-07 11:05:05,106 - MARKET - ERROR   : err_key'polyinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'polyinr'
+2021-10-07 11:05:05,116 - MARKET - ERROR   : err_key'iostinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'iostinr'
+2021-10-07 11:05:05,118 - MARKET - ERROR   : err_key'dentinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dentinr'
+2021-10-07 11:05:05,120 - MARKET - ERROR   : err_key'hotinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'hotinr'
+2021-10-07 11:05:05,121 - MARKET - ERROR   : err_key'usdtinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'usdtinr'
+2021-10-07 11:05:05,124 - MARKET - ERROR   : err_key'wrxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'wrxinr'
+2021-10-07 11:05:05,125 - MARKET - ERROR   : err_key'maticinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'maticinr'
+2021-10-07 11:05:05,127 - MARKET - ERROR   : err_key'bchinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'bchinr'
+2021-10-07 11:05:05,129 - MARKET - ERROR   : err_key'bnbinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'bnbinr'
+2021-10-07 11:05:05,131 - MARKET - ERROR   : err_key'bttinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'bttinr'
+2021-10-07 11:05:05,132 - MARKET - ERROR   : err_key'chzinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'chzinr'
+2021-10-07 11:05:05,134 - MARKET - ERROR   : err_key'oneinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'oneinr'
+2021-10-07 11:05:05,142 - MARKET - ERROR   : err_key'yfiinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'yfiinr'
+2021-10-07 11:05:05,144 - MARKET - ERROR   : err_key'uniinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'uniinr'
+2021-10-07 11:05:05,145 - MARKET - ERROR   : err_key'linkinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'linkinr'
+2021-10-07 11:05:05,147 - MARKET - ERROR   : err_key'sxpinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'sxpinr'
+2021-10-07 11:05:05,149 - MARKET - ERROR   : err_key'adainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'adainr'
+2021-10-07 11:05:05,151 - MARKET - ERROR   : err_key'nanoinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'nanoinr'
+2021-10-07 11:05:05,152 - MARKET - ERROR   : err_key'atominr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'atominr'
+2021-10-07 11:05:05,154 - MARKET - ERROR   : err_key'xlminr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xlminr'
+2021-10-07 11:05:05,156 - MARKET - ERROR   : err_key'fetinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'fetinr'
+2021-10-07 11:05:05,159 - MARKET - ERROR   : err_key'xeminr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xeminr'
+2021-10-07 11:05:05,161 - MARKET - ERROR   : err_key'zecinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'zecinr'
+2021-10-07 11:05:05,162 - MARKET - ERROR   : err_key'busdinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'busdinr'
+2021-10-07 11:05:05,171 - MARKET - ERROR   : err_key'yfiiinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'yfiiinr'
+2021-10-07 11:05:05,175 - MARKET - ERROR   : err_key'dogeinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dogeinr'
+2021-10-07 11:05:05,177 - MARKET - ERROR   : err_key'dotinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dotinr'
+2021-10-07 11:05:05,180 - MARKET - ERROR   : err_key'vetinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'vetinr'
+2021-10-07 11:05:05,182 - MARKET - ERROR   : err_key'crvinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'crvinr'
+2021-10-07 11:05:05,183 - MARKET - ERROR   : err_key'reninr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'reninr'
+2021-10-07 11:05:05,185 - MARKET - ERROR   : err_key'enjinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'enjinr'
+2021-10-07 11:05:05,186 - MARKET - ERROR   : err_key'manainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'manainr'
+2021-10-07 11:05:05,188 - MARKET - ERROR   : err_key'hbarinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'hbarinr'
+2021-10-07 11:05:05,190 - MARKET - ERROR   : err_key'umainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'umainr'
+2021-10-07 11:05:05,198 - MARKET - ERROR   : err_key'chrinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'chrinr'
+2021-10-07 11:05:05,200 - MARKET - ERROR   : err_key'paxginr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'paxginr'
+2021-10-07 11:05:05,202 - MARKET - ERROR   : err_key'1inchinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: '1inchinr'
+2021-10-07 11:05:05,206 - MARKET - ERROR   : err_key'etcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'etcinr'
+2021-10-07 11:05:05,208 - MARKET - ERROR   : err_key'uftinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'uftinr'
+2021-10-07 11:05:05,210 - MARKET - ERROR   : err_key'dockinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dockinr'
+2021-10-07 11:05:05,213 - MARKET - ERROR   : err_key'filinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'filinr'
+2021-10-07 11:05:05,215 - MARKET - ERROR   : err_key'wininr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'wininr'
+2021-10-07 11:05:05,223 - MARKET - ERROR   : err_key'tkoinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'tkoinr'
+2021-10-07 11:05:05,245 - MARKET - ERROR   : err_key'pushinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'pushinr'
+2021-10-07 11:05:05,250 - MARKET - ERROR   : err_key'avaxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'avaxinr'
+2021-10-07 11:05:05,253 - MARKET - ERROR   : err_key'lunainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'lunainr'
+2021-10-07 11:05:05,255 - MARKET - ERROR   : err_key'xvginr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xvginr'
+2021-10-07 11:05:05,258 - MARKET - ERROR   : err_key'scinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'scinr'
+2021-10-07 11:05:05,266 - MARKET - ERROR   : err_key'fttinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'fttinr'
+2021-10-07 11:05:05,268 - MARKET - ERROR   : err_key'dgbinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dgbinr'
+2021-10-07 11:05:05,271 - MARKET - ERROR   : err_key'cvcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'cvcinr'
+2021-10-07 11:05:05,273 - MARKET - ERROR   : err_key'cakeinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'cakeinr'
+2021-10-07 11:05:05,275 - MARKET - ERROR   : err_key'ezinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ezinr'
+2021-10-07 11:05:05,278 - MARKET - ERROR   : err_key'bzrxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'bzrxinr'
+2021-10-07 11:05:05,279 - MARKET - ERROR   : err_key'ftminr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ftminr'
+2021-10-07 11:05:05,282 - MARKET - ERROR   : err_key'hntinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'hntinr'
+2021-10-07 11:05:05,284 - MARKET - ERROR   : err_key'arkinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'arkinr'
+2021-10-07 11:05:05,293 - MARKET - ERROR   : err_key'ctsiinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ctsiinr'
+2021-10-07 11:05:05,295 - MARKET - ERROR   : err_key'kmdinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'kmdinr'
+2021-10-07 11:05:05,297 - MARKET - ERROR   : err_key'solinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'solinr'
+2021-10-07 11:05:05,299 - MARKET - ERROR   : err_key'cotiinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'cotiinr'
+2021-10-07 11:05:05,300 - MARKET - ERROR   : err_key'iotxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'iotxinr'
+2021-10-07 11:05:05,302 - MARKET - ERROR   : err_key'shibinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'shibinr'
+2021-10-07 11:05:05,304 - MARKET - ERROR   : err_key'rlcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'rlcinr'
+2021-10-07 11:05:05,306 - MARKET - ERROR   : err_key'trbinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'trbinr'
+2021-10-07 11:05:05,308 - MARKET - ERROR   : err_key'reefinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'reefinr'
+2021-10-07 11:05:05,310 - MARKET - ERROR   : err_key'icpinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'icpinr'
+2021-10-07 11:05:05,312 - MARKET - ERROR   : err_key'ontinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ontinr'
+2021-10-07 11:05:05,315 - MARKET - ERROR   : err_key'ckbinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ckbinr'
+2021-10-07 11:05:05,322 - MARKET - ERROR   : err_key'pntinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'pntinr'
+2021-10-07 11:05:05,324 - MARKET - ERROR   : err_key'xvsinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xvsinr'
+2021-10-07 11:05:05,326 - MARKET - ERROR   : err_key'viteinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'viteinr'
+2021-10-07 11:05:05,328 - MARKET - ERROR   : err_key'dcrinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dcrinr'
+2021-10-07 11:05:05,331 - MARKET - ERROR   : err_key'mdxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'mdxinr'
+2021-10-07 11:05:05,332 - MARKET - ERROR   : err_key'phainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'phainr'
+2021-10-07 11:05:05,334 - MARKET - ERROR   : err_key'runeinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'runeinr'
+2021-10-07 11:05:05,337 - MARKET - ERROR   : err_key'ogninr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ogninr'
+2021-10-07 11:05:05,338 - MARKET - ERROR   : err_key'mirinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'mirinr'
+2021-10-07 11:05:05,340 - MARKET - ERROR   : err_key'datainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'datainr'
+2021-10-07 11:05:05,342 - MARKET - ERROR   : err_key'ksminr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ksminr'
+2021-10-07 11:05:05,351 - MARKET - ERROR   : err_key'nkninr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'nkninr'
+2021-10-07 11:05:05,352 - MARKET - ERROR   : err_key'balinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'balinr'
+2021-10-07 11:05:05,354 - MARKET - ERROR   : err_key'dntinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dntinr'
+2021-10-07 11:05:05,356 - MARKET - ERROR   : err_key'keepinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'keepinr'
+2021-10-07 11:05:05,358 - MARKET - ERROR   : err_key'snxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'snxinr'
+2021-10-07 11:05:05,361 - MARKET - ERROR   : err_key'axsinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'axsinr'
+2021-10-07 11:05:05,362 - MARKET - ERROR   : err_key'celrinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'celrinr'
+2021-10-07 11:05:05,364 - MARKET - ERROR   : err_key'alphainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'alphainr'
+2021-10-07 11:05:05,365 - MARKET - ERROR   : err_key'compinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'compinr'
+2021-10-07 11:05:05,367 - MARKET - ERROR   : err_key'aliceinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'aliceinr'
+2021-10-07 11:05:05,369 - MARKET - ERROR   : err_key'egldinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'egldinr'
+2021-10-07 11:05:05,371 - MARKET - ERROR   : err_key'klayinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'klayinr'
+2021-10-07 11:05:05,381 - MARKET - ERROR   : err_key'sandinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'sandinr'
+2021-10-07 11:05:05,382 - MARKET - ERROR   : err_key'frontinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'frontinr'
+2021-10-07 11:05:05,384 - MARKET - ERROR   : err_key'lrcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'lrcinr'
+2021-10-07 11:05:05,386 - MARKET - ERROR   : err_key'stxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'stxinr'
+2021-10-07 11:05:05,389 - MARKET - ERROR   : err_key'algoinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'algoinr'
+2021-10-07 11:05:05,391 - MARKET - ERROR   : err_key'pondinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'pondinr'
+2021-10-07 11:05:05,392 - MARKET - ERROR   : err_key'alpacainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'alpacainr'
+2021-10-07 11:05:05,393 - MARKET - ERROR   : err_key'xecinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xecinr'
+2021-10-07 11:05:05,396 - MARKET - ERROR   : err_key'ilvinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ilvinr'
+2021-10-07 11:05:05,397 - MARKET - ERROR   : err_key'mlninr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'mlninr'
+2021-10-07 11:05:05,406 - MARKET - ERROR   : err_key'dydxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dydxinr'
+2021-10-07 11:05:05,409 - MARKET - ERROR   : err_key'cfxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'cfxinr'
+2021-10-07 11:05:05,410 - MARKET - ERROR   : err_key'ltcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ltcinr'
+2021-10-07 11:05:05,412 - MARKET - ERROR   : err_key'dashinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dashinr'
+2021-10-07 11:35:05,905 - MARKET - INFO   : req time:0 sec
+2021-10-07 11:49:43,778 - MARKET - INFO   : Hello
+2021-10-07 11:49:44,616 - MARKET - INFO   : req time:0 sec
+2021-10-07 11:49:44,616 - MARKET - ERROR   : err_key'btcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'btcinr'
+2021-10-07 11:49:44,621 - MARKET - ERROR   : err_key'xrpinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xrpinr'
+2021-10-07 11:49:44,623 - MARKET - ERROR   : err_key'ethinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ethinr'
+2021-10-07 11:49:44,628 - MARKET - ERROR   : err_key'trxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'trxinr'
+2021-10-07 11:49:44,629 - MARKET - ERROR   : err_key'eosinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'eosinr'
+2021-10-07 11:49:44,630 - MARKET - ERROR   : err_key'zilinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'zilinr'
+2021-10-07 11:49:44,632 - MARKET - ERROR   : err_key'batinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'batinr'
+2021-10-07 11:49:44,634 - MARKET - ERROR   : err_key'zrxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'zrxinr'
+2021-10-07 11:49:44,636 - MARKET - ERROR   : err_key'omginr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'omginr'
+2021-10-07 11:49:44,644 - MARKET - ERROR   : err_key'polyinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'polyinr'
+2021-10-07 11:49:44,646 - MARKET - ERROR   : err_key'iostinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'iostinr'
+2021-10-07 11:49:44,647 - MARKET - ERROR   : err_key'dentinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dentinr'
+2021-10-07 11:49:44,649 - MARKET - ERROR   : err_key'hotinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'hotinr'
+2021-10-07 11:49:44,650 - MARKET - ERROR   : err_key'usdtinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'usdtinr'
+2021-10-07 11:49:44,651 - MARKET - ERROR   : err_key'wrxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'wrxinr'
+2021-10-07 11:49:44,653 - MARKET - ERROR   : err_key'maticinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'maticinr'
+2021-10-07 11:49:44,656 - MARKET - ERROR   : err_key'bchinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'bchinr'
+2021-10-07 11:49:44,658 - MARKET - ERROR   : err_key'bnbinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'bnbinr'
+2021-10-07 11:49:44,659 - MARKET - ERROR   : err_key'bttinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'bttinr'
+2021-10-07 11:49:44,661 - MARKET - ERROR   : err_key'chzinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'chzinr'
+2021-10-07 11:49:44,662 - MARKET - ERROR   : err_key'oneinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'oneinr'
+2021-10-07 11:49:44,664 - MARKET - ERROR   : err_key'yfiinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'yfiinr'
+2021-10-07 11:49:44,665 - MARKET - ERROR   : err_key'uniinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'uniinr'
+2021-10-07 11:49:44,675 - MARKET - ERROR   : err_key'linkinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'linkinr'
+2021-10-07 11:49:44,677 - MARKET - ERROR   : err_key'sxpinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'sxpinr'
+2021-10-07 11:49:44,679 - MARKET - ERROR   : err_key'adainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'adainr'
+2021-10-07 11:49:44,681 - MARKET - ERROR   : err_key'nanoinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'nanoinr'
+2021-10-07 11:49:44,682 - MARKET - ERROR   : err_key'atominr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'atominr'
+2021-10-07 11:49:44,684 - MARKET - ERROR   : err_key'xlminr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xlminr'
+2021-10-07 11:49:44,685 - MARKET - ERROR   : err_key'fetinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'fetinr'
+2021-10-07 11:49:44,687 - MARKET - ERROR   : err_key'xeminr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xeminr'
+2021-10-07 11:49:44,689 - MARKET - ERROR   : err_key'zecinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'zecinr'
+2021-10-07 11:49:44,690 - MARKET - ERROR   : err_key'busdinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'busdinr'
+2021-10-07 11:49:44,691 - MARKET - ERROR   : err_key'yfiiinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'yfiiinr'
+2021-10-07 11:49:44,693 - MARKET - ERROR   : err_key'dogeinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dogeinr'
+2021-10-07 11:49:44,695 - MARKET - ERROR   : err_key'dotinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dotinr'
+2021-10-07 11:49:44,702 - MARKET - ERROR   : err_key'vetinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'vetinr'
+2021-10-07 11:49:44,703 - MARKET - ERROR   : err_key'crvinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'crvinr'
+2021-10-07 11:49:44,706 - MARKET - ERROR   : err_key'reninr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'reninr'
+2021-10-07 11:49:44,707 - MARKET - ERROR   : err_key'enjinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'enjinr'
+2021-10-07 11:49:44,708 - MARKET - ERROR   : err_key'manainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'manainr'
+2021-10-07 11:49:44,710 - MARKET - ERROR   : err_key'hbarinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'hbarinr'
+2021-10-07 11:49:44,711 - MARKET - ERROR   : err_key'umainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'umainr'
+2021-10-07 11:49:44,713 - MARKET - ERROR   : err_key'chrinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'chrinr'
+2021-10-07 11:49:44,715 - MARKET - ERROR   : err_key'paxginr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'paxginr'
+2021-10-07 11:49:44,716 - MARKET - ERROR   : err_key'1inchinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: '1inchinr'
+2021-10-07 11:49:44,718 - MARKET - ERROR   : err_key'etcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'etcinr'
+2021-10-07 11:49:44,719 - MARKET - ERROR   : err_key'uftinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'uftinr'
+2021-10-07 11:49:44,727 - MARKET - ERROR   : err_key'dockinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dockinr'
+2021-10-07 11:49:44,729 - MARKET - ERROR   : err_key'filinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'filinr'
+2021-10-07 11:49:44,731 - MARKET - ERROR   : err_key'wininr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'wininr'
+2021-10-07 11:49:44,732 - MARKET - ERROR   : err_key'tkoinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'tkoinr'
+2021-10-07 11:49:44,735 - MARKET - ERROR   : err_key'pushinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'pushinr'
+2021-10-07 11:49:44,743 - MARKET - ERROR   : err_key'avaxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'avaxinr'
+2021-10-07 11:49:44,744 - MARKET - ERROR   : err_key'lunainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'lunainr'
+2021-10-07 11:49:44,746 - MARKET - ERROR   : err_key'xvginr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xvginr'
+2021-10-07 11:49:44,747 - MARKET - ERROR   : err_key'scinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'scinr'
+2021-10-07 11:49:44,749 - MARKET - ERROR   : err_key'fttinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'fttinr'
+2021-10-07 11:49:44,751 - MARKET - ERROR   : err_key'dgbinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dgbinr'
+2021-10-07 11:49:44,759 - MARKET - ERROR   : err_key'cvcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'cvcinr'
+2021-10-07 11:49:44,761 - MARKET - ERROR   : err_key'cakeinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'cakeinr'
+2021-10-07 11:49:44,762 - MARKET - ERROR   : err_key'ezinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ezinr'
+2021-10-07 11:49:44,763 - MARKET - ERROR   : err_key'bzrxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'bzrxinr'
+2021-10-07 11:49:44,765 - MARKET - ERROR   : err_key'ftminr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ftminr'
+2021-10-07 11:49:44,767 - MARKET - ERROR   : err_key'hntinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'hntinr'
+2021-10-07 11:49:44,774 - MARKET - ERROR   : err_key'arkinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'arkinr'
+2021-10-07 11:49:44,777 - MARKET - ERROR   : err_key'ctsiinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ctsiinr'
+2021-10-07 11:49:44,778 - MARKET - ERROR   : err_key'kmdinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'kmdinr'
+2021-10-07 11:49:44,781 - MARKET - ERROR   : err_key'solinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'solinr'
+2021-10-07 11:49:44,782 - MARKET - ERROR   : err_key'cotiinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'cotiinr'
+2021-10-07 11:49:44,784 - MARKET - ERROR   : err_key'iotxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'iotxinr'
+2021-10-07 11:49:44,786 - MARKET - ERROR   : err_key'shibinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'shibinr'
+2021-10-07 11:49:44,788 - MARKET - ERROR   : err_key'rlcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'rlcinr'
+2021-10-07 11:49:44,789 - MARKET - ERROR   : err_key'trbinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'trbinr'
+2021-10-07 11:49:44,792 - MARKET - ERROR   : err_key'reefinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'reefinr'
+2021-10-07 11:49:44,793 - MARKET - ERROR   : err_key'icpinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'icpinr'
+2021-10-07 11:49:44,802 - MARKET - ERROR   : err_key'ontinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ontinr'
+2021-10-07 11:49:44,803 - MARKET - ERROR   : err_key'ckbinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ckbinr'
+2021-10-07 11:49:44,805 - MARKET - ERROR   : err_key'pntinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'pntinr'
+2021-10-07 11:49:44,807 - MARKET - ERROR   : err_key'xvsinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xvsinr'
+2021-10-07 11:49:44,808 - MARKET - ERROR   : err_key'viteinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'viteinr'
+2021-10-07 11:49:44,816 - MARKET - ERROR   : err_key'dcrinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dcrinr'
+2021-10-07 11:49:44,818 - MARKET - ERROR   : err_key'mdxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'mdxinr'
+2021-10-07 11:49:44,820 - MARKET - ERROR   : err_key'phainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'phainr'
+2021-10-07 11:49:44,822 - MARKET - ERROR   : err_key'runeinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'runeinr'
+2021-10-07 11:49:44,824 - MARKET - ERROR   : err_key'ogninr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ogninr'
+2021-10-07 11:49:44,826 - MARKET - ERROR   : err_key'mirinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'mirinr'
+2021-10-07 11:49:44,827 - MARKET - ERROR   : err_key'datainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'datainr'
+2021-10-07 11:49:44,829 - MARKET - ERROR   : err_key'ksminr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ksminr'
+2021-10-07 11:49:44,831 - MARKET - ERROR   : err_key'nkninr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'nkninr'
+2021-10-07 11:49:44,833 - MARKET - ERROR   : err_key'balinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'balinr'
+2021-10-07 11:49:44,834 - MARKET - ERROR   : err_key'dntinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dntinr'
+2021-10-07 11:49:44,842 - MARKET - ERROR   : err_key'keepinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'keepinr'
+2021-10-07 11:49:44,845 - MARKET - ERROR   : err_key'snxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'snxinr'
+2021-10-07 11:49:44,846 - MARKET - ERROR   : err_key'axsinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'axsinr'
+2021-10-07 11:49:44,848 - MARKET - ERROR   : err_key'celrinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'celrinr'
+2021-10-07 11:49:44,849 - MARKET - ERROR   : err_key'alphainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'alphainr'
+2021-10-07 11:49:44,850 - MARKET - ERROR   : err_key'compinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'compinr'
+2021-10-07 11:49:44,852 - MARKET - ERROR   : err_key'aliceinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'aliceinr'
+2021-10-07 11:49:44,854 - MARKET - ERROR   : err_key'egldinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'egldinr'
+2021-10-07 11:49:44,856 - MARKET - ERROR   : err_key'klayinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'klayinr'
+2021-10-07 11:49:44,859 - MARKET - ERROR   : err_key'sandinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'sandinr'
+2021-10-07 11:49:44,860 - MARKET - ERROR   : err_key'frontinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'frontinr'
+2021-10-07 11:49:44,862 - MARKET - ERROR   : err_key'lrcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'lrcinr'
+2021-10-07 11:49:44,871 - MARKET - ERROR   : err_key'stxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'stxinr'
+2021-10-07 11:49:44,873 - MARKET - ERROR   : err_key'algoinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'algoinr'
+2021-10-07 11:49:44,874 - MARKET - ERROR   : err_key'pondinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'pondinr'
+2021-10-07 11:49:44,876 - MARKET - ERROR   : err_key'alpacainr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'alpacainr'
+2021-10-07 11:49:44,878 - MARKET - ERROR   : err_key'xecinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'xecinr'
+2021-10-07 11:49:44,880 - MARKET - ERROR   : err_key'ilvinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ilvinr'
+2021-10-07 11:49:44,881 - MARKET - ERROR   : err_key'mlninr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'mlninr'
+2021-10-07 11:49:44,883 - MARKET - ERROR   : err_key'dydxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dydxinr'
+2021-10-07 11:49:44,884 - MARKET - ERROR   : err_key'cfxinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'cfxinr'
+2021-10-07 11:49:44,886 - MARKET - ERROR   : err_key'ltcinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'ltcinr'
+2021-10-07 11:49:44,888 - MARKET - ERROR   : err_key'dashinr'
+Traceback (most recent call last):
+  File "D:\documents\project crypto\30_min\make_diff_report.py", line 57, in <module>
+    prev=float(diff[cryp]["prev"])
+KeyError: 'dashinr'
+2021-10-07 12:19:45,189 - MARKET - INFO   : req time:0 sec
+2021-10-07 12:49:46,626 - MARKET - INFO   : req time:0 sec
+2021-10-07 13:19:47,279 - MARKET - INFO   : req time:0 sec
+2021-10-07 13:49:48,261 - MARKET - INFO   : req time:0 sec
+2021-10-07 14:19:48,923 - MARKET - INFO   : req time:0 sec
+2021-10-07 14:49:53,911 - MARKET - INFO   : req time:0 sec
+2021-10-07 15:19:54,702 - MARKET - INFO   : req time:0 sec
+2021-10-07 16:21:54,229 - MARKET - INFO   : req time:0 sec
+2021-10-07 16:51:56,329 - MARKET - INFO   : req time:2 sec
+2021-10-07 17:21:59,830 - MARKET - INFO   : req time:3 sec
+2021-10-07 17:52:00,697 - MARKET - INFO   : req time:0 sec
+2021-10-07 18:22:01,319 - MARKET - INFO   : req time:0 sec

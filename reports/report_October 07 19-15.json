@@ -1,0 +1,577 @@
+{
+	"btcinr": {
+		"prev": "4200188.0",
+		"start": "4200188.0",
+		"change": 0
+	},
+	"xrpinr": {
+		"prev": "82.8049",
+		"start": "82.8049",
+		"change": 0
+	},
+	"ethinr": {
+		"prev": "278283.0",
+		"start": "278283.0",
+		"change": 0
+	},
+	"trxinr": {
+		"prev": "7.4097",
+		"start": "7.4097",
+		"change": 0
+	},
+	"eosinr": {
+		"prev": "365.0",
+		"start": "365.0",
+		"change": 0
+	},
+	"zilinr": {
+		"prev": "7.58",
+		"start": "7.58",
+		"change": 0
+	},
+	"batinr": {
+		"prev": "55.91",
+		"start": "55.91",
+		"change": 0
+	},
+	"zrxinr": {
+		"prev": "78.98",
+		"start": "78.98",
+		"change": 0
+	},
+	"omginr": {
+		"prev": "1093.0",
+		"start": "1093.0",
+		"change": 0
+	},
+	"polyinr": {
+		"prev": "64.998",
+		"start": "64.998",
+		"change": 0
+	},
+	"iostinr": {
+		"prev": "4.17",
+		"start": "4.17",
+		"change": 0
+	},
+	"dentinr": {
+		"prev": "0.464",
+		"start": "0.464",
+		"change": 0
+	},
+	"hotinr": {
+		"prev": "0.739",
+		"start": "0.739",
+		"change": 0
+	},
+	"usdtinr": {
+		"prev": "77.03",
+		"start": "77.03",
+		"change": 0
+	},
+	"wrxinr": {
+		"prev": "94.0",
+		"start": "94.0",
+		"change": 0
+	},
+	"maticinr": {
+		"prev": "99.499",
+		"start": "99.499",
+		"change": 0
+	},
+	"bchinr": {
+		"prev": "47799.0",
+		"start": "47799.0",
+		"change": 0
+	},
+	"bnbinr": {
+		"prev": "34152.43",
+		"start": "34152.43",
+		"change": 0
+	},
+	"bttinr": {
+		"prev": "0.28052",
+		"start": "0.28052",
+		"change": 0
+	},
+	"chzinr": {
+		"prev": "2.5",
+		"start": "2.5",
+		"change": 0
+	},
+	"oneinr": {
+		"prev": "0.56",
+		"start": "0.56",
+		"change": 0
+	},
+	"yfiinr": {
+		"prev": "2470001.0",
+		"start": "2470001.0",
+		"change": 0
+	},
+	"uniinr": {
+		"prev": "1990.35",
+		"start": "1990.35",
+		"change": 0
+	},
+	"linkinr": {
+		"prev": "2115.0",
+		"start": "2115.0",
+		"change": 0
+	},
+	"sxpinr": {
+		"prev": "190.1",
+		"start": "190.1",
+		"change": 0
+	},
+	"adainr": {
+		"prev": "177.2002",
+		"start": "177.2002",
+		"change": 0
+	},
+	"nanoinr": {
+		"prev": "380.0",
+		"start": "380.0",
+		"change": 0
+	},
+	"atominr": {
+		"prev": "2756.0",
+		"start": "2756.0",
+		"change": 0
+	},
+	"xlminr": {
+		"prev": "27.1427",
+		"start": "27.1427",
+		"change": 0
+	},
+	"fetinr": {
+		"prev": "46.0",
+		"start": "46.0",
+		"change": 0
+	},
+	"xeminr": {
+		"prev": "13.367",
+		"start": "13.367",
+		"change": 0
+	},
+	"zecinr": {
+		"prev": "9700.0",
+		"start": "9700.0",
+		"change": 0
+	},
+	"busdinr": {
+		"prev": "76.97",
+		"start": "76.97",
+		"change": 0
+	},
+	"yfiiinr": {
+		"prev": "319000.0",
+		"start": "319000.0",
+		"change": 0
+	},
+	"dogeinr": {
+		"prev": "19.2722",
+		"start": "19.2722",
+		"change": 0
+	},
+	"dotinr": {
+		"prev": "2626.66",
+		"start": "2626.66",
+		"change": 0
+	},
+	"vetinr": {
+		"prev": "8.83983",
+		"start": "8.83983",
+		"change": 0
+	},
+	"crvinr": {
+		"prev": "212.0",
+		"start": "212.0",
+		"change": 0
+	},
+	"reninr": {
+		"prev": "87.4",
+		"start": "87.4",
+		"change": 0
+	},
+	"enjinr": {
+		"prev": "126.5046",
+		"start": "126.5046",
+		"change": 0
+	},
+	"manainr": {
+		"prev": "59.3395",
+		"start": "59.3395",
+		"change": 0
+	},
+	"hbarinr": {
+		"prev": "29.49999",
+		"start": "29.49999",
+		"change": 0
+	},
+	"umainr": {
+		"prev": "760.2",
+		"start": "760.2",
+		"change": 0
+	},
+	"chrinr": {
+		"prev": "27.9899",
+		"start": "27.9899",
+		"change": 0
+	},
+	"paxginr": {
+		"prev": "134775.0",
+		"start": "134775.0",
+		"change": 0
+	},
+	"1inchinr": {
+		"prev": "245.205",
+		"start": "245.205",
+		"change": 0
+	},
+	"etcinr": {
+		"prev": "4207.093",
+		"start": "4207.093",
+		"change": 0
+	},
+	"uftinr": {
+		"prev": "81.0",
+		"start": "81.0",
+		"change": 0
+	},
+	"dockinr": {
+		"prev": "6.45",
+		"start": "6.45",
+		"change": 0
+	},
+	"filinr": {
+		"prev": "5550.0",
+		"start": "5550.0",
+		"change": 0
+	},
+	"wininr": {
+		"prev": "0.0453",
+		"start": "0.0453",
+		"change": 0
+	},
+	"tkoinr": {
+		"prev": "147.0",
+		"start": "147.0",
+		"change": 0
+	},
+	"pushinr": {
+		"prev": "214.6",
+		"start": "214.6",
+		"change": 0
+	},
+	"avaxinr": {
+		"prev": "4659.0",
+		"start": "4659.0",
+		"change": 0
+	},
+	"lunainr": {
+		"prev": "3546.59",
+		"start": "3546.59",
+		"change": 0
+	},
+	"xvginr": {
+		"prev": "1.7519",
+		"start": "1.7519",
+		"change": 0
+	},
+	"scinr": {
+		"prev": "1.4368",
+		"start": "1.4368",
+		"change": 0
+	},
+	"fttinr": {
+		"prev": "4420.0",
+		"start": "4420.0",
+		"change": 0
+	},
+	"dgbinr": {
+		"prev": "4.08",
+		"start": "4.08",
+		"change": 0
+	},
+	"cvcinr": {
+		"prev": "41.3",
+		"start": "41.3",
+		"change": 0
+	},
+	"cakeinr": {
+		"prev": "1527.91",
+		"start": "1527.91",
+		"change": 0
+	},
+	"ezinr": {
+		"prev": "390.95",
+		"start": "390.95",
+		"change": 0
+	},
+	"bzrxinr": {
+		"prev": "23.75",
+		"start": "23.75",
+		"change": 0
+	},
+	"ftminr": {
+		"prev": "140.0",
+		"start": "140.0",
+		"change": 0
+	},
+	"hntinr": {
+		"prev": "1605.01",
+		"start": "1605.01",
+		"change": 0
+	},
+	"arkinr": {
+		"prev": "116.0",
+		"start": "116.0",
+		"change": 0
+	},
+	"ctsiinr": {
+		"prev": "49.8",
+		"start": "49.8",
+		"change": 0
+	},
+	"kmdinr": {
+		"prev": "84.3",
+		"start": "84.3",
+		"change": 0
+	},
+	"solinr": {
+		"prev": "12244.59",
+		"start": "12244.59",
+		"change": 0
+	},
+	"cotiinr": {
+		"prev": "39.136",
+		"start": "39.136",
+		"change": 0
+	},
+	"iotxinr": {
+		"prev": "5.555",
+		"start": "5.555",
+		"change": 0
+	},
+	"shibinr": {
+		"prev": "0.002616",
+		"start": "0.002616",
+		"change": 0
+	},
+	"rlcinr": {
+		"prev": "301.26",
+		"start": "301.26",
+		"change": 0
+	},
+	"trbinr": {
+		"prev": "3949.87",
+		"start": "3949.87",
+		"change": 0
+	},
+	"reefinr": {
+		"prev": "1.675",
+		"start": "1.675",
+		"change": 0
+	},
+	"icpinr": {
+		"prev": "4135.55",
+		"start": "4135.55",
+		"change": 0
+	},
+	"ontinr": {
+		"prev": "72.57",
+		"start": "72.57",
+		"change": 0
+	},
+	"ckbinr": {
+		"prev": "1.0993",
+		"start": "1.0993",
+		"change": 0
+	},
+	"pntinr": {
+		"prev": "75.0",
+		"start": "75.0",
+		"change": 0
+	},
+	"xvsinr": {
+		"prev": "2300.0",
+		"start": "2300.0",
+		"change": 0
+	},
+	"viteinr": {
+		"prev": "6.34",
+		"start": "6.34",
+		"change": 0
+	},
+	"dcrinr": {
+		"prev": "9572.0",
+		"start": "9572.0",
+		"change": 0
+	},
+	"mdxinr": {
+		"prev": "97.6",
+		"start": "97.6",
+		"change": 0
+	},
+	"phainr": {
+		"prev": "53.99",
+		"start": "53.99",
+		"change": 0
+	},
+	"runeinr": {
+		"prev": "655.0",
+		"start": "655.0",
+		"change": 0
+	},
+	"ogninr": {
+		"prev": "70.0",
+		"start": "70.0",
+		"change": 0
+	},
+	"mirinr": {
+		"prev": "249.98",
+		"start": "249.98",
+		"change": 0
+	},
+	"datainr": {
+		"prev": "9.8",
+		"start": "9.8",
+		"change": 0
+	},
+	"ksminr": {
+		"prev": "27627.0",
+		"start": "27627.0",
+		"change": 0
+	},
+	"nkninr": {
+		"prev": "28.8207",
+		"start": "28.8207",
+		"change": 0
+	},
+	"balinr": {
+		"prev": "1740.93",
+		"start": "1740.93",
+		"change": 0
+	},
+	"dntinr": {
+		"prev": "11.48",
+		"start": "11.48",
+		"change": 0
+	},
+	"keepinr": {
+		"prev": "32.0",
+		"start": "32.0",
+		"change": 0
+	},
+	"snxinr": {
+		"prev": "783.0",
+		"start": "783.0",
+		"change": 0
+	},
+	"axsinr": {
+		"prev": "9747.78",
+		"start": "9747.78",
+		"change": 0
+	},
+	"celrinr": {
+		"prev": "10.49",
+		"start": "10.49",
+		"change": 0
+	},
+	"alphainr": {
+		"prev": "83.55",
+		"start": "83.55",
+		"change": 0
+	},
+	"compinr": {
+		"prev": "24159.0",
+		"start": "24159.0",
+		"change": 0
+	},
+	"aliceinr": {
+		"prev": "1025.53",
+		"start": "1025.53",
+		"change": 0
+	},
+	"egldinr": {
+		"prev": "18583.33",
+		"start": "18583.33",
+		"change": 0
+	},
+	"klayinr": {
+		"prev": "0.0",
+		"start": "0.0",
+		"change": 0
+	},
+	"sandinr": {
+		"prev": "61.43",
+		"start": "61.43",
+		"change": 0
+	},
+	"frontinr": {
+		"prev": "98.69",
+		"start": "98.69",
+		"change": 0
+	},
+	"lrcinr": {
+		"prev": "30.15004",
+		"start": "30.15004",
+		"change": 0
+	},
+	"stxinr": {
+		"prev": "106.5",
+		"start": "106.5",
+		"change": 0
+	},
+	"algoinr": {
+		"prev": "144.03",
+		"start": "144.03",
+		"change": 0
+	},
+	"pondinr": {
+		"prev": "0.0",
+		"start": "0.0",
+		"change": 0
+	},
+	"alpacainr": {
+		"prev": "0.0",
+		"start": "0.0",
+		"change": 0
+	},
+	"xecinr": {
+		"prev": "0.017298",
+		"start": "0.017298",
+		"change": 0
+	},
+	"ilvinr": {
+		"prev": "0.0",
+		"start": "0.0",
+		"change": 0
+	},
+	"mlninr": {
+		"prev": "0.0",
+		"start": "0.0",
+		"change": 0
+	},
+	"dydxinr": {
+		"prev": "0.0",
+		"start": "0.0",
+		"change": 0
+	},
+	"cfxinr": {
+		"prev": "0.0",
+		"start": "0.0",
+		"change": 0
+	},
+	"ltcinr": {
+		"prev": "14097.91",
+		"start": "14097.91",
+		"change": 0
+	},
+	"dashinr": {
+		"prev": "14900.0",
+		"start": "14900.0",
+		"change": 0
+	}
+}
