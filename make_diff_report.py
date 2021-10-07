@@ -31,7 +31,7 @@ try:
     os.mkdir("reports")
 except:
     pass
-report_name = "reports/report_"+str(min)+"s_"+time.strftime("%B %d %H-%M")+".json"
+report_name = "reports/report_"+str(min)+"m_"+time.strftime("%B %d %H-%M")+".json"
 
 
 
@@ -55,7 +55,7 @@ def get_per_change(first,last):
 
     if first==0:
         return last
-    diff=first-last
+    diff=last-first
     per=(diff/first)*100
     return per
 
@@ -120,9 +120,5 @@ if __name__ == "__main__":
             with open(report_name, "w") as wf:
                 wf.write(report)
         tickers+=1
-        if tickers>10:
-            with open("temp", "w") as wf:
-                wf.write(str(diff))
-            sys.exit()
-        # time.sleep(sec*min)
+
         time.sleep(10)
