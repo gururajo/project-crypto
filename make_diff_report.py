@@ -26,7 +26,7 @@ import logging.config
 sec = 60
 min = 15
 if len(sys.argv)==2:
-    min = sys.argv[1]
+    min = int(sys.argv[1])
 try:
     os.mkdir("reports")
 except:
@@ -85,23 +85,42 @@ if __name__ == "__main__":
                 if str(cryp).endswith("inr"):
                     prev = float(diff[cryp]["prev"])
                     last = float(market[cryp]["last"])
-                    if prev <= 0.000:
-                        diff[cryp][time.strftime("%B %d %H:%M:%S")] = [0, last/2, last]
+                    if prev == 0.000:
+                        diff[cryp][time.strftime("%B %d %H:%M:%S")] = [0, last, last, last]
                         diff[cryp]["prev"] = last
                         continue
                     print("got_prev", cryp)
 
                     diff[cryp]["change"]=get_per_change(diff[cryp]["start"],last)
                     diff[cryp]["prev"] = last
-                    change = ((last-prev)/prev)*100
+                    change = get_per_change(prev,last)
                     till_avg = 0
+                    last_5_avg=0
                     if len(diff[cryp]) > neg_keys_c:
-                        # print("lis_fist_item",list(diff[cryp].keys())[-1][0])
+                        n=len(diff[cryp]) - neg_keys_c
                         time_key = list(diff[cryp].keys())[-1]
-                        # print(cryp,time_key,diff[cryp][time_key],type(diff[cryp][time_key]),sep=", ")
-                        till_avg = ( ( ( len(diff[cryp]) - neg_keys_c ) * float( diff[cryp][time_key][1] ) ) + change ) / ( len(diff[cryp]) - neg_keys_c + 1)
-                    diff[cryp][time.strftime("%B %d %H:%M:%S")] = [
-                        change, till_avg, last]
+                        till_avg = ( ( ( n ) * float( diff[cryp][time_key][2] ) ) + change ) / ( n + 1)
+                        if len(diff[cryp])- neg_keys_c >5:
+
+                            for time_key in list(diff[cryp].keys())[-4:]:
+                                last_5_avg+=diff[cryp][time_key][0]
+                            last_5_avg+=change
+                            last_5_avg/=5
+                        else:
+                            last_5_avg=till_avg
+                    time_key=time.strftime("%B %d %H:%M:%S")
+                    diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
+                    if last_5_avg>2:
+                        logger.error("Greter than 2 "+str(cryp)+" :"+str(time_key)+":  "+str(diff[cryp][time_key]))
+
+
+                    if len(diff[cryp])-neg_keys_c >22:
+                        key1,key2=list(diff[cryp].keys())[3:5]
+                        diff[cryp].pop(key1)
+                        diff[cryp]["start"]=diff[cryp].pop(key2)[3]
+
+
+
             except KeyError as e:
                 logger.debug("err_key"+str(e))
                 diff[cryp] = {}
@@ -121,4 +140,5 @@ if __name__ == "__main__":
                 wf.write(report)
         tickers+=1
 
-        time.sleep(10)
+        # time.sleep(10)
+        time.sleep(sec*min)

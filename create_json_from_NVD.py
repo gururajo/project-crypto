@@ -34,11 +34,12 @@ if len(sys.argv)>1:
     if sys.argv[1]=="-debug":
         print("debug")
         logger.setLevel(10)
+        logger.
     else:
         print("Wrong argument")
         sys.exit()
 else:
-    
+
     logger.setLevel(20)
     print("fast")
 
@@ -129,7 +130,7 @@ def get_cpe_cve_map_form_nodes(cve_id,nodes,cpe_cve_json):
                     logger.debug("got cpe name: "+str(cpe_name))
                     try:
                         cpe_cve_json[cpe_name].append(cve_id)
-                        
+
                     except KeyError:
                         logger.debug("cpe not present in cpe_cve_json dict ,creating key")
                         cpe_cve_json[cpe_name]=[]
@@ -138,9 +139,9 @@ def get_cpe_cve_map_form_nodes(cve_id,nodes,cpe_cve_json):
                     logger.debug("0 no cpe's in cpe_name, taking cpe from URI")
                     cpe_name=m_cpe["cpe23Uri"]
                     try:
-                    
+
                         cpe_cve_json[cpe_name].append(cve_id)
-                        
+
                         logger.debug("cve added to the cpe_cve_json dict: "+str(cve_id))
                     except KeyError:
                         logger.debug("cpe not present in cpe_cve_json dict ,creating key")
@@ -149,38 +150,38 @@ def get_cpe_cve_map_form_nodes(cve_id,nodes,cpe_cve_json):
             else:
                 pass
                 logger.debug("vulnerable is false "+str(m_cpe["cpe23Uri"]))
-                              
+
                     # break
         #     break
         # break
-            
+
 
 def get_cve_to_cpe_mapping_from_NVD(cpe3,start_index,reliable,actual_cpe):
-    
+
     cpe3=str(cpe3).replace("::",":*:")
     logger.debug("Starting the NVD search for cpe: "+str(cpe3))
-    
+
     converted_matched=True
     skipped_cpe_list = []
-    cpe_cve_json = {}  
-    cpe_cve_mapped={}  
-    
+    cpe_cve_json = {}
+    cpe_cve_mapped={}
+
     url = "https://services.nvd.nist.gov/rest/json/cves/1.0?cpeMatchString=" + cpe3 + "&resultsPerPage=2000&addOns=dictionaryCpes&startIndex="+str(start_index)
     logger.info("Starting a new CPE search ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::")
     logger.info("url:"+ url)
-    
+
     retries = 1
     success = False
     while not success:
         try:
             resp = requests.get(url, timeout=120)
             jsonresponse = resp.json()
-            
+
             # with open("D:\\1.json","r") as f:
             #     resp=f.read()
             # jsonresponse= json.loads(resp)
-            
-            
+
+
             success = True
             logger.info("got")
         except Exception:
@@ -195,7 +196,7 @@ def get_cve_to_cpe_mapping_from_NVD(cpe3,start_index,reliable,actual_cpe):
                 return None,converted_matched
     if(resp and jsonresponse):
         cpe_no = int(jsonresponse["totalResults"])
-            
+
         if(not cpe_no):
             err_msg = "ERROR:::No CPE found on searching the cpe: " + cpe3 + " from NVD for,  Skipping this NSE.\n"
             logger.error(err_msg)
@@ -220,13 +221,13 @@ def get_cve_to_cpe_mapping_from_NVD(cpe3,start_index,reliable,actual_cpe):
                         continue
                 except Exception:
                     logger.exception("Exception happened while reading the cve description")
-                    
+
                 nodes=jsonresponse["result"]["CVE_Items"][cve_count]["configurations"]["nodes"]
                 # logger.debug("got nodes, length:  "+str(len(nodes))+"  value:  \n"+str(nodes))
-                
+
                 get_cpe_cve_map_form_nodes(cve_id,nodes,cpe_cve_json)
                 logger.debug("Got the cpe_cve_json dict ..., length: "+str(len(cpe_cve_json.keys())))
-                
+
                 for key in cpe_cve_json:
                     cpe=str(key)
                     logger.debug("Got cpe from dict:"+ str(cpe))
@@ -267,7 +268,7 @@ def get_cve_to_cpe_mapping_from_NVD(cpe3,start_index,reliable,actual_cpe):
                                     continue
                             else:
                                 logger.debug(">6 cpe matched "+cpe3+" with got cpe "+cpe)
-                    
+
                     elif reliable=="no":
                         if not re.search(cpe3[:-1]+".*",cpe):
                             logger.debug("cpe from nse not didn't match with converted cpe"+str(cpe3))
@@ -279,13 +280,13 @@ def get_cve_to_cpe_mapping_from_NVD(cpe3,start_index,reliable,actual_cpe):
         else:
             logger.debug("No cve found for "+str(cpe3))
             return None,converted_matched
-                    
+
                 # break
     else:
         logger.error("jsonresonse not in good condition to read")
         return None,converted_matched
-                
-                
+
+
 
 
 
@@ -316,7 +317,7 @@ def main():
 
     if(not nse_product_detect_path):
         err_msg = 'PATH ERROR::--> Path for the "Product Detection" NMAP NSE scripts not available. Please add path @nse_product_detect_path (nse_product_detect_path = "/home/shakeel/Downloads/shakeel")  in the "search_CVE_from_cpes_n_add_to_scripts.py" script. Current given nse_product_detect_path is: ' + nse_product_detect_path + "\n"
-        
+
         logger.error(err_msg)
         sys.exit(0)
 
@@ -325,16 +326,16 @@ def main():
 
     if( not (os.path.isdir(nse_product_detect_path))):
         err_msg = 'PATH ERROR::--> Path for the "Product Detection" NMAP NSE scripts is not proper. Please add path @nse_product_detect_path (nse_product_detect_path = "/home/shakeel/Downloads/shakeel")  in the "search_CVE_from_cpes_n_add_to_scripts.py" script. Current given nse_product_detect_path is: ' + nse_product_detect_path + "\n"
-        
+
         logger.error(err_msg)
         sys.exit(0)
         # logger.er
 
-    
+
     try:
         for root, dirs, files in os.walk(nse_product_detect_path):
             print("hehehehehehehehe start")
-            
+
             for file in files:
                 print("filr::::::::::::::::::::::", file)
                 nse_file_name = file
@@ -343,24 +344,24 @@ def main():
                 suc_msg = "\n\nReading file: " + file_path
                 print("suc_msg", suc_msg)
                 # print("ALL_SUC_MSG")
-                # print(ALL_SUC_MSG)               
+                # print(ALL_SUC_MSG)
                 logger.info(suc_msg)
 
                 ##Process only _detection.nse and -detect.nse(old) scripts
                 if( not (re.findall("-detect", file_path) or re.findall("_detection", file_path))):
-                    err_msg = "ERROR:::" + nse_file_name + ". Skipping NMAP NSE script as it does not look like a detection script: \n"                    
+                    err_msg = "ERROR:::" + nse_file_name + ". Skipping NMAP NSE script as it does not look like a detection script: \n"
                     logger.error(err_msg)
                     skipped_nse_list.append(nse_file_name)
                     continue
 
                 fileopened = open(file_path, "r")
                 nmap_nse_data = fileopened.read()
-                suc_msg = nse_file_name + ":::Successfully read file: " + file_path  + "\n"               
+                suc_msg = nse_file_name + ":::Successfully read file: " + file_path  + "\n"
                 logger.info(suc_msg)
 
                 ##Get cpe3 and cpe2 from NSE script so as to search NVD based on it for CVE list for this product
                 status2, cpe3, reliable, actual_cpe = get_cpe3_from_nse_data(nmap_nse_data)
-                
+
                 if(not status2 ):
                     err_msg = "ERROR:::" + nse_file_name + ". No cpe2.3 was found, so skipping it.\n"
                     logger.error(err_msg)
@@ -373,7 +374,7 @@ def main():
                     continue
                 suc_msg =  nse_file_name + ":::Found CPE2.3 for :" + file_path + str(reliable)+" "+str(cpe3)+" actual:"+" " +str(actual_cpe)
                 logger.info(suc_msg)
-                
+
                 cpe_cve_mapped,matched =get_cve_to_cpe_mapping_from_NVD(cpe3,0,reliable,actual_cpe)
                 # break
                 # """
@@ -398,9 +399,9 @@ def main():
                                 jsonfilename = "jsons/" + json_file_name
                             elif reliable=="no":
                                 jsonfilename = "dynamic_jsons/" + json_file_name
-                        
+
                         with open(jsonfilename, 'w') as outfile:
-                            
+
                             temp_dict = {}
                             temp_dict["cpe-cve-mapping"] = {}
                             temp_dict["cpe-cve-mapping"]["meta_data"] = {}
@@ -412,21 +413,21 @@ def main():
                             temp_dict["cpe-cve-mapping"]["cpe_version_cve_mappings"] = {}
                             temp_dict["cpe-cve-mapping"]["cpe_version_cve_mappings"] = cpe_cve_json
                             json.dump(temp_dict, outfile, sort_keys=False, indent='\t', separators=(',', ': '))
-                        suc_msg = nse_file_name + ":::Completed processing from NVD for cpe: '" + cpe3 
-                       
+                        suc_msg = nse_file_name + ":::Completed processing from NVD for cpe: '" + cpe3
+
                         logger.info(suc_msg)
 
                     else:
                         err_msg = "ERROR:::Skipping CPE::::::: " + cpe3 + "\n"
-                        
+
                         logger.error(err_msg)
                         skipped_nse_list.append(nse_file_name)
 
-                   
+
                     # print(cpe_cve_json)
             # break
         logger.info(str(skipped_nse_list))
-                    
+
 
 
     except Exception as msg:
@@ -437,7 +438,7 @@ def main():
     logger.info("skipped nse's: "+str(skipped_nse_list))
     logger.info("not matched list: "+str(not_matched_list) )
     logger.info("not converted"+str(not_converted_list))
-    
+
     logger.info(        "###########################################################################")
     logger.info("####")
     logger.info(        "###########################################################################")

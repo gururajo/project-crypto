@@ -1,1894 +1,309 @@
-2021-10-07 11:04:58,605 - MARKET - INFO   : Hello
-2021-10-07 11:04:59,469 - MARKET - INFO   : req time:0 sec
-2021-10-07 11:04:59,471 - MARKET - ERROR   : err_key'btcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'btcinr'
-2021-10-07 11:04:59,486 - MARKET - ERROR   : err_key'xrpinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xrpinr'
-2021-10-07 11:04:59,489 - MARKET - ERROR   : err_key'ethinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ethinr'
-2021-10-07 11:04:59,499 - MARKET - ERROR   : err_key'trxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'trxinr'
-2021-10-07 11:04:59,500 - MARKET - ERROR   : err_key'eosinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'eosinr'
-2021-10-07 11:04:59,517 - MARKET - ERROR   : err_key'zilinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'zilinr'
-2021-10-07 11:04:59,532 - MARKET - ERROR   : err_key'batinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'batinr'
-2021-10-07 11:04:59,552 - MARKET - ERROR   : err_key'zrxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'zrxinr'
-2021-10-07 11:04:59,568 - MARKET - ERROR   : err_key'omginr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'omginr'
-2021-10-07 11:04:59,580 - MARKET - ERROR   : err_key'polyinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'polyinr'
-2021-10-07 11:04:59,596 - MARKET - ERROR   : err_key'iostinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'iostinr'
-2021-10-07 11:04:59,608 - MARKET - ERROR   : err_key'dentinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dentinr'
-2021-10-07 11:04:59,629 - MARKET - ERROR   : err_key'hotinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'hotinr'
-2021-10-07 11:04:59,644 - MARKET - ERROR   : err_key'usdtinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'usdtinr'
-2021-10-07 11:04:59,659 - MARKET - ERROR   : err_key'wrxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'wrxinr'
-2021-10-07 11:04:59,682 - MARKET - ERROR   : err_key'maticinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'maticinr'
-2021-10-07 11:04:59,694 - MARKET - ERROR   : err_key'bchinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'bchinr'
-2021-10-07 11:04:59,703 - MARKET - ERROR   : err_key'bnbinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'bnbinr'
-2021-10-07 11:04:59,714 - MARKET - ERROR   : err_key'bttinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'bttinr'
-2021-10-07 11:04:59,721 - MARKET - ERROR   : err_key'chzinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'chzinr'
-2021-10-07 11:04:59,725 - MARKET - ERROR   : err_key'oneinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'oneinr'
-2021-10-07 11:04:59,730 - MARKET - ERROR   : err_key'yfiinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'yfiinr'
-2021-10-07 11:04:59,738 - MARKET - ERROR   : err_key'uniinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'uniinr'
-2021-10-07 11:04:59,750 - MARKET - ERROR   : err_key'linkinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'linkinr'
-2021-10-07 11:04:59,753 - MARKET - ERROR   : err_key'sxpinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'sxpinr'
-2021-10-07 11:04:59,755 - MARKET - ERROR   : err_key'adainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'adainr'
-2021-10-07 11:04:59,758 - MARKET - ERROR   : err_key'nanoinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'nanoinr'
-2021-10-07 11:04:59,760 - MARKET - ERROR   : err_key'atominr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'atominr'
-2021-10-07 11:04:59,762 - MARKET - ERROR   : err_key'xlminr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xlminr'
-2021-10-07 11:04:59,773 - MARKET - ERROR   : err_key'fetinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'fetinr'
-2021-10-07 11:04:59,775 - MARKET - ERROR   : err_key'xeminr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xeminr'
-2021-10-07 11:04:59,781 - MARKET - ERROR   : err_key'zecinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'zecinr'
-2021-10-07 11:04:59,791 - MARKET - ERROR   : err_key'busdinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'busdinr'
-2021-10-07 11:04:59,795 - MARKET - ERROR   : err_key'yfiiinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'yfiiinr'
-2021-10-07 11:04:59,813 - MARKET - ERROR   : err_key'dogeinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dogeinr'
-2021-10-07 11:04:59,819 - MARKET - ERROR   : err_key'dotinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dotinr'
-2021-10-07 11:04:59,824 - MARKET - ERROR   : err_key'vetinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'vetinr'
-2021-10-07 11:04:59,836 - MARKET - ERROR   : err_key'crvinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'crvinr'
-2021-10-07 11:04:59,838 - MARKET - ERROR   : err_key'reninr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'reninr'
-2021-10-07 11:04:59,839 - MARKET - ERROR   : err_key'enjinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'enjinr'
-2021-10-07 11:04:59,842 - MARKET - ERROR   : err_key'manainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'manainr'
-2021-10-07 11:04:59,844 - MARKET - ERROR   : err_key'hbarinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'hbarinr'
-2021-10-07 11:04:59,846 - MARKET - ERROR   : err_key'umainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'umainr'
-2021-10-07 11:04:59,849 - MARKET - ERROR   : err_key'chrinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'chrinr'
-2021-10-07 11:04:59,853 - MARKET - ERROR   : err_key'paxginr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'paxginr'
-2021-10-07 11:04:59,863 - MARKET - ERROR   : err_key'1inchinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: '1inchinr'
-2021-10-07 11:04:59,866 - MARKET - ERROR   : err_key'etcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'etcinr'
-2021-10-07 11:04:59,868 - MARKET - ERROR   : err_key'uftinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'uftinr'
-2021-10-07 11:04:59,871 - MARKET - ERROR   : err_key'dockinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dockinr'
-2021-10-07 11:04:59,873 - MARKET - ERROR   : err_key'filinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'filinr'
-2021-10-07 11:04:59,874 - MARKET - ERROR   : err_key'wininr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'wininr'
-2021-10-07 11:04:59,876 - MARKET - ERROR   : err_key'tkoinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'tkoinr'
-2021-10-07 11:04:59,879 - MARKET - ERROR   : err_key'pushinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'pushinr'
-2021-10-07 11:04:59,882 - MARKET - ERROR   : err_key'avaxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'avaxinr'
-2021-10-07 11:04:59,891 - MARKET - ERROR   : err_key'lunainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'lunainr'
-2021-10-07 11:04:59,893 - MARKET - ERROR   : err_key'xvginr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xvginr'
-2021-10-07 11:04:59,895 - MARKET - ERROR   : err_key'scinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'scinr'
-2021-10-07 11:04:59,897 - MARKET - ERROR   : err_key'fttinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'fttinr'
-2021-10-07 11:04:59,899 - MARKET - ERROR   : err_key'dgbinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dgbinr'
-2021-10-07 11:04:59,903 - MARKET - ERROR   : err_key'cvcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'cvcinr'
-2021-10-07 11:04:59,905 - MARKET - ERROR   : err_key'cakeinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'cakeinr'
-2021-10-07 11:04:59,907 - MARKET - ERROR   : err_key'ezinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ezinr'
-2021-10-07 11:04:59,918 - MARKET - ERROR   : err_key'bzrxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'bzrxinr'
-2021-10-07 11:04:59,920 - MARKET - ERROR   : err_key'ftminr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ftminr'
-2021-10-07 11:04:59,922 - MARKET - ERROR   : err_key'hntinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'hntinr'
-2021-10-07 11:04:59,925 - MARKET - ERROR   : err_key'arkinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'arkinr'
-2021-10-07 11:04:59,928 - MARKET - ERROR   : err_key'ctsiinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ctsiinr'
-2021-10-07 11:04:59,929 - MARKET - ERROR   : err_key'kmdinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'kmdinr'
-2021-10-07 11:04:59,932 - MARKET - ERROR   : err_key'solinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'solinr'
-2021-10-07 11:04:59,933 - MARKET - ERROR   : err_key'cotiinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'cotiinr'
-2021-10-07 11:04:59,936 - MARKET - ERROR   : err_key'iotxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'iotxinr'
-2021-10-07 11:04:59,947 - MARKET - ERROR   : err_key'shibinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'shibinr'
-2021-10-07 11:04:59,949 - MARKET - ERROR   : err_key'rlcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'rlcinr'
-2021-10-07 11:04:59,952 - MARKET - ERROR   : err_key'trbinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'trbinr'
-2021-10-07 11:04:59,957 - MARKET - ERROR   : err_key'reefinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'reefinr'
-2021-10-07 11:04:59,958 - MARKET - ERROR   : err_key'icpinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'icpinr'
-2021-10-07 11:04:59,960 - MARKET - ERROR   : err_key'ontinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ontinr'
-2021-10-07 11:04:59,963 - MARKET - ERROR   : err_key'ckbinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ckbinr'
-2021-10-07 11:04:59,966 - MARKET - ERROR   : err_key'pntinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'pntinr'
-2021-10-07 11:04:59,975 - MARKET - ERROR   : err_key'xvsinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xvsinr'
-2021-10-07 11:04:59,978 - MARKET - ERROR   : err_key'viteinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'viteinr'
-2021-10-07 11:04:59,979 - MARKET - ERROR   : err_key'dcrinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dcrinr'
-2021-10-07 11:04:59,981 - MARKET - ERROR   : err_key'mdxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'mdxinr'
-2021-10-07 11:04:59,982 - MARKET - ERROR   : err_key'phainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'phainr'
-2021-10-07 11:04:59,988 - MARKET - ERROR   : err_key'runeinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'runeinr'
-2021-10-07 11:04:59,991 - MARKET - ERROR   : err_key'ogninr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ogninr'
-2021-10-07 11:04:59,993 - MARKET - ERROR   : err_key'mirinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'mirinr'
-2021-10-07 11:05:00,004 - MARKET - ERROR   : err_key'datainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'datainr'
-2021-10-07 11:05:00,006 - MARKET - ERROR   : err_key'ksminr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ksminr'
-2021-10-07 11:05:00,009 - MARKET - ERROR   : err_key'nkninr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'nkninr'
-2021-10-07 11:05:00,011 - MARKET - ERROR   : err_key'balinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'balinr'
-2021-10-07 11:05:00,014 - MARKET - ERROR   : err_key'dntinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dntinr'
-2021-10-07 11:05:00,016 - MARKET - ERROR   : err_key'keepinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'keepinr'
-2021-10-07 11:05:00,019 - MARKET - ERROR   : err_key'snxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'snxinr'
-2021-10-07 11:05:00,021 - MARKET - ERROR   : err_key'axsinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'axsinr'
-2021-10-07 11:05:00,024 - MARKET - ERROR   : err_key'celrinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'celrinr'
-2021-10-07 11:05:00,035 - MARKET - ERROR   : err_key'alphainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'alphainr'
-2021-10-07 11:05:00,039 - MARKET - ERROR   : err_key'compinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'compinr'
-2021-10-07 11:05:00,042 - MARKET - ERROR   : err_key'aliceinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'aliceinr'
-2021-10-07 11:05:00,045 - MARKET - ERROR   : err_key'egldinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'egldinr'
-2021-10-07 11:05:00,049 - MARKET - ERROR   : err_key'klayinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'klayinr'
-2021-10-07 11:05:00,061 - MARKET - ERROR   : err_key'sandinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'sandinr'
-2021-10-07 11:05:00,064 - MARKET - ERROR   : err_key'frontinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'frontinr'
-2021-10-07 11:05:00,069 - MARKET - ERROR   : err_key'lrcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'lrcinr'
-2021-10-07 11:05:00,072 - MARKET - ERROR   : err_key'stxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'stxinr'
-2021-10-07 11:05:00,076 - MARKET - ERROR   : err_key'algoinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'algoinr'
-2021-10-07 11:05:00,085 - MARKET - ERROR   : err_key'pondinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'pondinr'
-2021-10-07 11:05:00,087 - MARKET - ERROR   : err_key'alpacainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'alpacainr'
-2021-10-07 11:05:00,090 - MARKET - ERROR   : err_key'xecinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xecinr'
-2021-10-07 11:05:00,095 - MARKET - ERROR   : err_key'ilvinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ilvinr'
-2021-10-07 11:05:00,100 - MARKET - ERROR   : err_key'mlninr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'mlninr'
-2021-10-07 11:05:00,103 - MARKET - ERROR   : err_key'dydxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dydxinr'
-2021-10-07 11:05:00,106 - MARKET - ERROR   : err_key'cfxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'cfxinr'
-2021-10-07 11:05:00,109 - MARKET - ERROR   : err_key'ltcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ltcinr'
-2021-10-07 11:05:00,117 - MARKET - ERROR   : err_key'dashinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dashinr'
-2021-10-07 11:20:02,531 - MARKET - INFO   : req time:2 sec
-2021-10-07 11:35:03,343 - MARKET - INFO   : req time:0 sec
-2021-10-07 11:49:36,386 - MARKET - INFO   : Hello
-2021-10-07 11:49:37,284 - MARKET - INFO   : req time:0 sec
-2021-10-07 11:49:37,285 - MARKET - ERROR   : err_key'btcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'btcinr'
-2021-10-07 11:49:37,295 - MARKET - ERROR   : err_key'xrpinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xrpinr'
-2021-10-07 11:49:37,301 - MARKET - ERROR   : err_key'ethinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ethinr'
-2021-10-07 11:49:37,311 - MARKET - ERROR   : err_key'trxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'trxinr'
-2021-10-07 11:49:37,333 - MARKET - ERROR   : err_key'eosinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'eosinr'
-2021-10-07 11:49:37,347 - MARKET - ERROR   : err_key'zilinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'zilinr'
-2021-10-07 11:49:37,350 - MARKET - ERROR   : err_key'batinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'batinr'
-2021-10-07 11:49:37,357 - MARKET - ERROR   : err_key'zrxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'zrxinr'
-2021-10-07 11:49:37,362 - MARKET - ERROR   : err_key'omginr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'omginr'
-2021-10-07 11:49:37,375 - MARKET - ERROR   : err_key'polyinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'polyinr'
-2021-10-07 11:49:37,379 - MARKET - ERROR   : err_key'iostinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'iostinr'
-2021-10-07 11:49:37,381 - MARKET - ERROR   : err_key'dentinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dentinr'
-2021-10-07 11:49:37,383 - MARKET - ERROR   : err_key'hotinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'hotinr'
-2021-10-07 11:49:37,385 - MARKET - ERROR   : err_key'usdtinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'usdtinr'
-2021-10-07 11:49:37,386 - MARKET - ERROR   : err_key'wrxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'wrxinr'
-2021-10-07 11:49:37,389 - MARKET - ERROR   : err_key'maticinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'maticinr'
-2021-10-07 11:49:37,403 - MARKET - ERROR   : err_key'bchinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'bchinr'
-2021-10-07 11:49:37,416 - MARKET - ERROR   : err_key'bnbinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'bnbinr'
-2021-10-07 11:49:37,426 - MARKET - ERROR   : err_key'bttinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'bttinr'
-2021-10-07 11:49:37,442 - MARKET - ERROR   : err_key'chzinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'chzinr'
-2021-10-07 11:49:37,446 - MARKET - ERROR   : err_key'oneinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'oneinr'
-2021-10-07 11:49:37,453 - MARKET - ERROR   : err_key'yfiinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'yfiinr'
-2021-10-07 11:49:37,458 - MARKET - ERROR   : err_key'uniinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'uniinr'
-2021-10-07 11:49:37,461 - MARKET - ERROR   : err_key'linkinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'linkinr'
-2021-10-07 11:49:37,476 - MARKET - ERROR   : err_key'sxpinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'sxpinr'
-2021-10-07 11:49:37,478 - MARKET - ERROR   : err_key'adainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'adainr'
-2021-10-07 11:49:37,480 - MARKET - ERROR   : err_key'nanoinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'nanoinr'
-2021-10-07 11:49:37,481 - MARKET - ERROR   : err_key'atominr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'atominr'
-2021-10-07 11:49:37,483 - MARKET - ERROR   : err_key'xlminr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xlminr'
-2021-10-07 11:49:37,484 - MARKET - ERROR   : err_key'fetinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'fetinr'
-2021-10-07 11:49:37,486 - MARKET - ERROR   : err_key'xeminr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xeminr'
-2021-10-07 11:49:37,489 - MARKET - ERROR   : err_key'zecinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'zecinr'
-2021-10-07 11:49:37,490 - MARKET - ERROR   : err_key'busdinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'busdinr'
-2021-10-07 11:49:37,492 - MARKET - ERROR   : err_key'yfiiinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'yfiiinr'
-2021-10-07 11:49:37,493 - MARKET - ERROR   : err_key'dogeinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dogeinr'
-2021-10-07 11:49:37,502 - MARKET - ERROR   : err_key'dotinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dotinr'
-2021-10-07 11:49:37,506 - MARKET - ERROR   : err_key'vetinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'vetinr'
-2021-10-07 11:49:37,508 - MARKET - ERROR   : err_key'crvinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'crvinr'
-2021-10-07 11:49:37,510 - MARKET - ERROR   : err_key'reninr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'reninr'
-2021-10-07 11:49:37,512 - MARKET - ERROR   : err_key'enjinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'enjinr'
-2021-10-07 11:49:37,515 - MARKET - ERROR   : err_key'manainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'manainr'
-2021-10-07 11:49:37,517 - MARKET - ERROR   : err_key'hbarinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'hbarinr'
-2021-10-07 11:49:37,519 - MARKET - ERROR   : err_key'umainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'umainr'
-2021-10-07 11:49:37,521 - MARKET - ERROR   : err_key'chrinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'chrinr'
-2021-10-07 11:49:37,530 - MARKET - ERROR   : err_key'paxginr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'paxginr'
-2021-10-07 11:49:37,532 - MARKET - ERROR   : err_key'1inchinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: '1inchinr'
-2021-10-07 11:49:37,532 - MARKET - ERROR   : err_key'etcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'etcinr'
-2021-10-07 11:49:37,535 - MARKET - ERROR   : err_key'uftinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'uftinr'
-2021-10-07 11:49:37,537 - MARKET - ERROR   : err_key'dockinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dockinr'
-2021-10-07 11:49:37,538 - MARKET - ERROR   : err_key'filinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'filinr'
-2021-10-07 11:49:37,540 - MARKET - ERROR   : err_key'wininr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'wininr'
-2021-10-07 11:49:37,541 - MARKET - ERROR   : err_key'tkoinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'tkoinr'
-2021-10-07 11:49:37,544 - MARKET - ERROR   : err_key'pushinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'pushinr'
-2021-10-07 11:49:37,545 - MARKET - ERROR   : err_key'avaxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'avaxinr'
-2021-10-07 11:49:37,547 - MARKET - ERROR   : err_key'lunainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'lunainr'
-2021-10-07 11:49:37,549 - MARKET - ERROR   : err_key'xvginr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xvginr'
-2021-10-07 11:49:37,558 - MARKET - ERROR   : err_key'scinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'scinr'
-2021-10-07 11:49:37,561 - MARKET - ERROR   : err_key'fttinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'fttinr'
-2021-10-07 11:49:37,564 - MARKET - ERROR   : err_key'dgbinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dgbinr'
-2021-10-07 11:49:37,565 - MARKET - ERROR   : err_key'cvcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'cvcinr'
-2021-10-07 11:49:37,567 - MARKET - ERROR   : err_key'cakeinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'cakeinr'
-2021-10-07 11:49:37,568 - MARKET - ERROR   : err_key'ezinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ezinr'
-2021-10-07 11:49:37,569 - MARKET - ERROR   : err_key'bzrxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'bzrxinr'
-2021-10-07 11:49:37,572 - MARKET - ERROR   : err_key'ftminr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ftminr'
-2021-10-07 11:49:37,573 - MARKET - ERROR   : err_key'hntinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'hntinr'
-2021-10-07 11:49:37,575 - MARKET - ERROR   : err_key'arkinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'arkinr'
-2021-10-07 11:49:37,576 - MARKET - ERROR   : err_key'ctsiinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ctsiinr'
-2021-10-07 11:49:37,585 - MARKET - ERROR   : err_key'kmdinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'kmdinr'
-2021-10-07 11:49:37,588 - MARKET - ERROR   : err_key'solinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'solinr'
-2021-10-07 11:49:37,590 - MARKET - ERROR   : err_key'cotiinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'cotiinr'
-2021-10-07 11:49:37,592 - MARKET - ERROR   : err_key'iotxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'iotxinr'
-2021-10-07 11:49:37,596 - MARKET - ERROR   : err_key'shibinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'shibinr'
-2021-10-07 11:49:37,597 - MARKET - ERROR   : err_key'rlcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'rlcinr'
-2021-10-07 11:49:37,598 - MARKET - ERROR   : err_key'trbinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'trbinr'
-2021-10-07 11:49:37,600 - MARKET - ERROR   : err_key'reefinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'reefinr'
-2021-10-07 11:49:37,602 - MARKET - ERROR   : err_key'icpinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'icpinr'
-2021-10-07 11:49:37,603 - MARKET - ERROR   : err_key'ontinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ontinr'
-2021-10-07 11:49:37,605 - MARKET - ERROR   : err_key'ckbinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ckbinr'
-2021-10-07 11:49:37,611 - MARKET - ERROR   : err_key'pntinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'pntinr'
-2021-10-07 11:49:37,616 - MARKET - ERROR   : err_key'xvsinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xvsinr'
-2021-10-07 11:49:37,617 - MARKET - ERROR   : err_key'viteinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'viteinr'
-2021-10-07 11:49:37,618 - MARKET - ERROR   : err_key'dcrinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dcrinr'
-2021-10-07 11:49:37,622 - MARKET - ERROR   : err_key'mdxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'mdxinr'
-2021-10-07 11:49:37,623 - MARKET - ERROR   : err_key'phainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'phainr'
-2021-10-07 11:49:37,625 - MARKET - ERROR   : err_key'runeinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'runeinr'
-2021-10-07 11:49:37,626 - MARKET - ERROR   : err_key'ogninr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ogninr'
-2021-10-07 11:49:37,629 - MARKET - ERROR   : err_key'mirinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'mirinr'
-2021-10-07 11:49:37,630 - MARKET - ERROR   : err_key'datainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'datainr'
-2021-10-07 11:49:37,632 - MARKET - ERROR   : err_key'ksminr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ksminr'
-2021-10-07 11:49:37,633 - MARKET - ERROR   : err_key'nkninr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'nkninr'
-2021-10-07 11:49:37,634 - MARKET - ERROR   : err_key'balinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'balinr'
-2021-10-07 11:49:37,642 - MARKET - ERROR   : err_key'dntinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dntinr'
-2021-10-07 11:49:37,645 - MARKET - ERROR   : err_key'keepinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'keepinr'
-2021-10-07 11:49:37,647 - MARKET - ERROR   : err_key'snxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'snxinr'
-2021-10-07 11:49:37,648 - MARKET - ERROR   : err_key'axsinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'axsinr'
-2021-10-07 11:49:37,650 - MARKET - ERROR   : err_key'celrinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'celrinr'
-2021-10-07 11:49:37,652 - MARKET - ERROR   : err_key'alphainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'alphainr'
-2021-10-07 11:49:37,656 - MARKET - ERROR   : err_key'compinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'compinr'
-2021-10-07 11:49:37,657 - MARKET - ERROR   : err_key'aliceinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'aliceinr'
-2021-10-07 11:49:37,661 - MARKET - ERROR   : err_key'egldinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'egldinr'
-2021-10-07 11:49:37,662 - MARKET - ERROR   : err_key'klayinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'klayinr'
-2021-10-07 11:49:37,663 - MARKET - ERROR   : err_key'sandinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'sandinr'
-2021-10-07 11:49:37,672 - MARKET - ERROR   : err_key'frontinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'frontinr'
-2021-10-07 11:49:37,673 - MARKET - ERROR   : err_key'lrcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'lrcinr'
-2021-10-07 11:49:37,675 - MARKET - ERROR   : err_key'stxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'stxinr'
-2021-10-07 11:49:37,676 - MARKET - ERROR   : err_key'algoinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'algoinr'
-2021-10-07 11:49:37,677 - MARKET - ERROR   : err_key'pondinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'pondinr'
-2021-10-07 11:49:37,680 - MARKET - ERROR   : err_key'alpacainr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'alpacainr'
-2021-10-07 11:49:37,682 - MARKET - ERROR   : err_key'xecinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'xecinr'
-2021-10-07 11:49:37,683 - MARKET - ERROR   : err_key'ilvinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ilvinr'
-2021-10-07 11:49:37,685 - MARKET - ERROR   : err_key'mlninr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'mlninr'
-2021-10-07 11:49:37,686 - MARKET - ERROR   : err_key'dydxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dydxinr'
-2021-10-07 11:49:37,689 - MARKET - ERROR   : err_key'cfxinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'cfxinr'
-2021-10-07 11:49:37,690 - MARKET - ERROR   : err_key'ltcinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'ltcinr'
-2021-10-07 11:49:37,692 - MARKET - ERROR   : err_key'dashinr'
-Traceback (most recent call last):
-  File "D:\documents\project crypto\make_diff_report.py", line 57, in <module>
-    prev=float(diff[cryp]["prev"])
-KeyError: 'dashinr'
-2021-10-07 12:04:38,274 - MARKET - INFO   : req time:0 sec
-2021-10-07 12:19:38,953 - MARKET - INFO   : req time:0 sec
-2021-10-07 12:34:40,465 - MARKET - INFO   : req time:0 sec
-2021-10-07 12:49:40,919 - MARKET - INFO   : req time:0 sec
-2021-10-07 13:04:41,351 - MARKET - INFO   : req time:0 sec
-2021-10-07 13:19:41,828 - MARKET - INFO   : req time:0 sec
-2021-10-07 13:34:42,826 - MARKET - INFO   : req time:0 sec
-2021-10-07 13:49:43,995 - MARKET - INFO   : req time:0 sec
-2021-10-07 14:04:46,787 - MARKET - INFO   : req time:2 sec
-2021-10-07 14:19:47,657 - MARKET - INFO   : req time:0 sec
-2021-10-07 14:34:48,304 - MARKET - INFO   : req time:0 sec
-2021-10-07 14:49:52,938 - MARKET - INFO   : req time:0 sec
-2021-10-07 15:04:53,655 - MARKET - INFO   : req time:0 sec
-2021-10-07 15:19:54,541 - MARKET - INFO   : req time:0 sec
-2021-10-07 15:36:43,589 - MARKET - INFO   : req time:0 sec
-2021-10-07 16:21:55,150 - MARKET - INFO   : req time:0 sec
-2021-10-07 16:36:55,655 - MARKET - INFO   : req time:0 sec
-2021-10-07 16:51:56,481 - MARKET - INFO   : req time:0 sec
-2021-10-07 17:06:57,279 - MARKET - INFO   : req time:0 sec
-2021-10-07 17:21:59,428 - MARKET - INFO   : req time:1 sec
-2021-10-07 17:37:00,181 - MARKET - INFO   : req time:0 sec
-2021-10-07 17:52:01,238 - MARKET - INFO   : req time:0 sec
-2021-10-07 18:07:02,004 - MARKET - INFO   : req time:0 sec
-2021-10-07 18:22:02,354 - MARKET - INFO   : req time:0 sec
-2021-10-07 18:37:02,840 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:15:54,394 - MARKET - INFO   : Hello
-2021-10-07 19:15:55,240 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:15:55,242 - MARKET - DEBUG   : err_key'btcinr'
-2021-10-07 19:15:55,242 - MARKET - DEBUG   : err_key'xrpinr'
-2021-10-07 19:15:55,242 - MARKET - DEBUG   : err_key'ethinr'
-2021-10-07 19:15:55,243 - MARKET - DEBUG   : err_key'trxinr'
-2021-10-07 19:15:55,243 - MARKET - DEBUG   : err_key'eosinr'
-2021-10-07 19:15:55,243 - MARKET - DEBUG   : err_key'zilinr'
-2021-10-07 19:15:55,243 - MARKET - DEBUG   : err_key'batinr'
-2021-10-07 19:15:55,244 - MARKET - DEBUG   : err_key'zrxinr'
-2021-10-07 19:15:55,244 - MARKET - DEBUG   : err_key'omginr'
-2021-10-07 19:15:55,244 - MARKET - DEBUG   : err_key'polyinr'
-2021-10-07 19:15:55,244 - MARKET - DEBUG   : err_key'iostinr'
-2021-10-07 19:15:55,245 - MARKET - DEBUG   : err_key'dentinr'
-2021-10-07 19:15:55,245 - MARKET - DEBUG   : err_key'hotinr'
-2021-10-07 19:15:55,245 - MARKET - DEBUG   : err_key'usdtinr'
-2021-10-07 19:15:55,245 - MARKET - DEBUG   : err_key'wrxinr'
-2021-10-07 19:15:55,245 - MARKET - DEBUG   : err_key'maticinr'
-2021-10-07 19:15:55,245 - MARKET - DEBUG   : err_key'bchinr'
-2021-10-07 19:15:55,246 - MARKET - DEBUG   : err_key'bnbinr'
-2021-10-07 19:15:55,246 - MARKET - DEBUG   : err_key'bttinr'
-2021-10-07 19:15:55,246 - MARKET - DEBUG   : err_key'chzinr'
-2021-10-07 19:15:55,246 - MARKET - DEBUG   : err_key'oneinr'
-2021-10-07 19:15:55,246 - MARKET - DEBUG   : err_key'yfiinr'
-2021-10-07 19:15:55,246 - MARKET - DEBUG   : err_key'uniinr'
-2021-10-07 19:15:55,248 - MARKET - DEBUG   : err_key'linkinr'
-2021-10-07 19:15:55,248 - MARKET - DEBUG   : err_key'sxpinr'
-2021-10-07 19:15:55,248 - MARKET - DEBUG   : err_key'adainr'
-2021-10-07 19:15:55,248 - MARKET - DEBUG   : err_key'nanoinr'
-2021-10-07 19:15:55,249 - MARKET - DEBUG   : err_key'atominr'
-2021-10-07 19:15:55,249 - MARKET - DEBUG   : err_key'xlminr'
-2021-10-07 19:15:55,250 - MARKET - DEBUG   : err_key'fetinr'
-2021-10-07 19:15:55,250 - MARKET - DEBUG   : err_key'xeminr'
-2021-10-07 19:15:55,251 - MARKET - DEBUG   : err_key'zecinr'
-2021-10-07 19:15:55,251 - MARKET - DEBUG   : err_key'busdinr'
-2021-10-07 19:15:55,252 - MARKET - DEBUG   : err_key'yfiiinr'
-2021-10-07 19:15:55,252 - MARKET - DEBUG   : err_key'dogeinr'
-2021-10-07 19:15:55,253 - MARKET - DEBUG   : err_key'dotinr'
-2021-10-07 19:15:55,253 - MARKET - DEBUG   : err_key'vetinr'
-2021-10-07 19:15:55,253 - MARKET - DEBUG   : err_key'crvinr'
-2021-10-07 19:15:55,253 - MARKET - DEBUG   : err_key'reninr'
-2021-10-07 19:15:55,254 - MARKET - DEBUG   : err_key'enjinr'
-2021-10-07 19:15:55,254 - MARKET - DEBUG   : err_key'manainr'
-2021-10-07 19:15:55,254 - MARKET - DEBUG   : err_key'hbarinr'
-2021-10-07 19:15:55,254 - MARKET - DEBUG   : err_key'umainr'
-2021-10-07 19:15:55,254 - MARKET - DEBUG   : err_key'chrinr'
-2021-10-07 19:15:55,255 - MARKET - DEBUG   : err_key'paxginr'
-2021-10-07 19:15:55,255 - MARKET - DEBUG   : err_key'1inchinr'
-2021-10-07 19:15:55,255 - MARKET - DEBUG   : err_key'etcinr'
-2021-10-07 19:15:55,256 - MARKET - DEBUG   : err_key'uftinr'
-2021-10-07 19:15:55,256 - MARKET - DEBUG   : err_key'dockinr'
-2021-10-07 19:15:55,257 - MARKET - DEBUG   : err_key'filinr'
-2021-10-07 19:15:55,257 - MARKET - DEBUG   : err_key'wininr'
-2021-10-07 19:15:55,257 - MARKET - DEBUG   : err_key'tkoinr'
-2021-10-07 19:15:55,258 - MARKET - DEBUG   : err_key'pushinr'
-2021-10-07 19:15:55,258 - MARKET - DEBUG   : err_key'avaxinr'
-2021-10-07 19:15:55,258 - MARKET - DEBUG   : err_key'lunainr'
-2021-10-07 19:15:55,258 - MARKET - DEBUG   : err_key'xvginr'
-2021-10-07 19:15:55,258 - MARKET - DEBUG   : err_key'scinr'
-2021-10-07 19:15:55,258 - MARKET - DEBUG   : err_key'fttinr'
-2021-10-07 19:15:55,258 - MARKET - DEBUG   : err_key'dgbinr'
-2021-10-07 19:15:55,258 - MARKET - DEBUG   : err_key'cvcinr'
-2021-10-07 19:15:55,258 - MARKET - DEBUG   : err_key'cakeinr'
-2021-10-07 19:15:55,260 - MARKET - DEBUG   : err_key'ezinr'
-2021-10-07 19:15:55,260 - MARKET - DEBUG   : err_key'bzrxinr'
-2021-10-07 19:15:55,261 - MARKET - DEBUG   : err_key'ftminr'
-2021-10-07 19:15:55,261 - MARKET - DEBUG   : err_key'hntinr'
-2021-10-07 19:15:55,262 - MARKET - DEBUG   : err_key'arkinr'
-2021-10-07 19:15:55,262 - MARKET - DEBUG   : err_key'ctsiinr'
-2021-10-07 19:15:55,262 - MARKET - DEBUG   : err_key'kmdinr'
-2021-10-07 19:15:55,262 - MARKET - DEBUG   : err_key'solinr'
-2021-10-07 19:15:55,263 - MARKET - DEBUG   : err_key'cotiinr'
-2021-10-07 19:15:55,263 - MARKET - DEBUG   : err_key'iotxinr'
-2021-10-07 19:15:55,263 - MARKET - DEBUG   : err_key'shibinr'
-2021-10-07 19:15:55,264 - MARKET - DEBUG   : err_key'rlcinr'
-2021-10-07 19:15:55,265 - MARKET - DEBUG   : err_key'trbinr'
-2021-10-07 19:15:55,265 - MARKET - DEBUG   : err_key'reefinr'
-2021-10-07 19:15:55,266 - MARKET - DEBUG   : err_key'icpinr'
-2021-10-07 19:15:55,266 - MARKET - DEBUG   : err_key'ontinr'
-2021-10-07 19:15:55,267 - MARKET - DEBUG   : err_key'ckbinr'
-2021-10-07 19:15:55,267 - MARKET - DEBUG   : err_key'pntinr'
-2021-10-07 19:15:55,268 - MARKET - DEBUG   : err_key'xvsinr'
-2021-10-07 19:15:55,268 - MARKET - DEBUG   : err_key'viteinr'
-2021-10-07 19:15:55,269 - MARKET - DEBUG   : err_key'dcrinr'
-2021-10-07 19:15:55,269 - MARKET - DEBUG   : err_key'mdxinr'
-2021-10-07 19:15:55,269 - MARKET - DEBUG   : err_key'phainr'
-2021-10-07 19:15:55,270 - MARKET - DEBUG   : err_key'runeinr'
-2021-10-07 19:15:55,270 - MARKET - DEBUG   : err_key'ogninr'
-2021-10-07 19:15:55,270 - MARKET - DEBUG   : err_key'mirinr'
-2021-10-07 19:15:55,270 - MARKET - DEBUG   : err_key'datainr'
-2021-10-07 19:15:55,270 - MARKET - DEBUG   : err_key'ksminr'
-2021-10-07 19:15:55,270 - MARKET - DEBUG   : err_key'nkninr'
-2021-10-07 19:15:55,271 - MARKET - DEBUG   : err_key'balinr'
-2021-10-07 19:15:55,271 - MARKET - DEBUG   : err_key'dntinr'
-2021-10-07 19:15:55,271 - MARKET - DEBUG   : err_key'keepinr'
-2021-10-07 19:15:55,271 - MARKET - DEBUG   : err_key'snxinr'
-2021-10-07 19:15:55,272 - MARKET - DEBUG   : err_key'axsinr'
-2021-10-07 19:15:55,272 - MARKET - DEBUG   : err_key'celrinr'
-2021-10-07 19:15:55,273 - MARKET - DEBUG   : err_key'alphainr'
-2021-10-07 19:15:55,273 - MARKET - DEBUG   : err_key'compinr'
-2021-10-07 19:15:55,274 - MARKET - DEBUG   : err_key'aliceinr'
-2021-10-07 19:15:55,274 - MARKET - DEBUG   : err_key'egldinr'
-2021-10-07 19:15:55,274 - MARKET - DEBUG   : err_key'klayinr'
-2021-10-07 19:15:55,274 - MARKET - DEBUG   : err_key'sandinr'
-2021-10-07 19:15:55,275 - MARKET - DEBUG   : err_key'frontinr'
-2021-10-07 19:15:55,275 - MARKET - DEBUG   : err_key'lrcinr'
-2021-10-07 19:15:55,275 - MARKET - DEBUG   : err_key'stxinr'
-2021-10-07 19:15:55,276 - MARKET - DEBUG   : err_key'algoinr'
-2021-10-07 19:15:55,276 - MARKET - DEBUG   : err_key'pondinr'
-2021-10-07 19:15:55,276 - MARKET - DEBUG   : err_key'alpacainr'
-2021-10-07 19:15:55,277 - MARKET - DEBUG   : err_key'xecinr'
-2021-10-07 19:15:55,277 - MARKET - DEBUG   : err_key'ilvinr'
-2021-10-07 19:15:55,277 - MARKET - DEBUG   : err_key'mlninr'
-2021-10-07 19:15:55,277 - MARKET - DEBUG   : err_key'dydxinr'
-2021-10-07 19:15:55,278 - MARKET - DEBUG   : err_key'cfxinr'
-2021-10-07 19:15:55,278 - MARKET - DEBUG   : err_key'ltcinr'
-2021-10-07 19:15:55,278 - MARKET - DEBUG   : err_key'dashinr'
-2021-10-07 19:16:05,676 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:20:17,457 - MARKET - INFO   : Hello
-2021-10-07 19:20:18,875 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:20:18,876 - MARKET - DEBUG   : err_key'btcinr'
-2021-10-07 19:20:18,877 - MARKET - DEBUG   : err_key'xrpinr'
-2021-10-07 19:20:18,878 - MARKET - DEBUG   : err_key'ethinr'
-2021-10-07 19:20:18,879 - MARKET - DEBUG   : err_key'trxinr'
-2021-10-07 19:20:18,880 - MARKET - DEBUG   : err_key'eosinr'
-2021-10-07 19:20:18,881 - MARKET - DEBUG   : err_key'zilinr'
-2021-10-07 19:20:18,883 - MARKET - DEBUG   : err_key'batinr'
-2021-10-07 19:20:18,884 - MARKET - DEBUG   : err_key'zrxinr'
-2021-10-07 19:20:18,886 - MARKET - DEBUG   : err_key'omginr'
-2021-10-07 19:20:18,887 - MARKET - DEBUG   : err_key'polyinr'
-2021-10-07 19:20:18,888 - MARKET - DEBUG   : err_key'iostinr'
-2021-10-07 19:20:18,889 - MARKET - DEBUG   : err_key'dentinr'
-2021-10-07 19:20:18,890 - MARKET - DEBUG   : err_key'hotinr'
-2021-10-07 19:20:18,891 - MARKET - DEBUG   : err_key'usdtinr'
-2021-10-07 19:20:18,892 - MARKET - DEBUG   : err_key'wrxinr'
-2021-10-07 19:20:18,894 - MARKET - DEBUG   : err_key'maticinr'
-2021-10-07 19:20:18,895 - MARKET - DEBUG   : err_key'bchinr'
-2021-10-07 19:20:18,896 - MARKET - DEBUG   : err_key'bnbinr'
-2021-10-07 19:20:18,897 - MARKET - DEBUG   : err_key'bttinr'
-2021-10-07 19:20:18,898 - MARKET - DEBUG   : err_key'chzinr'
-2021-10-07 19:20:18,900 - MARKET - DEBUG   : err_key'oneinr'
-2021-10-07 19:20:18,901 - MARKET - DEBUG   : err_key'yfiinr'
-2021-10-07 19:20:18,902 - MARKET - DEBUG   : err_key'uniinr'
-2021-10-07 19:20:18,903 - MARKET - DEBUG   : err_key'linkinr'
-2021-10-07 19:20:18,905 - MARKET - DEBUG   : err_key'sxpinr'
-2021-10-07 19:20:18,906 - MARKET - DEBUG   : err_key'adainr'
-2021-10-07 19:20:18,907 - MARKET - DEBUG   : err_key'nanoinr'
-2021-10-07 19:20:18,908 - MARKET - DEBUG   : err_key'atominr'
-2021-10-07 19:20:18,909 - MARKET - DEBUG   : err_key'xlminr'
-2021-10-07 19:20:18,910 - MARKET - DEBUG   : err_key'fetinr'
-2021-10-07 19:20:18,911 - MARKET - DEBUG   : err_key'xeminr'
-2021-10-07 19:20:18,912 - MARKET - DEBUG   : err_key'zecinr'
-2021-10-07 19:20:18,913 - MARKET - DEBUG   : err_key'busdinr'
-2021-10-07 19:20:18,914 - MARKET - DEBUG   : err_key'yfiiinr'
-2021-10-07 19:20:18,915 - MARKET - DEBUG   : err_key'dogeinr'
-2021-10-07 19:20:18,916 - MARKET - DEBUG   : err_key'dotinr'
-2021-10-07 19:20:18,919 - MARKET - DEBUG   : err_key'vetinr'
-2021-10-07 19:20:18,920 - MARKET - DEBUG   : err_key'crvinr'
-2021-10-07 19:20:18,922 - MARKET - DEBUG   : err_key'reninr'
-2021-10-07 19:20:18,923 - MARKET - DEBUG   : err_key'enjinr'
-2021-10-07 19:20:18,924 - MARKET - DEBUG   : err_key'manainr'
-2021-10-07 19:20:18,925 - MARKET - DEBUG   : err_key'hbarinr'
-2021-10-07 19:20:18,926 - MARKET - DEBUG   : err_key'umainr'
-2021-10-07 19:20:18,927 - MARKET - DEBUG   : err_key'chrinr'
-2021-10-07 19:20:18,928 - MARKET - DEBUG   : err_key'paxginr'
-2021-10-07 19:20:18,929 - MARKET - DEBUG   : err_key'1inchinr'
-2021-10-07 19:20:18,930 - MARKET - DEBUG   : err_key'etcinr'
-2021-10-07 19:20:18,931 - MARKET - DEBUG   : err_key'uftinr'
-2021-10-07 19:20:18,933 - MARKET - DEBUG   : err_key'dockinr'
-2021-10-07 19:20:18,934 - MARKET - DEBUG   : err_key'filinr'
-2021-10-07 19:20:18,936 - MARKET - DEBUG   : err_key'wininr'
-2021-10-07 19:20:18,937 - MARKET - DEBUG   : err_key'tkoinr'
-2021-10-07 19:20:18,939 - MARKET - DEBUG   : err_key'pushinr'
-2021-10-07 19:20:18,940 - MARKET - DEBUG   : err_key'avaxinr'
-2021-10-07 19:20:18,941 - MARKET - DEBUG   : err_key'lunainr'
-2021-10-07 19:20:18,942 - MARKET - DEBUG   : err_key'xvginr'
-2021-10-07 19:20:18,943 - MARKET - DEBUG   : err_key'scinr'
-2021-10-07 19:20:18,944 - MARKET - DEBUG   : err_key'fttinr'
-2021-10-07 19:20:18,946 - MARKET - DEBUG   : err_key'dgbinr'
-2021-10-07 19:20:18,947 - MARKET - DEBUG   : err_key'cvcinr'
-2021-10-07 19:20:18,947 - MARKET - DEBUG   : err_key'cakeinr'
-2021-10-07 19:20:18,948 - MARKET - DEBUG   : err_key'ezinr'
-2021-10-07 19:20:18,951 - MARKET - DEBUG   : err_key'bzrxinr'
-2021-10-07 19:20:18,952 - MARKET - DEBUG   : err_key'ftminr'
-2021-10-07 19:20:18,954 - MARKET - DEBUG   : err_key'hntinr'
-2021-10-07 19:20:18,955 - MARKET - DEBUG   : err_key'arkinr'
-2021-10-07 19:20:18,956 - MARKET - DEBUG   : err_key'ctsiinr'
-2021-10-07 19:20:18,956 - MARKET - DEBUG   : err_key'kmdinr'
-2021-10-07 19:20:18,958 - MARKET - DEBUG   : err_key'solinr'
-2021-10-07 19:20:18,959 - MARKET - DEBUG   : err_key'cotiinr'
-2021-10-07 19:20:18,960 - MARKET - DEBUG   : err_key'iotxinr'
-2021-10-07 19:20:18,962 - MARKET - DEBUG   : err_key'shibinr'
-2021-10-07 19:20:18,962 - MARKET - DEBUG   : err_key'rlcinr'
-2021-10-07 19:20:18,963 - MARKET - DEBUG   : err_key'trbinr'
-2021-10-07 19:20:18,964 - MARKET - DEBUG   : err_key'reefinr'
-2021-10-07 19:20:18,965 - MARKET - DEBUG   : err_key'icpinr'
-2021-10-07 19:20:18,967 - MARKET - DEBUG   : err_key'ontinr'
-2021-10-07 19:20:18,969 - MARKET - DEBUG   : err_key'ckbinr'
-2021-10-07 19:20:18,970 - MARKET - DEBUG   : err_key'pntinr'
-2021-10-07 19:20:18,971 - MARKET - DEBUG   : err_key'xvsinr'
-2021-10-07 19:20:18,972 - MARKET - DEBUG   : err_key'viteinr'
-2021-10-07 19:20:18,973 - MARKET - DEBUG   : err_key'dcrinr'
-2021-10-07 19:20:18,974 - MARKET - DEBUG   : err_key'mdxinr'
-2021-10-07 19:20:18,976 - MARKET - DEBUG   : err_key'phainr'
-2021-10-07 19:20:18,977 - MARKET - DEBUG   : err_key'runeinr'
-2021-10-07 19:20:18,978 - MARKET - DEBUG   : err_key'ogninr'
-2021-10-07 19:20:18,979 - MARKET - DEBUG   : err_key'mirinr'
-2021-10-07 19:20:18,980 - MARKET - DEBUG   : err_key'datainr'
-2021-10-07 19:20:18,981 - MARKET - DEBUG   : err_key'ksminr'
-2021-10-07 19:20:18,984 - MARKET - DEBUG   : err_key'nkninr'
-2021-10-07 19:20:18,985 - MARKET - DEBUG   : err_key'balinr'
-2021-10-07 19:20:18,987 - MARKET - DEBUG   : err_key'dntinr'
-2021-10-07 19:20:18,988 - MARKET - DEBUG   : err_key'keepinr'
-2021-10-07 19:20:18,989 - MARKET - DEBUG   : err_key'snxinr'
-2021-10-07 19:20:18,990 - MARKET - DEBUG   : err_key'axsinr'
-2021-10-07 19:20:18,991 - MARKET - DEBUG   : err_key'celrinr'
-2021-10-07 19:20:18,992 - MARKET - DEBUG   : err_key'alphainr'
-2021-10-07 19:20:18,993 - MARKET - DEBUG   : err_key'compinr'
-2021-10-07 19:20:18,994 - MARKET - DEBUG   : err_key'aliceinr'
-2021-10-07 19:20:18,995 - MARKET - DEBUG   : err_key'egldinr'
-2021-10-07 19:20:18,996 - MARKET - DEBUG   : err_key'klayinr'
-2021-10-07 19:20:18,998 - MARKET - DEBUG   : err_key'sandinr'
-2021-10-07 19:20:18,999 - MARKET - DEBUG   : err_key'frontinr'
-2021-10-07 19:20:19,001 - MARKET - DEBUG   : err_key'lrcinr'
-2021-10-07 19:20:19,002 - MARKET - DEBUG   : err_key'stxinr'
-2021-10-07 19:20:19,004 - MARKET - DEBUG   : err_key'algoinr'
-2021-10-07 19:20:19,005 - MARKET - DEBUG   : err_key'pondinr'
-2021-10-07 19:20:19,007 - MARKET - DEBUG   : err_key'alpacainr'
-2021-10-07 19:20:19,009 - MARKET - DEBUG   : err_key'xecinr'
-2021-10-07 19:20:19,010 - MARKET - DEBUG   : err_key'ilvinr'
-2021-10-07 19:20:19,010 - MARKET - DEBUG   : err_key'mlninr'
-2021-10-07 19:20:19,011 - MARKET - DEBUG   : err_key'dydxinr'
-2021-10-07 19:20:19,012 - MARKET - DEBUG   : err_key'cfxinr'
-2021-10-07 19:20:19,014 - MARKET - DEBUG   : err_key'ltcinr'
-2021-10-07 19:20:19,014 - MARKET - DEBUG   : err_key'dashinr'
-2021-10-07 19:20:29,361 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:22:03,522 - MARKET - INFO   : Hello
-2021-10-07 19:22:03,979 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:22:03,982 - MARKET - DEBUG   : err_key'btcinr'
-2021-10-07 19:22:03,983 - MARKET - DEBUG   : err_key'xrpinr'
-2021-10-07 19:22:03,984 - MARKET - DEBUG   : err_key'ethinr'
-2021-10-07 19:22:03,985 - MARKET - DEBUG   : err_key'trxinr'
-2021-10-07 19:22:03,986 - MARKET - DEBUG   : err_key'eosinr'
-2021-10-07 19:22:03,988 - MARKET - DEBUG   : err_key'zilinr'
-2021-10-07 19:22:03,989 - MARKET - DEBUG   : err_key'batinr'
-2021-10-07 19:22:03,990 - MARKET - DEBUG   : err_key'zrxinr'
-2021-10-07 19:22:03,991 - MARKET - DEBUG   : err_key'omginr'
-2021-10-07 19:22:03,992 - MARKET - DEBUG   : err_key'polyinr'
-2021-10-07 19:22:03,993 - MARKET - DEBUG   : err_key'iostinr'
-2021-10-07 19:22:03,994 - MARKET - DEBUG   : err_key'dentinr'
-2021-10-07 19:22:03,998 - MARKET - DEBUG   : err_key'hotinr'
-2021-10-07 19:22:03,999 - MARKET - DEBUG   : err_key'usdtinr'
-2021-10-07 19:22:04,000 - MARKET - DEBUG   : err_key'wrxinr'
-2021-10-07 19:22:04,000 - MARKET - DEBUG   : err_key'maticinr'
-2021-10-07 19:22:04,001 - MARKET - DEBUG   : err_key'bchinr'
-2021-10-07 19:22:04,003 - MARKET - DEBUG   : err_key'bnbinr'
-2021-10-07 19:22:04,004 - MARKET - DEBUG   : err_key'bttinr'
-2021-10-07 19:22:04,005 - MARKET - DEBUG   : err_key'chzinr'
-2021-10-07 19:22:04,006 - MARKET - DEBUG   : err_key'oneinr'
-2021-10-07 19:22:04,007 - MARKET - DEBUG   : err_key'yfiinr'
-2021-10-07 19:22:04,008 - MARKET - DEBUG   : err_key'uniinr'
-2021-10-07 19:22:04,009 - MARKET - DEBUG   : err_key'linkinr'
-2021-10-07 19:22:04,010 - MARKET - DEBUG   : err_key'sxpinr'
-2021-10-07 19:22:04,011 - MARKET - DEBUG   : err_key'adainr'
-2021-10-07 19:22:04,012 - MARKET - DEBUG   : err_key'nanoinr'
-2021-10-07 19:22:04,013 - MARKET - DEBUG   : err_key'atominr'
-2021-10-07 19:22:04,014 - MARKET - DEBUG   : err_key'xlminr'
-2021-10-07 19:22:04,015 - MARKET - DEBUG   : err_key'fetinr'
-2021-10-07 19:22:04,016 - MARKET - DEBUG   : err_key'xeminr'
-2021-10-07 19:22:04,017 - MARKET - DEBUG   : err_key'zecinr'
-2021-10-07 19:22:04,018 - MARKET - DEBUG   : err_key'busdinr'
-2021-10-07 19:22:04,020 - MARKET - DEBUG   : err_key'yfiiinr'
-2021-10-07 19:22:04,021 - MARKET - DEBUG   : err_key'dogeinr'
-2021-10-07 19:22:04,022 - MARKET - DEBUG   : err_key'dotinr'
-2021-10-07 19:22:04,023 - MARKET - DEBUG   : err_key'vetinr'
-2021-10-07 19:22:04,024 - MARKET - DEBUG   : err_key'crvinr'
-2021-10-07 19:22:04,025 - MARKET - DEBUG   : err_key'reninr'
-2021-10-07 19:22:04,026 - MARKET - DEBUG   : err_key'enjinr'
-2021-10-07 19:22:04,027 - MARKET - DEBUG   : err_key'manainr'
-2021-10-07 19:22:04,028 - MARKET - DEBUG   : err_key'hbarinr'
-2021-10-07 19:22:04,029 - MARKET - DEBUG   : err_key'umainr'
-2021-10-07 19:22:04,030 - MARKET - DEBUG   : err_key'chrinr'
-2021-10-07 19:22:04,032 - MARKET - DEBUG   : err_key'paxginr'
-2021-10-07 19:22:04,033 - MARKET - DEBUG   : err_key'1inchinr'
-2021-10-07 19:22:04,034 - MARKET - DEBUG   : err_key'etcinr'
-2021-10-07 19:22:04,036 - MARKET - DEBUG   : err_key'uftinr'
-2021-10-07 19:22:04,038 - MARKET - DEBUG   : err_key'dockinr'
-2021-10-07 19:22:04,040 - MARKET - DEBUG   : err_key'filinr'
-2021-10-07 19:22:04,041 - MARKET - DEBUG   : err_key'wininr'
-2021-10-07 19:22:04,042 - MARKET - DEBUG   : err_key'tkoinr'
-2021-10-07 19:22:04,043 - MARKET - DEBUG   : err_key'pushinr'
-2021-10-07 19:22:04,044 - MARKET - DEBUG   : err_key'avaxinr'
-2021-10-07 19:22:04,045 - MARKET - DEBUG   : err_key'lunainr'
-2021-10-07 19:22:04,046 - MARKET - DEBUG   : err_key'xvginr'
-2021-10-07 19:22:04,047 - MARKET - DEBUG   : err_key'scinr'
-2021-10-07 19:22:04,049 - MARKET - DEBUG   : err_key'fttinr'
-2021-10-07 19:22:04,050 - MARKET - DEBUG   : err_key'dgbinr'
-2021-10-07 19:22:04,051 - MARKET - DEBUG   : err_key'cvcinr'
-2021-10-07 19:22:04,052 - MARKET - DEBUG   : err_key'cakeinr'
-2021-10-07 19:22:04,053 - MARKET - DEBUG   : err_key'ezinr'
-2021-10-07 19:22:04,055 - MARKET - DEBUG   : err_key'bzrxinr'
-2021-10-07 19:22:04,057 - MARKET - DEBUG   : err_key'ftminr'
-2021-10-07 19:22:04,059 - MARKET - DEBUG   : err_key'hntinr'
-2021-10-07 19:22:04,061 - MARKET - DEBUG   : err_key'arkinr'
-2021-10-07 19:22:04,062 - MARKET - DEBUG   : err_key'ctsiinr'
-2021-10-07 19:22:04,063 - MARKET - DEBUG   : err_key'kmdinr'
-2021-10-07 19:22:04,065 - MARKET - DEBUG   : err_key'solinr'
-2021-10-07 19:22:04,066 - MARKET - DEBUG   : err_key'cotiinr'
-2021-10-07 19:22:04,067 - MARKET - DEBUG   : err_key'iotxinr'
-2021-10-07 19:22:04,070 - MARKET - DEBUG   : err_key'shibinr'
-2021-10-07 19:22:04,073 - MARKET - DEBUG   : err_key'rlcinr'
-2021-10-07 19:22:04,074 - MARKET - DEBUG   : err_key'trbinr'
-2021-10-07 19:22:04,075 - MARKET - DEBUG   : err_key'reefinr'
-2021-10-07 19:22:04,076 - MARKET - DEBUG   : err_key'icpinr'
-2021-10-07 19:22:04,077 - MARKET - DEBUG   : err_key'ontinr'
-2021-10-07 19:22:04,079 - MARKET - DEBUG   : err_key'ckbinr'
-2021-10-07 19:22:04,080 - MARKET - DEBUG   : err_key'pntinr'
-2021-10-07 19:22:04,081 - MARKET - DEBUG   : err_key'xvsinr'
-2021-10-07 19:22:04,082 - MARKET - DEBUG   : err_key'viteinr'
-2021-10-07 19:22:04,083 - MARKET - DEBUG   : err_key'dcrinr'
-2021-10-07 19:22:04,084 - MARKET - DEBUG   : err_key'mdxinr'
-2021-10-07 19:22:04,086 - MARKET - DEBUG   : err_key'phainr'
-2021-10-07 19:22:04,088 - MARKET - DEBUG   : err_key'runeinr'
-2021-10-07 19:22:04,090 - MARKET - DEBUG   : err_key'ogninr'
-2021-10-07 19:22:04,091 - MARKET - DEBUG   : err_key'mirinr'
-2021-10-07 19:22:04,092 - MARKET - DEBUG   : err_key'datainr'
-2021-10-07 19:22:04,093 - MARKET - DEBUG   : err_key'ksminr'
-2021-10-07 19:22:04,095 - MARKET - DEBUG   : err_key'nkninr'
-2021-10-07 19:22:04,096 - MARKET - DEBUG   : err_key'balinr'
-2021-10-07 19:22:04,097 - MARKET - DEBUG   : err_key'dntinr'
-2021-10-07 19:22:04,098 - MARKET - DEBUG   : err_key'keepinr'
-2021-10-07 19:22:04,099 - MARKET - DEBUG   : err_key'snxinr'
-2021-10-07 19:22:04,100 - MARKET - DEBUG   : err_key'axsinr'
-2021-10-07 19:22:04,102 - MARKET - DEBUG   : err_key'celrinr'
-2021-10-07 19:22:04,103 - MARKET - DEBUG   : err_key'alphainr'
-2021-10-07 19:22:04,106 - MARKET - DEBUG   : err_key'compinr'
-2021-10-07 19:22:04,107 - MARKET - DEBUG   : err_key'aliceinr'
-2021-10-07 19:22:04,108 - MARKET - DEBUG   : err_key'egldinr'
-2021-10-07 19:22:04,110 - MARKET - DEBUG   : err_key'klayinr'
-2021-10-07 19:22:04,111 - MARKET - DEBUG   : err_key'sandinr'
-2021-10-07 19:22:04,112 - MARKET - DEBUG   : err_key'frontinr'
-2021-10-07 19:22:04,113 - MARKET - DEBUG   : err_key'lrcinr'
-2021-10-07 19:22:04,114 - MARKET - DEBUG   : err_key'stxinr'
-2021-10-07 19:22:04,116 - MARKET - DEBUG   : err_key'algoinr'
-2021-10-07 19:22:04,117 - MARKET - DEBUG   : err_key'pondinr'
-2021-10-07 19:22:04,119 - MARKET - DEBUG   : err_key'alpacainr'
-2021-10-07 19:22:04,121 - MARKET - DEBUG   : err_key'xecinr'
-2021-10-07 19:22:04,122 - MARKET - DEBUG   : err_key'ilvinr'
-2021-10-07 19:22:04,123 - MARKET - DEBUG   : err_key'mlninr'
-2021-10-07 19:22:04,124 - MARKET - DEBUG   : err_key'dydxinr'
-2021-10-07 19:22:04,125 - MARKET - DEBUG   : err_key'cfxinr'
-2021-10-07 19:22:04,126 - MARKET - DEBUG   : err_key'ltcinr'
-2021-10-07 19:22:04,127 - MARKET - DEBUG   : err_key'dashinr'
-2021-10-07 19:22:16,041 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:22:26,510 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:22:36,931 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:22:48,363 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:22:58,816 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:23:09,512 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:23:19,929 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:23:33,372 - MARKET - INFO   : req time:3 sec
-2021-10-07 19:23:43,779 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:23:54,368 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:24:04,820 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:24:17,180 - MARKET - INFO   : req time:2 sec
-2021-10-07 19:24:27,638 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:24:38,089 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:24:48,576 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:24:59,088 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:25:09,735 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:25:20,435 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:25:30,879 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:25:41,582 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:25:55,515 - MARKET - INFO   : req time:3 sec
-2021-10-07 19:26:06,158 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:26:16,809 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:26:28,893 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:26:39,539 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:26:50,587 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:27:01,058 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:27:11,900 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:27:22,419 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:27:35,361 - MARKET - INFO   : req time:2 sec
-2021-10-07 19:27:46,308 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:27:57,059 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:28:07,912 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:28:18,437 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:28:28,966 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:28:39,661 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:28:50,241 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:29:00,813 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:29:11,371 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:29:21,929 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:29:32,599 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:30:05,057 - MARKET - INFO   : req time:22 sec
-2021-10-07 19:30:19,367 - MARKET - INFO   : req time:4 sec
-2021-10-07 19:30:30,039 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:30:41,636 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:30:52,267 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:31:03,017 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:31:13,572 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:31:24,077 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:31:37,656 - MARKET - INFO   : req time:3 sec
-2021-10-07 19:31:49,402 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:31:59,991 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:32:11,138 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:32:23,368 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:32:33,934 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:32:44,807 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:32:55,564 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:33:06,308 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:33:17,875 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:33:31,534 - MARKET - INFO   : req time:3 sec
-2021-10-07 19:33:42,162 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:33:52,785 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:34:04,079 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:34:18,639 - MARKET - INFO   : req time:4 sec
-2021-10-07 19:34:29,665 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:34:40,309 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:34:50,915 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:35:02,607 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:35:14,131 - MARKET - INFO   : req time:1 sec
-2021-10-07 19:35:24,824 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:35:35,482 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:35:48,596 - MARKET - INFO   : req time:2 sec
-2021-10-07 19:35:59,282 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:36:09,975 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:36:20,622 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:36:31,624 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:36:42,582 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:36:53,950 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:37:09,976 - MARKET - INFO   : req time:5 sec
-2021-10-07 19:37:20,983 - MARKET - INFO   : req time:0 sec
-2021-10-07 19:37:31,837 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:02:49,594 - MARKET - INFO   : Hello
-2021-10-07 20:02:50,569 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:02:50,572 - MARKET - DEBUG   : err_key'btcinr'
-2021-10-07 20:02:50,573 - MARKET - DEBUG   : err_key'xrpinr'
-2021-10-07 20:02:50,574 - MARKET - DEBUG   : err_key'ethinr'
-2021-10-07 20:02:50,575 - MARKET - DEBUG   : err_key'trxinr'
-2021-10-07 20:02:50,577 - MARKET - DEBUG   : err_key'eosinr'
-2021-10-07 20:02:50,578 - MARKET - DEBUG   : err_key'zilinr'
-2021-10-07 20:02:50,579 - MARKET - DEBUG   : err_key'batinr'
-2021-10-07 20:02:50,580 - MARKET - DEBUG   : err_key'zrxinr'
-2021-10-07 20:02:50,581 - MARKET - DEBUG   : err_key'omginr'
-2021-10-07 20:02:50,582 - MARKET - DEBUG   : err_key'polyinr'
-2021-10-07 20:02:50,584 - MARKET - DEBUG   : err_key'iostinr'
-2021-10-07 20:02:50,585 - MARKET - DEBUG   : err_key'dentinr'
-2021-10-07 20:02:50,586 - MARKET - DEBUG   : err_key'hotinr'
-2021-10-07 20:02:50,587 - MARKET - DEBUG   : err_key'usdtinr'
-2021-10-07 20:02:50,588 - MARKET - DEBUG   : err_key'wrxinr'
-2021-10-07 20:02:50,589 - MARKET - DEBUG   : err_key'maticinr'
-2021-10-07 20:02:50,590 - MARKET - DEBUG   : err_key'bchinr'
-2021-10-07 20:02:50,591 - MARKET - DEBUG   : err_key'bnbinr'
-2021-10-07 20:02:50,592 - MARKET - DEBUG   : err_key'bttinr'
-2021-10-07 20:02:50,593 - MARKET - DEBUG   : err_key'chzinr'
-2021-10-07 20:02:50,594 - MARKET - DEBUG   : err_key'oneinr'
-2021-10-07 20:02:50,595 - MARKET - DEBUG   : err_key'yfiinr'
-2021-10-07 20:02:50,596 - MARKET - DEBUG   : err_key'uniinr'
-2021-10-07 20:02:50,597 - MARKET - DEBUG   : err_key'linkinr'
-2021-10-07 20:02:50,598 - MARKET - DEBUG   : err_key'sxpinr'
-2021-10-07 20:02:50,599 - MARKET - DEBUG   : err_key'adainr'
-2021-10-07 20:02:50,600 - MARKET - DEBUG   : err_key'nanoinr'
-2021-10-07 20:02:50,601 - MARKET - DEBUG   : err_key'atominr'
-2021-10-07 20:02:50,603 - MARKET - DEBUG   : err_key'xlminr'
-2021-10-07 20:02:50,604 - MARKET - DEBUG   : err_key'fetinr'
-2021-10-07 20:02:50,605 - MARKET - DEBUG   : err_key'xeminr'
-2021-10-07 20:02:50,606 - MARKET - DEBUG   : err_key'zecinr'
-2021-10-07 20:02:50,607 - MARKET - DEBUG   : err_key'busdinr'
-2021-10-07 20:02:50,608 - MARKET - DEBUG   : err_key'yfiiinr'
-2021-10-07 20:02:50,609 - MARKET - DEBUG   : err_key'dogeinr'
-2021-10-07 20:02:50,611 - MARKET - DEBUG   : err_key'dotinr'
-2021-10-07 20:02:50,611 - MARKET - DEBUG   : err_key'vetinr'
-2021-10-07 20:02:50,612 - MARKET - DEBUG   : err_key'crvinr'
-2021-10-07 20:02:50,613 - MARKET - DEBUG   : err_key'reninr'
-2021-10-07 20:02:50,614 - MARKET - DEBUG   : err_key'enjinr'
-2021-10-07 20:02:50,615 - MARKET - DEBUG   : err_key'manainr'
-2021-10-07 20:02:50,617 - MARKET - DEBUG   : err_key'hbarinr'
-2021-10-07 20:02:50,618 - MARKET - DEBUG   : err_key'umainr'
-2021-10-07 20:02:50,619 - MARKET - DEBUG   : err_key'chrinr'
-2021-10-07 20:02:50,620 - MARKET - DEBUG   : err_key'paxginr'
-2021-10-07 20:02:50,621 - MARKET - DEBUG   : err_key'1inchinr'
-2021-10-07 20:02:50,623 - MARKET - DEBUG   : err_key'etcinr'
-2021-10-07 20:02:50,624 - MARKET - DEBUG   : err_key'uftinr'
-2021-10-07 20:02:50,625 - MARKET - DEBUG   : err_key'dockinr'
-2021-10-07 20:02:50,626 - MARKET - DEBUG   : err_key'filinr'
-2021-10-07 20:02:50,627 - MARKET - DEBUG   : err_key'wininr'
-2021-10-07 20:02:50,628 - MARKET - DEBUG   : err_key'tkoinr'
-2021-10-07 20:02:50,629 - MARKET - DEBUG   : err_key'pushinr'
-2021-10-07 20:02:50,629 - MARKET - DEBUG   : err_key'avaxinr'
-2021-10-07 20:02:50,630 - MARKET - DEBUG   : err_key'lunainr'
-2021-10-07 20:02:50,631 - MARKET - DEBUG   : err_key'xvginr'
-2021-10-07 20:02:50,632 - MARKET - DEBUG   : err_key'scinr'
-2021-10-07 20:02:50,633 - MARKET - DEBUG   : err_key'fttinr'
-2021-10-07 20:02:50,635 - MARKET - DEBUG   : err_key'dgbinr'
-2021-10-07 20:02:50,636 - MARKET - DEBUG   : err_key'cvcinr'
-2021-10-07 20:02:50,636 - MARKET - DEBUG   : err_key'cakeinr'
-2021-10-07 20:02:50,638 - MARKET - DEBUG   : err_key'ezinr'
-2021-10-07 20:02:50,639 - MARKET - DEBUG   : err_key'bzrxinr'
-2021-10-07 20:02:50,640 - MARKET - DEBUG   : err_key'ftminr'
-2021-10-07 20:02:50,641 - MARKET - DEBUG   : err_key'hntinr'
-2021-10-07 20:02:50,642 - MARKET - DEBUG   : err_key'arkinr'
-2021-10-07 20:02:50,643 - MARKET - DEBUG   : err_key'ctsiinr'
-2021-10-07 20:02:50,644 - MARKET - DEBUG   : err_key'kmdinr'
-2021-10-07 20:02:50,645 - MARKET - DEBUG   : err_key'solinr'
-2021-10-07 20:02:50,646 - MARKET - DEBUG   : err_key'cotiinr'
-2021-10-07 20:02:50,647 - MARKET - DEBUG   : err_key'iotxinr'
-2021-10-07 20:02:50,648 - MARKET - DEBUG   : err_key'shibinr'
-2021-10-07 20:02:50,649 - MARKET - DEBUG   : err_key'rlcinr'
-2021-10-07 20:02:50,651 - MARKET - DEBUG   : err_key'trbinr'
-2021-10-07 20:02:50,652 - MARKET - DEBUG   : err_key'reefinr'
-2021-10-07 20:02:50,653 - MARKET - DEBUG   : err_key'icpinr'
-2021-10-07 20:02:50,654 - MARKET - DEBUG   : err_key'ontinr'
-2021-10-07 20:02:50,655 - MARKET - DEBUG   : err_key'ckbinr'
-2021-10-07 20:02:50,656 - MARKET - DEBUG   : err_key'pntinr'
-2021-10-07 20:02:50,657 - MARKET - DEBUG   : err_key'xvsinr'
-2021-10-07 20:02:50,658 - MARKET - DEBUG   : err_key'viteinr'
-2021-10-07 20:02:50,659 - MARKET - DEBUG   : err_key'dcrinr'
-2021-10-07 20:02:50,660 - MARKET - DEBUG   : err_key'mdxinr'
-2021-10-07 20:02:50,661 - MARKET - DEBUG   : err_key'phainr'
-2021-10-07 20:02:50,662 - MARKET - DEBUG   : err_key'runeinr'
-2021-10-07 20:02:50,663 - MARKET - DEBUG   : err_key'ogninr'
-2021-10-07 20:02:50,664 - MARKET - DEBUG   : err_key'mirinr'
-2021-10-07 20:02:50,664 - MARKET - DEBUG   : err_key'datainr'
-2021-10-07 20:02:50,665 - MARKET - DEBUG   : err_key'ksminr'
-2021-10-07 20:02:50,667 - MARKET - DEBUG   : err_key'nkninr'
-2021-10-07 20:02:50,668 - MARKET - DEBUG   : err_key'balinr'
-2021-10-07 20:02:50,669 - MARKET - DEBUG   : err_key'dntinr'
-2021-10-07 20:02:50,670 - MARKET - DEBUG   : err_key'keepinr'
-2021-10-07 20:02:50,671 - MARKET - DEBUG   : err_key'snxinr'
-2021-10-07 20:02:50,672 - MARKET - DEBUG   : err_key'axsinr'
-2021-10-07 20:02:50,673 - MARKET - DEBUG   : err_key'celrinr'
-2021-10-07 20:02:50,674 - MARKET - DEBUG   : err_key'alphainr'
-2021-10-07 20:02:50,675 - MARKET - DEBUG   : err_key'compinr'
-2021-10-07 20:02:50,676 - MARKET - DEBUG   : err_key'aliceinr'
-2021-10-07 20:02:50,677 - MARKET - DEBUG   : err_key'egldinr'
-2021-10-07 20:02:50,678 - MARKET - DEBUG   : err_key'klayinr'
-2021-10-07 20:02:50,679 - MARKET - DEBUG   : err_key'sandinr'
-2021-10-07 20:02:50,680 - MARKET - DEBUG   : err_key'frontinr'
-2021-10-07 20:02:50,681 - MARKET - DEBUG   : err_key'lrcinr'
-2021-10-07 20:02:50,681 - MARKET - DEBUG   : err_key'stxinr'
-2021-10-07 20:02:50,683 - MARKET - DEBUG   : err_key'algoinr'
-2021-10-07 20:02:50,684 - MARKET - DEBUG   : err_key'pondinr'
-2021-10-07 20:02:50,685 - MARKET - DEBUG   : err_key'alpacainr'
-2021-10-07 20:02:50,686 - MARKET - DEBUG   : err_key'xecinr'
-2021-10-07 20:02:50,687 - MARKET - DEBUG   : err_key'ilvinr'
-2021-10-07 20:02:50,688 - MARKET - DEBUG   : err_key'mlninr'
-2021-10-07 20:02:50,689 - MARKET - DEBUG   : err_key'dydxinr'
-2021-10-07 20:02:50,691 - MARKET - DEBUG   : err_key'cfxinr'
-2021-10-07 20:02:50,692 - MARKET - DEBUG   : err_key'ltcinr'
-2021-10-07 20:02:50,692 - MARKET - DEBUG   : err_key'dashinr'
-2021-10-07 20:03:01,360 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:03:11,832 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:03:22,327 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:03:34,502 - MARKET - INFO   : req time:2 sec
-2021-10-07 20:03:46,477 - MARKET - INFO   : req time:1 sec
-2021-10-07 20:03:57,217 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:04:07,628 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:04:18,049 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:04:28,486 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:04:39,113 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:04:49,849 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:05:00,496 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:05:10,911 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:05:21,724 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:05:32,161 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:05:42,586 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:05:53,335 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:06:03,853 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:06:14,371 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:06:26,378 - MARKET - INFO   : req time:1 sec
-2021-10-07 20:06:36,890 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:06:47,507 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:06:58,093 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:07:08,805 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:07:19,353 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:07:29,954 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:07:40,464 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:07:51,574 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:08:23,204 - MARKET - INFO   : req time:21 sec
-2021-10-07 20:08:34,008 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:08:44,759 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:08:58,482 - MARKET - INFO   : req time:3 sec
-2021-10-07 20:09:09,064 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:09:19,615 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:09:30,297 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:13:29,817 - MARKET - INFO   : Hello
-2021-10-07 20:13:34,292 - MARKET - INFO   : req time:4 sec
-2021-10-07 20:13:34,295 - MARKET - DEBUG   : err_key'btcinr'
-2021-10-07 20:13:34,296 - MARKET - DEBUG   : err_key'xrpinr'
-2021-10-07 20:13:34,296 - MARKET - DEBUG   : err_key'ethinr'
-2021-10-07 20:13:34,297 - MARKET - DEBUG   : err_key'trxinr'
-2021-10-07 20:13:34,298 - MARKET - DEBUG   : err_key'eosinr'
-2021-10-07 20:13:34,300 - MARKET - DEBUG   : err_key'zilinr'
-2021-10-07 20:13:34,301 - MARKET - DEBUG   : err_key'batinr'
-2021-10-07 20:13:34,302 - MARKET - DEBUG   : err_key'zrxinr'
-2021-10-07 20:13:34,303 - MARKET - DEBUG   : err_key'omginr'
-2021-10-07 20:13:34,304 - MARKET - DEBUG   : err_key'polyinr'
-2021-10-07 20:13:34,305 - MARKET - DEBUG   : err_key'iostinr'
-2021-10-07 20:13:34,307 - MARKET - DEBUG   : err_key'dentinr'
-2021-10-07 20:13:34,308 - MARKET - DEBUG   : err_key'hotinr'
-2021-10-07 20:13:34,309 - MARKET - DEBUG   : err_key'usdtinr'
-2021-10-07 20:13:34,310 - MARKET - DEBUG   : err_key'wrxinr'
-2021-10-07 20:13:34,311 - MARKET - DEBUG   : err_key'maticinr'
-2021-10-07 20:13:34,312 - MARKET - DEBUG   : err_key'bchinr'
-2021-10-07 20:13:34,313 - MARKET - DEBUG   : err_key'bnbinr'
-2021-10-07 20:13:34,315 - MARKET - DEBUG   : err_key'bttinr'
-2021-10-07 20:13:34,316 - MARKET - DEBUG   : err_key'chzinr'
-2021-10-07 20:13:34,317 - MARKET - DEBUG   : err_key'oneinr'
-2021-10-07 20:13:34,319 - MARKET - DEBUG   : err_key'yfiinr'
-2021-10-07 20:13:34,320 - MARKET - DEBUG   : err_key'uniinr'
-2021-10-07 20:13:34,322 - MARKET - DEBUG   : err_key'linkinr'
-2021-10-07 20:13:34,323 - MARKET - DEBUG   : err_key'sxpinr'
-2021-10-07 20:13:34,323 - MARKET - DEBUG   : err_key'adainr'
-2021-10-07 20:13:34,325 - MARKET - DEBUG   : err_key'nanoinr'
-2021-10-07 20:13:34,326 - MARKET - DEBUG   : err_key'atominr'
-2021-10-07 20:13:34,327 - MARKET - DEBUG   : err_key'xlminr'
-2021-10-07 20:13:34,328 - MARKET - DEBUG   : err_key'fetinr'
-2021-10-07 20:13:34,329 - MARKET - DEBUG   : err_key'xeminr'
-2021-10-07 20:13:34,330 - MARKET - DEBUG   : err_key'zecinr'
-2021-10-07 20:13:34,331 - MARKET - DEBUG   : err_key'busdinr'
-2021-10-07 20:13:34,332 - MARKET - DEBUG   : err_key'yfiiinr'
-2021-10-07 20:13:34,333 - MARKET - DEBUG   : err_key'dogeinr'
-2021-10-07 20:13:34,334 - MARKET - DEBUG   : err_key'dotinr'
-2021-10-07 20:13:34,335 - MARKET - DEBUG   : err_key'vetinr'
-2021-10-07 20:13:34,337 - MARKET - DEBUG   : err_key'crvinr'
-2021-10-07 20:13:34,338 - MARKET - DEBUG   : err_key'reninr'
-2021-10-07 20:13:34,339 - MARKET - DEBUG   : err_key'enjinr'
-2021-10-07 20:13:34,340 - MARKET - DEBUG   : err_key'manainr'
-2021-10-07 20:13:34,342 - MARKET - DEBUG   : err_key'hbarinr'
-2021-10-07 20:13:34,343 - MARKET - DEBUG   : err_key'umainr'
-2021-10-07 20:13:34,344 - MARKET - DEBUG   : err_key'chrinr'
-2021-10-07 20:13:34,345 - MARKET - DEBUG   : err_key'paxginr'
-2021-10-07 20:13:34,346 - MARKET - DEBUG   : err_key'1inchinr'
-2021-10-07 20:13:34,347 - MARKET - DEBUG   : err_key'etcinr'
-2021-10-07 20:13:34,348 - MARKET - DEBUG   : err_key'uftinr'
-2021-10-07 20:13:34,349 - MARKET - DEBUG   : err_key'dockinr'
-2021-10-07 20:13:34,350 - MARKET - DEBUG   : err_key'filinr'
-2021-10-07 20:13:34,351 - MARKET - DEBUG   : err_key'wininr'
-2021-10-07 20:13:34,352 - MARKET - DEBUG   : err_key'tkoinr'
-2021-10-07 20:13:34,354 - MARKET - DEBUG   : err_key'pushinr'
-2021-10-07 20:13:34,355 - MARKET - DEBUG   : err_key'avaxinr'
-2021-10-07 20:13:34,356 - MARKET - DEBUG   : err_key'lunainr'
-2021-10-07 20:13:34,357 - MARKET - DEBUG   : err_key'xvginr'
-2021-10-07 20:13:34,358 - MARKET - DEBUG   : err_key'scinr'
-2021-10-07 20:13:34,359 - MARKET - DEBUG   : err_key'fttinr'
-2021-10-07 20:13:34,360 - MARKET - DEBUG   : err_key'dgbinr'
-2021-10-07 20:13:34,361 - MARKET - DEBUG   : err_key'cvcinr'
-2021-10-07 20:13:34,362 - MARKET - DEBUG   : err_key'cakeinr'
-2021-10-07 20:13:34,363 - MARKET - DEBUG   : err_key'ezinr'
-2021-10-07 20:13:34,364 - MARKET - DEBUG   : err_key'bzrxinr'
-2021-10-07 20:13:34,365 - MARKET - DEBUG   : err_key'ftminr'
-2021-10-07 20:13:34,366 - MARKET - DEBUG   : err_key'hntinr'
-2021-10-07 20:13:34,367 - MARKET - DEBUG   : err_key'arkinr'
-2021-10-07 20:13:34,368 - MARKET - DEBUG   : err_key'ctsiinr'
-2021-10-07 20:13:34,369 - MARKET - DEBUG   : err_key'kmdinr'
-2021-10-07 20:13:34,370 - MARKET - DEBUG   : err_key'solinr'
-2021-10-07 20:13:34,371 - MARKET - DEBUG   : err_key'cotiinr'
-2021-10-07 20:13:34,372 - MARKET - DEBUG   : err_key'iotxinr'
-2021-10-07 20:13:34,373 - MARKET - DEBUG   : err_key'shibinr'
-2021-10-07 20:13:34,374 - MARKET - DEBUG   : err_key'rlcinr'
-2021-10-07 20:13:34,375 - MARKET - DEBUG   : err_key'trbinr'
-2021-10-07 20:13:34,376 - MARKET - DEBUG   : err_key'reefinr'
-2021-10-07 20:13:34,377 - MARKET - DEBUG   : err_key'icpinr'
-2021-10-07 20:13:34,378 - MARKET - DEBUG   : err_key'ontinr'
-2021-10-07 20:13:34,379 - MARKET - DEBUG   : err_key'ckbinr'
-2021-10-07 20:13:34,380 - MARKET - DEBUG   : err_key'pntinr'
-2021-10-07 20:13:34,381 - MARKET - DEBUG   : err_key'xvsinr'
-2021-10-07 20:13:34,382 - MARKET - DEBUG   : err_key'viteinr'
-2021-10-07 20:13:34,383 - MARKET - DEBUG   : err_key'dcrinr'
-2021-10-07 20:13:34,385 - MARKET - DEBUG   : err_key'mdxinr'
-2021-10-07 20:13:34,386 - MARKET - DEBUG   : err_key'phainr'
-2021-10-07 20:13:34,387 - MARKET - DEBUG   : err_key'runeinr'
-2021-10-07 20:13:34,388 - MARKET - DEBUG   : err_key'ogninr'
-2021-10-07 20:13:34,389 - MARKET - DEBUG   : err_key'mirinr'
-2021-10-07 20:13:34,390 - MARKET - DEBUG   : err_key'datainr'
-2021-10-07 20:13:34,391 - MARKET - DEBUG   : err_key'ksminr'
-2021-10-07 20:13:34,392 - MARKET - DEBUG   : err_key'nkninr'
-2021-10-07 20:13:34,393 - MARKET - DEBUG   : err_key'balinr'
-2021-10-07 20:13:34,394 - MARKET - DEBUG   : err_key'dntinr'
-2021-10-07 20:13:34,395 - MARKET - DEBUG   : err_key'keepinr'
-2021-10-07 20:13:34,396 - MARKET - DEBUG   : err_key'snxinr'
-2021-10-07 20:13:34,396 - MARKET - DEBUG   : err_key'axsinr'
-2021-10-07 20:13:34,397 - MARKET - DEBUG   : err_key'celrinr'
-2021-10-07 20:13:34,398 - MARKET - DEBUG   : err_key'alphainr'
-2021-10-07 20:13:34,399 - MARKET - DEBUG   : err_key'compinr'
-2021-10-07 20:13:34,401 - MARKET - DEBUG   : err_key'aliceinr'
-2021-10-07 20:13:34,402 - MARKET - DEBUG   : err_key'egldinr'
-2021-10-07 20:13:34,403 - MARKET - DEBUG   : err_key'klayinr'
-2021-10-07 20:13:34,404 - MARKET - DEBUG   : err_key'sandinr'
-2021-10-07 20:13:34,405 - MARKET - DEBUG   : err_key'frontinr'
-2021-10-07 20:13:34,407 - MARKET - DEBUG   : err_key'lrcinr'
-2021-10-07 20:13:34,408 - MARKET - DEBUG   : err_key'stxinr'
-2021-10-07 20:13:34,409 - MARKET - DEBUG   : err_key'algoinr'
-2021-10-07 20:13:34,409 - MARKET - DEBUG   : err_key'pondinr'
-2021-10-07 20:13:34,410 - MARKET - DEBUG   : err_key'alpacainr'
-2021-10-07 20:13:34,411 - MARKET - DEBUG   : err_key'xecinr'
-2021-10-07 20:13:34,412 - MARKET - DEBUG   : err_key'ilvinr'
-2021-10-07 20:13:34,413 - MARKET - DEBUG   : err_key'mlninr'
-2021-10-07 20:13:34,414 - MARKET - DEBUG   : err_key'dydxinr'
-2021-10-07 20:13:34,415 - MARKET - DEBUG   : err_key'cfxinr'
-2021-10-07 20:13:34,416 - MARKET - DEBUG   : err_key'ltcinr'
-2021-10-07 20:13:34,417 - MARKET - DEBUG   : err_key'dashinr'
-2021-10-07 20:13:45,000 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:14:16,639 - MARKET - INFO   : req time:21 sec
-2021-10-07 20:14:27,169 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:14:38,600 - MARKET - INFO   : req time:1 sec
-2021-10-07 20:14:49,666 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:15:01,129 - MARKET - INFO   : req time:1 sec
-2021-10-07 20:15:11,613 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:15:24,212 - MARKET - INFO   : req time:2 sec
-2021-10-07 20:15:34,774 - MARKET - INFO   : req time:0 sec
-2021-10-07 20:15:47,653 - MARKET - INFO   : req time:2 sec
+2021-10-08 10:34:06,410 - MARKET - INFO   : Hello
+2021-10-08 10:34:08,228 - MARKET - INFO   : req time:1 sec
+2021-10-08 10:34:08,228 - MARKET - DEBUG   : err_key'btcinr'
+2021-10-08 10:34:08,230 - MARKET - DEBUG   : err_key'xrpinr'
+2021-10-08 10:34:08,231 - MARKET - DEBUG   : err_key'ethinr'
+2021-10-08 10:34:08,232 - MARKET - DEBUG   : err_key'trxinr'
+2021-10-08 10:34:08,232 - MARKET - DEBUG   : err_key'eosinr'
+2021-10-08 10:34:08,233 - MARKET - DEBUG   : err_key'zilinr'
+2021-10-08 10:34:08,233 - MARKET - DEBUG   : err_key'batinr'
+2021-10-08 10:34:08,234 - MARKET - DEBUG   : err_key'zrxinr'
+2021-10-08 10:34:08,234 - MARKET - DEBUG   : err_key'omginr'
+2021-10-08 10:34:08,235 - MARKET - DEBUG   : err_key'polyinr'
+2021-10-08 10:34:08,235 - MARKET - DEBUG   : err_key'iostinr'
+2021-10-08 10:34:08,236 - MARKET - DEBUG   : err_key'dentinr'
+2021-10-08 10:34:08,236 - MARKET - DEBUG   : err_key'hotinr'
+2021-10-08 10:34:08,237 - MARKET - DEBUG   : err_key'usdtinr'
+2021-10-08 10:34:08,237 - MARKET - DEBUG   : err_key'wrxinr'
+2021-10-08 10:34:08,238 - MARKET - DEBUG   : err_key'maticinr'
+2021-10-08 10:34:08,238 - MARKET - DEBUG   : err_key'bchinr'
+2021-10-08 10:34:08,239 - MARKET - DEBUG   : err_key'bnbinr'
+2021-10-08 10:34:08,239 - MARKET - DEBUG   : err_key'bttinr'
+2021-10-08 10:34:08,239 - MARKET - DEBUG   : err_key'chzinr'
+2021-10-08 10:34:08,240 - MARKET - DEBUG   : err_key'oneinr'
+2021-10-08 10:34:08,240 - MARKET - DEBUG   : err_key'yfiinr'
+2021-10-08 10:34:08,241 - MARKET - DEBUG   : err_key'uniinr'
+2021-10-08 10:34:08,241 - MARKET - DEBUG   : err_key'linkinr'
+2021-10-08 10:34:08,242 - MARKET - DEBUG   : err_key'sxpinr'
+2021-10-08 10:34:08,242 - MARKET - DEBUG   : err_key'adainr'
+2021-10-08 10:34:08,242 - MARKET - DEBUG   : err_key'nanoinr'
+2021-10-08 10:34:08,243 - MARKET - DEBUG   : err_key'atominr'
+2021-10-08 10:34:08,243 - MARKET - DEBUG   : err_key'xlminr'
+2021-10-08 10:34:08,244 - MARKET - DEBUG   : err_key'fetinr'
+2021-10-08 10:34:08,244 - MARKET - DEBUG   : err_key'xeminr'
+2021-10-08 10:34:08,244 - MARKET - DEBUG   : err_key'zecinr'
+2021-10-08 10:34:08,247 - MARKET - DEBUG   : err_key'busdinr'
+2021-10-08 10:34:08,248 - MARKET - DEBUG   : err_key'yfiiinr'
+2021-10-08 10:34:08,249 - MARKET - DEBUG   : err_key'dogeinr'
+2021-10-08 10:34:08,249 - MARKET - DEBUG   : err_key'dotinr'
+2021-10-08 10:34:08,250 - MARKET - DEBUG   : err_key'vetinr'
+2021-10-08 10:34:08,250 - MARKET - DEBUG   : err_key'crvinr'
+2021-10-08 10:34:08,251 - MARKET - DEBUG   : err_key'reninr'
+2021-10-08 10:34:08,251 - MARKET - DEBUG   : err_key'enjinr'
+2021-10-08 10:34:08,251 - MARKET - DEBUG   : err_key'manainr'
+2021-10-08 10:34:08,252 - MARKET - DEBUG   : err_key'hbarinr'
+2021-10-08 10:34:08,253 - MARKET - DEBUG   : err_key'umainr'
+2021-10-08 10:34:08,254 - MARKET - DEBUG   : err_key'chrinr'
+2021-10-08 10:34:08,254 - MARKET - DEBUG   : err_key'paxginr'
+2021-10-08 10:34:08,254 - MARKET - DEBUG   : err_key'1inchinr'
+2021-10-08 10:34:08,255 - MARKET - DEBUG   : err_key'etcinr'
+2021-10-08 10:34:08,255 - MARKET - DEBUG   : err_key'uftinr'
+2021-10-08 10:34:08,255 - MARKET - DEBUG   : err_key'dockinr'
+2021-10-08 10:34:08,256 - MARKET - DEBUG   : err_key'filinr'
+2021-10-08 10:34:08,256 - MARKET - DEBUG   : err_key'wininr'
+2021-10-08 10:34:08,257 - MARKET - DEBUG   : err_key'tkoinr'
+2021-10-08 10:34:08,257 - MARKET - DEBUG   : err_key'pushinr'
+2021-10-08 10:34:08,257 - MARKET - DEBUG   : err_key'avaxinr'
+2021-10-08 10:34:08,258 - MARKET - DEBUG   : err_key'lunainr'
+2021-10-08 10:34:08,258 - MARKET - DEBUG   : err_key'xvginr'
+2021-10-08 10:34:08,258 - MARKET - DEBUG   : err_key'scinr'
+2021-10-08 10:34:08,259 - MARKET - DEBUG   : err_key'fttinr'
+2021-10-08 10:34:08,259 - MARKET - DEBUG   : err_key'dgbinr'
+2021-10-08 10:34:08,260 - MARKET - DEBUG   : err_key'cvcinr'
+2021-10-08 10:34:08,260 - MARKET - DEBUG   : err_key'cakeinr'
+2021-10-08 10:34:08,260 - MARKET - DEBUG   : err_key'ezinr'
+2021-10-08 10:34:08,261 - MARKET - DEBUG   : err_key'bzrxinr'
+2021-10-08 10:34:08,263 - MARKET - DEBUG   : err_key'ftminr'
+2021-10-08 10:34:08,264 - MARKET - DEBUG   : err_key'hntinr'
+2021-10-08 10:34:08,264 - MARKET - DEBUG   : err_key'arkinr'
+2021-10-08 10:34:08,264 - MARKET - DEBUG   : err_key'ctsiinr'
+2021-10-08 10:34:08,265 - MARKET - DEBUG   : err_key'kmdinr'
+2021-10-08 10:34:08,265 - MARKET - DEBUG   : err_key'solinr'
+2021-10-08 10:34:08,266 - MARKET - DEBUG   : err_key'cotiinr'
+2021-10-08 10:34:08,266 - MARKET - DEBUG   : err_key'iotxinr'
+2021-10-08 10:34:08,266 - MARKET - DEBUG   : err_key'shibinr'
+2021-10-08 10:34:08,267 - MARKET - DEBUG   : err_key'rlcinr'
+2021-10-08 10:34:08,267 - MARKET - DEBUG   : err_key'trbinr'
+2021-10-08 10:34:08,267 - MARKET - DEBUG   : err_key'reefinr'
+2021-10-08 10:34:08,268 - MARKET - DEBUG   : err_key'icpinr'
+2021-10-08 10:34:08,268 - MARKET - DEBUG   : err_key'ontinr'
+2021-10-08 10:34:08,268 - MARKET - DEBUG   : err_key'ckbinr'
+2021-10-08 10:34:08,269 - MARKET - DEBUG   : err_key'pntinr'
+2021-10-08 10:34:08,269 - MARKET - DEBUG   : err_key'xvsinr'
+2021-10-08 10:34:08,270 - MARKET - DEBUG   : err_key'viteinr'
+2021-10-08 10:34:08,270 - MARKET - DEBUG   : err_key'dcrinr'
+2021-10-08 10:34:08,270 - MARKET - DEBUG   : err_key'mdxinr'
+2021-10-08 10:34:08,271 - MARKET - DEBUG   : err_key'phainr'
+2021-10-08 10:34:08,271 - MARKET - DEBUG   : err_key'runeinr'
+2021-10-08 10:34:08,271 - MARKET - DEBUG   : err_key'ogninr'
+2021-10-08 10:34:08,272 - MARKET - DEBUG   : err_key'mirinr'
+2021-10-08 10:34:08,272 - MARKET - DEBUG   : err_key'datainr'
+2021-10-08 10:34:08,272 - MARKET - DEBUG   : err_key'ksminr'
+2021-10-08 10:34:08,273 - MARKET - DEBUG   : err_key'nkninr'
+2021-10-08 10:34:08,273 - MARKET - DEBUG   : err_key'balinr'
+2021-10-08 10:34:08,273 - MARKET - DEBUG   : err_key'dntinr'
+2021-10-08 10:34:08,274 - MARKET - DEBUG   : err_key'keepinr'
+2021-10-08 10:34:08,274 - MARKET - DEBUG   : err_key'snxinr'
+2021-10-08 10:34:08,274 - MARKET - DEBUG   : err_key'axsinr'
+2021-10-08 10:34:08,275 - MARKET - DEBUG   : err_key'celrinr'
+2021-10-08 10:34:08,275 - MARKET - DEBUG   : err_key'alphainr'
+2021-10-08 10:34:08,275 - MARKET - DEBUG   : err_key'compinr'
+2021-10-08 10:34:08,275 - MARKET - DEBUG   : err_key'aliceinr'
+2021-10-08 10:34:08,276 - MARKET - DEBUG   : err_key'egldinr'
+2021-10-08 10:34:08,276 - MARKET - DEBUG   : err_key'klayinr'
+2021-10-08 10:34:08,277 - MARKET - DEBUG   : err_key'sandinr'
+2021-10-08 10:34:08,279 - MARKET - DEBUG   : err_key'frontinr'
+2021-10-08 10:34:08,279 - MARKET - DEBUG   : err_key'lrcinr'
+2021-10-08 10:34:08,280 - MARKET - DEBUG   : err_key'stxinr'
+2021-10-08 10:34:08,280 - MARKET - DEBUG   : err_key'algoinr'
+2021-10-08 10:34:08,280 - MARKET - DEBUG   : err_key'pondinr'
+2021-10-08 10:34:08,281 - MARKET - DEBUG   : err_key'alpacainr'
+2021-10-08 10:34:08,281 - MARKET - DEBUG   : err_key'xecinr'
+2021-10-08 10:34:08,282 - MARKET - DEBUG   : err_key'ilvinr'
+2021-10-08 10:34:08,282 - MARKET - DEBUG   : err_key'mlninr'
+2021-10-08 10:34:08,282 - MARKET - DEBUG   : err_key'dydxinr'
+2021-10-08 10:34:08,283 - MARKET - DEBUG   : err_key'cfxinr'
+2021-10-08 10:34:08,283 - MARKET - DEBUG   : err_key'ltcinr'
+2021-10-08 10:34:08,283 - MARKET - DEBUG   : err_key'dashinr'
+2021-10-08 10:34:09,248 - MARKET - INFO   : Hello
+2021-10-08 10:34:09,577 - MARKET - INFO   : req time:0 sec
+2021-10-08 10:34:09,577 - MARKET - DEBUG   : err_key'btcinr'
+2021-10-08 10:34:09,578 - MARKET - DEBUG   : err_key'xrpinr'
+2021-10-08 10:34:09,580 - MARKET - DEBUG   : err_key'ethinr'
+2021-10-08 10:34:09,581 - MARKET - DEBUG   : err_key'trxinr'
+2021-10-08 10:34:09,582 - MARKET - DEBUG   : err_key'eosinr'
+2021-10-08 10:34:09,583 - MARKET - DEBUG   : err_key'zilinr'
+2021-10-08 10:34:09,583 - MARKET - DEBUG   : err_key'batinr'
+2021-10-08 10:34:09,584 - MARKET - DEBUG   : err_key'zrxinr'
+2021-10-08 10:34:09,585 - MARKET - DEBUG   : err_key'omginr'
+2021-10-08 10:34:09,586 - MARKET - DEBUG   : err_key'polyinr'
+2021-10-08 10:34:09,587 - MARKET - DEBUG   : err_key'iostinr'
+2021-10-08 10:34:09,587 - MARKET - DEBUG   : err_key'dentinr'
+2021-10-08 10:34:09,588 - MARKET - DEBUG   : err_key'hotinr'
+2021-10-08 10:34:09,588 - MARKET - DEBUG   : err_key'usdtinr'
+2021-10-08 10:34:09,589 - MARKET - DEBUG   : err_key'wrxinr'
+2021-10-08 10:34:09,590 - MARKET - DEBUG   : err_key'maticinr'
+2021-10-08 10:34:09,591 - MARKET - DEBUG   : err_key'bchinr'
+2021-10-08 10:34:09,592 - MARKET - DEBUG   : err_key'bnbinr'
+2021-10-08 10:34:09,592 - MARKET - DEBUG   : err_key'bttinr'
+2021-10-08 10:34:09,593 - MARKET - DEBUG   : err_key'chzinr'
+2021-10-08 10:34:09,593 - MARKET - DEBUG   : err_key'oneinr'
+2021-10-08 10:34:09,594 - MARKET - DEBUG   : err_key'yfiinr'
+2021-10-08 10:34:09,594 - MARKET - DEBUG   : err_key'uniinr'
+2021-10-08 10:34:09,595 - MARKET - DEBUG   : err_key'linkinr'
+2021-10-08 10:34:09,596 - MARKET - DEBUG   : err_key'sxpinr'
+2021-10-08 10:34:09,599 - MARKET - DEBUG   : err_key'adainr'
+2021-10-08 10:34:09,600 - MARKET - DEBUG   : err_key'nanoinr'
+2021-10-08 10:34:09,601 - MARKET - DEBUG   : err_key'atominr'
+2021-10-08 10:34:09,601 - MARKET - DEBUG   : err_key'xlminr'
+2021-10-08 10:34:09,602 - MARKET - DEBUG   : err_key'fetinr'
+2021-10-08 10:34:09,603 - MARKET - DEBUG   : err_key'xeminr'
+2021-10-08 10:34:09,603 - MARKET - DEBUG   : err_key'zecinr'
+2021-10-08 10:34:09,604 - MARKET - DEBUG   : err_key'busdinr'
+2021-10-08 10:34:09,605 - MARKET - DEBUG   : err_key'yfiiinr'
+2021-10-08 10:34:09,606 - MARKET - DEBUG   : err_key'dogeinr'
+2021-10-08 10:34:09,607 - MARKET - DEBUG   : err_key'dotinr'
+2021-10-08 10:34:09,607 - MARKET - DEBUG   : err_key'vetinr'
+2021-10-08 10:34:09,608 - MARKET - DEBUG   : err_key'crvinr'
+2021-10-08 10:34:09,608 - MARKET - DEBUG   : err_key'reninr'
+2021-10-08 10:34:09,608 - MARKET - DEBUG   : err_key'enjinr'
+2021-10-08 10:34:09,609 - MARKET - DEBUG   : err_key'manainr'
+2021-10-08 10:34:09,609 - MARKET - DEBUG   : err_key'hbarinr'
+2021-10-08 10:34:09,609 - MARKET - DEBUG   : err_key'umainr'
+2021-10-08 10:34:09,610 - MARKET - DEBUG   : err_key'chrinr'
+2021-10-08 10:34:09,610 - MARKET - DEBUG   : err_key'paxginr'
+2021-10-08 10:34:09,610 - MARKET - DEBUG   : err_key'1inchinr'
+2021-10-08 10:34:09,613 - MARKET - DEBUG   : err_key'etcinr'
+2021-10-08 10:34:09,613 - MARKET - DEBUG   : err_key'uftinr'
+2021-10-08 10:34:09,614 - MARKET - DEBUG   : err_key'dockinr'
+2021-10-08 10:34:09,614 - MARKET - DEBUG   : err_key'filinr'
+2021-10-08 10:34:09,614 - MARKET - DEBUG   : err_key'wininr'
+2021-10-08 10:34:09,615 - MARKET - DEBUG   : err_key'tkoinr'
+2021-10-08 10:34:09,615 - MARKET - DEBUG   : err_key'pushinr'
+2021-10-08 10:34:09,615 - MARKET - DEBUG   : err_key'avaxinr'
+2021-10-08 10:34:09,616 - MARKET - DEBUG   : err_key'lunainr'
+2021-10-08 10:34:09,616 - MARKET - DEBUG   : err_key'xvginr'
+2021-10-08 10:34:09,616 - MARKET - DEBUG   : err_key'scinr'
+2021-10-08 10:34:09,617 - MARKET - DEBUG   : err_key'fttinr'
+2021-10-08 10:34:09,617 - MARKET - DEBUG   : err_key'dgbinr'
+2021-10-08 10:34:09,617 - MARKET - DEBUG   : err_key'cvcinr'
+2021-10-08 10:34:09,618 - MARKET - DEBUG   : err_key'cakeinr'
+2021-10-08 10:34:09,618 - MARKET - DEBUG   : err_key'ezinr'
+2021-10-08 10:34:09,619 - MARKET - DEBUG   : err_key'bzrxinr'
+2021-10-08 10:34:09,619 - MARKET - DEBUG   : err_key'ftminr'
+2021-10-08 10:34:09,619 - MARKET - DEBUG   : err_key'hntinr'
+2021-10-08 10:34:09,620 - MARKET - DEBUG   : err_key'arkinr'
+2021-10-08 10:34:09,620 - MARKET - DEBUG   : err_key'ctsiinr'
+2021-10-08 10:34:09,620 - MARKET - DEBUG   : err_key'kmdinr'
+2021-10-08 10:34:09,621 - MARKET - DEBUG   : err_key'solinr'
+2021-10-08 10:34:09,621 - MARKET - DEBUG   : err_key'cotiinr'
+2021-10-08 10:34:09,621 - MARKET - DEBUG   : err_key'iotxinr'
+2021-10-08 10:34:09,622 - MARKET - DEBUG   : err_key'shibinr'
+2021-10-08 10:34:09,622 - MARKET - DEBUG   : err_key'rlcinr'
+2021-10-08 10:34:09,622 - MARKET - DEBUG   : err_key'trbinr'
+2021-10-08 10:34:09,623 - MARKET - DEBUG   : err_key'reefinr'
+2021-10-08 10:34:09,623 - MARKET - DEBUG   : err_key'icpinr'
+2021-10-08 10:34:09,623 - MARKET - DEBUG   : err_key'ontinr'
+2021-10-08 10:34:09,624 - MARKET - DEBUG   : err_key'ckbinr'
+2021-10-08 10:34:09,624 - MARKET - DEBUG   : err_key'pntinr'
+2021-10-08 10:34:09,625 - MARKET - DEBUG   : err_key'xvsinr'
+2021-10-08 10:34:09,625 - MARKET - DEBUG   : err_key'viteinr'
+2021-10-08 10:34:09,625 - MARKET - DEBUG   : err_key'dcrinr'
+2021-10-08 10:34:09,626 - MARKET - DEBUG   : err_key'mdxinr'
+2021-10-08 10:34:09,628 - MARKET - DEBUG   : err_key'phainr'
+2021-10-08 10:34:09,628 - MARKET - DEBUG   : err_key'runeinr'
+2021-10-08 10:34:09,629 - MARKET - DEBUG   : err_key'ogninr'
+2021-10-08 10:34:09,629 - MARKET - DEBUG   : err_key'mirinr'
+2021-10-08 10:34:09,630 - MARKET - DEBUG   : err_key'datainr'
+2021-10-08 10:34:09,630 - MARKET - DEBUG   : err_key'ksminr'
+2021-10-08 10:34:09,630 - MARKET - DEBUG   : err_key'nkninr'
+2021-10-08 10:34:09,631 - MARKET - DEBUG   : err_key'balinr'
+2021-10-08 10:34:09,631 - MARKET - DEBUG   : err_key'dntinr'
+2021-10-08 10:34:09,631 - MARKET - DEBUG   : err_key'keepinr'
+2021-10-08 10:34:09,632 - MARKET - DEBUG   : err_key'snxinr'
+2021-10-08 10:34:09,632 - MARKET - DEBUG   : err_key'axsinr'
+2021-10-08 10:34:09,632 - MARKET - DEBUG   : err_key'celrinr'
+2021-10-08 10:34:09,633 - MARKET - DEBUG   : err_key'alphainr'
+2021-10-08 10:34:09,633 - MARKET - DEBUG   : err_key'compinr'
+2021-10-08 10:34:09,633 - MARKET - DEBUG   : err_key'aliceinr'
+2021-10-08 10:34:09,634 - MARKET - DEBUG   : err_key'egldinr'
+2021-10-08 10:34:09,634 - MARKET - DEBUG   : err_key'klayinr'
+2021-10-08 10:34:09,635 - MARKET - DEBUG   : err_key'sandinr'
+2021-10-08 10:34:09,635 - MARKET - DEBUG   : err_key'frontinr'
+2021-10-08 10:34:09,636 - MARKET - DEBUG   : err_key'lrcinr'
+2021-10-08 10:34:09,636 - MARKET - DEBUG   : err_key'stxinr'
+2021-10-08 10:34:09,636 - MARKET - DEBUG   : err_key'algoinr'
+2021-10-08 10:34:09,637 - MARKET - DEBUG   : err_key'pondinr'
+2021-10-08 10:34:09,637 - MARKET - DEBUG   : err_key'alpacainr'
+2021-10-08 10:34:09,637 - MARKET - DEBUG   : err_key'xecinr'
+2021-10-08 10:34:09,638 - MARKET - DEBUG   : err_key'ilvinr'
+2021-10-08 10:34:09,638 - MARKET - DEBUG   : err_key'mlninr'
+2021-10-08 10:34:09,638 - MARKET - DEBUG   : err_key'dydxinr'
+2021-10-08 10:34:09,639 - MARKET - DEBUG   : err_key'cfxinr'
+2021-10-08 10:34:09,639 - MARKET - DEBUG   : err_key'ltcinr'
+2021-10-08 10:34:09,639 - MARKET - DEBUG   : err_key'dashinr'
+2021-10-08 10:49:08,566 - MARKET - INFO   : req time:0 sec
+2021-10-08 11:04:09,491 - MARKET - INFO   : req time:0 sec
+2021-10-08 11:04:09,538 - MARKET - ERROR   : Greter than 2 mdxinr :October 08 11:04:09:  [4.269468003084033, 2.1347340015420166, 2.1347340015420166, 108.19]
+2021-10-08 11:04:09,992 - MARKET - INFO   : req time:0 sec
+2021-10-08 11:19:09,843 - MARKET - INFO   : req time:0 sec
+2021-10-08 11:34:14,547 - MARKET - INFO   : req time:4 sec
+2021-10-08 11:34:14,547 - MARKET - INFO   : req time:4 sec
+2021-10-08 11:49:15,555 - MARKET - INFO   : req time:0 sec
+2021-10-08 12:04:16,259 - MARKET - INFO   : req time:1 sec
+2021-10-08 12:04:16,398 - MARKET - ERROR   : Greter than 2 pushinr :October 08 12:04:16:  [16.972477064220186, 6.581336135726699, 6.581336135726699, 255.0]
+2021-10-08 12:04:16,698 - MARKET - INFO   : req time:0 sec
+2021-10-08 12:04:16,814 - MARKET - ERROR   : Greter than 2 pushinr :October 08 12:04:16:  [15.909090909090908, 3.1153024835058267, 3.1153024835058267, 255.0]
+2021-10-08 12:19:17,367 - MARKET - INFO   : req time:0 sec
+2021-10-08 12:19:17,469 - MARKET - ERROR   : Greter than 2 pushinr :October 08 12:19:17:  [-4.509803921568627, 3.01386224635584, 2.0260015684951904, 243.5]
+2021-10-08 12:34:17,107 - MARKET - INFO   : req time:0 sec
+2021-10-08 12:34:17,266 - MARKET - ERROR   : Greter than 2 pushinr :October 08 12:34:17:  [-5.098039215686274, 3.6614922978734556, 3.6614922978734556, 242.0]
+2021-10-08 12:34:17,954 - MARKET - INFO   : req time:0 sec
+2021-10-08 12:34:18,141 - MARKET - ERROR   : Greter than 2 pushinr :October 08 12:34:18:  [-0.6160164271047228, 2.6192101180574823, 2.56012741217327, 242.0]
+2021-10-08 12:49:18,992 - MARKET - INFO   : req time:0 sec
+2021-10-08 12:49:19,194 - MARKET - ERROR   : Greter than 2 pushinr :October 08 12:49:19:  [2.974793388429757, 2.9350990283015728, 2.658719370321068, 249.199]
+2021-10-08 13:04:20,179 - MARKET - INFO   : req time:2 sec
+2021-10-08 13:04:20,334 - MARKET - ERROR   : Greter than 2 pushinr :October 08 13:04:20:  [3.801652892561979, 3.6895244168111603, 3.6895244168111603, 251.2]
+2021-10-08 13:04:20,343 - MARKET - INFO   : req time:0 sec
+2021-10-08 13:04:20,579 - MARKET - ERROR   : Greter than 2 pushinr :October 08 13:04:20:  [0.723518152159518, 2.8963164202013667, 2.713940940687367, 251.002]
+2021-10-08 13:19:22,769 - MARKET - INFO   : req time:1 sec
+2021-10-08 13:34:40,546 - MARKET - INFO   : req time:17 sec
+2021-10-08 13:34:45,688 - MARKET - INFO   : req time:25 sec
+2021-10-08 13:34:45,790 - MARKET - ERROR   : Greter than 2 pushinr :October 08 13:34:45:  [-3.2444267515923477, 2.5338658887439087, 2.5338658887439087, 243.05]
+2021-10-08 13:50:27,337 - MARKET - INFO   : req time:0 sec
+2021-10-08 14:05:27,698 - MARKET - INFO   : req time:0 sec
+2021-10-08 14:05:33,208 - MARKET - INFO   : req time:1 sec
+2021-10-08 14:05:33,242 - MARKET - ERROR   : Greter than 2 pushinr :October 08 14:05:33:  [2.3863402592059173, 2.963600849741892, 2.5127907988099096, 248.85]
+2021-10-08 14:05:33,250 - MARKET - ERROR   : Greter than 2 ftminr :October 08 14:05:33:  [7.9951026819746325, 2.501222098911076, 1.721037916404008, 187.0]
+2021-10-08 14:20:28,574 - MARKET - INFO   : req time:0 sec
+2021-10-08 14:35:29,541 - MARKET - INFO   : req time:0 sec
+2021-10-08 14:35:33,552 - MARKET - INFO   : req time:0 sec
+2021-10-08 14:50:31,624 - MARKET - INFO   : req time:1 sec
+2021-10-08 15:05:32,541 - MARKET - INFO   : req time:0 sec
+2021-10-08 15:05:34,325 - MARKET - INFO   : req time:0 sec
+2021-10-08 15:20:34,231 - MARKET - INFO   : req time:1 sec
+2021-10-08 15:35:35,155 - MARKET - INFO   : req time:0 sec
+2021-10-08 15:35:35,516 - MARKET - INFO   : req time:0 sec
+2021-10-08 15:50:36,443 - MARKET - INFO   : req time:0 sec
+2021-10-08 16:05:36,211 - MARKET - INFO   : req time:0 sec
+2021-10-08 16:05:37,584 - MARKET - INFO   : req time:0 sec
+2021-10-08 16:20:40,405 - MARKET - INFO   : req time:2 sec
+2021-10-08 16:35:37,044 - MARKET - INFO   : req time:0 sec
+2021-10-08 16:35:41,306 - MARKET - INFO   : req time:0 sec
+2021-10-08 16:50:43,950 - MARKET - INFO   : req time:2 sec
+2021-10-08 17:05:38,292 - MARKET - INFO   : req time:0 sec
+2021-10-08 17:05:45,730 - MARKET - INFO   : req time:1 sec
+2021-10-08 17:20:50,341 - MARKET - INFO   : req time:4 sec
+2021-10-08 17:35:38,665 - MARKET - INFO   : req time:0 sec
+2021-10-08 17:35:54,280 - MARKET - INFO   : req time:3 sec
+2021-10-08 17:50:54,846 - MARKET - INFO   : req time:0 sec
+2021-10-08 17:50:54,893 - MARKET - ERROR   : Greter than 2 shibinr :October 08 17:50:54:  [6.685393258426976, 2.064254609539448, 0.7335005669067575, 0.001899]
+2021-10-08 18:05:42,053 - MARKET - INFO   : req time:3 sec
+2021-10-08 18:05:42,262 - MARKET - ERROR   : Greter than 2 shibinr :October 08 18:05:42:  [10.05081874647092, 2.3734595044227693, 1.6295064866977957, 0.001949]
+2021-10-08 18:05:56,350 - MARKET - INFO   : req time:1 sec
+2021-10-08 18:05:56,553 - MARKET - ERROR   : Greter than 2 shibinr :October 08 18:05:56:  [2.685624012638222, 2.6363037426840883, 2.092498673316665, 0.00195]
+2021-10-08 18:21:00,790 - MARKET - INFO   : req time:3 sec
+2021-10-08 18:21:01,094 - MARKET - ERROR   : Greter than 2 shibinr :October 08 18:21:01:  [4.9743589743589895, 3.864411689159385, 2.7379583179743014, 0.002047]
+2021-10-08 18:35:43,935 - MARKET - INFO   : req time:1 sec
+2021-10-08 18:35:44,096 - MARKET - ERROR   : Greter than 2 shibinr :October 08 18:35:44:  [9.799897383273473, 4.34492663185288, 2.8376118718509384, 0.00214]
+2021-10-08 18:36:03,734 - MARKET - INFO   : req time:2 sec
+2021-10-08 18:36:03,874 - MARKET - ERROR   : Greter than 2 shibinr :October 08 18:36:03:  [4.005862237420596, 4.476793576171526, 3.870841259534895, 0.002129]
+2021-10-08 18:51:04,751 - MARKET - INFO   : req time:0 sec
+2021-10-08 18:51:04,905 - MARKET - ERROR   : Greter than 2 shibinr :October 08 18:51:04:  [-1.8318459370596514, 3.303878509157027, 4.202504901683214, 0.00209]
+2021-10-08 19:05:46,234 - MARKET - INFO   : req time:1 sec
+2021-10-08 19:05:46,397 - MARKET - ERROR   : Greter than 2 shibinr :October 08 19:05:46:  [-8.364485981308407, 2.9249029988095896, 3.597314125196334, 0.001961]
+2021-10-08 19:06:05,538 - MARKET - INFO   : req time:0 sec
+2021-10-08 19:21:06,308 - MARKET - INFO   : req time:0 sec
+2021-10-08 19:35:48,014 - MARKET - INFO   : req time:1 sec
+2021-10-08 19:35:48,167 - MARKET - ERROR   : Greter than 2 shibinr :October 08 19:35:48:  [1.1218765935747008, 3.393748631843505, 2.824734865185429, 0.001983]
+2021-10-08 19:36:07,043 - MARKET - INFO   : req time:0 sec
