@@ -41,7 +41,11 @@ logger = logging.getLogger("MARKET")
 
 def get_present():
     start = time.time()
-    res = requests.get("https://api.wazirx.com/api/v2/tickers")
+    try:
+        res = requests.get("https://api.wazirx.com/api/v2/tickers")
+    except Exception:
+        return False
+
 
     if res.ok:
         market = res.json()
@@ -69,22 +73,86 @@ def align_report(report):
     report=re.sub("\\n		\]"," ]",report)
     return report
 
+def strategy(cryp,time_key,currency):
 
-if __name__ == "__main__":
+    last_5_avg=cryp[time_key][1]
+    if last_5_avg>1.5:
+        logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+        cryp["pos_trig"]=[last_5_avg,True]
+    if last_5_avg<-1.5:
+        logger.error("lesser than -2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+        cryp["neg_trig"]=[last_5_avg,True]
+
+    if cryp["neg_trig"][1]:
+        if -0.5 < last_5_avg < 0:
+            logger.warning("its time to buy: "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+            cryp["neg_trig"]=[0,False]
+        if last_5_avg > 0:
+            logger.warning("its going up buy fast: "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+            cryp["neg_trig"]=[0,False]
+
+    if cryp["pos_trig"][1]:
+        if 0 < last_5_avg < .5:
+            logger.warning("if you own this selit: "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+            cryp["pos_trig"]=[0,False]
+        if  last_5_avg < 0:
+            logger.warning("its falling now sell fast: "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+            cryp["pos_trig"]=[0,False]
+
+
+def boot():
+
+    with open("boot.json","r") as f:
+        boot_json=json.load(f)
+    print("started booy:",boot_json)
+    if boot_json["started"]:
+        boot_json["started"]=False
+        with open("boot.json","w") as wf:
+            boot_json=json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+        logger.info("Found started is true, so set it false and waiting for double wait time")
+        time.sleep(sec*min*2)
+        with open("boot.json","r") as f:
+            boot_json=json.load(f)
+        if boot_json["started"]:
+            logger.info("Okay its running, bye!!")
+            sys.exit()
+        else:
+            boot_json["started"]=True
+            # print(boot_json)
+    else:
+        boot_json["started"]=True
+    print(boot_json)
+    return boot_json
+
+
+
+
+def main(boot_json):
     print("Hrllo")
     logger.info("Hello")
+    boot_json["last_report"]=report_name
     diff = {}
-    neg_keys_c=3
+    diff["started"]=time.strftime("%B %d %H:%M:%S")
+    neg_keys_c=6
     tickers=0
+    highest=0
+    lowest=0
     while True:
         market = get_present()
         if not market:
-            print("some error")
+            logger.error("some error in Connection")
+            time.sleep(20)
+            continue
+        diff["last_updated"]=time.time()
         for cryp in market:
             try:
-                if str(cryp).endswith("inr"):
+                if str(cryp).endswith("usdt"):
                     prev = float(diff[cryp]["prev"])
                     last = float(market[cryp]["last"])
+                    if last>diff[cryp]["range"][0]:
+                        diff[cryp]["range"][0]=last
+                    if last<diff[cryp]["range"][1]:
+                        diff[cryp]["range"][1]=last
                     if prev == 0.000:
                         diff[cryp][time.strftime("%B %d %H:%M:%S")] = [0, last, last, last]
                         diff[cryp]["prev"] = last
@@ -110,12 +178,10 @@ if __name__ == "__main__":
                             last_5_avg=till_avg
                     time_key=time.strftime("%B %d %H:%M:%S")
                     diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
-                    if last_5_avg>2:
-                        logger.error("Greter than 2 "+str(cryp)+" :"+str(time_key)+":  "+str(diff[cryp][time_key]))
+                    strategy(diff[cryp],time_key,cryp)
 
-
-                    if len(diff[cryp])-neg_keys_c >22:
-                        key1,key2=list(diff[cryp].keys())[3:5]
+                    if len(diff[cryp])-neg_keys_c >52:
+                        key1,key2=list(diff[cryp].keys())[neg_keys_c:neg_keys_c+2]
                         diff[cryp].pop(key1)
                         diff[cryp]["start"]=diff[cryp].pop(key2)[3]
 
@@ -127,6 +193,9 @@ if __name__ == "__main__":
                 diff[cryp]["prev"] = float(market[cryp]["last"])
                 diff[cryp]["start"] = float(market[cryp]["last"])
                 diff[cryp]["change"] = 0
+                diff[cryp]["range"]=[float(market[cryp]["last"]),float(market[cryp]["last"])]
+                diff[cryp]["pos_trig"]=[0,False]
+                diff[cryp]["neg_trig"]=[0,False]
 
         with open(report_name, 'w') as outfile:
             json.dump(diff, outfile, sort_keys=False,
@@ -139,6 +208,11 @@ if __name__ == "__main__":
             with open(report_name, "w") as wf:
                 wf.write(report)
         tickers+=1
+        with open("boot.json","w") as wf:
+            json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+        time.sleep(10)
+        # time.sleep(sec*min)
 
-        # time.sleep(10)
-        time.sleep(sec*min)
+if __name__ == "__main__":
+    boot_json=boot()
+    main(boot_json)
