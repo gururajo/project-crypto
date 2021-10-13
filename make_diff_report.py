@@ -42,7 +42,7 @@ logger = logging.getLogger("MARKET")
 def get_present():
     start = time.time()
     try:
-        res = requests.get("https://api.wazirx.com/api/v2/tickers")
+        res = requests.get("https://api.binance.com/api/v3/ticker/24hr")
     except Exception:
         return False
 
@@ -133,7 +133,7 @@ def main(boot_json):
     boot_json["last_report"]=report_name
     diff = {}
     diff["started"]=time.strftime("%B %d %H:%M:%S")
-    neg_keys_c=6
+    neg_keys_c=7
     tickers=0
     highest=0
     lowest=0
@@ -144,7 +144,8 @@ def main(boot_json):
             time.sleep(20)
             continue
         diff["last_updated"]=time.time()
-        for cryp in market:
+        for coin in market:
+            cryp=coin["symbol"]
             try:
                 if str(cryp).endswith("usdt"):
                     prev = float(diff[cryp]["prev"])
@@ -153,11 +154,12 @@ def main(boot_json):
                         diff[cryp]["range"][0]=last
                     if last<diff[cryp]["range"][1]:
                         diff[cryp]["range"][1]=last
+                    volume=diff[cryp]["volume"]=float(market[cryp]["volume"])*last
                     if prev == 0.000:
                         diff[cryp][time.strftime("%B %d %H:%M:%S")] = [0, last, last, last]
                         diff[cryp]["prev"] = last
                         continue
-                    print("got_prev", cryp)
+                    # print("got_prev", cryp)
 
                     diff[cryp]["change"]=get_per_change(diff[cryp]["start"],last)
                     diff[cryp]["prev"] = last
@@ -178,7 +180,12 @@ def main(boot_json):
                             last_5_avg=till_avg
                     time_key=time.strftime("%B %d %H:%M:%S")
                     diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
-                    strategy(diff[cryp],time_key,cryp)
+                    # print("volume:",market[cryp]["volume"],type(market[cryp]["volume"]))
+                    if volume > 25000:
+                        print("allowed",cryp)
+                        strategy(diff[cryp],time_key,cryp)
+                    # else:
+                    #     logger.debug("OOps not good trading volume:"+str(cryp)+" "+str(market[cryp]["volume"])+" "+str(last)+" "+str(float(market[cryp]["volume"])*last))
 
                     if len(diff[cryp])-neg_keys_c >52:
                         key1,key2=list(diff[cryp].keys())[neg_keys_c:neg_keys_c+2]
@@ -190,12 +197,13 @@ def main(boot_json):
             except KeyError as e:
                 logger.debug("err_key"+str(e))
                 diff[cryp] = {}
-                diff[cryp]["prev"] = float(market[cryp]["last"])
-                diff[cryp]["start"] = float(market[cryp]["last"])
+                diff[cryp]["prev"] = float(market[cryp]["lastPrice"])
+                diff[cryp]["start"] = float(market[cryp]["lastPrice"])
                 diff[cryp]["change"] = 0
-                diff[cryp]["range"]=[float(market[cryp]["last"]),float(market[cryp]["last"])]
+                diff[cryp]["range"]=[float(market[cryp]["lastPrice"]),float(market[cryp]["lastPrice"])]
                 diff[cryp]["pos_trig"]=[0,False]
                 diff[cryp]["neg_trig"]=[0,False]
+                diff[cryp]["volume"]=float(market[cryp]["volume"])
 
         with open(report_name, 'w') as outfile:
             json.dump(diff, outfile, sort_keys=False,

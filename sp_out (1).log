@@ -1,0 +1,889 @@
+2021-10-10 12:10:56,332 - MARKET - INFO   : Hello
+2021-10-10 12:10:56,624 - MARKET - INFO   : req time:0 sec
+2021-10-10 12:10:56,624 - MARKET - DEBUG   : err_key'btcinr'
+2021-10-10 12:10:56,625 - MARKET - DEBUG   : err_key'xrpinr'
+2021-10-10 12:10:56,625 - MARKET - DEBUG   : err_key'ethinr'
+2021-10-10 12:10:56,625 - MARKET - DEBUG   : err_key'trxinr'
+2021-10-10 12:10:56,625 - MARKET - DEBUG   : err_key'eosinr'
+2021-10-10 12:10:56,626 - MARKET - DEBUG   : err_key'zilinr'
+2021-10-10 12:10:56,626 - MARKET - DEBUG   : err_key'batinr'
+2021-10-10 12:10:56,626 - MARKET - DEBUG   : err_key'zrxinr'
+2021-10-10 12:10:56,626 - MARKET - DEBUG   : err_key'omginr'
+2021-10-10 12:10:56,627 - MARKET - DEBUG   : err_key'polyinr'
+2021-10-10 12:10:56,627 - MARKET - DEBUG   : err_key'iostinr'
+2021-10-10 12:10:56,627 - MARKET - DEBUG   : err_key'dentinr'
+2021-10-10 12:10:56,627 - MARKET - DEBUG   : err_key'hotinr'
+2021-10-10 12:10:56,628 - MARKET - DEBUG   : err_key'usdtinr'
+2021-10-10 12:10:56,628 - MARKET - DEBUG   : err_key'wrxinr'
+2021-10-10 12:10:56,628 - MARKET - DEBUG   : err_key'maticinr'
+2021-10-10 12:10:56,628 - MARKET - DEBUG   : err_key'bchinr'
+2021-10-10 12:10:56,628 - MARKET - DEBUG   : err_key'bnbinr'
+2021-10-10 12:10:56,629 - MARKET - DEBUG   : err_key'bttinr'
+2021-10-10 12:10:56,629 - MARKET - DEBUG   : err_key'chzinr'
+2021-10-10 12:10:56,629 - MARKET - DEBUG   : err_key'oneinr'
+2021-10-10 12:10:56,629 - MARKET - DEBUG   : err_key'yfiinr'
+2021-10-10 12:10:56,630 - MARKET - DEBUG   : err_key'uniinr'
+2021-10-10 12:10:56,630 - MARKET - DEBUG   : err_key'linkinr'
+2021-10-10 12:10:56,630 - MARKET - DEBUG   : err_key'sxpinr'
+2021-10-10 12:10:56,630 - MARKET - DEBUG   : err_key'adainr'
+2021-10-10 12:10:56,630 - MARKET - DEBUG   : err_key'nanoinr'
+2021-10-10 12:10:56,631 - MARKET - DEBUG   : err_key'atominr'
+2021-10-10 12:10:56,631 - MARKET - DEBUG   : err_key'xlminr'
+2021-10-10 12:10:56,631 - MARKET - DEBUG   : err_key'fetinr'
+2021-10-10 12:10:56,631 - MARKET - DEBUG   : err_key'xeminr'
+2021-10-10 12:10:56,632 - MARKET - DEBUG   : err_key'zecinr'
+2021-10-10 12:10:56,632 - MARKET - DEBUG   : err_key'busdinr'
+2021-10-10 12:10:56,632 - MARKET - DEBUG   : err_key'yfiiinr'
+2021-10-10 12:10:56,632 - MARKET - DEBUG   : err_key'dogeinr'
+2021-10-10 12:10:56,632 - MARKET - DEBUG   : err_key'dotinr'
+2021-10-10 12:10:56,633 - MARKET - DEBUG   : err_key'vetinr'
+2021-10-10 12:10:56,633 - MARKET - DEBUG   : err_key'crvinr'
+2021-10-10 12:10:56,633 - MARKET - DEBUG   : err_key'reninr'
+2021-10-10 12:10:56,633 - MARKET - DEBUG   : err_key'enjinr'
+2021-10-10 12:10:56,634 - MARKET - DEBUG   : err_key'manainr'
+2021-10-10 12:10:56,634 - MARKET - DEBUG   : err_key'hbarinr'
+2021-10-10 12:10:56,634 - MARKET - DEBUG   : err_key'umainr'
+2021-10-10 12:10:56,634 - MARKET - DEBUG   : err_key'chrinr'
+2021-10-10 12:10:56,635 - MARKET - DEBUG   : err_key'paxginr'
+2021-10-10 12:10:56,635 - MARKET - DEBUG   : err_key'1inchinr'
+2021-10-10 12:10:56,635 - MARKET - DEBUG   : err_key'etcinr'
+2021-10-10 12:10:56,635 - MARKET - DEBUG   : err_key'uftinr'
+2021-10-10 12:10:56,636 - MARKET - DEBUG   : err_key'dockinr'
+2021-10-10 12:10:56,636 - MARKET - DEBUG   : err_key'filinr'
+2021-10-10 12:10:56,636 - MARKET - DEBUG   : err_key'wininr'
+2021-10-10 12:10:56,636 - MARKET - DEBUG   : err_key'tkoinr'
+2021-10-10 12:10:56,637 - MARKET - DEBUG   : err_key'pushinr'
+2021-10-10 12:10:56,637 - MARKET - DEBUG   : err_key'avaxinr'
+2021-10-10 12:10:56,637 - MARKET - DEBUG   : err_key'lunainr'
+2021-10-10 12:10:56,637 - MARKET - DEBUG   : err_key'xvginr'
+2021-10-10 12:10:56,638 - MARKET - DEBUG   : err_key'scinr'
+2021-10-10 12:10:56,638 - MARKET - DEBUG   : err_key'fttinr'
+2021-10-10 12:10:56,638 - MARKET - DEBUG   : err_key'dgbinr'
+2021-10-10 12:10:56,638 - MARKET - DEBUG   : err_key'cvcinr'
+2021-10-10 12:10:56,638 - MARKET - DEBUG   : err_key'cakeinr'
+2021-10-10 12:10:56,639 - MARKET - DEBUG   : err_key'ezinr'
+2021-10-10 12:10:56,639 - MARKET - DEBUG   : err_key'bzrxinr'
+2021-10-10 12:10:56,639 - MARKET - DEBUG   : err_key'ftminr'
+2021-10-10 12:10:56,639 - MARKET - DEBUG   : err_key'hntinr'
+2021-10-10 12:10:56,640 - MARKET - DEBUG   : err_key'arkinr'
+2021-10-10 12:10:56,640 - MARKET - DEBUG   : err_key'ctsiinr'
+2021-10-10 12:10:56,640 - MARKET - DEBUG   : err_key'kmdinr'
+2021-10-10 12:10:56,641 - MARKET - DEBUG   : err_key'solinr'
+2021-10-10 12:10:56,641 - MARKET - DEBUG   : err_key'cotiinr'
+2021-10-10 12:10:56,641 - MARKET - DEBUG   : err_key'iotxinr'
+2021-10-10 12:10:56,641 - MARKET - DEBUG   : err_key'shibinr'
+2021-10-10 12:10:56,642 - MARKET - DEBUG   : err_key'rlcinr'
+2021-10-10 12:10:56,642 - MARKET - DEBUG   : err_key'trbinr'
+2021-10-10 12:10:56,642 - MARKET - DEBUG   : err_key'reefinr'
+2021-10-10 12:10:56,643 - MARKET - DEBUG   : err_key'icpinr'
+2021-10-10 12:10:56,643 - MARKET - DEBUG   : err_key'ontinr'
+2021-10-10 12:10:56,643 - MARKET - DEBUG   : err_key'ckbinr'
+2021-10-10 12:10:56,643 - MARKET - DEBUG   : err_key'pntinr'
+2021-10-10 12:10:56,644 - MARKET - DEBUG   : err_key'xvsinr'
+2021-10-10 12:10:56,644 - MARKET - DEBUG   : err_key'viteinr'
+2021-10-10 12:10:56,644 - MARKET - DEBUG   : err_key'dcrinr'
+2021-10-10 12:10:56,644 - MARKET - DEBUG   : err_key'mdxinr'
+2021-10-10 12:10:56,645 - MARKET - DEBUG   : err_key'phainr'
+2021-10-10 12:10:56,645 - MARKET - DEBUG   : err_key'runeinr'
+2021-10-10 12:10:56,645 - MARKET - DEBUG   : err_key'ogninr'
+2021-10-10 12:10:56,645 - MARKET - DEBUG   : err_key'mirinr'
+2021-10-10 12:10:56,646 - MARKET - DEBUG   : err_key'datainr'
+2021-10-10 12:10:56,646 - MARKET - DEBUG   : err_key'ksminr'
+2021-10-10 12:10:56,646 - MARKET - DEBUG   : err_key'nkninr'
+2021-10-10 12:10:56,646 - MARKET - DEBUG   : err_key'balinr'
+2021-10-10 12:10:56,646 - MARKET - DEBUG   : err_key'dntinr'
+2021-10-10 12:10:56,647 - MARKET - DEBUG   : err_key'keepinr'
+2021-10-10 12:10:56,647 - MARKET - DEBUG   : err_key'snxinr'
+2021-10-10 12:10:56,647 - MARKET - DEBUG   : err_key'axsinr'
+2021-10-10 12:10:56,647 - MARKET - DEBUG   : err_key'celrinr'
+2021-10-10 12:10:56,648 - MARKET - DEBUG   : err_key'alphainr'
+2021-10-10 12:10:56,648 - MARKET - DEBUG   : err_key'compinr'
+2021-10-10 12:10:56,648 - MARKET - DEBUG   : err_key'aliceinr'
+2021-10-10 12:10:56,648 - MARKET - DEBUG   : err_key'egldinr'
+2021-10-10 12:10:56,648 - MARKET - DEBUG   : err_key'klayinr'
+2021-10-10 12:10:56,649 - MARKET - DEBUG   : err_key'sandinr'
+2021-10-10 12:10:56,649 - MARKET - DEBUG   : err_key'frontinr'
+2021-10-10 12:10:56,649 - MARKET - DEBUG   : err_key'lrcinr'
+2021-10-10 12:10:56,649 - MARKET - DEBUG   : err_key'stxinr'
+2021-10-10 12:10:56,650 - MARKET - DEBUG   : err_key'algoinr'
+2021-10-10 12:10:56,650 - MARKET - DEBUG   : err_key'pondinr'
+2021-10-10 12:10:56,650 - MARKET - DEBUG   : err_key'alpacainr'
+2021-10-10 12:10:56,650 - MARKET - DEBUG   : err_key'xecinr'
+2021-10-10 12:10:56,650 - MARKET - DEBUG   : err_key'ilvinr'
+2021-10-10 12:10:56,651 - MARKET - DEBUG   : err_key'mlninr'
+2021-10-10 12:10:56,651 - MARKET - DEBUG   : err_key'dydxinr'
+2021-10-10 12:10:56,651 - MARKET - DEBUG   : err_key'cfxinr'
+2021-10-10 12:10:56,652 - MARKET - DEBUG   : err_key'ltcinr'
+2021-10-10 12:10:56,652 - MARKET - DEBUG   : err_key'dashinr'
+2021-10-10 12:25:57,008 - MARKET - INFO   : req time:0 sec
+2021-10-10 12:40:57,600 - MARKET - INFO   : req time:0 sec
+2021-10-10 12:40:57,612 - MARKET - ERROR   : Greter than 2 datainr :October 10 12:40:57:  [6.243811478668116, 3.121905739334058, 3.121905739334058, 14.7]
+2021-10-10 12:55:58,132 - MARKET - INFO   : req time:0 sec
+2021-10-10 13:10:58,715 - MARKET - INFO   : req time:0 sec
+2021-10-10 13:25:59,257 - MARKET - INFO   : req time:0 sec
+2021-10-10 13:40:59,745 - MARKET - INFO   : req time:0 sec
+2021-10-10 13:56:00,227 - MARKET - INFO   : req time:0 sec
+2021-10-10 14:11:00,730 - MARKET - INFO   : req time:0 sec
+2021-10-10 14:26:01,239 - MARKET - INFO   : req time:0 sec
+2021-10-10 15:09:55,348 - MARKET - INFO   : Hello
+2021-10-10 15:09:55,752 - MARKET - INFO   : req time:0 sec
+2021-10-10 15:09:55,753 - MARKET - DEBUG   : err_key'btcinr'
+2021-10-10 15:09:55,753 - MARKET - DEBUG   : err_key'xrpinr'
+2021-10-10 15:09:55,753 - MARKET - DEBUG   : err_key'ethinr'
+2021-10-10 15:09:55,754 - MARKET - DEBUG   : err_key'trxinr'
+2021-10-10 15:09:55,754 - MARKET - DEBUG   : err_key'eosinr'
+2021-10-10 15:09:55,754 - MARKET - DEBUG   : err_key'zilinr'
+2021-10-10 15:09:55,754 - MARKET - DEBUG   : err_key'batinr'
+2021-10-10 15:09:55,755 - MARKET - DEBUG   : err_key'zrxinr'
+2021-10-10 15:09:55,755 - MARKET - DEBUG   : err_key'omginr'
+2021-10-10 15:09:55,755 - MARKET - DEBUG   : err_key'polyinr'
+2021-10-10 15:09:55,755 - MARKET - DEBUG   : err_key'iostinr'
+2021-10-10 15:09:55,756 - MARKET - DEBUG   : err_key'dentinr'
+2021-10-10 15:09:55,756 - MARKET - DEBUG   : err_key'hotinr'
+2021-10-10 15:09:55,756 - MARKET - DEBUG   : err_key'usdtinr'
+2021-10-10 15:09:55,756 - MARKET - DEBUG   : err_key'wrxinr'
+2021-10-10 15:09:55,757 - MARKET - DEBUG   : err_key'maticinr'
+2021-10-10 15:09:55,757 - MARKET - DEBUG   : err_key'bchinr'
+2021-10-10 15:09:55,757 - MARKET - DEBUG   : err_key'bnbinr'
+2021-10-10 15:09:55,757 - MARKET - DEBUG   : err_key'bttinr'
+2021-10-10 15:09:55,758 - MARKET - DEBUG   : err_key'chzinr'
+2021-10-10 15:09:55,758 - MARKET - DEBUG   : err_key'oneinr'
+2021-10-10 15:09:55,758 - MARKET - DEBUG   : err_key'yfiinr'
+2021-10-10 15:09:55,758 - MARKET - DEBUG   : err_key'uniinr'
+2021-10-10 15:09:55,758 - MARKET - DEBUG   : err_key'linkinr'
+2021-10-10 15:09:55,759 - MARKET - DEBUG   : err_key'sxpinr'
+2021-10-10 15:09:55,759 - MARKET - DEBUG   : err_key'adainr'
+2021-10-10 15:09:55,759 - MARKET - DEBUG   : err_key'nanoinr'
+2021-10-10 15:09:55,759 - MARKET - DEBUG   : err_key'atominr'
+2021-10-10 15:09:55,760 - MARKET - DEBUG   : err_key'xlminr'
+2021-10-10 15:09:55,760 - MARKET - DEBUG   : err_key'fetinr'
+2021-10-10 15:09:55,760 - MARKET - DEBUG   : err_key'xeminr'
+2021-10-10 15:09:55,760 - MARKET - DEBUG   : err_key'zecinr'
+2021-10-10 15:09:55,761 - MARKET - DEBUG   : err_key'busdinr'
+2021-10-10 15:09:55,761 - MARKET - DEBUG   : err_key'yfiiinr'
+2021-10-10 15:09:55,761 - MARKET - DEBUG   : err_key'dogeinr'
+2021-10-10 15:09:55,761 - MARKET - DEBUG   : err_key'dotinr'
+2021-10-10 15:09:55,762 - MARKET - DEBUG   : err_key'vetinr'
+2021-10-10 15:09:55,762 - MARKET - DEBUG   : err_key'crvinr'
+2021-10-10 15:09:55,762 - MARKET - DEBUG   : err_key'reninr'
+2021-10-10 15:09:55,762 - MARKET - DEBUG   : err_key'enjinr'
+2021-10-10 15:09:55,763 - MARKET - DEBUG   : err_key'manainr'
+2021-10-10 15:09:55,763 - MARKET - DEBUG   : err_key'hbarinr'
+2021-10-10 15:09:55,763 - MARKET - DEBUG   : err_key'umainr'
+2021-10-10 15:09:55,763 - MARKET - DEBUG   : err_key'chrinr'
+2021-10-10 15:09:55,764 - MARKET - DEBUG   : err_key'paxginr'
+2021-10-10 15:09:55,764 - MARKET - DEBUG   : err_key'1inchinr'
+2021-10-10 15:09:55,764 - MARKET - DEBUG   : err_key'etcinr'
+2021-10-10 15:09:55,764 - MARKET - DEBUG   : err_key'uftinr'
+2021-10-10 15:09:55,765 - MARKET - DEBUG   : err_key'dockinr'
+2021-10-10 15:09:55,765 - MARKET - DEBUG   : err_key'filinr'
+2021-10-10 15:09:55,765 - MARKET - DEBUG   : err_key'wininr'
+2021-10-10 15:09:55,766 - MARKET - DEBUG   : err_key'tkoinr'
+2021-10-10 15:09:55,766 - MARKET - DEBUG   : err_key'pushinr'
+2021-10-10 15:09:55,766 - MARKET - DEBUG   : err_key'avaxinr'
+2021-10-10 15:09:55,767 - MARKET - DEBUG   : err_key'lunainr'
+2021-10-10 15:09:55,767 - MARKET - DEBUG   : err_key'xvginr'
+2021-10-10 15:09:55,767 - MARKET - DEBUG   : err_key'scinr'
+2021-10-10 15:09:55,767 - MARKET - DEBUG   : err_key'fttinr'
+2021-10-10 15:09:55,767 - MARKET - DEBUG   : err_key'dgbinr'
+2021-10-10 15:09:55,768 - MARKET - DEBUG   : err_key'cvcinr'
+2021-10-10 15:09:55,768 - MARKET - DEBUG   : err_key'cakeinr'
+2021-10-10 15:09:55,768 - MARKET - DEBUG   : err_key'ezinr'
+2021-10-10 15:09:55,768 - MARKET - DEBUG   : err_key'bzrxinr'
+2021-10-10 15:09:55,769 - MARKET - DEBUG   : err_key'ftminr'
+2021-10-10 15:09:55,769 - MARKET - DEBUG   : err_key'hntinr'
+2021-10-10 15:09:55,769 - MARKET - DEBUG   : err_key'arkinr'
+2021-10-10 15:09:55,769 - MARKET - DEBUG   : err_key'ctsiinr'
+2021-10-10 15:09:55,770 - MARKET - DEBUG   : err_key'kmdinr'
+2021-10-10 15:09:55,770 - MARKET - DEBUG   : err_key'solinr'
+2021-10-10 15:09:55,770 - MARKET - DEBUG   : err_key'cotiinr'
+2021-10-10 15:09:55,771 - MARKET - DEBUG   : err_key'iotxinr'
+2021-10-10 15:09:55,771 - MARKET - DEBUG   : err_key'shibinr'
+2021-10-10 15:09:55,771 - MARKET - DEBUG   : err_key'rlcinr'
+2021-10-10 15:09:55,772 - MARKET - DEBUG   : err_key'trbinr'
+2021-10-10 15:09:55,772 - MARKET - DEBUG   : err_key'reefinr'
+2021-10-10 15:09:55,772 - MARKET - DEBUG   : err_key'icpinr'
+2021-10-10 15:09:55,773 - MARKET - DEBUG   : err_key'ontinr'
+2021-10-10 15:09:55,773 - MARKET - DEBUG   : err_key'ckbinr'
+2021-10-10 15:09:55,773 - MARKET - DEBUG   : err_key'pntinr'
+2021-10-10 15:09:55,773 - MARKET - DEBUG   : err_key'xvsinr'
+2021-10-10 15:09:55,774 - MARKET - DEBUG   : err_key'viteinr'
+2021-10-10 15:09:55,774 - MARKET - DEBUG   : err_key'dcrinr'
+2021-10-10 15:09:55,774 - MARKET - DEBUG   : err_key'mdxinr'
+2021-10-10 15:09:55,774 - MARKET - DEBUG   : err_key'phainr'
+2021-10-10 15:09:55,775 - MARKET - DEBUG   : err_key'runeinr'
+2021-10-10 15:09:55,775 - MARKET - DEBUG   : err_key'ogninr'
+2021-10-10 15:09:55,775 - MARKET - DEBUG   : err_key'mirinr'
+2021-10-10 15:09:55,775 - MARKET - DEBUG   : err_key'datainr'
+2021-10-10 15:09:55,776 - MARKET - DEBUG   : err_key'ksminr'
+2021-10-10 15:09:55,776 - MARKET - DEBUG   : err_key'nkninr'
+2021-10-10 15:09:55,776 - MARKET - DEBUG   : err_key'balinr'
+2021-10-10 15:09:55,776 - MARKET - DEBUG   : err_key'dntinr'
+2021-10-10 15:09:55,777 - MARKET - DEBUG   : err_key'keepinr'
+2021-10-10 15:09:55,777 - MARKET - DEBUG   : err_key'snxinr'
+2021-10-10 15:09:55,777 - MARKET - DEBUG   : err_key'axsinr'
+2021-10-10 15:09:55,777 - MARKET - DEBUG   : err_key'celrinr'
+2021-10-10 15:09:55,778 - MARKET - DEBUG   : err_key'alphainr'
+2021-10-10 15:09:55,778 - MARKET - DEBUG   : err_key'compinr'
+2021-10-10 15:09:55,778 - MARKET - DEBUG   : err_key'aliceinr'
+2021-10-10 15:09:55,778 - MARKET - DEBUG   : err_key'egldinr'
+2021-10-10 15:09:55,779 - MARKET - DEBUG   : err_key'klayinr'
+2021-10-10 15:09:55,779 - MARKET - DEBUG   : err_key'sandinr'
+2021-10-10 15:09:55,779 - MARKET - DEBUG   : err_key'frontinr'
+2021-10-10 15:09:55,779 - MARKET - DEBUG   : err_key'lrcinr'
+2021-10-10 15:09:55,780 - MARKET - DEBUG   : err_key'stxinr'
+2021-10-10 15:09:55,780 - MARKET - DEBUG   : err_key'algoinr'
+2021-10-10 15:09:55,780 - MARKET - DEBUG   : err_key'pondinr'
+2021-10-10 15:09:55,781 - MARKET - DEBUG   : err_key'alpacainr'
+2021-10-10 15:09:55,781 - MARKET - DEBUG   : err_key'xecinr'
+2021-10-10 15:09:55,781 - MARKET - DEBUG   : err_key'ilvinr'
+2021-10-10 15:09:55,781 - MARKET - DEBUG   : err_key'mlninr'
+2021-10-10 15:09:55,782 - MARKET - DEBUG   : err_key'dydxinr'
+2021-10-10 15:09:55,782 - MARKET - DEBUG   : err_key'cfxinr'
+2021-10-10 15:09:55,782 - MARKET - DEBUG   : err_key'ltcinr'
+2021-10-10 15:09:55,782 - MARKET - DEBUG   : err_key'dashinr'
+2021-10-10 15:10:32,860 - MARKET - INFO   : Hello
+2021-10-10 15:10:33,252 - MARKET - INFO   : req time:0 sec
+2021-10-10 15:10:33,253 - MARKET - DEBUG   : err_key'btcinr'
+2021-10-10 15:10:33,253 - MARKET - DEBUG   : err_key'xrpinr'
+2021-10-10 15:10:33,254 - MARKET - DEBUG   : err_key'ethinr'
+2021-10-10 15:10:33,254 - MARKET - DEBUG   : err_key'trxinr'
+2021-10-10 15:10:33,254 - MARKET - DEBUG   : err_key'eosinr'
+2021-10-10 15:10:33,254 - MARKET - DEBUG   : err_key'zilinr'
+2021-10-10 15:10:33,255 - MARKET - DEBUG   : err_key'batinr'
+2021-10-10 15:10:33,255 - MARKET - DEBUG   : err_key'zrxinr'
+2021-10-10 15:10:33,255 - MARKET - DEBUG   : err_key'omginr'
+2021-10-10 15:10:33,255 - MARKET - DEBUG   : err_key'polyinr'
+2021-10-10 15:10:33,256 - MARKET - DEBUG   : err_key'iostinr'
+2021-10-10 15:10:33,256 - MARKET - DEBUG   : err_key'dentinr'
+2021-10-10 15:10:33,256 - MARKET - DEBUG   : err_key'hotinr'
+2021-10-10 15:10:33,256 - MARKET - DEBUG   : err_key'usdtinr'
+2021-10-10 15:10:33,257 - MARKET - DEBUG   : err_key'wrxinr'
+2021-10-10 15:10:33,257 - MARKET - DEBUG   : err_key'maticinr'
+2021-10-10 15:10:33,257 - MARKET - DEBUG   : err_key'bchinr'
+2021-10-10 15:10:33,257 - MARKET - DEBUG   : err_key'bnbinr'
+2021-10-10 15:10:33,258 - MARKET - DEBUG   : err_key'bttinr'
+2021-10-10 15:10:33,258 - MARKET - DEBUG   : err_key'chzinr'
+2021-10-10 15:10:33,258 - MARKET - DEBUG   : err_key'oneinr'
+2021-10-10 15:10:33,258 - MARKET - DEBUG   : err_key'yfiinr'
+2021-10-10 15:10:33,259 - MARKET - DEBUG   : err_key'uniinr'
+2021-10-10 15:10:33,259 - MARKET - DEBUG   : err_key'linkinr'
+2021-10-10 15:10:33,259 - MARKET - DEBUG   : err_key'sxpinr'
+2021-10-10 15:10:33,259 - MARKET - DEBUG   : err_key'adainr'
+2021-10-10 15:10:33,260 - MARKET - DEBUG   : err_key'nanoinr'
+2021-10-10 15:10:33,260 - MARKET - DEBUG   : err_key'atominr'
+2021-10-10 15:10:33,260 - MARKET - DEBUG   : err_key'xlminr'
+2021-10-10 15:10:33,260 - MARKET - DEBUG   : err_key'fetinr'
+2021-10-10 15:10:33,261 - MARKET - DEBUG   : err_key'xeminr'
+2021-10-10 15:10:33,261 - MARKET - DEBUG   : err_key'zecinr'
+2021-10-10 15:10:33,261 - MARKET - DEBUG   : err_key'busdinr'
+2021-10-10 15:10:33,261 - MARKET - DEBUG   : err_key'yfiiinr'
+2021-10-10 15:10:33,262 - MARKET - DEBUG   : err_key'dogeinr'
+2021-10-10 15:10:33,262 - MARKET - DEBUG   : err_key'dotinr'
+2021-10-10 15:10:33,262 - MARKET - DEBUG   : err_key'vetinr'
+2021-10-10 15:10:33,262 - MARKET - DEBUG   : err_key'crvinr'
+2021-10-10 15:10:33,263 - MARKET - DEBUG   : err_key'reninr'
+2021-10-10 15:10:33,263 - MARKET - DEBUG   : err_key'enjinr'
+2021-10-10 15:10:33,263 - MARKET - DEBUG   : err_key'manainr'
+2021-10-10 15:10:33,263 - MARKET - DEBUG   : err_key'hbarinr'
+2021-10-10 15:10:33,264 - MARKET - DEBUG   : err_key'umainr'
+2021-10-10 15:10:33,264 - MARKET - DEBUG   : err_key'chrinr'
+2021-10-10 15:10:33,264 - MARKET - DEBUG   : err_key'paxginr'
+2021-10-10 15:10:33,264 - MARKET - DEBUG   : err_key'1inchinr'
+2021-10-10 15:10:33,265 - MARKET - DEBUG   : err_key'etcinr'
+2021-10-10 15:10:33,265 - MARKET - DEBUG   : err_key'uftinr'
+2021-10-10 15:10:33,265 - MARKET - DEBUG   : err_key'dockinr'
+2021-10-10 15:10:33,266 - MARKET - DEBUG   : err_key'filinr'
+2021-10-10 15:10:33,266 - MARKET - DEBUG   : err_key'wininr'
+2021-10-10 15:10:33,266 - MARKET - DEBUG   : err_key'tkoinr'
+2021-10-10 15:10:33,267 - MARKET - DEBUG   : err_key'pushinr'
+2021-10-10 15:10:33,267 - MARKET - DEBUG   : err_key'avaxinr'
+2021-10-10 15:10:33,267 - MARKET - DEBUG   : err_key'lunainr'
+2021-10-10 15:10:33,267 - MARKET - DEBUG   : err_key'xvginr'
+2021-10-10 15:10:33,268 - MARKET - DEBUG   : err_key'scinr'
+2021-10-10 15:10:33,268 - MARKET - DEBUG   : err_key'fttinr'
+2021-10-10 15:10:33,268 - MARKET - DEBUG   : err_key'dgbinr'
+2021-10-10 15:10:33,269 - MARKET - DEBUG   : err_key'cvcinr'
+2021-10-10 15:10:33,269 - MARKET - DEBUG   : err_key'cakeinr'
+2021-10-10 15:10:33,269 - MARKET - DEBUG   : err_key'ezinr'
+2021-10-10 15:10:33,269 - MARKET - DEBUG   : err_key'bzrxinr'
+2021-10-10 15:10:33,270 - MARKET - DEBUG   : err_key'ftminr'
+2021-10-10 15:10:33,270 - MARKET - DEBUG   : err_key'hntinr'
+2021-10-10 15:10:33,270 - MARKET - DEBUG   : err_key'arkinr'
+2021-10-10 15:10:33,270 - MARKET - DEBUG   : err_key'ctsiinr'
+2021-10-10 15:10:33,271 - MARKET - DEBUG   : err_key'kmdinr'
+2021-10-10 15:10:33,271 - MARKET - DEBUG   : err_key'solinr'
+2021-10-10 15:10:33,271 - MARKET - DEBUG   : err_key'cotiinr'
+2021-10-10 15:10:33,271 - MARKET - DEBUG   : err_key'iotxinr'
+2021-10-10 15:10:33,272 - MARKET - DEBUG   : err_key'shibinr'
+2021-10-10 15:10:33,272 - MARKET - DEBUG   : err_key'rlcinr'
+2021-10-10 15:10:33,272 - MARKET - DEBUG   : err_key'trbinr'
+2021-10-10 15:10:33,272 - MARKET - DEBUG   : err_key'reefinr'
+2021-10-10 15:10:33,273 - MARKET - DEBUG   : err_key'icpinr'
+2021-10-10 15:10:33,273 - MARKET - DEBUG   : err_key'ontinr'
+2021-10-10 15:10:33,273 - MARKET - DEBUG   : err_key'ckbinr'
+2021-10-10 15:10:33,273 - MARKET - DEBUG   : err_key'pntinr'
+2021-10-10 15:10:33,274 - MARKET - DEBUG   : err_key'xvsinr'
+2021-10-10 15:10:33,274 - MARKET - DEBUG   : err_key'viteinr'
+2021-10-10 15:10:33,274 - MARKET - DEBUG   : err_key'dcrinr'
+2021-10-10 15:10:33,274 - MARKET - DEBUG   : err_key'mdxinr'
+2021-10-10 15:10:33,275 - MARKET - DEBUG   : err_key'phainr'
+2021-10-10 15:10:33,275 - MARKET - DEBUG   : err_key'runeinr'
+2021-10-10 15:10:33,275 - MARKET - DEBUG   : err_key'ogninr'
+2021-10-10 15:10:33,275 - MARKET - DEBUG   : err_key'mirinr'
+2021-10-10 15:10:33,276 - MARKET - DEBUG   : err_key'datainr'
+2021-10-10 15:10:33,276 - MARKET - DEBUG   : err_key'ksminr'
+2021-10-10 15:10:33,276 - MARKET - DEBUG   : err_key'nkninr'
+2021-10-10 15:10:33,276 - MARKET - DEBUG   : err_key'balinr'
+2021-10-10 15:10:33,277 - MARKET - DEBUG   : err_key'dntinr'
+2021-10-10 15:10:33,277 - MARKET - DEBUG   : err_key'keepinr'
+2021-10-10 15:10:33,277 - MARKET - DEBUG   : err_key'snxinr'
+2021-10-10 15:10:33,277 - MARKET - DEBUG   : err_key'axsinr'
+2021-10-10 15:10:33,278 - MARKET - DEBUG   : err_key'celrinr'
+2021-10-10 15:10:33,278 - MARKET - DEBUG   : err_key'alphainr'
+2021-10-10 15:10:33,278 - MARKET - DEBUG   : err_key'compinr'
+2021-10-10 15:10:33,278 - MARKET - DEBUG   : err_key'aliceinr'
+2021-10-10 15:10:33,278 - MARKET - DEBUG   : err_key'egldinr'
+2021-10-10 15:10:33,279 - MARKET - DEBUG   : err_key'klayinr'
+2021-10-10 15:10:33,279 - MARKET - DEBUG   : err_key'sandinr'
+2021-10-10 15:10:33,279 - MARKET - DEBUG   : err_key'frontinr'
+2021-10-10 15:10:33,279 - MARKET - DEBUG   : err_key'lrcinr'
+2021-10-10 15:10:33,280 - MARKET - DEBUG   : err_key'stxinr'
+2021-10-10 15:10:33,280 - MARKET - DEBUG   : err_key'algoinr'
+2021-10-10 15:10:33,280 - MARKET - DEBUG   : err_key'pondinr'
+2021-10-10 15:10:33,281 - MARKET - DEBUG   : err_key'alpacainr'
+2021-10-10 15:10:33,281 - MARKET - DEBUG   : err_key'xecinr'
+2021-10-10 15:10:33,281 - MARKET - DEBUG   : err_key'ilvinr'
+2021-10-10 15:10:33,281 - MARKET - DEBUG   : err_key'mlninr'
+2021-10-10 15:10:33,282 - MARKET - DEBUG   : err_key'dydxinr'
+2021-10-10 15:10:33,282 - MARKET - DEBUG   : err_key'cfxinr'
+2021-10-10 15:10:33,282 - MARKET - DEBUG   : err_key'ltcinr'
+2021-10-10 15:10:33,282 - MARKET - DEBUG   : err_key'dashinr'
+2021-10-10 15:25:33,719 - MARKET - INFO   : req time:0 sec
+2021-10-10 15:40:34,484 - MARKET - INFO   : req time:0 sec
+2021-10-10 15:55:39,951 - MARKET - INFO   : req time:5 sec
+2021-10-10 15:55:39,969 - MARKET - ERROR   : Greter than 2 stxinr :October 10 15:55:39:  [14.127133608004696, 5.698943525900557, 5.698943525900557, 193.902]
+2021-10-10 16:10:40,936 - MARKET - INFO   : req time:0 sec
+2021-10-10 16:10:40,952 - MARKET - ERROR   : Greter than 2 stxinr :October 10 16:10:40:  [-7.737413745087718, 2.339854208153488, 2.339854208153488, 178.899]
+2021-10-10 16:25:41,472 - MARKET - INFO   : req time:0 sec
+2021-10-10 16:40:42,282 - MARKET - INFO   : req time:0 sec
+2021-10-10 16:40:42,297 - MARKET - ERROR   : Greter than 2 stxinr :October 10 16:40:42:  [5.54713340683572, 2.041437655965384, 2.041437655965384, 183.804]
+2021-10-10 16:55:42,950 - MARKET - INFO   : req time:0 sec
+2021-10-10 17:10:43,590 - MARKET - INFO   : req time:0 sec
+2021-10-10 17:25:44,288 - MARKET - INFO   : req time:0 sec
+2021-10-10 17:25:44,296 - MARKET - WARNING   : if you own this selit: stxinr :October 10 17:25:44:  [1.2485875706214735, 0.08527323146744972, 1.0873092211056892, 179.21]
+2021-10-10 17:40:44,820 - MARKET - INFO   : req time:0 sec
+2021-10-10 17:55:45,560 - MARKET - INFO   : req time:0 sec
+2021-10-10 18:10:46,169 - MARKET - INFO   : req time:0 sec
+2021-10-10 18:25:46,816 - MARKET - INFO   : req time:0 sec
+2021-10-10 18:40:47,536 - MARKET - INFO   : req time:0 sec
+2021-10-10 18:55:48,195 - MARKET - INFO   : req time:0 sec
+2021-10-10 19:10:48,977 - MARKET - INFO   : req time:0 sec
+2021-10-10 19:25:50,043 - MARKET - INFO   : req time:0 sec
+2021-10-10 19:40:50,759 - MARKET - INFO   : req time:0 sec
+2021-10-10 19:55:51,340 - MARKET - INFO   : req time:0 sec
+2021-10-10 20:10:52,018 - MARKET - INFO   : req time:0 sec
+2021-10-10 20:25:52,792 - MARKET - INFO   : req time:0 sec
+2021-10-10 20:40:53,538 - MARKET - INFO   : req time:0 sec
+2021-10-10 20:55:54,487 - MARKET - INFO   : req time:0 sec
+2021-10-10 21:10:55,071 - MARKET - INFO   : req time:0 sec
+2021-10-10 21:25:55,892 - MARKET - INFO   : req time:0 sec
+2021-10-10 21:40:57,902 - MARKET - INFO   : req time:1 sec
+2021-10-10 21:55:58,559 - MARKET - INFO   : req time:0 sec
+2021-10-10 22:10:59,455 - MARKET - INFO   : req time:0 sec
+2021-10-10 22:26:00,592 - MARKET - INFO   : req time:0 sec
+2021-10-10 22:41:01,159 - MARKET - INFO   : req time:0 sec
+2021-10-10 22:56:03,436 - MARKET - INFO   : req time:2 sec
+2021-10-10 23:11:04,126 - MARKET - INFO   : req time:0 sec
+2021-10-10 23:26:04,976 - MARKET - INFO   : req time:0 sec
+2021-10-10 23:41:05,592 - MARKET - INFO   : req time:0 sec
+2021-10-10 23:56:06,196 - MARKET - INFO   : req time:0 sec
+2021-10-11 00:11:07,021 - MARKET - INFO   : req time:0 sec
+2021-10-11 00:26:07,760 - MARKET - INFO   : req time:0 sec
+2021-10-11 00:41:08,605 - MARKET - INFO   : req time:0 sec
+2021-10-11 00:56:09,378 - MARKET - INFO   : req time:0 sec
+2021-10-11 01:11:10,239 - MARKET - INFO   : req time:0 sec
+2021-10-11 01:26:11,000 - MARKET - INFO   : req time:0 sec
+2021-10-11 01:41:11,837 - MARKET - INFO   : req time:0 sec
+2021-10-11 01:56:12,598 - MARKET - INFO   : req time:0 sec
+2021-10-11 02:11:13,401 - MARKET - INFO   : req time:0 sec
+2021-10-11 02:26:14,185 - MARKET - INFO   : req time:0 sec
+2021-10-11 02:41:14,923 - MARKET - INFO   : req time:0 sec
+2021-10-11 02:56:15,885 - MARKET - INFO   : req time:0 sec
+2021-10-11 03:11:16,859 - MARKET - INFO   : req time:0 sec
+2021-10-11 03:26:18,763 - MARKET - INFO   : req time:1 sec
+2021-10-11 03:41:19,469 - MARKET - INFO   : req time:0 sec
+2021-10-11 03:56:20,334 - MARKET - INFO   : req time:0 sec
+2021-10-11 04:11:21,222 - MARKET - INFO   : req time:0 sec
+2021-10-11 04:26:22,113 - MARKET - INFO   : req time:0 sec
+2021-10-11 04:41:22,826 - MARKET - INFO   : req time:0 sec
+2021-10-11 04:56:23,607 - MARKET - INFO   : req time:0 sec
+2021-10-11 05:11:24,702 - MARKET - INFO   : req time:0 sec
+2021-10-11 05:26:26,638 - MARKET - INFO   : req time:1 sec
+2021-10-11 05:41:27,431 - MARKET - INFO   : req time:0 sec
+2021-10-11 05:56:28,303 - MARKET - INFO   : req time:0 sec
+2021-10-11 06:11:34,281 - MARKET - INFO   : req time:5 sec
+2021-10-11 06:26:34,931 - MARKET - INFO   : req time:0 sec
+2021-10-11 06:41:35,693 - MARKET - INFO   : req time:0 sec
+2021-10-11 06:56:36,445 - MARKET - INFO   : req time:0 sec
+2021-10-11 07:11:40,653 - MARKET - INFO   : req time:3 sec
+2021-10-11 07:26:41,458 - MARKET - INFO   : req time:0 sec
+2021-10-11 07:41:45,301 - MARKET - INFO   : req time:3 sec
+2021-10-11 07:56:46,152 - MARKET - INFO   : req time:0 sec
+2021-10-11 08:11:47,005 - MARKET - INFO   : req time:0 sec
+2021-10-11 08:26:47,910 - MARKET - INFO   : req time:0 sec
+2021-10-11 08:41:48,595 - MARKET - INFO   : req time:0 sec
+2021-10-11 08:56:49,501 - MARKET - INFO   : req time:0 sec
+2021-10-11 09:11:50,156 - MARKET - INFO   : req time:0 sec
+2021-10-11 09:26:50,945 - MARKET - INFO   : req time:0 sec
+2021-10-11 09:41:51,633 - MARKET - INFO   : req time:0 sec
+2021-10-11 09:56:52,638 - MARKET - INFO   : req time:0 sec
+2021-10-11 10:11:53,249 - MARKET - INFO   : req time:0 sec
+2021-10-11 10:26:54,218 - MARKET - INFO   : req time:0 sec
+2021-10-11 10:41:54,995 - MARKET - INFO   : req time:0 sec
+2021-10-11 10:56:55,924 - MARKET - INFO   : req time:0 sec
+2021-10-11 11:11:56,933 - MARKET - INFO   : req time:0 sec
+2021-10-11 11:26:58,602 - MARKET - INFO   : req time:1 sec
+2021-10-11 11:42:02,731 - MARKET - INFO   : req time:3 sec
+2021-10-11 11:57:03,355 - MARKET - INFO   : req time:0 sec
+2021-10-11 12:12:04,158 - MARKET - INFO   : req time:0 sec
+2021-10-11 12:27:04,904 - MARKET - INFO   : req time:0 sec
+2021-10-11 12:42:06,645 - MARKET - INFO   : req time:1 sec
+2021-10-11 12:57:07,352 - MARKET - INFO   : req time:0 sec
+2021-10-11 13:12:08,151 - MARKET - INFO   : req time:0 sec
+2021-10-11 13:27:08,892 - MARKET - INFO   : req time:0 sec
+2021-10-11 13:42:09,489 - MARKET - INFO   : req time:0 sec
+2021-10-11 13:57:10,262 - MARKET - INFO   : req time:0 sec
+2021-10-11 14:12:11,020 - MARKET - INFO   : req time:0 sec
+2021-10-11 14:27:11,909 - MARKET - INFO   : req time:0 sec
+2021-10-11 14:42:22,302 - MARKET - INFO   : req time:10 sec
+2021-10-11 14:42:22,312 - MARKET - ERROR   : Greter than 2 pushinr :October 11 14:42:22:  [6.3873911240149335, 2.724051435828872, 0.6153380675415303, 256.5]
+2021-10-11 14:57:23,527 - MARKET - INFO   : req time:1 sec
+2021-10-11 14:57:23,537 - MARKET - ERROR   : Greter than 2 pushinr :October 11 14:57:23:  [0.9356725146198742, 2.656494548283952, 0.6292656521971105, 258.9]
+2021-10-11 15:12:24,238 - MARKET - INFO   : req time:0 sec
+2021-10-11 15:12:24,247 - MARKET - ERROR   : Greter than 2 pushinr :October 11 15:12:24:  [1.5836230204712334, 2.1970257021701656, 0.6726455325732069, 263.0]
+2021-10-11 15:27:25,385 - MARKET - INFO   : req time:0 sec
+2021-10-11 15:42:26,987 - MARKET - INFO   : req time:1 sec
+2021-10-11 15:57:28,045 - MARKET - INFO   : req time:0 sec
+2021-10-11 16:12:28,731 - MARKET - INFO   : req time:0 sec
+2021-10-11 16:27:29,440 - MARKET - INFO   : req time:0 sec
+2021-10-11 16:42:30,305 - MARKET - INFO   : req time:0 sec
+2021-10-11 16:57:31,249 - MARKET - INFO   : req time:0 sec
+2021-10-11 17:12:32,099 - MARKET - INFO   : req time:0 sec
+2021-10-11 17:27:32,794 - MARKET - INFO   : req time:0 sec
+2021-10-11 17:42:33,569 - MARKET - INFO   : req time:0 sec
+2021-10-11 17:57:34,482 - MARKET - INFO   : req time:0 sec
+2021-10-11 18:12:35,479 - MARKET - INFO   : req time:0 sec
+2021-10-11 18:27:36,393 - MARKET - INFO   : req time:0 sec
+2021-10-11 18:42:37,123 - MARKET - INFO   : req time:0 sec
+2021-10-11 18:57:38,251 - MARKET - INFO   : req time:0 sec
+2021-10-11 19:12:39,260 - MARKET - INFO   : req time:0 sec
+2021-10-11 19:27:40,183 - MARKET - INFO   : req time:0 sec
+2021-10-11 19:27:40,194 - MARKET - WARNING   : if you own this selit: pushinr :October 11 19:27:40:  [-1.799290420679173, 0.34209394266744286, 0.18343774011747585, 248.0]
+2021-10-11 19:42:40,951 - MARKET - INFO   : req time:0 sec
+2021-10-11 19:57:41,804 - MARKET - INFO   : req time:0 sec
+2021-10-11 20:12:42,518 - MARKET - INFO   : req time:0 sec
+2021-10-11 20:27:43,435 - MARKET - INFO   : req time:0 sec
+2021-10-11 20:42:44,098 - MARKET - INFO   : req time:0 sec
+2021-10-11 20:57:44,810 - MARKET - INFO   : req time:0 sec
+2021-10-11 21:12:45,556 - MARKET - INFO   : req time:0 sec
+2021-10-11 21:27:46,725 - MARKET - INFO   : req time:0 sec
+2021-10-11 21:42:47,649 - MARKET - INFO   : req time:0 sec
+2021-10-11 21:57:48,574 - MARKET - INFO   : req time:0 sec
+2021-10-11 22:01:32,077 - MARKET - INFO   : Found started is true, so set it false and waiting for double wait time
+2021-10-11 22:04:41,481 - MARKET - INFO   : Hello
+2021-10-11 22:04:41,996 - MARKET - INFO   : req time:0 sec
+2021-10-11 22:04:41,997 - MARKET - DEBUG   : err_key'btcusdt'
+2021-10-11 22:04:41,997 - MARKET - DEBUG   : err_key'trxusdt'
+2021-10-11 22:04:41,998 - MARKET - DEBUG   : err_key'xrpusdt'
+2021-10-11 22:04:41,998 - MARKET - DEBUG   : err_key'eosusdt'
+2021-10-11 22:04:41,998 - MARKET - DEBUG   : err_key'ethusdt'
+2021-10-11 22:04:41,998 - MARKET - DEBUG   : err_key'icxusdt'
+2021-10-11 22:04:41,999 - MARKET - DEBUG   : err_key'ltcusdt'
+2021-10-11 22:04:41,999 - MARKET - DEBUG   : err_key'tusdusdt'
+2021-10-11 22:04:41,999 - MARKET - DEBUG   : err_key'hotusdt'
+2021-10-11 22:04:41,999 - MARKET - DEBUG   : err_key'batusdt'
+2021-10-11 22:04:42,000 - MARKET - DEBUG   : err_key'dashusdt'
+2021-10-11 22:04:42,000 - MARKET - DEBUG   : err_key'ncashusdt'
+2021-10-11 22:04:42,000 - MARKET - DEBUG   : err_key'qkcusdt'
+2021-10-11 22:04:42,000 - MARKET - DEBUG   : err_key'zilusdt'
+2021-10-11 22:04:42,001 - MARKET - DEBUG   : err_key'zrxusdt'
+2021-10-11 22:04:42,001 - MARKET - DEBUG   : err_key'bchusdt'
+2021-10-11 22:04:42,001 - MARKET - DEBUG   : err_key'bchsvusdt'
+2021-10-11 22:04:42,001 - MARKET - DEBUG   : err_key'usdcusdt'
+2021-10-11 22:04:42,001 - MARKET - DEBUG   : err_key'omgusdt'
+2021-10-11 22:04:42,002 - MARKET - DEBUG   : err_key'polyusdt'
+2021-10-11 22:04:42,002 - MARKET - DEBUG   : err_key'dentusdt'
+2021-10-11 22:04:42,002 - MARKET - DEBUG   : err_key'iostusdt'
+2021-10-11 22:04:42,002 - MARKET - DEBUG   : err_key'funusdt'
+2021-10-11 22:04:42,003 - MARKET - DEBUG   : err_key'sntusdt'
+2021-10-11 22:04:42,003 - MARKET - DEBUG   : err_key'thetausdt'
+2021-10-11 22:04:42,003 - MARKET - DEBUG   : err_key'requsdt'
+2021-10-11 22:04:42,003 - MARKET - DEBUG   : err_key'xlmusdt'
+2021-10-11 22:04:42,004 - MARKET - DEBUG   : err_key'xtzusdt'
+2021-10-11 22:04:42,004 - MARKET - DEBUG   : err_key'bttusdt'
+2021-10-11 22:04:42,004 - MARKET - DEBUG   : err_key'fetusdt'
+2021-10-11 22:04:42,004 - MARKET - DEBUG   : err_key'tfuelusdt'
+2021-10-11 22:04:42,005 - MARKET - DEBUG   : err_key'celrusdt'
+2021-10-11 22:04:42,005 - MARKET - DEBUG   : err_key'maticusdt'
+2021-10-11 22:04:42,005 - MARKET - DEBUG   : err_key'adausdt'
+2021-10-11 22:04:42,005 - MARKET - DEBUG   : err_key'rvnusdt'
+2021-10-11 22:04:42,006 - MARKET - DEBUG   : err_key'xmrusdt'
+2021-10-11 22:04:42,006 - MARKET - DEBUG   : err_key'atomusdt'
+2021-10-11 22:04:42,006 - MARKET - DEBUG   : err_key'algousdt'
+2021-10-11 22:04:42,006 - MARKET - DEBUG   : err_key'linkusdt'
+2021-10-11 22:04:42,007 - MARKET - DEBUG   : err_key'qtumusdt'
+2021-10-11 22:04:42,007 - MARKET - DEBUG   : err_key'etcusdt'
+2021-10-11 22:04:42,007 - MARKET - DEBUG   : err_key'iotausdt'
+2021-10-11 22:04:42,007 - MARKET - DEBUG   : err_key'zecusdt'
+2021-10-11 22:04:42,008 - MARKET - DEBUG   : err_key'wavesusdt'
+2021-10-11 22:04:42,008 - MARKET - DEBUG   : err_key'ftmusdt'
+2021-10-11 22:04:42,008 - MARKET - DEBUG   : err_key'enjusdt'
+2021-10-11 22:04:42,009 - MARKET - DEBUG   : err_key'lskusdt'
+2021-10-11 22:04:42,009 - MARKET - DEBUG   : err_key'steemusdt'
+2021-10-11 22:04:42,009 - MARKET - DEBUG   : err_key'xvgusdt'
+2021-10-11 22:04:42,009 - MARKET - DEBUG   : err_key'loomusdt'
+2021-10-11 22:04:42,010 - MARKET - DEBUG   : err_key'manausdt'
+2021-10-11 22:04:42,010 - MARKET - DEBUG   : err_key'repusdt'
+2021-10-11 22:04:42,010 - MARKET - DEBUG   : err_key'blzusdt'
+2021-10-11 22:04:42,011 - MARKET - DEBUG   : err_key'nanousdt'
+2021-10-11 22:04:42,011 - MARKET - DEBUG   : err_key'scusdt'
+2021-10-11 22:04:42,011 - MARKET - DEBUG   : err_key'btgusdt'
+2021-10-11 22:04:42,012 - MARKET - DEBUG   : err_key'xemusdt'
+2021-10-11 22:04:42,012 - MARKET - DEBUG   : err_key'btsusdt'
+2021-10-11 22:04:42,012 - MARKET - DEBUG   : err_key'ardrusdt'
+2021-10-11 22:04:42,012 - MARKET - DEBUG   : err_key'nasusdt'
+2021-10-11 22:04:42,012 - MARKET - DEBUG   : err_key'winusdt'
+2021-10-11 22:04:42,013 - MARKET - DEBUG   : err_key'bnbusdt'
+2021-10-11 22:04:42,013 - MARKET - DEBUG   : err_key'chzusdt'
+2021-10-11 22:04:42,013 - MARKET - DEBUG   : err_key'wrxusdt'
+2021-10-11 22:04:42,013 - MARKET - DEBUG   : err_key'kavausdt'
+2021-10-11 22:04:42,014 - MARKET - DEBUG   : err_key'ankrusdt'
+2021-10-11 22:04:42,014 - MARKET - DEBUG   : err_key'busdusdt'
+2021-10-11 22:04:42,014 - MARKET - DEBUG   : err_key'oneusdt'
+2021-10-11 22:04:42,014 - MARKET - DEBUG   : err_key'ognusdt'
+2021-10-11 22:04:42,015 - MARKET - DEBUG   : err_key'hiveusdt'
+2021-10-11 22:04:42,015 - MARKET - DEBUG   : err_key'fttusdt'
+2021-10-11 22:04:42,015 - MARKET - DEBUG   : err_key'bandusdt'
+2021-10-11 22:04:42,015 - MARKET - DEBUG   : err_key'jstusdt'
+2021-10-11 22:04:42,016 - MARKET - DEBUG   : err_key'ctsiusdt'
+2021-10-11 22:04:42,016 - MARKET - DEBUG   : err_key'chrusdt'
+2021-10-11 22:04:42,016 - MARKET - DEBUG   : err_key'tomousdt'
+2021-10-11 22:04:42,016 - MARKET - DEBUG   : err_key'stxusdt'
+2021-10-11 22:04:42,017 - MARKET - DEBUG   : err_key'stmxusdt'
+2021-10-11 22:04:42,017 - MARKET - DEBUG   : err_key'gxsusdt'
+2021-10-11 22:04:42,017 - MARKET - DEBUG   : err_key'mdtusdt'
+2021-10-11 22:04:42,017 - MARKET - DEBUG   : err_key'ltousdt'
+2021-10-11 22:04:42,018 - MARKET - DEBUG   : err_key'lrcusdt'
+2021-10-11 22:04:42,018 - MARKET - DEBUG   : err_key'dogeusdt'
+2021-10-11 22:04:42,018 - MARKET - DEBUG   : err_key'neousdt'
+2021-10-11 22:04:42,018 - MARKET - DEBUG   : err_key'hbarusdt'
+2021-10-11 22:04:42,018 - MARKET - DEBUG   : err_key'storjusdt'
+2021-10-11 22:04:42,019 - MARKET - DEBUG   : err_key'compusdt'
+2021-10-11 22:04:42,019 - MARKET - DEBUG   : err_key'cotiusdt'
+2021-10-11 22:04:42,019 - MARKET - DEBUG   : err_key'dgbusdt'
+2021-10-11 22:04:42,020 - MARKET - DEBUG   : err_key'grsusdt'
+2021-10-11 22:04:42,020 - MARKET - DEBUG   : err_key'snxusdt'
+2021-10-11 22:04:42,020 - MARKET - DEBUG   : err_key'renusdt'
+2021-10-11 22:04:42,020 - MARKET - DEBUG   : err_key'sxpusdt'
+2021-10-11 22:04:42,021 - MARKET - DEBUG   : err_key'mkrusdt'
+2021-10-11 22:04:42,021 - MARKET - DEBUG   : err_key'daiusdt'
+2021-10-11 22:04:42,021 - MARKET - DEBUG   : err_key'avausdt'
+2021-10-11 22:04:42,021 - MARKET - DEBUG   : err_key'balusdt'
+2021-10-11 22:04:42,022 - MARKET - DEBUG   : err_key'srmusdt'
+2021-10-11 22:04:42,022 - MARKET - DEBUG   : err_key'egldusdt'
+2021-10-11 22:04:42,022 - MARKET - DEBUG   : err_key'cosusdt'
+2021-10-11 22:04:42,022 - MARKET - DEBUG   : err_key'nbsusdt'
+2021-10-11 22:04:42,023 - MARKET - DEBUG   : err_key'aionusdt'
+2021-10-11 22:04:42,023 - MARKET - DEBUG   : err_key'dotusdt'
+2021-10-11 22:04:42,023 - MARKET - DEBUG   : err_key'yfiusdt'
+2021-10-11 22:04:42,023 - MARKET - DEBUG   : err_key'iotxusdt'
+2021-10-11 22:04:42,024 - MARKET - DEBUG   : err_key'sandusdt'
+2021-10-11 22:04:42,024 - MARKET - DEBUG   : err_key'uniusdt'
+2021-10-11 22:04:42,024 - MARKET - DEBUG   : err_key'datausdt'
+2021-10-11 22:04:42,025 - MARKET - DEBUG   : err_key'paxgusdt'
+2021-10-11 22:04:42,025 - MARKET - DEBUG   : err_key'creamusdt'
+2021-10-11 22:04:42,025 - MARKET - DEBUG   : err_key'swrvusdt'
+2021-10-11 22:04:42,025 - MARKET - DEBUG   : err_key'umausdt'
+2021-10-11 22:04:42,026 - MARKET - DEBUG   : err_key'diausdt'
+2021-10-11 22:04:42,026 - MARKET - DEBUG   : err_key'ksmusdt'
+2021-10-11 22:04:42,026 - MARKET - DEBUG   : err_key'yfiiusdt'
+2021-10-11 22:04:42,026 - MARKET - DEBUG   : err_key'bzrxusdt'
+2021-10-11 22:04:42,027 - MARKET - DEBUG   : err_key'trbusdt'
+2021-10-11 22:04:42,027 - MARKET - DEBUG   : err_key'adxusdt'
+2021-10-11 22:04:42,027 - MARKET - DEBUG   : err_key'aaveusdt'
+2021-10-11 22:04:42,027 - MARKET - DEBUG   : err_key'filusdt'
+2021-10-11 22:04:42,028 - MARKET - DEBUG   : err_key'crvusdt'
+2021-10-11 22:04:42,028 - MARKET - DEBUG   : err_key'nearusdt'
+2021-10-11 22:04:42,028 - MARKET - DEBUG   : err_key'hntusdt'
+2021-10-11 22:04:42,028 - MARKET - DEBUG   : err_key'avaxusdt'
+2021-10-11 22:04:42,029 - MARKET - DEBUG   : err_key'oxtusdt'
+2021-10-11 22:04:42,029 - MARKET - DEBUG   : err_key'dockusdt'
+2021-10-11 22:04:42,029 - MARKET - DEBUG   : err_key'duskusdt'
+2021-10-11 22:04:42,029 - MARKET - DEBUG   : err_key'wtcusdt'
+2021-10-11 22:04:42,029 - MARKET - DEBUG   : err_key'perlusdt'
+2021-10-11 22:04:42,030 - MARKET - DEBUG   : err_key'straxusdt'
+2021-10-11 22:04:42,030 - MARKET - DEBUG   : err_key'injusdt'
+2021-10-11 22:04:42,030 - MARKET - DEBUG   : err_key'vetusdt'
+2021-10-11 22:04:42,030 - MARKET - DEBUG   : err_key'mtlusdt'
+2021-10-11 22:04:42,031 - MARKET - DEBUG   : err_key'frontusdt'
+2021-10-11 22:04:42,031 - MARKET - DEBUG   : err_key'glmusdt'
+2021-10-11 22:04:42,031 - MARKET - DEBUG   : err_key'sushiusdt'
+2021-10-11 22:04:42,031 - MARKET - DEBUG   : err_key'firousdt'
+2021-10-11 22:04:42,032 - MARKET - DEBUG   : err_key'dexeusdt'
+2021-10-11 22:04:42,032 - MARKET - DEBUG   : err_key'grtusdt'
+2021-10-11 22:04:42,032 - MARKET - DEBUG   : err_key'bntusdt'
+2021-10-11 22:04:42,032 - MARKET - DEBUG   : err_key'rsrusdt'
+2021-10-11 22:04:42,033 - MARKET - DEBUG   : err_key'1inchusdt'
+2021-10-11 22:04:42,033 - MARKET - DEBUG   : err_key'lunausdt'
+2021-10-11 22:04:42,033 - MARKET - DEBUG   : err_key'uftusdt'
+2021-10-11 22:04:42,033 - MARKET - DEBUG   : err_key'pundixusdt'
+2021-10-11 22:04:42,034 - MARKET - DEBUG   : err_key'ckbusdt'
+2021-10-11 22:04:42,034 - MARKET - DEBUG   : err_key'vibusdt'
+2021-10-11 22:04:42,034 - MARKET - DEBUG   : err_key'gtousdt'
+2021-10-11 22:04:42,034 - MARKET - DEBUG   : err_key'tkousdt'
+2021-10-11 22:04:42,034 - MARKET - DEBUG   : err_key'pushusdt'
+2021-10-11 22:04:42,035 - MARKET - DEBUG   : err_key'cvcusdt'
+2021-10-11 22:04:42,035 - MARKET - DEBUG   : err_key'cakeusdt'
+2021-10-11 22:04:42,035 - MARKET - DEBUG   : err_key'ezusdt'
+2021-10-11 22:04:42,035 - MARKET - DEBUG   : err_key'arkusdt'
+2021-10-11 22:04:42,036 - MARKET - DEBUG   : err_key'kmdusdt'
+2021-10-11 22:04:42,036 - MARKET - DEBUG   : err_key'solusdt'
+2021-10-11 22:04:42,036 - MARKET - DEBUG   : err_key'shibusdt'
+2021-10-11 22:04:42,036 - MARKET - DEBUG   : err_key'rlcusdt'
+2021-10-11 22:04:42,037 - MARKET - DEBUG   : err_key'reefusdt'
+2021-10-11 22:04:42,037 - MARKET - DEBUG   : err_key'icpusdt'
+2021-10-11 22:04:42,037 - MARKET - DEBUG   : err_key'ontusdt'
+2021-10-11 22:04:42,037 - MARKET - DEBUG   : err_key'pntusdt'
+2021-10-11 22:04:42,038 - MARKET - DEBUG   : err_key'xvsusdt'
+2021-10-11 22:04:42,038 - MARKET - DEBUG   : err_key'viteusdt'
+2021-10-11 22:04:42,038 - MARKET - DEBUG   : err_key'dcrusdt'
+2021-10-11 22:04:42,038 - MARKET - DEBUG   : err_key'mdxusdt'
+2021-10-11 22:04:42,039 - MARKET - DEBUG   : err_key'phausdt'
+2021-10-11 22:04:42,039 - MARKET - DEBUG   : err_key'runeusdt'
+2021-10-11 22:04:42,039 - MARKET - DEBUG   : err_key'mirusdt'
+2021-10-11 22:04:42,039 - MARKET - DEBUG   : err_key'nknusdt'
+2021-10-11 22:04:42,039 - MARKET - DEBUG   : err_key'dntusdt'
+2021-10-11 22:04:42,040 - MARKET - DEBUG   : err_key'keepusdt'
+2021-10-11 22:04:42,040 - MARKET - DEBUG   : err_key'axsusdt'
+2021-10-11 22:04:42,040 - MARKET - DEBUG   : err_key'alphausdt'
+2021-10-11 22:04:42,041 - MARKET - DEBUG   : err_key'aliceusdt'
+2021-10-11 22:04:42,041 - MARKET - DEBUG   : err_key'klayusdt'
+2021-10-11 22:04:42,041 - MARKET - DEBUG   : err_key'xecusdt'
+2021-10-11 22:04:42,041 - MARKET - DEBUG   : err_key'perpusdt'
+2021-10-11 22:04:42,042 - MARKET - DEBUG   : err_key'qntusdt'
+2021-10-11 22:04:42,042 - MARKET - DEBUG   : err_key'flowusdt'
+2021-10-11 22:04:42,042 - MARKET - DEBUG   : err_key'vgxusdt'
+2021-10-11 22:04:42,043 - MARKET - DEBUG   : err_key'arusdt'
+2021-10-11 22:04:42,043 - MARKET - DEBUG   : err_key'rayusdt'
+2021-10-11 22:04:42,043 - MARKET - DEBUG   : err_key'dodousdt'
+2021-10-11 22:04:42,043 - MARKET - DEBUG   : err_key'minausdt'
+2021-10-11 22:04:42,044 - MARKET - DEBUG   : err_key'clvusdt'
+2021-10-11 22:04:42,044 - MARKET - DEBUG   : err_key'bakeusdt'
+2021-10-11 22:04:42,044 - MARKET - DEBUG   : err_key'alpacausdt'
+2021-10-11 22:04:42,044 - MARKET - DEBUG   : err_key'usdpusdt'
+2021-10-11 22:04:42,045 - MARKET - DEBUG   : err_key'gnousdt'
+2021-10-11 22:04:42,045 - MARKET - DEBUG   : err_key'tlmusdt'
+2021-10-11 22:04:42,045 - MARKET - DEBUG   : err_key'audiousdt'
+2021-10-11 22:04:42,045 - MARKET - DEBUG   : err_key'sklusdt'
+2021-10-11 22:04:42,046 - MARKET - DEBUG   : err_key'mboxusdt'
+2021-10-11 22:04:42,046 - MARKET - DEBUG   : err_key'degousdt'
+2021-10-11 22:04:42,046 - MARKET - DEBUG   : err_key'galausdt'
+2021-10-11 22:04:42,047 - MARKET - DEBUG   : err_key'maskusdt'
+2021-10-11 22:04:42,047 - MARKET - DEBUG   : err_key'mftusdt'
+2021-10-11 22:04:42,047 - MARKET - DEBUG   : err_key'pondusdt'
+2021-10-11 22:04:42,048 - MARKET - DEBUG   : err_key'ilvusdt'
+2021-10-11 22:04:42,048 - MARKET - DEBUG   : err_key'mlnusdt'
+2021-10-11 22:04:42,048 - MARKET - DEBUG   : err_key'dydxusdt'
+2021-10-11 22:04:42,048 - MARKET - DEBUG   : err_key'cfxusdt'
+2021-10-11 22:19:42,827 - MARKET - INFO   : req time:0 sec
+2021-10-11 22:34:43,399 - MARKET - INFO   : req time:0 sec
+2021-10-11 22:34:43,412 - MARKET - ERROR   : lesser than -2 umausdt :October 11 22:34:43:  [-3.3436412833397764, -1.6718206416698882, -1.6718206416698882, 10.002]
+2021-10-11 22:40:12,542 - MARKET - INFO   : Found started is true, so set it false and waiting for double wait time
+2021-10-11 22:49:44,105 - MARKET - INFO   : req time:0 sec
+2021-10-11 23:04:44,886 - MARKET - INFO   : req time:0 sec
+2021-10-11 23:10:12,641 - MARKET - INFO   : Okay its running, bye!!
+2021-10-11 23:19:45,424 - MARKET - INFO   : req time:0 sec
+2021-10-11 23:19:45,440 - MARKET - WARNING   : its time to buy: umausdt :October 11 23:19:45:  [0.0, -0.48076584914946013, -0.48076584914946013, 10.096]
+2021-10-11 23:34:46,226 - MARKET - INFO   : req time:0 sec
+2021-10-11 23:49:47,053 - MARKET - INFO   : req time:0 sec
+2021-10-12 00:04:47,821 - MARKET - INFO   : req time:0 sec
+2021-10-12 00:19:48,517 - MARKET - INFO   : req time:0 sec
+2021-10-12 00:34:49,512 - MARKET - INFO   : req time:0 sec
+2021-10-12 00:49:50,206 - MARKET - INFO   : req time:0 sec
+2021-10-12 01:04:51,060 - MARKET - INFO   : req time:0 sec
+2021-10-12 01:19:51,722 - MARKET - INFO   : req time:0 sec
+2021-10-12 01:34:52,429 - MARKET - INFO   : req time:0 sec
+2021-10-12 01:49:53,036 - MARKET - INFO   : req time:0 sec
+2021-10-12 02:04:53,648 - MARKET - INFO   : req time:0 sec
+2021-10-12 02:04:53,662 - MARKET - ERROR   : lesser than -2 cosusdt :October 12 02:04:53:  [-0.04374453193350653, -1.5995406624980342, -0.292071814230493, 0.02285]
+2021-10-12 02:19:54,327 - MARKET - INFO   : req time:0 sec
+2021-10-12 02:19:54,330 - MARKET - ERROR   : Greter than 2 requsdt :October 12 02:19:54:  [6.697683930671287, 1.6732338093106702, 0.7370947610457511, 0.20869]
+2021-10-12 02:19:54,334 - MARKET - WARNING   : its time to buy: cosusdt :October 12 02:19:54:  [-0.21881838074397358, -0.4820140160661833, -0.28776278873128597, 0.0228]
+2021-10-12 02:34:54,931 - MARKET - INFO   : req time:0 sec
+2021-10-12 02:34:54,948 - MARKET - ERROR   : Greter than 2 glmusdt :October 12 02:34:54:  [0.0, 1.9320453031312474, 0.3357184441726826, 0.4938]
+2021-10-12 02:49:55,505 - MARKET - INFO   : req time:0 sec
+2021-10-12 02:49:55,520 - MARKET - ERROR   : Greter than 2 glmusdt :October 12 02:49:55:  [0.0, 1.9320453031312474, 0.31804905237412034, 0.4938]
+2021-10-12 02:49:55,524 - MARKET - ERROR   : Greter than 2 phausdt :October 12 02:49:55:  [0.0, 2.5333333333333323, 0.3069479248187962, 0.845]
+2021-10-12 03:04:56,320 - MARKET - INFO   : req time:0 sec
+2021-10-12 03:04:56,325 - MARKET - WARNING   : if you own this selit: requsdt :October 12 03:04:56:  [0.24287484510532362, 0.29081592114114085, 0.47239895252045505, 0.20224]
+2021-10-12 03:04:56,338 - MARKET - ERROR   : Greter than 2 glmusdt :October 12 03:04:56:  [0.0, 1.9320453031312474, 0.30214659975541436, 0.4938]
+2021-10-12 03:04:56,342 - MARKET - ERROR   : Greter than 2 phausdt :October 12 03:04:56:  [0.0, 2.5333333333333323, 0.29160052857785634, 0.845]
+2021-10-12 03:04:56,344 - MARKET - ERROR   : Greter than 2 perpusdt :October 12 03:04:56:  [1.65016501650165, 1.6636134332484414, 0.3705439724084115, 15.4]
+2021-10-12 03:19:58,023 - MARKET - INFO   : req time:1 sec
+2021-10-12 03:19:58,029 - MARKET - ERROR   : Greter than 2 gxsusdt :October 12 03:19:58:  [10.62866722548198, 2.4703259526373023, 0.4968672121911617, 0.6599]
+2021-10-12 03:19:58,032 - MARKET - ERROR   : Greter than 2 glmusdt :October 12 03:19:58:  [-0.8707978938841688, 1.757885724354414, 0.24629210005829133, 0.4895]
+2021-10-12 03:19:58,034 - MARKET - ERROR   : Greter than 2 phausdt :October 12 03:19:58:  [0.0, 2.5333333333333323, 0.27771478912176795, 0.845]
+2021-10-12 03:19:58,035 - MARKET - ERROR   : Greter than 2 perpusdt :October 12 03:19:58:  [0.5844155844155835, 1.7804965501315582, 0.38072833488494356, 15.49]
+2021-10-12 03:34:58,664 - MARKET - INFO   : req time:0 sec
+2021-10-12 03:34:58,681 - MARKET - WARNING   : its falling now sell fast: glmusdt :October 12 03:34:58:  [0.0, -0.17415957877683377, 0.23509700460109625, 0.4895]
+2021-10-12 03:34:58,686 - MARKET - ERROR   : Greter than 2 perpusdt :October 12 03:34:58:  [0.06455777921239371, 1.7934081059740368, 0.36635694599073676, 15.5]
+2021-10-12 03:49:59,367 - MARKET - INFO   : req time:0 sec
+2021-10-12 03:49:59,378 - MARKET - WARNING   : its falling now sell fast: gxsusdt :October 12 03:49:59:  [-3.0988686669945937, -0.016124942769089313, -0.01050273055376222, 0.591]
+2021-10-12 03:49:59,389 - MARKET - ERROR   : Greter than 2 perpusdt :October 12 03:49:59:  [0.0, 1.7229855707627681, 0.35042838312157426, 15.5]
+2021-10-12 04:05:00,025 - MARKET - INFO   : req time:0 sec
+2021-10-12 04:05:00,031 - MARKET - ERROR   : Greter than 2 gxsusdt :October 12 04:05:00:  [11.6243654822335, 2.3087481536776107, 0.47428344497904035, 0.6597]
+2021-10-12 04:05:00,036 - MARKET - WARNING   : if you own this selit: perpusdt :October 12 04:05:00:  [0.0, 0.4598276760259255, 0.33582720049150866, 15.5]
+2021-10-12 04:20:00,720 - MARKET - INFO   : req time:0 sec
+2021-10-12 04:20:00,733 - MARKET - ERROR   : Greter than 2 gxsusdt :October 12 04:20:00:  [0.0, 2.3154516897929107, 0.45531210717987874, 0.6597]
+2021-10-12 04:35:01,327 - MARKET - INFO   : req time:0 sec
+2021-10-12 04:35:01,342 - MARKET - WARNING   : if you own this selit: gxsusdt :October 12 04:35:01:  [0.0, 0.18971824469651466, 0.4378001030575757, 0.6597]
+2021-10-12 04:50:02,845 - MARKET - INFO   : req time:1 sec
+2021-10-12 05:05:04,814 - MARKET - INFO   : req time:1 sec
+2021-10-12 05:05:04,821 - MARKET - ERROR   : Greter than 2 gxsusdt :October 12 05:05:04:  [9.797297297297307, 2.231884473444437, 0.3899235558744876, 0.65]
+2021-10-12 05:20:06,582 - MARKET - INFO   : req time:1 sec
+2021-10-12 05:20:06,593 - MARKET - WARNING   : its falling now sell fast: gxsusdt :October 12 05:20:06:  [0.0, -0.09298862300226318, 0.3764779160167466, 0.65]
+2021-10-12 05:35:07,306 - MARKET - INFO   : req time:0 sec
+2021-10-12 05:50:09,139 - MARKET - INFO   : req time:1 sec
+2021-10-12 05:50:09,144 - MARKET - ERROR   : lesser than -2 gxsusdt :October 12 05:50:09:  [-9.076923076923086, -1.9083732383868803, 0.05938504798588927, 0.591]
+2021-10-12 06:05:09,865 - MARKET - INFO   : req time:0 sec
+2021-10-12 06:05:09,876 - MARKET - WARNING   : its going up buy fast: gxsusdt :October 12 06:05:09:  [0.0, 0.14407484407484433, 0.05752926523633023, 0.591]
+2021-10-12 06:05:09,887 - MARKET - ERROR   : lesser than -2 phausdt :October 12 06:05:09:  [-11.242603550295856, -2.248520710059171, -0.16908103058558527, 0.75]
+2021-10-12 06:05:09,888 - MARKET - WARNING   : its falling now sell fast: phausdt :October 12 06:05:09:  [-11.242603550295856, -2.248520710059171, -0.16908103058558527, 0.75]
+2021-10-12 06:20:10,607 - MARKET - INFO   : req time:0 sec
+2021-10-12 06:20:10,620 - MARKET - ERROR   : lesser than -2 gxsusdt :October 12 06:20:10:  [0.0, -1.8153846153846172, 0.05578595416856265, 0.591]
+2021-10-12 06:20:10,631 - MARKET - ERROR   : lesser than -2 phausdt :October 12 06:20:10:  [0.0, -2.248520710059171, -0.1639573629920827, 0.75]
+2021-10-12 06:35:14,459 - MARKET - INFO   : req time:3 sec
+2021-10-12 06:35:14,465 - MARKET - ERROR   : lesser than -2 gxsusdt :October 12 06:35:14:  [0.0, -1.8153846153846172, 0.05414519081066375, 0.591]
+2021-10-12 06:35:14,470 - MARKET - ERROR   : lesser than -2 phausdt :October 12 06:35:14:  [0.0, -2.248520710059171, -0.15913508760996262, 0.75]
+2021-10-12 06:50:15,137 - MARKET - INFO   : req time:0 sec
+2021-10-12 06:50:15,148 - MARKET - ERROR   : lesser than -2 gxsusdt :October 12 06:50:15:  [-0.5414551607444976, -1.9236756475335166, 0.037128037909087704, 0.5878]
+2021-10-12 06:50:15,159 - MARKET - WARNING   : its going up buy fast: phausdt :October 12 06:50:15:  [11.999999999999995, 0.15147928994082777, 0.18826877203603617, 0.84]
+2021-10-12 07:05:16,012 - MARKET - INFO   : req time:0 sec
+2021-10-12 07:05:16,024 - MARKET - WARNING   : its time to buy: gxsusdt :October 12 07:05:16:  [0.0, -0.10829103214889953, 0.036096703522724156, 0.5878]
+2021-10-12 07:20:16,805 - MARKET - INFO   : req time:0 sec
+2021-10-12 07:20:16,828 - MARKET - ERROR   : Greter than 2 phausdt :October 12 07:20:16:  [0.0, 2.399999999999999, 0.1780920816557099, 0.84]
+2021-10-12 07:35:17,686 - MARKET - INFO   : req time:0 sec
+2021-10-12 07:35:17,718 - MARKET - ERROR   : Greter than 2 phausdt :October 12 07:35:17:  [0.0, 2.399999999999999, 0.17340544792792806, 0.84]
+2021-10-12 07:50:18,614 - MARKET - INFO   : req time:0 sec
+2021-10-12 07:50:18,635 - MARKET - ERROR   : Greter than 2 phausdt :October 12 07:50:18:  [0.0, 2.399999999999999, 0.1689591543913145, 0.84]
+2021-10-12 08:05:20,442 - MARKET - INFO   : req time:1 sec
+2021-10-12 08:20:21,552 - MARKET - INFO   : req time:0 sec
+2021-10-12 08:35:22,659 - MARKET - INFO   : req time:0 sec
+2021-10-12 08:50:23,448 - MARKET - INFO   : req time:0 sec
+2021-10-12 09:05:24,485 - MARKET - INFO   : req time:0 sec
+2021-10-12 09:20:25,526 - MARKET - INFO   : req time:0 sec
+2021-10-12 09:20:25,544 - MARKET - ERROR   : lesser than -2 phausdt :October 12 09:20:25:  [-7.678571428571429, -1.5357142857142858, -0.024203653495781394, 0.7755]
+2021-10-12 09:20:25,545 - MARKET - WARNING   : its falling now sell fast: phausdt :October 12 09:20:25:  [-7.678571428571429, -1.5357142857142858, -0.024203653495781394, 0.7755]
+2021-10-12 09:35:26,935 - MARKET - INFO   : req time:0 sec
+2021-10-12 09:35:26,938 - MARKET - ERROR   : lesser than -2 sntusdt :October 12 09:35:26:  [-3.9026055296393247, -1.5114742670461045, -0.1818526419784873, 0.08446]
+2021-10-12 09:35:26,940 - MARKET - ERROR   : Greter than 2 wavesusdt :October 12 09:35:26:  [1.6733357584576243, 1.5676305765838432, 0.13898297916165103, 27.95]
+2021-10-12 09:35:26,947 - MARKET - ERROR   : lesser than -2 phausdt :October 12 09:35:26:  [0.0, -1.5357142857142858, -0.02367748711543832, 0.7755]
+2021-10-12 09:50:28,042 - MARKET - INFO   : req time:0 sec
+2021-10-12 09:50:28,048 - MARKET - ERROR   : Greter than 2 ognusdt :October 12 09:50:28:  [10.289347346568045, 1.950928213772126, 0.08084673239438084, 0.85]
+2021-10-12 09:50:28,054 - MARKET - ERROR   : lesser than -2 phausdt :October 12 09:50:28:  [0.0, -1.5357142857142858, -0.02317371079383325, 0.7755]
+2021-10-12 10:05:28,977 - MARKET - INFO   : req time:0 sec
+2021-10-12 10:05:28,983 - MARKET - ERROR   : Greter than 2 tfuelusdt :October 12 10:05:28:  [0.0, 1.7995878098543034, 0.04213786746675665, 0.305]
+2021-10-12 10:05:29,000 - MARKET - ERROR   : lesser than -2 phausdt :October 12 10:05:29:  [-2.514506769825914, -2.0386156396794686, -0.0750764828570016, 0.756]
+2021-10-12 10:20:30,039 - MARKET - INFO   : req time:0 sec
+2021-10-12 10:20:30,046 - MARKET - WARNING   : if you own this selit: tfuelusdt :October 12 10:20:30:  [-6.68524590163935, 0.2551068495471796, -0.09515567884153124, 0.28461]
+2021-10-12 10:20:30,048 - MARKET - WARNING   : if you own this selit: wavesusdt :October 12 10:20:30:  [0.035637918745550834, 0.24026158774796577, 0.13923295691071727, 28.07]
+2021-10-12 10:20:30,066 - MARKET - ERROR   : lesser than -2 phausdt :October 12 10:20:30:  [0.0, -2.0386156396794686, -0.07354430973747095, 0.756]
+2021-10-12 10:20:30,068 - MARKET - ERROR   : Greter than 2 klayusdt :October 12 10:20:30:  [1.752190237797234, 1.643215041589336, -0.011024327680057905, 1.626]
+2021-10-12 10:35:31,289 - MARKET - INFO   : req time:0 sec
+2021-10-12 10:35:31,298 - MARKET - WARNING   : if you own this selit: ognusdt :October 12 10:35:31:  [0.0, 0.3571889454603946, -0.08118054213751723, 0.7832]
+2021-10-12 10:35:31,306 - MARKET - ERROR   : Greter than 2 rsrusdt :October 12 10:35:31:  [11.917725347852388, 2.040236284783697, 0.05976324647421194, 0.037]
+2021-10-12 10:50:32,259 - MARKET - INFO   : req time:0 sec
+2021-10-12 11:05:33,177 - MARKET - INFO   : req time:0 sec
+2021-10-12 11:05:33,187 - MARKET - ERROR   : lesser than -2 ognusdt :October 12 11:05:33:  [0.0, -1.7377504055759185, -0.09401837702584026, 0.7767]
+2021-10-12 11:05:33,196 - MARKET - WARNING   : its falling now sell fast: rsrusdt :October 12 11:05:33:  [-0.029788501638376708, -0.520044666462627, -0.12138262400380845, 0.03356]
+2021-10-12 11:20:34,091 - MARKET - INFO   : req time:0 sec
+2021-10-12 11:20:34,108 - MARKET - WARNING   : its time to buy: ognusdt :October 12 11:20:34:  [0.45062443671946173, -0.0758608123496741, -0.08374209752121192, 0.7802]
+2021-10-12 11:20:34,119 - MARKET - WARNING   : its time to buy: phausdt :October 12 11:20:34:  [0.0, -0.06349206349206238, -0.07398361310559223, 0.7536]
+2021-10-12 11:20:34,120 - MARKET - WARNING   : its falling now sell fast: klayusdt :October 12 11:20:34:  [0.0, -0.15811515047253247, -0.05816901974495724, 1.5849]
+2021-10-12 11:35:35,054 - MARKET - INFO   : req time:0 sec
+2021-10-12 11:50:36,042 - MARKET - INFO   : req time:0 sec
+2021-10-12 11:50:36,066 - MARKET - ERROR   : lesser than -2 rsrusdt :October 12 11:50:36:  [2.964307320024204, -1.5651240686843955, -0.08571795812219013, 0.03404]
+2021-10-12 11:50:36,071 - MARKET - ERROR   : Greter than 2 mdxusdt :October 12 11:50:36:  [3.010890454836653, 1.64695535480701, 0.012864379738928221, 1.608]
+2021-10-12 12:05:37,174 - MARKET - INFO   : req time:0 sec
+2021-10-12 12:05:37,182 - MARKET - ERROR   : Greter than 2 lskusdt :October 12 12:05:37:  [18.73021108179419, 3.4422361247594475, 0.22474770953462303, 3.5999]
+2021-10-12 12:05:37,192 - MARKET - WARNING   : its time to buy: rsrusdt :October 12 12:05:37:  [-2.761457109283206, -0.263361436486985, -0.13717448025990198, 0.0331]
+2021-10-12 12:05:37,196 - MARKET - ERROR   : Greter than 2 mdxusdt :October 12 12:05:37:  [-0.6840796019900572, 1.5101394344089984, -0.0005383891404753452, 1.597]
+2021-10-12 12:20:38,072 - MARKET - INFO   : req time:0 sec
+2021-10-12 12:35:39,453 - MARKET - INFO   : req time:0 sec
+2021-10-12 12:35:39,458 - MARKET - WARNING   : its going up buy fast: sntusdt :October 12 12:35:39:  [4.8543689320388435, 0.9708737864077687, -0.04998332617050883, 0.08856]
+2021-10-12 12:50:40,566 - MARKET - INFO   : req time:0 sec
+2021-10-12 12:50:40,586 - MARKET - ERROR   : Greter than 2 rsrusdt :October 12 12:50:40:  [8.761329305135952, 1.79283590317539, 0.035800545219987684, 0.036]
+2021-10-12 12:50:40,592 - MARKET - WARNING   : if you own this selit: mdxusdt :October 12 12:50:40:  [0.9541984732824366, 0.3429265039986948, -0.012014248781230849, 1.587]
+2021-10-12 13:05:41,523 - MARKET - INFO   : req time:0 sec
+2021-10-12 13:20:42,548 - MARKET - INFO   : req time:0 sec
+2021-10-12 13:20:42,557 - MARKET - ERROR   : lesser than -2 lskusdt :October 12 13:20:42:  [0.0, -2.5636525116719016, -0.020328431023787192, 3.142]
+2021-10-12 13:20:42,558 - MARKET - WARNING   : its falling now sell fast: lskusdt :October 12 13:20:42:  [0.0, -2.5636525116719016, -0.020328431023787192, 3.142]
+2021-10-12 13:20:42,571 - MARKET - ERROR   : Greter than 2 rsrusdt :October 12 13:20:42:  [-0.02777777777776701, 1.746710305471637, 0.03392547223474726, 0.03599]
+2021-10-12 13:35:43,554 - MARKET - INFO   : req time:0 sec
+2021-10-12 13:35:43,563 - MARKET - WARNING   : its time to buy: lskusdt :October 12 13:35:43:  [0.0, -0.16414141414141567, -0.01993749965794513, 3.142]
+2021-10-12 13:35:43,576 - MARKET - ERROR   : Greter than 2 rsrusdt :October 12 13:35:43:  [1.1392053348152282, 1.9745513724346828, 0.055180854207448816, 0.0364]
+2021-10-12 13:50:44,690 - MARKET - INFO   : req time:0 sec
+2021-10-12 13:50:44,711 - MARKET - ERROR   : Greter than 2 rsrusdt :October 12 13:50:44:  [0.0, 1.9745513724346828, 0.05413970601485544, 0.0364]
+2021-10-12 14:05:46,109 - MARKET - INFO   : req time:0 sec
+2021-10-12 14:05:46,131 - MARKET - WARNING   : if you own this selit: rsrusdt :October 12 14:05:46:  [0.0, 0.22228551140749225, 0.05309855782226206, 0.0364]
+2021-10-12 14:20:47,409 - MARKET - INFO   : req time:0 sec
+2021-10-12 14:35:49,378 - MARKET - INFO   : req time:1 sec
+2021-10-12 14:35:49,401 - MARKET - ERROR   : Greter than 2 xecusdt :October 12 14:35:49:  [5.652173913043474, 2.2450604127900093, 0.2302828522028993, 0.000243]
+2021-10-12 14:50:50,325 - MARKET - INFO   : req time:0 sec
+2021-10-12 14:50:50,344 - MARKET - ERROR   : lesser than -2 rsrusdt :October 12 14:50:50:  [-1.0376519418915002, -1.6779305885921638, -0.10309841986525996, 0.03338]
+2021-10-12 14:50:50,349 - MARKET - ERROR   : Greter than 2 xecusdt :October 12 14:50:50:  [2.995884773662562, 2.8442373675225214, 0.2824640205323269, 0.00025028]
+2021-10-12 15:05:51,967 - MARKET - INFO   : req time:0 sec
+2021-10-12 15:05:51,986 - MARKET - ERROR   : lesser than -2 rsrusdt :October 12 15:05:51:  [-0.23966446974235095, -1.725863482540634, -0.10572469005520402, 0.0333]
+2021-10-12 15:20:52,987 - MARKET - INFO   : req time:0 sec
+2021-10-12 15:20:53,015 - MARKET - ERROR   : lesser than -2 rsrusdt :October 12 15:20:53:  [0.030030030030018383, -1.7198574765346304, -0.1031632802422753, 0.03331]
+2021-10-12 15:35:54,567 - MARKET - INFO   : req time:0 sec
+2021-10-12 15:35:54,586 - MARKET - WARNING   : its time to buy: rsrusdt :October 12 15:35:54:  [-0.9306514560192068, -0.48291084466154766, -0.11907651439183167, 0.033]
+2021-10-12 15:35:54,591 - MARKET - WARNING   : its falling now sell fast: xecusdt :October 12 15:35:54:  [-0.9900126477386673, -0.14355872639098394, 0.09254369515870686, 0.00022702]
+2021-10-12 15:50:55,754 - MARKET - INFO   : req time:0 sec
+2021-10-12 15:50:55,771 - MARKET - ERROR   : Greter than 2 grsusdt :October 12 15:50:55:  [23.890671683080665, 4.010765966273171, 0.25938242918634286, 1.1196]
+2021-10-12 15:50:55,781 - MARKET - ERROR   : lesser than -2 pushusdt :October 12 15:50:55:  [-1.4667037397469844, -2.069434583145906, -0.21172639444856875, 2.835]
+2021-10-12 16:05:56,943 - MARKET - INFO   : req time:0 sec
+2021-10-12 16:05:56,965 - MARKET - ERROR   : lesser than -2 xecusdt :October 12 16:05:56:  [-1.7335487533295508, -2.0445652641734515, 0.07193508996433604, 0.00022504]
+2021-10-12 16:20:58,638 - MARKET - INFO   : req time:1 sec
+2021-10-12 16:20:58,656 - MARKET - WARNING   : if you own this selit: grsusdt :October 12 16:20:58:  [0.0, 0.4865843031437052, -0.1078445645417753, 0.9075]
+2021-10-12 16:20:58,669 - MARKET - WARNING   : its time to buy: xecusdt :October 12 16:20:58:  [1.310878066121574, -0.08189420584764977, 0.09531137253334053, 0.00022799]
+2021-10-12 16:35:59,748 - MARKET - INFO   : req time:0 sec
+2021-10-12 16:51:00,742 - MARKET - INFO   : req time:0 sec
+2021-10-12 16:51:00,764 - MARKET - WARNING   : its time to buy: pushusdt :October 12 16:51:00:  [1.00475938656796, -0.07692687728442187, -0.17627221531198983, 2.865]
+2021-10-12 17:06:01,962 - MARKET - INFO   : req time:0 sec
+2021-10-12 17:06:01,969 - MARKET - ERROR   : Greter than 2 fetusdt :October 12 17:06:01:  [6.036048623725026, 1.8200499488200808, 0.07054498896429903, 0.7589]
+2021-10-12 17:06:01,978 - MARKET - ERROR   : lesser than -2 grsusdt :October 12 17:06:01:  [0.0, -3.9827925557829076, -0.11972360588813591, 0.8987]
+2021-10-12 17:21:02,891 - MARKET - INFO   : req time:0 sec
+2021-10-12 17:21:02,900 - MARKET - ERROR   : Greter than 2 fetusdt :October 12 17:21:02:  [0.0, 1.8200499488200808, 0.06921395143667075, 0.7589]
+2021-10-12 17:21:02,911 - MARKET - WARNING   : its time to buy: grsusdt :October 12 17:21:02:  [0.0, -0.19393939393939216, -0.1174646699279824, 0.8987]
+2021-10-12 17:21:02,916 - MARKET - ERROR   : Greter than 2 avaxusdt :October 12 17:21:02:  [11.204437340349058, 2.449443262794742, 0.12465527590305014, 58.1617]
+2021-10-12 17:36:03,948 - MARKET - INFO   : req time:0 sec
+2021-10-12 17:36:03,955 - MARKET - WARNING   : if you own this selit: fetusdt :October 12 17:36:03:  [-4.928185531690604, 0.4397707569281669, -0.026889884777315295, 0.7215]
+2021-10-12 17:51:05,082 - MARKET - INFO   : req time:0 sec
+2021-10-12 18:06:06,387 - MARKET - INFO   : req time:0 sec
+2021-10-12 18:06:06,393 - MARKET - ERROR   : Greter than 2 requsdt :October 12 18:06:06:  [0.8182349503214432, 1.5694454323746652, 0.17951914207593053, 0.207]
+2021-10-12 18:06:06,406 - MARKET - WARNING   : if you own this selit: avaxusdt :October 12 18:06:06:  [0.133907789448687, 0.3313499399043265, -0.06981512877767422, 52.27]
+2021-10-12 18:21:07,563 - MARKET - INFO   : req time:0 sec
+2021-10-12 18:21:07,569 - MARKET - ERROR   : lesser than -2 fetusdt :October 12 18:21:07:  [-0.1578192252510746, -1.7021847421616763, -0.09184107323145575, 0.6959]
+2021-10-12 18:36:08,881 - MARKET - INFO   : req time:0 sec
+2021-10-12 18:36:08,887 - MARKET - ERROR   : Greter than 2 requsdt :October 12 18:36:08:  [3.902560278399202, 1.7367233952887786, 0.19549710622565927, 0.209]
+2021-10-12 18:36:08,889 - MARKET - ERROR   : lesser than -2 fetusdt :October 12 18:36:08:  [0.11495904583992284, -1.6791929329936917, -0.08786414786469848, 0.6967]
+2021-10-12 18:36:08,902 - MARKET - ERROR   : lesser than -2 avaxusdt :October 12 18:36:08:  [-0.08554402153019304, -2.1398510008472877, -0.07767639029880619, 51.9755]
+2021-10-12 18:51:10,073 - MARKET - INFO   : req time:0 sec
+2021-10-12 18:51:10,080 - MARKET - WARNING   : its time to buy: fetusdt :October 12 18:51:10:  [1.5788718243146274, -0.37778146179264566, -0.05641629933301308, 0.7077]
+2021-10-12 18:51:10,087 - MARKET - WARNING   : its going up buy fast: avaxusdt :October 12 18:51:10:  [2.182566786274315, 0.3122499337995725, -0.03503029262761522, 53.1099]
+2021-10-12 18:51:10,090 - MARKET - ERROR   : Greter than 2 xvsusdt :October 12 18:51:10:  [6.761429120245863, 1.5705467273852263, 0.07246925357493374, 27.79]
+2021-10-12 19:11:14,735 - MARKET - INFO   : req time:303 sec
+2021-10-12 19:11:14,741 - MARKET - WARNING   : if you own this selit: requsdt :October 12 19:11:14:  [1.897229365811052, 0.4799186280804616, 0.19883959097258483, 0.21]
+2021-10-12 19:11:14,763 - MARKET - ERROR   : Greter than 2 mboxusdt :October 12 19:11:14:  [13.225728740062644, 2.749613872386199, 0.1701706123999481, 4.7]
