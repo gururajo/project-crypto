@@ -22,6 +22,7 @@ import time
 import os
 import logging,sys
 import logging.config
+import trade
 
 sec = 60
 min = 15
@@ -73,6 +74,9 @@ def align_report(report):
     report=re.sub("\\n		\]"," ]",report)
     return report
 
+def get_per(principle,percentage):
+    return principle * ((100 + percentage)/ 100)
+
 def strategy(cryp,time_key,currency):
 
     last_5_avg=cryp[time_key][1]
@@ -84,20 +88,19 @@ def strategy(cryp,time_key,currency):
         cryp["neg_trig"]=[last_5_avg,True]
 
     if cryp["neg_trig"][1]:
-        if -0.5 < last_5_avg < 0:
-            logger.warning("its time to buy: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-            cryp["neg_trig"]=[0,False]
-        if last_5_avg > 0:
-            logger.warning("its going up buy fast: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
+        if -0.5 < last_5_avg:
+            logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
+            try:
+                trade.buy(currency, get_per(cryp[time_key][3],-0.2))
+            except Exception as e:
+                logger.exception("Buy order exception:"+ str(e))
             cryp["neg_trig"]=[0,False]
 
     if cryp["pos_trig"][1]:
-        if 0 < last_5_avg < .5:
+        if last_5_avg < .5:
             logger.warning("if you own this selit: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             cryp["pos_trig"]=[0,False]
-        if  last_5_avg < 0:
-            logger.warning("its falling now sell fast: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-            cryp["pos_trig"]=[0,False]
+
 
 
 def boot():
