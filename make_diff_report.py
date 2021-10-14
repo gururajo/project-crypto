@@ -85,18 +85,18 @@ def strategy(cryp,time_key,currency):
 
     if cryp["neg_trig"][1]:
         if -0.5 < last_5_avg < 0:
-            logger.warning("its time to buy: "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+            logger.warning("its time to buy: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             cryp["neg_trig"]=[0,False]
         if last_5_avg > 0:
-            logger.warning("its going up buy fast: "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+            logger.warning("its going up buy fast: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             cryp["neg_trig"]=[0,False]
 
     if cryp["pos_trig"][1]:
         if 0 < last_5_avg < .5:
-            logger.warning("if you own this selit: "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+            logger.warning("if you own this selit: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             cryp["pos_trig"]=[0,False]
         if  last_5_avg < 0:
-            logger.warning("its falling now sell fast: "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+            logger.warning("its falling now sell fast: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             cryp["pos_trig"]=[0,False]
 
 
@@ -135,8 +135,9 @@ def main(boot_json):
     diff["started"]=time.strftime("%B %d %H:%M:%S")
     neg_keys_c=7
     tickers=0
-    highest=0
-    lowest=0
+    volume_thres=600000
+
+
     while True:
         market = get_present()
         if not market:
@@ -146,15 +147,18 @@ def main(boot_json):
         diff["last_updated"]=time.time()
         for coin in market:
             cryp=coin["symbol"]
+            # print(cryp)
             try:
-                if str(cryp).endswith("usdt"):
+                if str(cryp).endswith("USDT"):
+                    if re.search("[A-Z]+DOWNUSDT",cryp) or re.search("[A-Z]+UPUSDT",cryp):
+                        continue
                     prev = float(diff[cryp]["prev"])
-                    last = float(market[cryp]["last"])
+                    last = float(coin["lastPrice"])
                     if last>diff[cryp]["range"][0]:
                         diff[cryp]["range"][0]=last
                     if last<diff[cryp]["range"][1]:
                         diff[cryp]["range"][1]=last
-                    volume=diff[cryp]["volume"]=float(market[cryp]["volume"])*last
+                    volume=diff[cryp]["volume"]=float(coin["volume"])*last
                     if prev == 0.000:
                         diff[cryp][time.strftime("%B %d %H:%M:%S")] = [0, last, last, last]
                         diff[cryp]["prev"] = last
@@ -180,12 +184,13 @@ def main(boot_json):
                             last_5_avg=till_avg
                     time_key=time.strftime("%B %d %H:%M:%S")
                     diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
-                    # print("volume:",market[cryp]["volume"],type(market[cryp]["volume"]))
-                    if volume > 25000:
-                        print("allowed",cryp)
+                    # print("volume:",coin["volume"],type(coin["volume"]))
+                    if volume > volume_thres:
+                        # print("allowed",cryp,volume)
                         strategy(diff[cryp],time_key,cryp)
-                    # else:
-                    #     logger.debug("OOps not good trading volume:"+str(cryp)+" "+str(market[cryp]["volume"])+" "+str(last)+" "+str(float(market[cryp]["volume"])*last))
+                    else:
+                        print("allowed",cryp,volume)
+                    #     logger.debug("OOps not good trading volume:"+str(cryp)+" "+str(coin["volume"])+" "+str(last)+" "+str(float(coin["volume"])*last))
 
                     if len(diff[cryp])-neg_keys_c >52:
                         key1,key2=list(diff[cryp].keys())[neg_keys_c:neg_keys_c+2]
@@ -197,13 +202,13 @@ def main(boot_json):
             except KeyError as e:
                 logger.debug("err_key"+str(e))
                 diff[cryp] = {}
-                diff[cryp]["prev"] = float(market[cryp]["lastPrice"])
-                diff[cryp]["start"] = float(market[cryp]["lastPrice"])
+                diff[cryp]["prev"] = float(coin["lastPrice"])
+                diff[cryp]["start"] = float(coin["lastPrice"])
                 diff[cryp]["change"] = 0
-                diff[cryp]["range"]=[float(market[cryp]["lastPrice"]),float(market[cryp]["lastPrice"])]
+                diff[cryp]["range"]=[float(coin["lastPrice"]),float(coin["lastPrice"])]
                 diff[cryp]["pos_trig"]=[0,False]
                 diff[cryp]["neg_trig"]=[0,False]
-                diff[cryp]["volume"]=float(market[cryp]["volume"])
+                diff[cryp]["volume"]=float(coin["volume"])*float(coin["lastPrice"])
 
         with open(report_name, 'w') as outfile:
             json.dump(diff, outfile, sort_keys=False,
@@ -223,4 +228,9 @@ def main(boot_json):
 
 if __name__ == "__main__":
     boot_json=boot()
-    main(boot_json)
+    try:
+        main(boot_json)
+    except KeyboardInterrupt:
+        boot_json["started"]=False
+        with open("boot.json","w") as wf:
+            json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
