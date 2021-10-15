@@ -127,7 +127,94 @@ def boot():
     print(boot_json)
     return boot_json
 
+def get_last24(diff):
+    logger.info("Getting the last 24hr data")
+    try:
+        exchanges = requests.get("https://api.binance.com/api/v1/exchangeInfo")
+    except Exception:
+        logger.exception("OOOOHH SHIET")
+        sys.exit()
+    neg_keys_c=7
+    volume_thres=600000
+    if exchanges.ok:
+        exchanges = exchanges.json()
+        for currency in exchanges['symbols']:
+            print(currency['symbol'])
+            symbol=currency['symbol']
+            if not str(symbol).endswith("USDT"):
+                continue
+            if re.search("[A-Z]+DOWNUSDT",symbol) or re.search("[A-Z]+UPUSDT",symbol):
+                continue
+            time.sleep(0.5)
+            try:
+                past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=15m&startTime="+str(int((time.time()- 86400)*1000))+"&endTime="+str(int(time.time()*1000)))
+            except Exception:
+                logger.exception("ticker_problem")
+                continue
 
+
+            if past_tickers.ok:
+                tickers =list(past_tickers.json())
+            for ticker in tickers:
+                cryp=symbol
+                try:
+                    if str(cryp).endswith("USDT"):
+                        if re.search("[A-Z]+DOWNUSDT",cryp) or re.search("[A-Z]+UPUSDT",cryp):
+                            continue
+                        prev = float(diff[cryp]["prev"])
+                        last = float(ticker[4])
+                        if last>diff[cryp]["range"][0]:
+                            diff[cryp]["range"][0]=last
+                        if last<diff[cryp]["range"][1]:
+                            diff[cryp]["range"][1]=last
+                        volume=diff[cryp]["volume"]=float(ticker[5])*last
+                        if prev == 0.000:
+                            diff[cryp][time.strftime("%B %d %H:%M:%S",time.gmtime((ticker[0]/1000)+19800))] = [0, last, last, last]
+                            diff[cryp]["prev"] = last
+                            continue
+                        # print("got_prev", cryp)
+
+                        diff[cryp]["change"]=get_per_change(diff[cryp]["start"],last)
+                        diff[cryp]["prev"] = last
+                        change = get_per_change(prev,last)
+                        till_avg = 0
+                        last_5_avg=0
+                        if len(diff[cryp]) > neg_keys_c:
+                            n=len(diff[cryp]) - neg_keys_c
+                            time_key = list(diff[cryp].keys())[-1]
+                            till_avg = ( ( ( n ) * float( diff[cryp][time_key][2] ) ) + change ) / ( n + 1)
+                            if len(diff[cryp])- neg_keys_c >5:
+
+                                for time_key in list(diff[cryp].keys())[-4:]:
+                                    last_5_avg+=diff[cryp][time_key][0]
+                                last_5_avg+=change
+                                last_5_avg/=5
+                            else:
+                                last_5_avg=till_avg
+                        print(ticker)
+                        time_key=time.strftime("%B %d %H:%M:%S",time.gmtime((ticker[0]/1000)+19800))
+                        diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
+
+
+                        if len(diff[cryp])-neg_keys_c >52:
+                            key1,key2=list(diff[cryp].keys())[neg_keys_c:neg_keys_c+2]
+                            diff[cryp].pop(key1)
+                            diff[cryp]["start"]=diff[cryp].pop(key2)[3]
+                except KeyError as e:
+                    logger.debug("err_key"+str(e))
+                    diff[cryp] = {}
+                    diff[cryp]["prev"] = float(ticker[4])
+                    diff[cryp]["start"] = float(ticker[4])
+                    diff[cryp]["change"] = 0
+                    diff[cryp]["range"]=[float(ticker[4]),float(ticker[4])]
+                    diff[cryp]["pos_trig"]=[0,False]
+                    diff[cryp]["neg_trig"]=[0,False]
+                    diff[cryp]["volume"]=float(ticker[5])*float(ticker[4])
+            # break
+    time.sleep(5*60)
+    return diff
+
+    # sys.exit()
 
 
 def main(boot_json):
@@ -139,15 +226,19 @@ def main(boot_json):
     neg_keys_c=7
     tickers=0
     volume_thres=600000
-
+    diff["last_updated"]=time.time()
+    diff = get_last24(diff)
+    logger.info("Got last 24hr dtaa")
 
     while True:
+        diff["last_updated"]=time.time()
+
         market = get_present()
         if not market:
             logger.error("some error in Connection")
             time.sleep(20)
             continue
-        diff["last_updated"]=time.time()
+
         for coin in market:
             cryp=coin["symbol"]
             # print(cryp)
@@ -226,8 +317,8 @@ def main(boot_json):
         tickers+=1
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
-        time.sleep(10)
-        # time.sleep(sec*min)
+        # time.sleep(10)
+        time.sleep(sec*min)
 
 if __name__ == "__main__":
     boot_json=boot()
