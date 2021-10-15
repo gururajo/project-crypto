@@ -6,7 +6,7 @@
 	"canTrade": true,
 	"canWithdraw": false,
 	"canDeposit": false,
-	"updateTime": 1634259546739,
+	"updateTime": 1634305540181,
 	"accountType": "SPOT",
 	"balances": [
 		{
@@ -41,8 +41,8 @@
 		},
 		{
 			"asset": "USDT",
-			"free": "9249.67240000",
-			"locked": "0.00000000"
+			"free": "9238.87000000",
+			"locked": "10.80240000"
 		},
 		{
 			"asset": "XRP",

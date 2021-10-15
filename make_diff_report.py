@@ -80,28 +80,29 @@ def get_per(principle,percentage):
 def strategy(cryp,time_key,currency):
 
     last_5_avg=cryp[time_key][1]
-    if last_5_avg>1.5:
+    if last_5_avg>1.7:
         logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["pos_trig"]=[last_5_avg,True]
-    if last_5_avg<-1.5:
+    if last_5_avg<-1.7:
         logger.error("lesser than -2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
 
     if cryp["neg_trig"][1]:
-        if -0.5 < last_5_avg:
+        if -0.3 < last_5_avg:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
+            if cryp["change"]>50:
+                logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
+                return
             try:
-                trade.buy(currency, get_per(cryp[time_key][3],-0.2))
+                trade.buy(currency, float(str(get_per(cryp[time_key][3],-0.2))[:len(str(cryp[time_key][3]))]))
             except Exception as e:
                 logger.exception("Buy order exception:"+ str(e))
             cryp["neg_trig"]=[0,False]
 
     if cryp["pos_trig"][1]:
-        if last_5_avg < .5:
+        if last_5_avg < .3:
             logger.warning("if you own this selit: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             cryp["pos_trig"]=[0,False]
-
-
 
 def boot():
 
@@ -138,6 +139,8 @@ def get_last24(diff):
     volume_thres=600000
     if exchanges.ok:
         exchanges = exchanges.json()
+        with open("exchanges.json","w") as wf:
+           json.dump(exchanges, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         for currency in exchanges['symbols']:
             print(currency['symbol'])
             symbol=currency['symbol']
@@ -191,7 +194,7 @@ def get_last24(diff):
                                 last_5_avg/=5
                             else:
                                 last_5_avg=till_avg
-                        print(ticker)
+                        # print(ticker)
                         time_key=time.strftime("%B %d %H:%M:%S",time.gmtime((ticker[0]/1000)+19800))
                         diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
 
