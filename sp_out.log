@@ -548,3 +548,279 @@ binance.error.ClientError: (400, -1121, 'Invalid symbol.', {'Content-Type': 'app
 2021-10-15 20:15:22,241 - MARKET - INFO   : Selling TRXUSDT Q:500200.0 P:0.10119000000000002
 2021-10-15 20:17:12,599 - MARKET - INFO   : Got SELL req: TRXUSDT p:0.1012
 2021-10-15 20:17:14,131 - MARKET - INFO   : Selling TRXUSDT Q:500200.0 P:0.10119000000000002
+2021-10-15 21:02:58,267 - MARKET - INFO   : Got SELL req: TRXUSDT p:0.1012
+2021-10-15 21:03:00,074 - MARKET - INFO   : Selling TRXUSDT Q:500200.0 P:0.10119
+2021-10-15 21:04:19,601 - MARKET - INFO   : Got SELL req: TRXUSDT p:0.1012
+2021-10-15 21:04:21,051 - MARKET - INFO   : Selling TRXUSDT Q:500200.0 P:0.10119
+2021-10-15 23:21:21,209 - MARKET - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-15 23:21:23,572 - MARKET - INFO   : Buying TRXUSDT Q:118.5 P:0.10119
+2021-10-16 00:22:23,760 - TRADE - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-16 00:22:25,398 - TRADE - INFO   : Buying TRXUSDT Q:118.5 P:0.10119
+2021-10-16 00:54:06,627 - TRADE - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-16 00:54:08,066 - TRADE - INFO   : Buying TRXUSDT Q:118.5 P:0.10119
+2021-10-16 01:02:09,686 - SELLER - INFO   : Starting the seller
+2021-10-16 01:02:39,165 - SELLER - INFO   : Starting the seller
+2021-10-16 01:18:11,880 - SELLER - INFO   : Starting the seller
+2021-10-16 01:18:13,467 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:13,887 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:14,048 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:14,471 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:14,902 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:15,411 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:16,026 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:16,599 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:16,845 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:17,658 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:18,381 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:18,552 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:18,716 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:18,980 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:19,151 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:19,405 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:19,620 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:19,816 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:20,022 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:20,190 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:20,359 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:20,524 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:20,737 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:20,941 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:21,145 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:21,309 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:21,574 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:21,761 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:21,965 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:22,169 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:22,374 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:22,578 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:22,744 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:22,911 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:23,081 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:23,248 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:23,417 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:23,585 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:23,781 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:24,013 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:24,217 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:24,388 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:24,628 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:24,792 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:25,037 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:25,241 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:25,446 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:25,618 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:25,856 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:26,061 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:26,266 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:26,434 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:26,603 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:26,769 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:26,982 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:27,187 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:27,355 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:27,597 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:27,802 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:28,006 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:28,212 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:18:28,416 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:21:11,648 - SELLER - INFO   : Starting the seller
+2021-10-16 01:21:12,976 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:21:23,159 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:21:33,599 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:21:44,035 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:21:54,550 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:22:04,991 - SELLER - INFO   : ORder :14832 is still not filled
+2021-10-16 01:22:55,430 - TRADE - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-16 01:22:57,176 - TRADE - INFO   : Buying TRXUSDT Q:118.5 P:0.10119
+2021-10-16 01:23:39,580 - TRADE - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-16 01:23:41,055 - TRADE - INFO   : Buying TRXUSDT Q:118.5 P:0.10119
+2021-10-16 01:23:42,821 - SELLER - INFO   : Starting the seller
+2021-10-16 01:23:44,120 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:23:44,531 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:23:45,042 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:23:55,281 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:23:55,795 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:23:56,305 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:25:20,018 - TRADE - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-16 01:25:21,564 - TRADE - INFO   : Buying TRXUSDT Q:118.5 P:0.10119
+2021-10-16 01:25:23,495 - SELLER - INFO   : Starting the seller
+2021-10-16 01:29:09,909 - SELLER - INFO   : Starting the seller
+2021-10-16 01:29:11,600 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:29:12,111 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:29:12,519 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:29:12,685 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:29:23,078 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:29:23,230 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:29:23,770 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:29:24,406 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:29:34,858 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:29:35,269 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:29:35,661 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:29:35,816 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:29:46,228 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:29:46,641 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:29:47,059 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:29:47,542 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:29:57,943 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:29:58,347 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:29:58,762 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:29:59,190 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:30:09,661 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:30:10,172 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:30:10,378 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:30:10,935 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:30:21,345 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:30:21,847 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:30:22,327 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:30:22,746 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:30:33,186 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:30:33,725 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:30:34,237 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:30:34,627 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:30:45,076 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:30:45,482 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:30:45,911 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:30:46,423 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:30:56,867 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:30:57,255 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:30:57,672 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:30:58,096 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:31:08,541 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:31:08,951 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:31:09,361 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:31:09,873 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:31:20,293 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:31:20,731 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:31:21,119 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:31:21,527 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:31:31,932 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT
+2021-10-16 01:31:32,199 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT
+2021-10-16 01:31:32,608 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT
+2021-10-16 01:31:33,039 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT
+2021-10-16 01:31:42,396 - SELLER - INFO   : Starting the seller
+2021-10-16 01:32:02,165 - SELLER - INFO   : Starting the seller
+2021-10-16 01:32:48,605 - SELLER - INFO   : Starting the seller
+2021-10-16 01:32:50,226 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:NEW
+2021-10-16 01:32:50,738 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:NEW
+2021-10-16 01:32:51,251 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:NEW
+2021-10-16 01:32:51,688 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:NEW
+2021-10-16 01:33:02,110 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:NEW
+2021-10-16 01:33:02,532 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:02,961 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:03,538 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:13,964 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:14,380 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:14,543 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:14,962 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:25,452 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:25,623 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:26,036 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:26,476 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:36,921 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:37,580 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:38,662 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:39,173 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:49,619 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:50,131 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:52,025 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:33:52,589 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:03,075 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:03,242 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:03,676 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:04,109 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:14,605 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:15,037 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:15,526 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:16,039 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:26,484 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:26,900 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:27,334 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:28,033 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:38,456 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:38,875 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:39,308 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:39,797 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:50,218 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:50,638 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:51,066 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:34:51,571 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:02,017 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:02,437 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:03,042 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:03,459 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:13,885 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:14,341 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:14,816 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:15,231 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:25,650 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:26,184 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:26,697 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:26,858 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:37,291 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:37,706 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:38,267 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:38,694 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:49,114 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:49,634 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:50,145 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:35:50,350 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:00,794 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:01,204 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:01,716 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:02,137 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:12,682 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:13,114 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:13,528 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:13,942 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:24,399 - SELLER - INFO   : ORder :14832 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:24,860 - SELLER - INFO   : ORder :14833 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:25,372 - SELLER - INFO   : ORder :14834 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:25,789 - SELLER - INFO   : ORder :14835 is still not filled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:53,671 - SELLER - INFO   : Starting the seller
+2021-10-16 01:36:55,248 - SELLER - INFO   : ORder :14832 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:55,784 - SELLER - INFO   : ORder :14833 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:56,297 - SELLER - INFO   : ORder :14834 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 01:36:56,808 - SELLER - INFO   : ORder :14835 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 01:39:42,707 - SELLER - INFO   : Starting the seller
+2021-10-16 01:39:44,273 - SELLER - INFO   : ORder :14832 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 01:39:44,746 - SELLER - INFO   : ORder :14833 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 01:39:45,182 - SELLER - INFO   : ORder :14834 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 01:39:45,671 - SELLER - INFO   : ORder :14835 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:11:02,876 - SELLER - INFO   : Starting the seller
+2021-10-16 02:11:04,530 - SELLER - INFO   : ORder :14832 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:11:04,953 - SELLER - INFO   : ORder :14833 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:11:05,116 - SELLER - INFO   : ORder :14834 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:11:05,552 - SELLER - INFO   : ORder :14835 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:11:16,003 - SELLER - INFO   : ORder :14832 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:11:16,509 - SELLER - INFO   : ORder :14833 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:11:16,940 - SELLER - INFO   : ORder :14834 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:11:18,716 - SELLER - INFO   : ORder :14835 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:13:09,526 - SELLER - INFO   : Starting the seller
+2021-10-16 02:13:10,851 - SELLER - INFO   : ORder :14832 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:13:11,302 - SELLER - INFO   : ORder :14833 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:13:11,506 - SELLER - INFO   : ORder :14834 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:13:12,019 - SELLER - INFO   : ORder :14835 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:15:53,232 - SELLER - INFO   : Starting the seller
+2021-10-16 02:15:54,804 - SELLER - INFO   : ORder :14832 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:15:55,245 - SELLER - INFO   : ORder :14833 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:15:55,759 - SELLER - INFO   : ORder :14834 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:15:56,271 - SELLER - INFO   : ORder :14835 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:18:49,004 - TRADE - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-16 02:18:50,425 - TRADE - INFO   : Buying TRXUSDT Q:118.5 P:0.10119
+2021-10-16 02:19:06,839 - SELLER - INFO   : ORder :14836 is still not filled n:TRXUSDT S:NEW
+2021-10-16 02:19:16,219 - TRADE - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-16 02:19:17,024 - SELLER - INFO   : ORder :14836 is still not filled n:TRXUSDT S:NEW
+2021-10-16 02:19:17,709 - TRADE - INFO   : Buying TRXUSDT Q:118.5 P:0.10119
+2021-10-16 02:19:27,525 - SELLER - INFO   : ORder :14836 is still not filled n:TRXUSDT S:NEW
+2021-10-16 02:19:37,962 - SELLER - INFO   : ORder :14836 is still not filled n:TRXUSDT S:NEW
+2021-10-16 02:19:38,588 - SELLER - INFO   : ORder :14837 is still not filled n:TRXUSDT S:NEW
+2021-10-16 02:19:49,029 - SELLER - INFO   : ORder :14836 is still not filled n:TRXUSDT S:NEW
+2021-10-16 02:19:49,540 - SELLER - INFO   : ORder :14837 is still not filled n:TRXUSDT S:NEW
+2021-10-16 02:19:59,963 - SELLER - INFO   : ORder :14836 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:20:00,497 - SELLER - INFO   : ORder :14837 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 02:20:47,362 - TRADE - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-16 02:20:50,049 - TRADE - INFO   : Buying TRXUSDT Q:118.5 P:0.10119
+2021-10-16 02:20:52,135 - SELLER - INFO   : Starting the seller
+2021-10-16 02:20:53,438 - SELLER - INFO   : ORder :14838 is still not filled n:TRXUSDT S:NEW
+2021-10-16 02:21:03,886 - SELLER - INFO   : ORder :14838 is still not filled n:TRXUSDT S:NEW
+2021-10-16 02:21:14,431 - SELLER - INFO   : ORder :14838 is canceled n:TRXUSDT S:CANCELED

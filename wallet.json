@@ -6,7 +6,7 @@
 	"canTrade": true,
 	"canWithdraw": false,
 	"canDeposit": false,
-	"updateTime": 1634305540181,
+	"updateTime": 1634330992090,
 	"accountType": "SPOT",
 	"balances": [
 		{
@@ -36,17 +36,17 @@
 		},
 		{
 			"asset": "TRX",
-			"free": "500200.00000000",
+			"free": "500000.00000000",
 			"locked": "0.00000000"
 		},
 		{
 			"asset": "USDT",
-			"free": "9238.87000000",
-			"locked": "10.80240000"
+			"free": "9259.10800000",
+			"locked": "0.00000000"
 		},
 		{
 			"asset": "XRP",
-			"free": "50000.00000000",
+			"free": "50007.00000000",
 			"locked": "0.00000000"
 		}
 	],

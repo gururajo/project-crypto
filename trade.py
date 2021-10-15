@@ -4,7 +4,7 @@ import logging,sys
 import logging.config
 
 logging.config.fileConfig('log_config.conf')
-logger = logging.getLogger("MARKET")
+logger = logging.getLogger("TRADE")
 def get_corrected_price(symbol,price):
     with open("exchange.json","r") as f:
         exchanges=json.load(f)["symbols"]
@@ -133,6 +133,7 @@ def sell(symbol,price,type_o="LIMIT",timeInforce="GTC"):
         logger.info("Selling "+str(symbol)+" Q:"+str(quantity)+" P:"+str(price))
 
         # client.new_order(symbol="",side="SELL",type="LIMIT",timeInForce="GTC",quantity=quantity,price=price)
+        # quantity=200
         order=client.new_order(symbol=symbol,side="SELL",type=type_o,timeInForce=timeInforce,quantity=quantity,price=price)
         time.sleep(1)
     else:
@@ -150,4 +151,4 @@ def sell(symbol,price,type_o="LIMIT",timeInforce="GTC"):
     return order
 
 # buy(symbol="TRXUSDT",quantity=200,price=0.0965)
-print(sell(symbol="TRXUSDT",price=0.1012))
+print(buy(symbol="TRXUSDT",price=0.1012))
