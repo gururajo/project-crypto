@@ -94,7 +94,7 @@ def strategy(cryp,time_key,currency):
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
                 return
             try:
-                trade.buy(currency, float(str(get_per(cryp[time_key][3],-0.2))[:len(str(cryp[time_key][3]))]))
+                trade.buy(currency, get_per(cryp[time_key][3],-0.2))
             except Exception as e:
                 logger.exception("Buy order exception:"+ str(e))
             cryp["neg_trig"]=[0,False]
@@ -114,7 +114,7 @@ def boot():
         with open("boot.json","w") as wf:
             boot_json=json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         logger.info("Found started is true, so set it false and waiting for double wait time")
-        time.sleep(sec*min*2)
+        time.sleep(sec*min+60)
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         if boot_json["started"]:
@@ -136,7 +136,6 @@ def get_last24(diff):
         logger.exception("OOOOHH SHIET")
         sys.exit()
     neg_keys_c=7
-    volume_thres=600000
     if exchanges.ok:
         exchanges = exchanges.json()
         with open("exchanges.json","w") as wf:
@@ -318,6 +317,9 @@ def main(boot_json):
             with open(report_name, "w") as wf:
                 wf.write(report)
         tickers+=1
+        with open("boot.json","r") as f:
+            boot_json=json.load(f)
+        boot_json["started"]=True
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         # time.sleep(10)

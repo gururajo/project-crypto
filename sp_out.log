@@ -824,3 +824,5 @@ binance.error.ClientError: (400, -1121, 'Invalid symbol.', {'Content-Type': 'app
 2021-10-16 02:20:53,438 - SELLER - INFO   : ORder :14838 is still not filled n:TRXUSDT S:NEW
 2021-10-16 02:21:03,886 - SELLER - INFO   : ORder :14838 is still not filled n:TRXUSDT S:NEW
 2021-10-16 02:21:14,431 - SELLER - INFO   : ORder :14838 is canceled n:TRXUSDT S:CANCELED
+2021-10-16 03:23:00,642 - TRADE - INFO   : Got BUY req: TRXUSDT p:0.1012
+2021-10-16 03:23:02,253 - TRADE - INFO   : Buying TRXUSDT Q:118.5 P:0.10119

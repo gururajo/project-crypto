@@ -1,3 +1,4 @@
+from os import truncate
 from binance.spot import Spot
 import json,time,re
 import logging,sys
@@ -10,8 +11,30 @@ logger = logging.getLogger("SELLER")
 
 def get_per(principle,percentage):
     return principle * ((100 + percentage)/ 100)
+def boot():
+    with open("boot.json","r") as f:
+        boot_json=json.load(f)
+    if boot_json["seller_started"]:
+        boot_json["seller_started"]=False
+        with open("boot.json","w") as wf:
+            json.dump(boot_json,wf, sort_keys=False,indent='\t', separators=(',', ': '))
+        logger.info("Looks like seller is started, setting as false and waiting for 15 secs")
+        time.sleep(15)
+        with open("boot.json","r") as f:
+            boot_json=json.load(f)
+        if boot_json["seller_started"]:
+            logger.info("seller present,  Bye!!")
+            sys.exit()
+        else:
+            boot_json["seller_started"]=True
+    else:
+        boot_json["seller_started"]=True
+    print(boot_json)
+    return boot_json
 
 
+
+boot_json= boot()
 with open("keys.json","r") as f:
     keys=json.load(f)
 logger.info("Starting the seller")
@@ -58,6 +81,11 @@ while True:
         s_orders[id]=created_order[id]
     with open("sell_orders.json","w")as wf :
         json.dump(s_orders,wf, sort_keys=False,indent='\t', separators=(',', ': '))
+    with open("boot.json","r") as f:
+        boot_json=json.load(f)
+    boot_json["seller_started"]=True
+    with open("boot.json","w") as wf:
+        json.dump(boot_json,wf, sort_keys=False,indent='\t', separators=(',', ': '))
 
 
     time.sleep(10)
