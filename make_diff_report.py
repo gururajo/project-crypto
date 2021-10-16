@@ -138,7 +138,7 @@ def get_last24(diff):
     neg_keys_c=7
     if exchanges.ok:
         exchanges = exchanges.json()
-        with open("exchanges.json","w") as wf:
+        with open("exchange.json","w") as wf:
            json.dump(exchanges, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         for currency in exchanges['symbols']:
             print(currency['symbol'])
@@ -330,6 +330,8 @@ if __name__ == "__main__":
     try:
         main(boot_json)
     except KeyboardInterrupt:
+        with open("boot.json","r") as f:
+            boot_json=json.load(f)
         boot_json["started"]=False
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))

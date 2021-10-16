@@ -7,7 +7,7 @@ logging.config.fileConfig('log_config.conf')
 logger = logging.getLogger("TRADE")
 def get_corrected_price(symbol,price):
     with open("exchange.json","r") as f:
-        exchanges=json.load(f)["symbols"]
+        exchanges=json.load(f)
     tick_size=None
     q_stepsize=None
     for cryp in exchanges:
@@ -87,11 +87,12 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC"):
     with open("orders.json","r") as f:
         orders=json.load(f)
     orders.append(order)
+    with open("orders.json","w") as wf:
+        json.dump(orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
     o_orders=client.get_open_orders()
     with open("open_orders.json","w") as wf:
         json.dump(o_orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
-    with open("orders.json","w") as wf:
-        json.dump(orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+
     return order
 
     # client.get_order("BTCUSDT", orderId =5522552)
@@ -143,12 +144,15 @@ def sell(symbol,price,type_o="LIMIT",timeInforce="GTC"):
     with open("orders.json","r") as f:
         orders=json.load(f)
     orders.append(order)
+    with open("orders.json","w") as wf:
+        json.dump(orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
     o_orders=client.get_open_orders()
     with open("open_orders.json","w") as wf:
         json.dump(o_orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
-    with open("orders.json","w") as wf:
-        json.dump(orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+
     return order
 
-# buy(symbol="TRXUSDT",quantity=200,price=0.0965)
-print(buy(symbol="TRXUSDT",price=0.1012))
+if __name__=="__main__":
+    # buy(symbol="TRXUSDT",quantity=200,price=0.0965)
+    # # print(buy(symbol="TRXUSDT",price=0.1012))
+    pass
