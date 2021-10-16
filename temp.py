@@ -7,7 +7,8 @@ logger = logging.getLogger("MARKET")
 
 def get_corrected_price(symbol,price):
     with open("exchange.json","r") as f:
-        exchanges=json.load(f)["symbols"]
+        exchanges=json.load(f)
+        exchanges=exchanges["symbols"]
     tick_size=None
     q_stepsize=None
     for cryp in exchanges:
@@ -42,7 +43,9 @@ def get_corrected_price(symbol,price):
     except Exception as e:
         print("ops",e)
 
-
+    print(price,quantity)
     print("total Amt",price*quantity)
     return price,quantity
+
+
 print(get_corrected_price("TRXUSDT",0.1012))

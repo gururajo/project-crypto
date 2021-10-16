@@ -846,3 +846,43 @@ binance.error.ClientError: (400, -1121, 'Invalid symbol.', {'Content-Type': 'app
 2021-10-16 11:34:08,232 - MARKET - DEBUG   : err_key'ETCUSDT'
 2021-10-16 11:34:09,050 - MARKET - DEBUG   : err_key'ICXUSDT'
 2021-10-16 11:34:10,688 - MARKET - DEBUG   : err_key'NULSUSDT'
+2021-10-16 14:50:31,167 - SELLER - INFO   : Starting the seller
+2021-10-16 14:51:02,647 - TRADE - INFO   : Got BUY req: BTCUSDT p:61608.2
+2021-10-16 14:51:05,683 - TRADE - INFO   : Buying BTCUSDT Q:0.00019000000000000004 P:61608.2
+2021-10-16 14:53:39,618 - TRADE - INFO   : Got BUY req: BTCUSDT p:61608.2
+2021-10-16 14:53:41,264 - TRADE - INFO   : Buying BTCUSDT Q:0.00019 P:61608.2
+2021-10-16 14:55:32,562 - SELLER - INFO   : Looks like seller is started, setting as false and waiting for 15 secs
+2021-10-16 14:55:47,579 - SELLER - INFO   : Starting the seller
+2021-10-16 14:57:25,726 - SELLER - INFO   : Starting the seller
+2021-10-16 14:57:27,159 - TRADE - INFO   : Got SELL req: BTCUSDT p:63579.6624
+2021-10-16 14:57:28,591 - TRADE - INFO   : Selling BTCUSDT Q:1.01119 P:63579.66
+2021-10-16 14:59:07,237 - SELLER - INFO   : Looks like seller is started, setting as false and waiting for 15 secs
+2021-10-16 14:59:22,252 - SELLER - INFO   : Starting the seller
+2021-10-16 15:00:24,580 - SELLER - INFO   : Looks like seller is started, setting as false and waiting for 15 secs
+2021-10-16 15:00:39,589 - SELLER - INFO   : Starting the seller
+2021-10-16 15:01:58,430 - TRADE - INFO   : Got BUY req: BTCUSDT p:61608.2
+2021-10-16 15:01:59,862 - TRADE - INFO   : Buying BTCUSDT Q:0.00019 P:61608.2
+2021-10-16 15:05:11,763 - SELLER - INFO   : Looks like seller is started, setting as false and waiting for 15 secs
+2021-10-16 15:05:26,769 - SELLER - INFO   : Starting the seller
+2021-10-16 15:05:27,780 - SELLER - INFO   : orderid:6131697
+2021-10-16 15:05:29,060 - TRADE - INFO   : Got SELL req: BTCUSDT p:63579.6624
+2021-10-16 15:05:31,850 - TRADE - INFO   : Selling BTCUSDT Q:0.00019 P:63579.66
+2021-10-16 15:05:59,479 - TRADE - INFO   : Got BUY req: BTCUSDT p:61608.2
+2021-10-16 15:06:00,891 - TRADE - INFO   : Buying BTCUSDT Q:0.00019 P:61608.2
+2021-10-16 15:06:04,243 - SELLER - INFO   : orderid:6132730
+2021-10-16 15:06:04,693 - TRADE - INFO   : Got SELL req: BTCUSDT p:63579.6624
+2021-10-16 15:06:06,130 - TRADE - INFO   : Selling BTCUSDT Q:0.00019 P:63579.66
+2021-10-16 15:08:21,939 - SELLER - INFO   : Looks like seller is started, setting as false and waiting for 15 secs
+2021-10-16 15:08:36,952 - SELLER - INFO   : Starting the seller
+2021-10-16 15:09:56,397 - TRADE - INFO   : Got BUY req: BTCUSDT p:61608.2
+2021-10-16 15:09:58,269 - TRADE - INFO   : Buying BTCUSDT Q:0.00019 P:61608.2
+2021-10-16 15:10:08,126 - SELLER - INFO   : orderid:6133699
+2021-10-16 15:10:08,513 - TRADE - INFO   : Got SELL req: BTCUSDT p:63579.6624
+2021-10-16 15:10:09,885 - TRADE - INFO   : Selling BTCUSDT Q:0.00019 P:63579.66
+2021-10-16 15:16:30,897 - SELLER - INFO   : Looks like seller is started, setting as false and waiting for 15 secs
+2021-10-16 15:16:45,913 - SELLER - INFO   : Starting the seller
+2021-10-16 15:16:58,379 - TRADE - INFO   : Got BUY req: BTCUSDT p:61608.2
+2021-10-16 15:17:00,162 - TRADE - INFO   : Buying BTCUSDT Q:0.00019 P:61608.2
+2021-10-16 15:17:06,952 - SELLER - INFO   : orderid:6135540
+2021-10-16 15:17:07,519 - TRADE - INFO   : Got SELL req: BTCUSDT p:63579.6624
+2021-10-16 15:17:09,286 - TRADE - INFO   : Selling BTCUSDT Q:0.00019 P:63579.66

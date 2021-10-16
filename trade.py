@@ -8,6 +8,7 @@ logger = logging.getLogger("TRADE")
 def get_corrected_price(symbol,price):
     with open("exchange.json","r") as f:
         exchanges=json.load(f)
+        exchanges=exchanges["symbols"]
     tick_size=None
     q_stepsize=None
     for cryp in exchanges:
@@ -41,6 +42,15 @@ def get_corrected_price(symbol,price):
             price=float(re.search("[0-9]*\.[0-9]{"+str(len(gap)-1)+"}",str(price)).group())
     except Exception as e:
         print("ops",e)
+    try:
+        gap=re.search("\.0*1",str('{:.10f}'.format(q_stepsize))).group()
+        print("got gap")
+        gap2=re.search("\.[0-9]*",str(quantity)).group()
+        if len(gap2) > len(gap):
+            quantity=float(re.search("[0-9]*\.[0-9]{"+str(len(gap)-1)+"}",str(quantity
+                                                                              )).group())
+    except Exception as e:
+        print("ops",e)
 
     print(price,quantity)
     print("total Amt",price*quantity)
@@ -52,7 +62,7 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC"):
         keys=json.load(f)
 
     logger.info("Got BUY req: "+str(symbol)+" p:"+str(price))
-    client= Spot(base_url='https://testnet.binance.vision',key=keys["api_key"], secret=keys["secret_key"])
+    client= Spot(key=keys["api_key"], secret=keys["secret_key"])
     time.sleep(1)
     wallet=client.account()
     with open("wallet.json","w") as wf:
@@ -104,7 +114,7 @@ def sell(symbol,price,type_o="LIMIT",timeInforce="GTC"):
         keys=json.load(f)
 
     logger.info("Got SELL req: "+str(symbol)+" p:"+str(price))
-    client= Spot(base_url='https://testnet.binance.vision',key=keys["api_key"], secret=keys["secret_key"])
+    client= Spot(key=keys["api_key"], secret=keys["secret_key"])
     time.sleep(1)
     wallet=client.account()
     with open("wallet.json","w") as wf:
@@ -154,5 +164,5 @@ def sell(symbol,price,type_o="LIMIT",timeInforce="GTC"):
 
 if __name__=="__main__":
     # buy(symbol="TRXUSDT",quantity=200,price=0.0965)
-    # # print(buy(symbol="TRXUSDT",price=0.1012))
-    pass
+    print(buy(symbol="BTCUSDT",price=61608.2))
+    # pass

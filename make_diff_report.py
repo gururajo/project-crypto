@@ -90,7 +90,7 @@ def strategy(cryp,time_key,currency):
     if cryp["neg_trig"][1]:
         if -0.3 < last_5_avg:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-            if cryp["change"]>50:
+            if cryp["change"]>30:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
                 return
             try:
@@ -105,7 +105,6 @@ def strategy(cryp,time_key,currency):
             cryp["pos_trig"]=[0,False]
 
 def boot():
-
     with open("boot.json","r") as f:
         boot_json=json.load(f)
     print("started booy:",boot_json)
@@ -114,7 +113,7 @@ def boot():
         with open("boot.json","w") as wf:
             boot_json=json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         logger.info("Found started is true, so set it false and waiting for double wait time")
-        time.sleep(sec*min+60)
+        time.sleep(sec*min+120)
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         if boot_json["started"]:
@@ -198,7 +197,7 @@ def get_last24(diff):
                         diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
 
 
-                        if len(diff[cryp])-neg_keys_c >52:
+                        if len(diff[cryp])-neg_keys_c >96:
                             key1,key2=list(diff[cryp].keys())[neg_keys_c:neg_keys_c+2]
                             diff[cryp].pop(key1)
                             diff[cryp]["start"]=diff[cryp].pop(key2)[3]
