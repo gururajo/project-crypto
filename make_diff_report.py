@@ -90,7 +90,7 @@ def strategy(cryp,time_key,currency):
     if cryp["neg_trig"][1]:
         if -0.3 < last_5_avg:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-            if cryp["change"]> 25:
+            if cryp["change"]> 20:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
                 cryp["neg_trig"]=[0,False]
                 return
