@@ -54,8 +54,11 @@ while True:
                 price=get_per(float(order["price"]),3.2)
                 try:
                     order_ret=trade.sell(symbol=symbol,price=price)
-                    created_order[order_id]=order_ret
-
+                    if order_ret:
+                        created_order[order_id]=order_ret
+                    else:
+                        logger.info("trade.sell return None :(")
+                        continue
                 except Exception as e:
                     logger.exception("Error in sell order: "+str(symbol)+" P:"+str(price))
                     continue

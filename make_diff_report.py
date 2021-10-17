@@ -80,21 +80,24 @@ def get_per(principle,percentage):
 def strategy(cryp,time_key,currency):
 
     last_5_avg=cryp[time_key][1]
-    if last_5_avg>1.7:
+    if last_5_avg>1.5:
         logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["pos_trig"]=[last_5_avg,True]
-    if last_5_avg<-1.7:
+    if last_5_avg<-1.5:
         logger.error("lesser than -2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
 
     if cryp["neg_trig"][1]:
         if -0.3 < last_5_avg:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-            if cryp["change"]>30:
+            if cryp["change"]> 25:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
+                cryp["neg_trig"]=[0,False]
                 return
             try:
-                trade.buy(currency, get_per(cryp[time_key][3],-0.2))
+                order=trade.buy(currency, get_per(cryp[time_key][3],-0.2))
+                if not order:
+                    logger.info("Damn order didnt complete")
             except Exception as e:
                 logger.exception("Buy order exception:"+ str(e))
             cryp["neg_trig"]=[0,False]
@@ -184,9 +187,9 @@ def get_last24(diff):
                             n=len(diff[cryp]) - neg_keys_c
                             time_key = list(diff[cryp].keys())[-1]
                             till_avg = ( ( ( n ) * float( diff[cryp][time_key][2] ) ) + change ) / ( n + 1)
-                            if len(diff[cryp])- neg_keys_c >5:
+                            if len(diff[cryp])- neg_keys_c >8:
 
-                                for time_key in list(diff[cryp].keys())[-4:]:
+                                for time_key in list(diff[cryp].keys())[-6:]:
                                     last_5_avg+=diff[cryp][time_key][0]
                                 last_5_avg+=change
                                 last_5_avg/=5
@@ -237,6 +240,11 @@ def main(boot_json):
         market = get_present()
         if not market:
             logger.error("some error in Connection")
+            with open("boot.json","r") as f:
+                boot_json=json.load(f)
+            boot_json["started"]=True
+            with open("boot.json","w") as wf:
+                json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
             time.sleep(20)
             continue
 
@@ -269,9 +277,9 @@ def main(boot_json):
                         n=len(diff[cryp]) - neg_keys_c
                         time_key = list(diff[cryp].keys())[-1]
                         till_avg = ( ( ( n ) * float( diff[cryp][time_key][2] ) ) + change ) / ( n + 1)
-                        if len(diff[cryp])- neg_keys_c >5:
+                        if len(diff[cryp])- neg_keys_c >7:
 
-                            for time_key in list(diff[cryp].keys())[-4:]:
+                            for time_key in list(diff[cryp].keys())[-6:]:
                                 last_5_avg+=diff[cryp][time_key][0]
                             last_5_avg+=change
                             last_5_avg/=5
@@ -329,6 +337,13 @@ if __name__ == "__main__":
     try:
         main(boot_json)
     except KeyboardInterrupt:
+        with open("boot.json","r") as f:
+            boot_json=json.load(f)
+        boot_json["started"]=False
+        with open("boot.json","w") as wf:
+            json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+    except Exception as e:
+        logger.exception("main func exception"+str(e))
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         boot_json["started"]=False

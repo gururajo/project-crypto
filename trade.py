@@ -88,7 +88,11 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC"):
         logger.info("Buying "+str(symbol)+" Q:"+str(quantity)+" P:"+str(price))
 
         # client.new_order(symbol="",side="BUY",type="LIMIT",timeInForce="GTC",quantity=quantity,price=price)
-        order=client.new_order(symbol=symbol,side="BUY",type=type_o,timeInForce=timeInforce,quantity=quantity,price=price)
+        try:
+            order=client.new_order(symbol=symbol,side="BUY",type=type_o,timeInForce=timeInforce,quantity=quantity,price=price)
+        except Exception:
+            logger.exception("Buy error")
+            return None
         time.sleep(1)
     else:
         logger.info("Not enough Balance to buy "+str(symbol)+" P:"+str(price))
@@ -145,7 +149,11 @@ def sell(symbol,price,type_o="LIMIT",timeInforce="GTC"):
 
         # client.new_order(symbol="",side="SELL",type="LIMIT",timeInForce="GTC",quantity=quantity,price=price)
         # quantity=200
-        order=client.new_order(symbol=symbol,side="SELL",type=type_o,timeInForce=timeInforce,quantity=quantity,price=price)
+        try:
+            order=client.new_order(symbol=symbol,side="SELL",type=type_o,timeInForce=timeInforce,quantity=quantity,price=price)
+        except Exception as e:
+            logger.exception("sell order failed"+str(e))
+            return None
         time.sleep(1)
     else:
         logger.info("Not enough Balance to sell "+str(symbol)+" P:"+str(price))
