@@ -103,9 +103,7 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC"):
     orders.append(order)
     with open("orders.json","w") as wf:
         json.dump(orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
-    o_orders=client.get_open_orders()
-    with open("open_orders.json","w") as wf:
-        json.dump(o_orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+
 
     return order
 
@@ -164,9 +162,7 @@ def sell(symbol,price,type_o="LIMIT",timeInforce="GTC"):
     orders.append(order)
     with open("orders.json","w") as wf:
         json.dump(orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
-    o_orders=client.get_open_orders()
-    with open("open_orders.json","w") as wf:
-        json.dump(o_orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+
 
     return order
 

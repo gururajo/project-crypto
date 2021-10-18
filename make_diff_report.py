@@ -26,6 +26,8 @@ import trade
 
 sec = 60
 min = 15
+neg_keys_c=8
+
 if len(sys.argv)==2:
     min = int(sys.argv[1])
 try:
@@ -80,17 +82,18 @@ def get_per(principle,percentage):
 def strategy(cryp,time_key,currency):
 
     last_5_avg=cryp[time_key][1]
-    if last_5_avg>1.5:
+    if last_5_avg>1.3:
         logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["pos_trig"]=[last_5_avg,True]
     if last_5_avg<-1.5:
         logger.error("lesser than -2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
+    last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:
-        if -0.3 < last_5_avg:
+        if -0.3 < last_3_avg and last_5_avg < -0.6:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-            if cryp["change"]> 20:
+            if cryp["change"]> 20 or cryp["change_24hr"]>20:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
                 cryp["neg_trig"]=[0,False]
                 return
@@ -101,6 +104,8 @@ def strategy(cryp,time_key,currency):
             except Exception as e:
                 logger.exception("Buy order exception:"+ str(e))
             cryp["neg_trig"]=[0,False]
+        elif -0.3 < last_3_avg:
+            logger.warning("Last 3 avg is less than 0.3 but last_5_avg is not > 0.6: S:"+str(currency)+" T:"+str(time_key))
 
     if cryp["pos_trig"][1]:
         if last_5_avg < .3:
@@ -130,6 +135,13 @@ def boot():
     print(boot_json)
     return boot_json
 
+def last_n_avg(cryp,n):
+    n_avg=0
+    for time_key in list(cryp.keys())[-1*n:]:
+        n_avg+=cryp[time_key][0]
+    n_avg/=n
+    return n_avg
+
 def get_last24(diff):
     logger.info("Getting the last 24hr data")
     try:
@@ -137,7 +149,7 @@ def get_last24(diff):
     except Exception:
         logger.exception("OOOOHH SHIET")
         sys.exit()
-    neg_keys_c=7
+    global neg_keys_c
     if exchanges.ok:
         exchanges = exchanges.json()
         with open("exchange.json","w") as wf:
@@ -187,9 +199,9 @@ def get_last24(diff):
                             n=len(diff[cryp]) - neg_keys_c
                             time_key = list(diff[cryp].keys())[-1]
                             till_avg = ( ( ( n ) * float( diff[cryp][time_key][2] ) ) + change ) / ( n + 1)
-                            if len(diff[cryp])- neg_keys_c >8:
+                            if len(diff[cryp])- neg_keys_c >10:
 
-                                for time_key in list(diff[cryp].keys())[-6:]:
+                                for time_key in list(diff[cryp].keys())[-8:]:
                                     last_5_avg+=diff[cryp][time_key][0]
                                 last_5_avg+=change
                                 last_5_avg/=5
@@ -205,11 +217,12 @@ def get_last24(diff):
                             diff[cryp].pop(key1)
                             diff[cryp]["start"]=diff[cryp].pop(key2)[3]
                 except KeyError as e:
-                    logger.debug("err_key"+str(e))
+                    # logger.debug("err_key"+str(e))
                     diff[cryp] = {}
                     diff[cryp]["prev"] = float(ticker[4])
                     diff[cryp]["start"] = float(ticker[4])
                     diff[cryp]["change"] = 0
+                    diff[cryp]["change_24hr"] = 0
                     diff[cryp]["range"]=[float(ticker[4]),float(ticker[4])]
                     diff[cryp]["pos_trig"]=[0,False]
                     diff[cryp]["neg_trig"]=[0,False]
@@ -227,7 +240,7 @@ def main(boot_json):
     boot_json["last_report"]=report_name
     diff = {}
     diff["started"]=time.strftime("%B %d %H:%M:%S")
-    neg_keys_c=7
+    global neg_keys_c
     tickers=0
     volume_thres=600000
     diff["last_updated"]=time.time()
@@ -269,6 +282,7 @@ def main(boot_json):
                     # print("got_prev", cryp)
 
                     diff[cryp]["change"]=get_per_change(diff[cryp]["start"],last)
+                    diff[cryp]["change_24hr"] = float(coin["priceChangePercent"])
                     diff[cryp]["prev"] = last
                     change = get_per_change(prev,last)
                     till_avg = 0
@@ -277,9 +291,9 @@ def main(boot_json):
                         n=len(diff[cryp]) - neg_keys_c
                         time_key = list(diff[cryp].keys())[-1]
                         till_avg = ( ( ( n ) * float( diff[cryp][time_key][2] ) ) + change ) / ( n + 1)
-                        if len(diff[cryp])- neg_keys_c >7:
+                        if len(diff[cryp])- neg_keys_c >9:
 
-                            for time_key in list(diff[cryp].keys())[-6:]:
+                            for time_key in list(diff[cryp].keys())[-8:]:
                                 last_5_avg+=diff[cryp][time_key][0]
                             last_5_avg+=change
                             last_5_avg/=5
@@ -295,7 +309,7 @@ def main(boot_json):
                         print("allowed",cryp,volume)
                     #     logger.debug("OOps not good trading volume:"+str(cryp)+" "+str(coin["volume"])+" "+str(last)+" "+str(float(coin["volume"])*last))
 
-                    if len(diff[cryp])-neg_keys_c >52:
+                    if len(diff[cryp])-neg_keys_c >69:
                         key1,key2=list(diff[cryp].keys())[neg_keys_c:neg_keys_c+2]
                         diff[cryp].pop(key1)
                         diff[cryp]["start"]=diff[cryp].pop(key2)[3]
@@ -308,6 +322,7 @@ def main(boot_json):
                 diff[cryp]["prev"] = float(coin["lastPrice"])
                 diff[cryp]["start"] = float(coin["lastPrice"])
                 diff[cryp]["change"] = 0
+                diff[cryp]["change_24hr"] = float(coin["priceChangePercent"])
                 diff[cryp]["range"]=[float(coin["lastPrice"]),float(coin["lastPrice"])]
                 diff[cryp]["pos_trig"]=[0,False]
                 diff[cryp]["neg_trig"]=[0,False]
@@ -317,7 +332,7 @@ def main(boot_json):
             json.dump(diff, outfile, sort_keys=False,
                       indent='\t', separators=(',', ': '))
             print("Added_to_file")
-        if tickers>5:
+        if tickers>1:
             with open(report_name, "r") as f:
                 report=f.read()
             report= align_report(report)

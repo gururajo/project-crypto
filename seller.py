@@ -19,7 +19,7 @@ def boot():
         with open("boot.json","w") as wf:
             json.dump(boot_json,wf, sort_keys=False,indent='\t', separators=(',', ': '))
         logger.info("Looks like seller is started, setting as false and waiting for 15 secs")
-        time.sleep(15)
+        time.sleep(65)
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         if boot_json["seller_started"]:
@@ -96,7 +96,7 @@ while True:
 
 
 
-    time.sleep(10)
+    time.sleep(60)
 
 
 
