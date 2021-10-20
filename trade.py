@@ -32,7 +32,7 @@ def get_corrected_price(symbol,price):
     print("T ",tick_size)
     print("Q:" , q_stepsize)
     price=int(price/tick_size)/(1/tick_size)
-    quantity=12.0/price
+    quantity=17.0/price
     quantity=int(quantity/q_stepsize)/(1/q_stepsize)
     try:
         gap=re.search("\.0*1",str('{:.10f}'.format(tick_size))).group()
@@ -77,7 +77,7 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC"):
         if bal["asset"]=="USDT":
             balance=float(bal["free"])
             break
-    if balance > 12:
+    if balance > 17:
         ret=get_corrected_price(symbol,price)
         if ret:
             price,quantity=ret
