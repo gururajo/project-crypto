@@ -231,7 +231,7 @@ def get_last24(diff):
                     diff[cryp]["neg_trig"]=[0,False]
                     diff[cryp]["volume"]=float(ticker[5])*float(ticker[4])
             # break
-    time.sleep(5*60)
+    # time.sleep(5*60)
     return diff
 
     # sys.exit()

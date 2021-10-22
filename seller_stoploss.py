@@ -1,5 +1,3 @@
-from os import truncate
-from typing import MappingView
 from binance.spot import Spot
 import json,time,re
 import logging,sys
