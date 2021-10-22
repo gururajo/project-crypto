@@ -1,6 +1,7 @@
 import logging,sys
 import logging.config
 import json,re
+from binance.spot import Spot
 
 logging.config.fileConfig('log_config.conf')
 logger = logging.getLogger("MARKET")
@@ -47,5 +48,26 @@ def get_corrected_price(symbol,price):
     print("total Amt",price*quantity)
     return price,quantity
 
+def get_order_det():
+    with open("keys.json","r") as f:
+        keys=json.load(f)
+    logger.info("Starting the seller_stoploss")
+    client= Spot(key=keys["api_key"], secret=keys["secret_key"])
+    # print(client.account())
+    success=False
+    while not success:
+        try:
+            client.cancel_order("SKLUSDT",orderId=294534582)
+            success=True
+        except Exception as e:
+            if e.error_code == -2011:
+                success=True
+            else:
+                logger.exception("error when cancelling order")
+    print("Done")
 
-print(get_corrected_price("TRXUSDT",0.1012))
+
+
+
+# print(get_corrected_price("TRXUSDT",0.1012))
+print(get_order_det())

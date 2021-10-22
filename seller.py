@@ -11,6 +11,7 @@ logger = logging.getLogger("SELLER")
 
 def get_per(principle,percentage):
     return principle * ((100 + percentage)/ 100)
+
 def boot():
     with open("boot.json","r") as f:
         boot_json=json.load(f)
@@ -31,6 +32,30 @@ def boot():
         boot_json["seller_started"]=True
     print(boot_json)
     return boot_json
+
+def get_per_change(first,last):
+
+    if first==0:
+        return last
+    diff=last-first
+    per=(diff/first)*100
+    return per
+
+
+def check_if_price_increased(order,client):
+    symbol=order["symbol"]
+    bought_price=float(order["price"])
+    order_id=order['orderId']
+    try:
+        price=client.ticker_price(symbol)
+    except Exception as e:
+        logger.exception("error when fetching ticker price S:"+str(symbol))
+        return None
+    new_price=float(price["price"])
+    if get_per_change(bought_price,new_price) > 2:
+        return True
+    else:
+        return False
 
 
 
@@ -67,6 +92,18 @@ while True:
                 created_order[order_id]=latest_order_det
             else:
                 logger.info("ORder :"+str(order_id)+" is still not filled n:"+str(symbol)+" S:"+str(latest_order_det["status"]))
+                logger.info("checking if price is increased")
+                ret=check_if_price_increased(order,client)
+                if ret==None:
+                    logger.error("check_if_price_increased returned None")
+                    continue
+                if ret:
+                    logger.error("price is greter than 2% of buy order, cancelling the order")
+                    try:
+                        client.cancel_order(symbol,orderId=order_id)
+                    except Exception as e:
+                        logger.exception("error when cancelling order")
+                        continue
     print(created_order.keys())
     with open("boot.json","r") as f:
         boot_json=json.load(f)
