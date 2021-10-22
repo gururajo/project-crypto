@@ -57,7 +57,7 @@ def get_corrected_price(symbol,price):
     return price,quantity
 
 
-def buy(symbol,price,type_o="LIMIT",timeInforce="GTC"):
+def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False):
     with open("keys.json","r") as f:
         keys=json.load(f)
 
@@ -67,16 +67,16 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC"):
     wallet=client.account()
     with open("wallet.json","w") as wf:
         json.dump(wallet,wf, sort_keys=False,indent='\t', separators=(',', ': '))
-    # get quantity by checking balance
-    # need to add sell function
-    # another parallel script to sell filled orders
-    # get last 1day to create report in seconds
-    # put 24hr high limit
     balance=wallet["balances"]
     for bal in balance:
         if bal["asset"]=="USDT":
             balance=float(bal["free"])
             break
+    if not force:
+        open_orders=client.get_open_orders()
+        if re.search(re.escape(str(symbol)),str(open_orders)):
+            logger.error("There's already an open order , oreder req rejected")
+            return None
     if balance > 17:
         ret=get_corrected_price(symbol,price)
         if ret:

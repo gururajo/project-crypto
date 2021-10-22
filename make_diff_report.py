@@ -85,15 +85,15 @@ def strategy(cryp,time_key,currency):
     if last_5_avg>1.3:
         logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["pos_trig"]=[last_5_avg,True]
-    if last_5_avg<-1.5:
+    if last_5_avg<-1.3:
         logger.error("lesser than -2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
     last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:
-        if -0.3 < last_3_avg and last_5_avg < -0.6:
+        if -0.5 < last_3_avg < 1.5 and last_5_avg < -0.6:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-            if cryp["change"]> 20 or cryp["change_24hr"]>20:
+            if cryp["change"]> 17 or cryp["change_24hr"]>17:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
                 cryp["neg_trig"]=[0,False]
                 return
@@ -104,9 +104,12 @@ def strategy(cryp,time_key,currency):
             except Exception as e:
                 logger.exception("Buy order exception:"+ str(e))
             cryp["neg_trig"]=[0,False]
-        elif -0.3 < last_3_avg:
-            logger.warning("Last 3 avg is less than 0.3 but last_5_avg is not > 0.6: S:"+str(currency)+" T:"+str(time_key))
-
+        elif -0.3 < last_3_avg :
+            logger.warning("Last 3 avg is less than 0.3 but last_5_avg is not > 0.6: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
+        elif last_3_avg >3:
+            # logger.warning("last 3 avg > 3%")
+            cryp["neg_trig"]=[0,False]
+            logger.warning("last 3 avg greater than 3, setting false "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
     if cryp["pos_trig"][1]:
         if last_5_avg < .3:
             logger.warning("if you own this selit: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
@@ -302,7 +305,7 @@ def main(boot_json):
                     time_key=time.strftime("%B %d %H:%M:%S")
                     diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
                     # print("volume:",coin["volume"],type(coin["volume"]))
-                    if volume > volume_thres:
+                    if volume > volume_thres and len(list(diff[cryp].keys()))-neg_keys_c>9:
                         # print("allowed",cryp,volume)
                         strategy(diff[cryp],time_key,cryp)
                     else:
