@@ -1,8 +1,10 @@
--after buy order , check if price has increased 3 more % and not filled. in case cancel order
+-Done after buy order , check if price has increased 3 more % and not filled. in case cancel order
+    made it 2%
 -Done: same for sell orders think fr logic stoploss 10%looks fine (dont know which to choose ,buy or sell)
-    made  it to buy if <20% and new sell order with weighted avg price
+    made  it to buy if <-20% and new sell order with weighted avg price
 -Done: stabilizing point make it last3 avg
 -Done: cinsideer 24 chnage also
 -Done: neg count update for change24hr key
 -Done add force variable in buy func of trade
 -Done: in make diff .py add id len of total rows >9 + neg keys then only call stratergy
+- Add dont buy these ina a file and check  .. .. ... you know it do it like that add buy price aslo
