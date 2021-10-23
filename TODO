@@ -8,3 +8,4 @@
 -Done add force variable in buy func of trade
 -Done: in make diff .py add id len of total rows >9 + neg keys then only call stratergy
 - Add dont buy these ina a file and check  .. .. ... you know it do it like that add buy price aslo
+- create a PNL script
