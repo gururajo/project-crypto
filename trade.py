@@ -64,7 +64,11 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False):
     logger.info("Got BUY req: "+str(symbol)+" p:"+str(price))
     client= Spot(key=keys["api_key"], secret=keys["secret_key"])
     time.sleep(1)
-    wallet=client.account()
+    try:
+        wallet=client.account()
+    except Exception as e:
+        logger.exception("error when getting account info"+ str(e))
+        return None
     with open("wallet.json","w") as wf:
         json.dump(wallet,wf, sort_keys=False,indent='\t', separators=(',', ': '))
     balance=wallet["balances"]
@@ -73,7 +77,11 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False):
             balance=float(bal["free"])
             break
     if not force:
-        open_orders=client.get_open_orders()
+        try:
+            open_orders=client.get_open_orders()
+        except Exception as e:
+            logger.exception("error when getting open_orders"+ str(e))
+            return None
         if re.search(re.escape(str(symbol)),str(open_orders)):
             logger.error("There's already an open order , oreder req rejected")
             return None
@@ -118,7 +126,11 @@ def sell(symbol,price,type_o="LIMIT",timeInforce="GTC"):
     logger.info("Got SELL req: "+str(symbol)+" p:"+str(price))
     client= Spot(key=keys["api_key"], secret=keys["secret_key"])
     time.sleep(1)
-    wallet=client.account()
+    try:
+        wallet=client.account()
+    except Exception as e:
+        logger.exception("error when getting account info"+ str(e))
+        return None
     with open("wallet.json","w") as wf:
         json.dump(wallet,wf, sort_keys=False,indent='\t', separators=(',', ': '))
     # get quantity by checking balance

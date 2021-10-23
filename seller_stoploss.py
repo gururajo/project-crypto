@@ -121,10 +121,13 @@ def main():
     while True:
         time.sleep(10*60)
         updated_orders={}
+        try:
+            o_orders=client.get_open_orders()
+            with open("open_orders.json","w") as wf:
+                json.dump(o_orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+        except Exception as e:
+            logger.exception("error when getting get_open_orders()")
 
-        o_orders=client.get_open_orders()
-        with open("open_orders.json","w") as wf:
-            json.dump(o_orders, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         with open("sell_orders.json","r") as f:
             s_orders=json.load(f)
 
@@ -247,6 +250,13 @@ if __name__== "__main__":
     try:
         main()
     except KeyboardInterrupt:
+        with open("boot.json","r") as f:
+            boot_json=json.load(f)
+        boot_json["seller_stoploss_started"]=False
+        with open("boot.json","w") as wf:
+            json.dump(boot_json,wf, sort_keys=False,indent='\t', separators=(',', ': '))
+    except Exception as e:
+        logger.exception("exception in main func"+str(e))
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         boot_json["seller_stoploss_started"]=False
