@@ -98,7 +98,7 @@ def main():
                     created_order[order_id]=latest_order_det
                 else:
                     logger.info("ORder :"+str(order_id)+" is still not filled n:"+str(symbol)+" S:"+str(latest_order_det["status"]))
-                    logger.info("checking if price is increased")
+                    # logger.info("checking if price is increased")
                     ret=check_if_price_increased(order,client)
                     if ret==None:
                         logger.error("check_if_price_increased returned None")
