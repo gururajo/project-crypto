@@ -93,7 +93,7 @@ def boot():
         with open("boot.json","w") as wf:
             json.dump(boot_json,wf, sort_keys=False,indent='\t', separators=(',', ': '))
         logger.info("Looks like seller_stoploss is started, setting as false and waiting for 12 mins")
-        time.sleep(12*60)
+        time.sleep(3.5*60)
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         if boot_json["seller_stoploss_started"]:
@@ -119,7 +119,7 @@ def main():
     bought_orders_with_old={}
     added_orders={}
     while True:
-        time.sleep(10*60)
+        time.sleep(3*60)
         updated_orders={}
         try:
             o_orders=client.get_open_orders()
@@ -225,8 +225,8 @@ def main():
                     # bought_orders.append(bought_order_id)
                     # bought_orders_with_old[str(b_order_id)]=bought_order_id
                     # continue
-        logger.info("OBERALL bought orders:\n"+str(bought_orders)+"\n\n"+str(bought_orders_with_old))
-        logger.info("Updated orders: "+str(list(updated_orders.keys())))
+        if len(list(bought_orders_with_old.keys()))>0 or len(list(updated_orders.keys()))>0:
+            logger.info("OBERALL bought orders:"+str(bought_orders_with_old)+" Updated orders: "+str(list(updated_orders.keys())))
         with open("sell_orders.json","r") as f:
             s_orders=json.load(f)
         to_write={}
