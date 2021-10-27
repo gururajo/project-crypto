@@ -32,7 +32,7 @@ def get_corrected_price(symbol,price):
     print("T ",tick_size)
     print("Q:" , q_stepsize)
     price=int(price/tick_size)/(1/tick_size)
-    quantity=20.0/price
+    quantity=25.0/price
     quantity=int(quantity/q_stepsize)/(1/q_stepsize)
     try:
         gap=re.search("\.0*1",str('{:.10f}'.format(tick_size))).group()
@@ -85,7 +85,7 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False):
         if re.search(re.escape(str(symbol)),str(open_orders)):
             logger.error("There's already an open order , oreder req rejected")
             return None
-    if balance > 20:
+    if balance > 25:
         ret=get_corrected_price(symbol,price)
         if ret:
             price,quantity=ret
