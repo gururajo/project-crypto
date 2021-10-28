@@ -82,31 +82,34 @@ def get_per(principle,percentage):
 def strategy(cryp,time_key,currency):
 
     last_5_avg=cryp[time_key][1]
+
     if last_5_avg>1.3:
         logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["pos_trig"]=[last_5_avg,True]
-    if last_5_avg<-1.3:
-        logger.error("lesser than -2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+    if last_5_avg<-0.8:
+        logger.error("lesser than -0.8 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
     last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:
-        if -0.5 < last_3_avg < 1.5 and last_5_avg < -0.6:
+        if -0.4 < last_3_avg < 1 and last_5_avg < -0.45:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-            if cryp["change"]> 17 or cryp["change_24hr"]>17:
+            if cryp["change"]> 15 or cryp["change_24hr"]>15:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
                 cryp["neg_trig"]=[0,False]
-                return
+                return None
             try:
                 order=trade.buy(currency, get_per(cryp[time_key][3],-0.2))
                 if not order:
                     logger.info("Damn order didnt complete")
+                    return None
             except Exception as e:
                 logger.exception("Buy order exception:"+ str(e))
+                return None
             cryp["neg_trig"]=[0,False]
-        elif -0.3 < last_3_avg :
-            logger.warning("Last 3 avg is less than 0.3 but last_5_avg is not > 0.6: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-        elif last_3_avg >3:
+        elif -0.4 < last_3_avg :
+            logger.warning("Last 3 avg is greater than -0.4 but last_5_avg is not < -0.45: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
+        elif last_3_avg >2:
             # logger.warning("last 3 avg > 3%")
             cryp["neg_trig"]=[0,False]
             logger.warning("last 3 avg greater than 3, setting false "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
@@ -114,6 +117,7 @@ def strategy(cryp,time_key,currency):
         if last_5_avg < .3:
             logger.warning("if you own this selit: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             cryp["pos_trig"]=[0,False]
+    return True
 
 def boot():
     with open("boot.json","r") as f:
@@ -202,17 +206,17 @@ def get_last24(diff):
                             n=len(diff[cryp]) - neg_keys_c
                             time_key = list(diff[cryp].keys())[-1]
                             till_avg = ( ( ( n ) * float( diff[cryp][time_key][2] ) ) + change ) / ( n + 1)
-                            if len(diff[cryp])- neg_keys_c >10:
-
-                                for time_key in list(diff[cryp].keys())[-8:]:
-                                    last_5_avg+=diff[cryp][time_key][0]
-                                last_5_avg+=change
-                                last_5_avg/=5
+                            time_key=time.strftime("%B %d %H:%M:%S",time.gmtime((ticker[0]/1000)+19800))
+                            if len(diff[cryp])- neg_keys_c >7:
+                                diff[cryp][time_key] = [change, 0,0, last]
+                                diff[cryp][time_key] = [change, last_n_avg(diff[cryp],7),last_n_avg(diff[cryp],len(diff[cryp])-neg_keys_c), last]
                             else:
-                                last_5_avg=till_avg
+                                diff[cryp][time_key] = [change,till_avg,till_avg , last]
+                        else:
+                            time_key=time.strftime("%B %d %H:%M:%S",time.gmtime((ticker[0]/1000)+19800))
+                            diff[cryp][time_key] = [change,till_avg,till_avg , last]
                         # print(ticker)
-                        time_key=time.strftime("%B %d %H:%M:%S",time.gmtime((ticker[0]/1000)+19800))
-                        diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
+
 
 
                         if len(diff[cryp])-neg_keys_c >96:
@@ -294,20 +298,20 @@ def main(boot_json):
                         n=len(diff[cryp]) - neg_keys_c
                         time_key = list(diff[cryp].keys())[-1]
                         till_avg = ( ( ( n ) * float( diff[cryp][time_key][2] ) ) + change ) / ( n + 1)
-                        if len(diff[cryp])- neg_keys_c >9:
-
-                            for time_key in list(diff[cryp].keys())[-8:]:
-                                last_5_avg+=diff[cryp][time_key][0]
-                            last_5_avg+=change
-                            last_5_avg/=5
+                        time_key=time.strftime("%B %d %H:%M:%S")
+                        if len(diff[cryp])- neg_keys_c >7:
+                            diff[cryp][time_key] = [change, 0,0, last]
+                            diff[cryp][time_key] = [change, last_n_avg(diff[cryp],7),last_n_avg(diff[cryp],len(diff[cryp])-neg_keys_c), last]
                         else:
-                            last_5_avg=till_avg
-                    time_key=time.strftime("%B %d %H:%M:%S")
-                    diff[cryp][time_key] = [change, last_5_avg, till_avg, last]
+                            diff[cryp][time_key] = [change,till_avg,till_avg , last]
+                    else:
+                        time_key=time.strftime("%B %d %H:%M:%S")
+                        diff[cryp][time_key] = [change,till_avg,till_avg , last]
                     # print("volume:",coin["volume"],type(coin["volume"]))
                     if volume > volume_thres and len(list(diff[cryp].keys()))-neg_keys_c>9:
                         # print("allowed",cryp,volume)
-                        strategy(diff[cryp],time_key,cryp)
+                        if strategy(diff[cryp],time_key,cryp)==None:
+                            logger.info("Buy didn't complete ,next timemayb")
                     else:
                         print("allowed",cryp,volume)
                     #     logger.debug("OOps not good trading volume:"+str(cryp)+" "+str(coin["volume"])+" "+str(last)+" "+str(float(coin["volume"])*last))
