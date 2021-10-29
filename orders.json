@@ -158,5 +158,53 @@
 		"type": "LIMIT",
 		"side": "SELL",
 		"fills": []
+	},
+	{
+		"symbol": "RUNEUSDT",
+		"orderId": 442072930,
+		"orderListId": -1,
+		"clientOrderId": "4fd1tGdn6aSZuRKfBraOF3",
+		"transactTime": 1635259650235,
+		"price": "12.78700000",
+		"origQty": "1.90000000",
+		"executedQty": "0.00000000",
+		"cummulativeQuoteQty": "0.00000000",
+		"status": "NEW",
+		"timeInForce": "GTC",
+		"type": "LIMIT",
+		"side": "BUY",
+		"fills": []
+	},
+	{
+		"symbol": "CELRUSDT",
+		"orderId": 303932553,
+		"orderListId": -1,
+		"clientOrderId": "HKU3R9sc6xSqqc6Mo2ch8l",
+		"transactTime": 1635267956876,
+		"price": "0.15156000",
+		"origQty": "164.90000000",
+		"executedQty": "0.00000000",
+		"cummulativeQuoteQty": "0.00000000",
+		"status": "NEW",
+		"timeInForce": "GTC",
+		"type": "LIMIT",
+		"side": "BUY",
+		"fills": []
+	},
+	{
+		"symbol": "BADGERUSDT",
+		"orderId": 76589066,
+		"orderListId": -1,
+		"clientOrderId": "5KExt0Zvyu5nQwGSVzIAsa",
+		"transactTime": 1635267959718,
+		"price": "30.37000000",
+		"origQty": "0.82000000",
+		"executedQty": "0.00000000",
+		"cummulativeQuoteQty": "0.00000000",
+		"status": "NEW",
+		"timeInForce": "GTC",
+		"type": "LIMIT",
+		"side": "BUY",
+		"fills": []
 	}
 ]

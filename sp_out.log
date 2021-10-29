@@ -1719,3 +1719,1221 @@ binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside o
 
 {}
 2021-10-22 15:16:01,318 - SELLER_stoploss - INFO   : Updated orders: ['295008978']
+2021-10-23 21:24:23,164 - MARKET - INFO   : Hello
+2021-10-23 21:24:23,178 - MARKET - INFO   : Getting the last 24hr data
+2021-10-23 21:28:58,606 - MARKET - INFO   : Got last 24hr dtaa
+2021-10-23 21:28:59,328 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:28:59,336 - MARKET - DEBUG   : err_key'BCCUSDT'
+2021-10-23 21:28:59,348 - MARKET - DEBUG   : err_key'VENUSDT'
+2021-10-23 21:28:59,351 - MARKET - DEBUG   : err_key'PAXUSDT'
+2021-10-23 21:28:59,352 - MARKET - DEBUG   : err_key'BCHABCUSDT'
+2021-10-23 21:28:59,354 - MARKET - DEBUG   : err_key'BCHSVUSDT'
+2021-10-23 21:28:59,359 - MARKET - DEBUG   : err_key'USDSUSDT'
+2021-10-23 21:28:59,378 - MARKET - DEBUG   : err_key'USDSBUSDT'
+2021-10-23 21:28:59,380 - MARKET - DEBUG   : err_key'ERDUSDT'
+2021-10-23 21:28:59,389 - MARKET - DEBUG   : err_key'NPXSUSDT'
+2021-10-23 21:28:59,397 - MARKET - DEBUG   : err_key'STORMUSDT'
+2021-10-23 21:28:59,414 - MARKET - DEBUG   : err_key'HCUSDT'
+2021-10-23 21:28:59,425 - MARKET - DEBUG   : err_key'MCOUSDT'
+2021-10-23 21:28:59,438 - MARKET - DEBUG   : err_key'BULLUSDT'
+2021-10-23 21:28:59,440 - MARKET - DEBUG   : err_key'BEARUSDT'
+2021-10-23 21:28:59,442 - MARKET - DEBUG   : err_key'ETHBULLUSDT'
+2021-10-23 21:28:59,443 - MARKET - DEBUG   : err_key'ETHBEARUSDT'
+2021-10-23 21:28:59,449 - MARKET - DEBUG   : err_key'EOSBULLUSDT'
+2021-10-23 21:28:59,452 - MARKET - DEBUG   : err_key'EOSBEARUSDT'
+2021-10-23 21:28:59,456 - MARKET - DEBUG   : err_key'XRPBULLUSDT'
+2021-10-23 21:28:59,460 - MARKET - DEBUG   : err_key'XRPBEARUSDT'
+2021-10-23 21:28:59,461 - MARKET - DEBUG   : err_key'STRATUSDT'
+2021-10-23 21:28:59,467 - MARKET - DEBUG   : err_key'BNBBULLUSDT'
+2021-10-23 21:28:59,471 - MARKET - DEBUG   : err_key'BNBBEARUSDT'
+2021-10-23 21:28:59,476 - MARKET - DEBUG   : err_key'XZCUSDT'
+2021-10-23 21:28:59,483 - MARKET - DEBUG   : err_key'LENDUSDT'
+2021-10-23 21:28:59,491 - MARKET - DEBUG   : err_key'BKRWUSDT'
+2021-10-23 21:28:59,499 - MARKET - DEBUG   : err_key'DAIUSDT'
+2021-10-23 21:29:10,346 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:29:21,151 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:29:33,804 - MARKET - INFO   : req time:2 sec
+2021-10-23 21:29:44,657 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:29:55,441 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:30:06,434 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:30:17,246 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:30:30,883 - MARKET - INFO   : req time:3 sec
+2021-10-23 21:30:41,930 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:30:46,328 - MARKET - INFO   : Hello
+2021-10-23 21:30:46,330 - MARKET - INFO   : Getting the last 24hr data
+2021-10-23 21:30:50,735 - MARKET - INFO   : Hello
+2021-10-23 21:30:50,737 - MARKET - INFO   : Getting the last 24hr data
+2021-10-23 21:31:19,131 - MARKET - ERROR   : ticker_problem
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000026615F11AF0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=QTUMUSDT&interval=15m&startTime=1634918457983&endTime=1635004857983 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026615F11AF0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 173, in get_last24
+    past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=15m&startTime="+str(int((time.time()- 86400)*1000))+"&endTime="+str(int(time.time()*1000)))
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=QTUMUSDT&interval=15m&startTime=1634918457983&endTime=1635004857983 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026615F11AF0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2021-10-23 21:35:54,854 - MARKET - ERROR   : ticker_problem
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000026615F3CA30>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=SYSUSDT&interval=15m&startTime=1634918733821&endTime=1635005133821 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026615F3CA30>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 173, in get_last24
+    past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=15m&startTime="+str(int((time.time()- 86400)*1000))+"&endTime="+str(int(time.time()*1000)))
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=SYSUSDT&interval=15m&startTime=1634918733821&endTime=1635005133821 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026615F3CA30>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2021-10-23 21:36:16,519 - MARKET - ERROR   : ticker_problem
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000266167E92B0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=DFUSDT&interval=15m&startTime=1634918755422&endTime=1635005155422 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000266167E92B0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 173, in get_last24
+    past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=15m&startTime="+str(int((time.time()- 86400)*1000))+"&endTime="+str(int(time.time()*1000)))
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=DFUSDT&interval=15m&startTime=1634918755422&endTime=1635005155422 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000266167E92B0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2021-10-23 21:36:41,498 - MARKET - ERROR   : ticker_problem
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000266167E9C70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=RADUSDT&interval=15m&startTime=1634918780457&endTime=1635005180457 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000266167E9C70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 173, in get_last24
+    past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=15m&startTime="+str(int((time.time()- 86400)*1000))+"&endTime="+str(int(time.time()*1000)))
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=RADUSDT&interval=15m&startTime=1634918780457&endTime=1635005180457 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000266167E9C70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2021-10-23 21:40:31,726 - MARKET - INFO   : Hello
+2021-10-23 21:40:31,728 - MARKET - INFO   : Getting the last 24hr data
+2021-10-23 21:43:34,034 - MARKET - INFO   : Got last 24hr dtaa
+2021-10-23 21:43:34,777 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:43:34,781 - MARKET - DEBUG   : err_key'BCCUSDT'
+2021-10-23 21:43:34,793 - MARKET - DEBUG   : err_key'VENUSDT'
+2021-10-23 21:43:34,795 - MARKET - DEBUG   : err_key'PAXUSDT'
+2021-10-23 21:43:34,796 - MARKET - DEBUG   : err_key'BCHABCUSDT'
+2021-10-23 21:43:34,798 - MARKET - DEBUG   : err_key'BCHSVUSDT'
+2021-10-23 21:43:34,803 - MARKET - DEBUG   : err_key'USDSUSDT'
+2021-10-23 21:43:34,821 - MARKET - DEBUG   : err_key'USDSBUSDT'
+2021-10-23 21:43:34,823 - MARKET - DEBUG   : err_key'ERDUSDT'
+2021-10-23 21:43:34,828 - MARKET - DEBUG   : err_key'NPXSUSDT'
+2021-10-23 21:43:34,835 - MARKET - DEBUG   : err_key'STORMUSDT'
+2021-10-23 21:43:34,844 - MARKET - DEBUG   : err_key'HCUSDT'
+2021-10-23 21:43:34,850 - MARKET - DEBUG   : err_key'MCOUSDT'
+2021-10-23 21:43:34,858 - MARKET - DEBUG   : err_key'BULLUSDT'
+2021-10-23 21:43:34,859 - MARKET - DEBUG   : err_key'BEARUSDT'
+2021-10-23 21:43:34,860 - MARKET - DEBUG   : err_key'ETHBULLUSDT'
+2021-10-23 21:43:34,861 - MARKET - DEBUG   : err_key'ETHBEARUSDT'
+2021-10-23 21:43:34,866 - MARKET - DEBUG   : err_key'EOSBULLUSDT'
+2021-10-23 21:43:34,868 - MARKET - DEBUG   : err_key'EOSBEARUSDT'
+2021-10-23 21:43:34,870 - MARKET - DEBUG   : err_key'XRPBULLUSDT'
+2021-10-23 21:43:34,871 - MARKET - DEBUG   : err_key'XRPBEARUSDT'
+2021-10-23 21:43:34,872 - MARKET - DEBUG   : err_key'STRATUSDT'
+2021-10-23 21:43:34,876 - MARKET - DEBUG   : err_key'BNBBULLUSDT'
+2021-10-23 21:43:34,877 - MARKET - DEBUG   : err_key'BNBBEARUSDT'
+2021-10-23 21:43:34,881 - MARKET - DEBUG   : err_key'XZCUSDT'
+2021-10-23 21:43:34,887 - MARKET - DEBUG   : err_key'LENDUSDT'
+2021-10-23 21:43:34,893 - MARKET - DEBUG   : err_key'BKRWUSDT'
+2021-10-23 21:43:34,900 - MARKET - DEBUG   : err_key'DAIUSDT'
+2021-10-23 21:43:46,937 - MARKET - INFO   : req time:1 sec
+2021-10-23 21:43:57,828 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:44:08,640 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:44:22,844 - MARKET - INFO   : req time:3 sec
+2021-10-23 21:53:59,098 - MARKET - INFO   : Hello
+2021-10-23 21:53:59,099 - MARKET - INFO   : Getting the last 24hr data
+2021-10-23 21:57:25,429 - MARKET - INFO   : Got last 24hr dtaa
+2021-10-23 21:57:26,331 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:57:26,335 - MARKET - DEBUG   : err_key'BCCUSDT'
+2021-10-23 21:57:26,346 - MARKET - DEBUG   : err_key'VENUSDT'
+2021-10-23 21:57:26,349 - MARKET - DEBUG   : err_key'PAXUSDT'
+2021-10-23 21:57:26,350 - MARKET - DEBUG   : err_key'BCHABCUSDT'
+2021-10-23 21:57:26,351 - MARKET - DEBUG   : err_key'BCHSVUSDT'
+2021-10-23 21:57:26,355 - MARKET - DEBUG   : err_key'USDSUSDT'
+2021-10-23 21:57:26,373 - MARKET - DEBUG   : err_key'USDSBUSDT'
+2021-10-23 21:57:26,375 - MARKET - DEBUG   : err_key'ERDUSDT'
+2021-10-23 21:57:26,384 - MARKET - DEBUG   : err_key'NPXSUSDT'
+2021-10-23 21:57:26,396 - MARKET - DEBUG   : err_key'STORMUSDT'
+2021-10-23 21:57:26,411 - MARKET - DEBUG   : err_key'HCUSDT'
+2021-10-23 21:57:26,418 - MARKET - DEBUG   : err_key'MCOUSDT'
+2021-10-23 21:57:26,427 - MARKET - DEBUG   : err_key'BULLUSDT'
+2021-10-23 21:57:26,431 - MARKET - DEBUG   : err_key'BEARUSDT'
+2021-10-23 21:57:26,433 - MARKET - DEBUG   : err_key'ETHBULLUSDT'
+2021-10-23 21:57:26,435 - MARKET - DEBUG   : err_key'ETHBEARUSDT'
+2021-10-23 21:57:26,445 - MARKET - DEBUG   : err_key'EOSBULLUSDT'
+2021-10-23 21:57:26,446 - MARKET - DEBUG   : err_key'EOSBEARUSDT'
+2021-10-23 21:57:26,448 - MARKET - DEBUG   : err_key'XRPBULLUSDT'
+2021-10-23 21:57:26,449 - MARKET - DEBUG   : err_key'XRPBEARUSDT'
+2021-10-23 21:57:26,449 - MARKET - DEBUG   : err_key'STRATUSDT'
+2021-10-23 21:57:26,453 - MARKET - DEBUG   : err_key'BNBBULLUSDT'
+2021-10-23 21:57:26,454 - MARKET - DEBUG   : err_key'BNBBEARUSDT'
+2021-10-23 21:57:26,460 - MARKET - DEBUG   : err_key'XZCUSDT'
+2021-10-23 21:57:26,466 - MARKET - DEBUG   : err_key'LENDUSDT'
+2021-10-23 21:57:26,475 - MARKET - DEBUG   : err_key'BKRWUSDT'
+2021-10-23 21:57:26,489 - MARKET - DEBUG   : err_key'DAIUSDT'
+2021-10-23 21:57:37,696 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:57:48,734 - MARKET - INFO   : req time:0 sec
+2021-10-23 21:57:59,559 - MARKET - INFO   : req time:0 sec
+2021-10-23 22:00:59,108 - MARKET - INFO   : Hello
+2021-10-23 22:00:59,109 - MARKET - INFO   : Getting the last 24hr data
+2021-10-23 22:01:01,908 - MARKET - ERROR   : main func exception'float' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 357, in <module>
+    main(boot_json)
+  File "D:\documents\project crypto\make_diff_report.py", line 253, in main
+    diff = get_last24(diff)
+  File "D:\documents\project crypto\make_diff_report.py", line 208, in get_last24
+    till_avg = ( ( ( n ) * float( diff[cryp][time_key][2] ) ) + change ) / ( n + 1)
+TypeError: 'float' object is not subscriptable
+2021-10-23 22:03:04,646 - MARKET - INFO   : Hello
+2021-10-23 22:03:04,648 - MARKET - INFO   : Getting the last 24hr data
+2021-10-23 22:06:13,514 - MARKET - INFO   : Got last 24hr dtaa
+2021-10-23 22:06:14,503 - MARKET - INFO   : req time:0 sec
+2021-10-23 22:06:14,506 - MARKET - DEBUG   : err_key'BCCUSDT'
+2021-10-23 22:06:14,510 - MARKET - DEBUG   : err_key'VENUSDT'
+2021-10-23 22:06:14,512 - MARKET - DEBUG   : err_key'PAXUSDT'
+2021-10-23 22:06:14,513 - MARKET - DEBUG   : err_key'BCHABCUSDT'
+2021-10-23 22:06:14,515 - MARKET - DEBUG   : err_key'BCHSVUSDT'
+2021-10-23 22:06:14,517 - MARKET - DEBUG   : err_key'USDSUSDT'
+2021-10-23 22:06:14,523 - MARKET - DEBUG   : err_key'USDSBUSDT'
+2021-10-23 22:06:14,525 - MARKET - DEBUG   : err_key'ERDUSDT'
+2021-10-23 22:06:14,527 - MARKET - DEBUG   : err_key'NPXSUSDT'
+2021-10-23 22:06:14,530 - MARKET - DEBUG   : err_key'STORMUSDT'
+2021-10-23 22:06:14,533 - MARKET - DEBUG   : err_key'HCUSDT'
+2021-10-23 22:06:14,535 - MARKET - DEBUG   : err_key'MCOUSDT'
+2021-10-23 22:06:14,538 - MARKET - DEBUG   : err_key'BULLUSDT'
+2021-10-23 22:06:14,540 - MARKET - DEBUG   : err_key'BEARUSDT'
+2021-10-23 22:06:14,541 - MARKET - DEBUG   : err_key'ETHBULLUSDT'
+2021-10-23 22:06:14,543 - MARKET - DEBUG   : err_key'ETHBEARUSDT'
+2021-10-23 22:06:14,545 - MARKET - DEBUG   : err_key'EOSBULLUSDT'
+2021-10-23 22:06:14,547 - MARKET - DEBUG   : err_key'EOSBEARUSDT'
+2021-10-23 22:06:14,548 - MARKET - DEBUG   : err_key'XRPBULLUSDT'
+2021-10-23 22:06:14,550 - MARKET - DEBUG   : err_key'XRPBEARUSDT'
+2021-10-23 22:06:14,552 - MARKET - DEBUG   : err_key'STRATUSDT'
+2021-10-23 22:06:14,553 - MARKET - DEBUG   : err_key'BNBBULLUSDT'
+2021-10-23 22:06:14,555 - MARKET - DEBUG   : err_key'BNBBEARUSDT'
+2021-10-23 22:06:14,557 - MARKET - DEBUG   : err_key'XZCUSDT'
+2021-10-23 22:06:14,559 - MARKET - DEBUG   : err_key'LENDUSDT'
+2021-10-23 22:06:14,562 - MARKET - DEBUG   : err_key'BKRWUSDT'
+2021-10-23 22:06:14,566 - MARKET - DEBUG   : err_key'DAIUSDT'
+2021-10-23 22:06:14,576 - MARKET - ERROR   : Greter than 2 SUNUSDT :October 23 22:06:14:  [-0.26831231553527213, 1.6312130398692997, 0.17580200107233035, 0.03717]
+2021-10-23 22:06:14,586 - MARKET - ERROR   : Greter than 2 FIROUSDT :October 23 22:06:14:  [0.4370807074608766, 2.291689204796184, 0.22388735479892066, 9.881]
+2021-10-23 22:06:14,608 - MARKET - ERROR   : lesser than -0.5 CHESSUSDT :October 23 22:06:14:  [0.0, -0.6145694262208651, -0.24002010778504088, 4.0]
+2021-10-23 22:06:30,038 - MARKET - INFO   : req time:4 sec
+2021-10-23 22:06:30,063 - MARKET - ERROR   : Greter than 2 SUNUSDT :October 23 22:06:30:  [-0.053806833467848224, 1.5335982918199353, 0.17208628241810914, 0.03715]
+2021-10-23 22:06:30,072 - MARKET - ERROR   : Greter than 2 FIROUSDT :October 23 22:06:30:  [0.0708430320817698, 2.326508314101681, 0.22595135291632734, 9.888]
+2021-10-23 22:06:30,093 - MARKET - ERROR   : lesser than -0.5 CHESSUSDT :October 23 22:06:30:  [-0.12499999999999734, -0.7589395965005608, -0.25635177630623074, 3.995]
+2021-10-23 22:06:41,928 - MARKET - INFO   : req time:0 sec
+2021-10-23 22:06:41,952 - MARKET - ERROR   : Greter than 2 FIROUSDT :October 23 22:06:41:  [0.5764563106796156, 2.4220546566024823, 0.21802482121778877, 9.945]
+2021-10-23 22:06:41,964 - MARKET - ERROR   : lesser than -0.5 CHESSUSDT :October 23 22:06:41:  [0.0, -0.6199800981104592, -0.24735264711279656, 3.995]
+2021-10-23 22:06:53,824 - MARKET - INFO   : req time:0 sec
+2021-10-23 22:06:53,856 - MARKET - ERROR   : Greter than 2 FIROUSDT :October 23 22:06:53:  [-0.6535947712418251, 2.3534483011591933, 0.2111016453559743, 9.88]
+2021-10-23 22:06:53,884 - MARKET - ERROR   : lesser than -0.5 CHESSUSDT :October 23 22:06:53:  [-0.12515644555694352, -0.6891978065009942, -0.25348612126618203, 3.99]
+2021-10-23 22:07:08,054 - MARKET - INFO   : req time:2 sec
+2021-10-23 22:07:08,077 - MARKET - ERROR   : lesser than -0.5 SUNUSDT :October 23 22:07:08:  [-0.32768978700164403, -0.9552032004682836, 0.16504125519985668, 0.0365]
+2021-10-23 22:07:08,078 - MARKET - WARNING   : if you own this selit: SUNUSDT 0.0365:October 23 22:07:08:  [-0.32768978700164403, -0.9552032004682836, 0.16504125519985668, 0.0365]
+2021-10-23 22:07:08,085 - MARKET - ERROR   : Greter than 2 FIROUSDT :October 23 22:07:08:  [-0.010121457489890911, 2.178351070487449, 0.22068483405490052, 9.879]
+2021-10-23 22:07:08,099 - MARKET - ERROR   : lesser than -0.5 CHESSUSDT :October 23 22:07:08:  [-0.07518796992481487, -0.5669375468418555, -0.23628882092785072, 3.987]
+2021-10-23 22:07:22,861 - MARKET - INFO   : req time:3 sec
+2021-10-23 22:07:22,887 - MARKET - ERROR   : lesser than -0.5 SUNUSDT :October 23 22:07:22:  [-0.10958904109588596, -0.5282028421540127, 0.1687714346241932, 0.03646]
+2021-10-23 22:07:22,895 - MARKET - ERROR   : lesser than -0.5 FIROUSDT :October 23 22:07:22:  [-0.08097985626074623, -1.3053829678989781, 0.22657094246007375, 9.871]
+2021-10-23 22:07:22,897 - MARKET - ERROR   : lesser than -1.3 FIROUSDT :October 23 22:07:22:  [-0.08097985626074623, -1.3053829678989781, 0.22657094246007375, 9.871]
+2021-10-23 22:07:22,898 - MARKET - WARNING   : its buy time: FIROUSDT 9.871:October 23 22:07:22:  [-0.08097985626074623, -1.3053829678989781, 0.22657094246007375, 9.871]
+2021-10-23 22:07:22,899 - MARKET - ERROR   : Tooo much +ve change in a day, rejecting buy:18.985053037608502%
+2021-10-23 22:07:35,128 - MARKET - INFO   : req time:0 sec
+2021-10-23 22:07:35,183 - MARKET - WARNING   : if you own this selit: FIROUSDT 9.865:October 23 22:07:35:  [-0.060784115084593526, 0.03984283573502947, 0.22920819700406336, 9.865]
+2021-10-25 18:56:42,893 - SELLER_stoploss - INFO   : Starting the seller_stoploss
+2021-10-25 18:57:17,738 - SELLER_stoploss - INFO   : Starting the seller_stoploss
+2021-10-25 18:58:19,791 - SELLER_stoploss - ERROR   : error when getting get_open_orders()
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 125, in main
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:28:26 GMT', 'Server': 'nginx', 'x-mbx-uuid': '0edfa79f-979d-49cb-8f51-7ed97e2dc441', 'x-mbx-used-weight': '40', 'x-mbx-used-weight-1m': '40', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'wlveOf8OYI3zmRBeMcVE4h8clUCCQAMceHVXpxhCbUwQ3v_OwJa38w=='})
+2021-10-25 18:58:19,974 - SELLER_stoploss - ERROR   : error when fetching sell order details S:CHESSUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 160, in main
+    new_order_det=client.get_order(symbol,orderId=sell_orderid)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 135, in get_order
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:28:26 GMT', 'Server': 'nginx', 'x-mbx-uuid': '095fab38-b400-4789-9dc6-9e3f31b8ebdf', 'x-mbx-used-weight': '42', 'x-mbx-used-weight-1m': '42', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'Cm-09xWrPUEwuQ3LJGAnj3-U95CVoearHvLnSPhsO6-rQDZOo44mtA=='})
+2021-10-25 18:58:20,176 - SELLER_stoploss - ERROR   : error when fetching sell order details S:CTSIUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 160, in main
+    new_order_det=client.get_order(symbol,orderId=sell_orderid)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 135, in get_order
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:28:27 GMT', 'Server': 'nginx', 'x-mbx-uuid': '06a149cb-6e1b-49f4-8c97-bc1d6c627453', 'x-mbx-used-weight': '44', 'x-mbx-used-weight-1m': '44', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'DjkC5g2tGNzEjecrLW53FBsOLS9MH0DdX7pnnT338QB-kDyEAoFfnw=='})
+2021-10-25 18:58:20,347 - SELLER_stoploss - ERROR   : error when fetching sell order details S:GXSUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 160, in main
+    new_order_det=client.get_order(symbol,orderId=sell_orderid)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 135, in get_order
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:28:27 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'd418d072-fffb-43c1-bede-b0d7e63160bf', 'x-mbx-used-weight': '46', 'x-mbx-used-weight-1m': '46', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'KGdSqhB4FdQ5O4pcCElzTqlO8ny7B4HG45eiHIKW_3-uEUZQ9SElzw=='})
+2021-10-25 18:59:20,600 - SELLER_stoploss - ERROR   : error when getting get_open_orders()
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 125, in main
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:29:27 GMT', 'Server': 'nginx', 'x-mbx-uuid': '0edfa79f-979d-49cb-8f51-7ed97e2dc441', 'x-mbx-used-weight': '40', 'x-mbx-used-weight-1m': '40', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': '_Dl3RNL6XuIEyYNMGP16hEAI0FD-TtpO4ep2XRmBm17hXBLI8K-oAg=='})
+2021-10-25 18:59:20,800 - SELLER_stoploss - ERROR   : error when fetching sell order details S:CHESSUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 160, in main
+    new_order_det=client.get_order(symbol,orderId=sell_orderid)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 135, in get_order
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:29:27 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'bc1471cb-f539-4071-a9be-9840554c4dc0', 'x-mbx-used-weight': '42', 'x-mbx-used-weight-1m': '42', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'znYNSYdBbw_xruQ9PafItYuGFj-E4L3OFOQSShzWSDhDzDC_FHT9fw=='})
+2021-10-25 18:59:20,993 - SELLER_stoploss - ERROR   : error when fetching sell order details S:CTSIUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 160, in main
+    new_order_det=client.get_order(symbol,orderId=sell_orderid)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 135, in get_order
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:29:27 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'a3d5b895-5501-4731-849e-3f117fe66279', 'x-mbx-used-weight': '44', 'x-mbx-used-weight-1m': '44', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'Egekz3tCUcDvEED9AzXbSQoC3uAz2khV5TkD11eUfcarUlf0l1_3wQ=='})
+2021-10-25 18:59:21,451 - SELLER_stoploss - ERROR   : error when fetching sell order details S:GXSUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 160, in main
+    new_order_det=client.get_order(symbol,orderId=sell_orderid)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 135, in get_order
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:29:28 GMT', 'Server': 'nginx', 'x-mbx-uuid': '3b617394-2267-412d-8baf-5839e44e0040', 'x-mbx-used-weight': '46', 'x-mbx-used-weight-1m': '46', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'kiFUWDOSDBMKk8iIK6de5H7PS8ip-fJSzlOodXel2IMnGWJvtbk-vg=='})
+2021-10-25 19:00:21,728 - SELLER_stoploss - ERROR   : error when getting get_open_orders()
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 125, in main
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:28 GMT', 'Server': 'nginx', 'x-mbx-uuid': '44058414-1349-4898-b424-ad643720e426', 'x-mbx-used-weight': '40', 'x-mbx-used-weight-1m': '40', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'xv6bxPas7Q2suW0yzwVfskmiyZ3lEbrpDs-R_9ii_aCW3ZiDvPB9kg=='})
+2021-10-25 19:00:21,913 - SELLER_stoploss - ERROR   : error when fetching sell order details S:CHESSUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 160, in main
+    new_order_det=client.get_order(symbol,orderId=sell_orderid)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 135, in get_order
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:28 GMT', 'Server': 'nginx', 'x-mbx-uuid': '0950e32e-d72d-4af9-8a37-b67224a7255f', 'x-mbx-used-weight': '42', 'x-mbx-used-weight-1m': '42', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'aQOsUJPX6ByW-cSmQFq51ol3Vvmx5hU9HgiR5LXrQ6038qbx3U_TOQ=='})
+2021-10-25 19:00:22,138 - SELLER_stoploss - ERROR   : error when fetching sell order details S:CTSIUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 160, in main
+    new_order_det=client.get_order(symbol,orderId=sell_orderid)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 135, in get_order
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:29 GMT', 'Server': 'nginx', 'x-mbx-uuid': '6987c891-01fa-4982-b822-37006d4d0e47', 'x-mbx-used-weight': '44', 'x-mbx-used-weight-1m': '44', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'Eir2CiUSXNatNZPtEQuC9LlFHd5NmWVyN48glLeGqBloOyDeOM-xYw=='})
+2021-10-25 19:00:22,342 - SELLER_stoploss - ERROR   : error when fetching sell order details S:GXSUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\seller_stoploss.py", line 160, in main
+    new_order_det=client.get_order(symbol,orderId=sell_orderid)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 135, in get_order
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:29 GMT', 'Server': 'nginx', 'x-mbx-uuid': '4407749f-a710-4417-8015-1f4dddf85ffe', 'x-mbx-used-weight': '46', 'x-mbx-used-weight-1m': '46', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b29e77b539ee60c59c6b595481ca2fdc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'xrtISBy09NmV_rvgOnDzNsduuDArWHgQi2SsKDYldF_s0Gk7AZzd0Q=='})
+2021-10-25 19:00:29,922 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:00:30,534 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:37 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'f97873e5-01ac-4532-a0d0-39ffbb7377e3', 'x-mbx-used-weight': '86', 'x-mbx-used-weight-1m': '86', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'pZzfDDu21DRpbpo3WPoZmgLmONQiAnnZVih-3pKmkvIyqgYd-49zaQ=='})
+2021-10-25 19:00:30,739 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:37 GMT', 'Server': 'nginx', 'x-mbx-uuid': '1839af30-a756-423a-b2b8-e3df225ac4bd', 'x-mbx-used-weight': '126', 'x-mbx-used-weight-1m': '126', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'MtJE7xCpQbej7N2jGMHXshwU0kKPoKSKt3jYok4fs_L1_5hPqIJjuA=='})
+2021-10-25 19:00:30,911 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:37 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'd738862b-9f64-4e1a-9f4e-168c6f1c1beb', 'x-mbx-used-weight': '166', 'x-mbx-used-weight-1m': '166', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'CquGlV89ImDDG6QTNFpkoG8vRqNhYf08l99P0ywktGX-MXShuv4oew=='})
+2021-10-25 19:00:31,354 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:38 GMT', 'Server': 'nginx', 'x-mbx-uuid': '3b617394-2267-412d-8baf-5839e44e0040', 'x-mbx-used-weight': '206', 'x-mbx-used-weight-1m': '206', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'TOTURn32xf86JZfB3UGmA3sHyVb2WmIK1ADX5oZWfVLja_C6x1yruA=='})
+2021-10-25 19:00:31,558 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:38 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'b68ce261-53cc-4195-b21f-d81c1bc5230d', 'x-mbx-used-weight': '246', 'x-mbx-used-weight-1m': '246', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'SQxTldqgttSesJrm_0VrPUpWYl_tePMmXH5Wk3s6u4oVll9Qdj3HhQ=='})
+2021-10-25 19:00:31,763 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:38 GMT', 'Server': 'nginx', 'x-mbx-uuid': '0b4e1e66-2a46-486e-a4c8-b1393e133106', 'x-mbx-used-weight': '286', 'x-mbx-used-weight-1m': '286', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'ik6tfstzBaWHbGudyBGVoVTeMrOLdNLN9wD2q_yN82As3pi8abC8sA=='})
+2021-10-25 19:00:31,968 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:38 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'e0458bae-a763-45d7-ab8b-f6f8c85dbd31', 'x-mbx-used-weight': '326', 'x-mbx-used-weight-1m': '326', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'w_Nq578eJb52YToZeQnfQBEsdG6FJ8I_jaVxZwpdqpo9Ns-cYU_W8A=='})
+2021-10-25 19:00:32,169 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:39 GMT', 'Server': 'nginx', 'x-mbx-uuid': '0b4e1e66-2a46-486e-a4c8-b1393e133106', 'x-mbx-used-weight': '366', 'x-mbx-used-weight-1m': '366', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'WEyUffmFHy4pelojTLnX972UQmi5T87wtsKRTT3KsNUEBiLdH2-Eug=='})
+2021-10-25 19:00:32,582 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:39 GMT', 'Server': 'nginx', 'x-mbx-uuid': '1edcd0aa-5c81-4a98-a65c-28f65adac768', 'x-mbx-used-weight': '406', 'x-mbx-used-weight-1m': '406', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'sa-fLe5szHvMd9iW5GtHGKhgNnhAvvKKYiI1_kL-TU2L3256VQuPAA=='})
+2021-10-25 19:00:32,789 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:39 GMT', 'Server': 'nginx', 'x-mbx-uuid': '6987c891-01fa-4982-b822-37006d4d0e47', 'x-mbx-used-weight': '446', 'x-mbx-used-weight-1m': '446', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'uT4GQJVsOSSoIh7JFE-UatqyifoUkE8ceQZ2NLTYx0Yb9OHL_6lvoA=='})
+2021-10-25 19:00:33,402 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:40 GMT', 'Server': 'nginx', 'x-mbx-uuid': '06a149cb-6e1b-49f4-8c97-bc1d6c627453', 'x-mbx-used-weight': '486', 'x-mbx-used-weight-1m': '486', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'zbwAXG6TO9j13uYyZ-FXhZeJ4lFFs1w1aHqDQHRgLNmU7csOFG7MnA=='})
+2021-10-25 19:00:33,971 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:40 GMT', 'Server': 'nginx', 'x-mbx-uuid': '5f1214e4-16a9-4872-9319-cf5ecbd5bf41', 'x-mbx-used-weight': '526', 'x-mbx-used-weight-1m': '526', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': '6Ax4Kf-N1qQcRQYhIP4OQM_OCyEMzMewQIc9GDFnur9WyxvTyn24TQ=='})
+2021-10-25 19:00:34,221 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:41 GMT', 'Server': 'nginx', 'x-mbx-uuid': '0800cbce-9ad7-4a94-86f6-493ad4c4661e', 'x-mbx-used-weight': '566', 'x-mbx-used-weight-1m': '566', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'AF8aKjJ3GXvFM6C-HAaaxkHwIo-PcgMyKHj8kDsZG2lZCps1JyZhYA=='})
+2021-10-25 19:00:34,835 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:41 GMT', 'Server': 'nginx', 'x-mbx-uuid': '095fab38-b400-4789-9dc6-9e3f31b8ebdf', 'x-mbx-used-weight': '606', 'x-mbx-used-weight-1m': '606', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'bcx87erW6a1-In-QV-k3FPjiy9eXwxwqnR0g2kYDIfLZ5WSvpvxTVg=='})
+2021-10-25 19:00:35,452 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.get_open_orders()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 155, in get_open_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:30:42 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'b68ce261-53cc-4195-b21f-d81c1bc5230d', 'x-mbx-used-weight': '646', 'x-mbx-used-weight-1m': '646', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 55f1ae27458c02da0c29ae358387d2b6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'oWnThVGdyKQGec67mdeIOQsZo4Gbd_z-TiaKUd2JUncO-r1FhKTrAA=='})
+2021-10-25 19:01:38,187 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:01:38,631 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:31:45 GMT', 'Server': 'nginx', 'x-mbx-uuid': '1839af30-a756-423a-b2b8-e3df225ac4bd', 'x-mbx-used-weight': '10', 'x-mbx-used-weight-1m': '10', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 265b8ee5e2c8d8e734bd5850d5be64a6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'h8NRBgYzoUL0iLZQYdf8C_ql_C3o3Rd2NnJrRgLnjhWRBJB669P6-w=='})
+2021-10-25 19:01:38,837 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:31:45 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'd738862b-9f64-4e1a-9f4e-168c6f1c1beb', 'x-mbx-used-weight': '20', 'x-mbx-used-weight-1m': '20', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 265b8ee5e2c8d8e734bd5850d5be64a6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'aANbt-K6infyjcIdxpGCvmR9mcLJmKtC-HDGLdsXbe8PHSTsu1MsiA=='})
+2021-10-25 19:01:38,997 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:31:45 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'a3d5b895-5501-4731-849e-3f117fe66279', 'x-mbx-used-weight': '30', 'x-mbx-used-weight-1m': '30', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 265b8ee5e2c8d8e734bd5850d5be64a6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'eipr3JZDxni37NV5IPhF0H-xqBgfBWuFHf4tuxYYKUTokyBvTRY9Ow=='})
+2021-10-25 19:01:39,246 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:31:46 GMT', 'Server': 'nginx', 'x-mbx-uuid': '5f1214e4-16a9-4872-9319-cf5ecbd5bf41', 'x-mbx-used-weight': '40', 'x-mbx-used-weight-1m': '40', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 265b8ee5e2c8d8e734bd5850d5be64a6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'W34DzwvVxjpQkb8DFZ7-NrE_UL8q1lGEtlEfto2l9VeZMdP90kXTrg=='})
+2021-10-25 19:01:39,451 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:31:46 GMT', 'Server': 'nginx', 'x-mbx-uuid': '6987c891-01fa-4982-b822-37006d4d0e47', 'x-mbx-used-weight': '50', 'x-mbx-used-weight-1m': '50', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 265b8ee5e2c8d8e734bd5850d5be64a6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'byOV1OHAEZIGCqkmZ0Vgjn9oe8lIFMiykiJb43rlsjTLsGtSCNl_ig=='})
+2021-10-25 19:01:39,616 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:31:46 GMT', 'Server': 'nginx', 'x-mbx-uuid': '3b617394-2267-412d-8baf-5839e44e0040', 'x-mbx-used-weight': '60', 'x-mbx-used-weight-1m': '60', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 265b8ee5e2c8d8e734bd5850d5be64a6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'T0skF51BHLvs8AQsvNOJuiK_gt-Z-P1SDMwzqMG5Qs9YuwqlEX1deQ=='})
+2021-10-25 19:01:41,376 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:31:46 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'eb53be6a-df16-497d-bb4e-2ad647e55b73', 'x-mbx-used-weight': '70', 'x-mbx-used-weight-1m': '70', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 265b8ee5e2c8d8e734bd5850d5be64a6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'NfnTts9Q635qEfQ6jhQzYyLGwwzsyGLoAqM3aefgTvuOTBjJII9BeA=='})
+2021-10-25 19:01:41,602 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:31:48 GMT', 'Server': 'nginx', 'x-mbx-uuid': '05fb6652-718b-456a-94b6-0e33b114a903', 'x-mbx-used-weight': '80', 'x-mbx-used-weight-1m': '80', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 265b8ee5e2c8d8e734bd5850d5be64a6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'yEeA9E22ASDQp1-xwk5iToGG8IuWHS6dYmcnIedEGfJlzqyRD7_ftQ=='})
+2021-10-25 19:02:19,426 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:02:21,657 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (401, -2015, 'Invalid API-key, IP, or permissions for action.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '70', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:27 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'e0458bae-a763-45d7-ab8b-f6f8c85dbd31', 'x-mbx-used-weight': '10', 'x-mbx-used-weight-1m': '10', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e8216cd21bf445380ea790eef0090996.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'nBwqjXDxQoVcVFOgAzq43TtGkROG5YUuLcs2lQb8-P9-TXebonBQ6Q=='})
+2021-10-25 19:02:22,647 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (401, -2015, 'Invalid API-key, IP, or permissions for action.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '70', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:28 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'afd1abf0-781b-4133-b2e4-56a02c025b44', 'x-mbx-used-weight': '20', 'x-mbx-used-weight-1m': '20', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e8216cd21bf445380ea790eef0090996.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'T5sUupotcAc3eZWZaTfmwVtUWcjWh3TkNPzlRkdakpYDXR1RGr_9Wg=='})
+2021-10-25 19:02:22,816 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (401, -2015, 'Invalid API-key, IP, or permissions for action.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '70', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:29 GMT', 'Server': 'nginx', 'x-mbx-uuid': '542b1acc-27b8-48d6-8564-2a6b14098fc4', 'x-mbx-used-weight': '30', 'x-mbx-used-weight-1m': '30', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e8216cd21bf445380ea790eef0090996.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'JuG8qD_HzZMiJ4un8_eWRvV8ZR6xfjozHQvvBkaN5adT8XVZvbQpBg=='})
+2021-10-25 19:02:23,074 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (401, -2015, 'Invalid API-key, IP, or permissions for action.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '70', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:29 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'f97873e5-01ac-4532-a0d0-39ffbb7377e3', 'x-mbx-used-weight': '40', 'x-mbx-used-weight-1m': '40', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e8216cd21bf445380ea790eef0090996.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'ENKMT88TXt5QvDboPELFQ1d0ceffSGc4nT5ndZs9KaQEj7m4q5S8UA=='})
+2021-10-25 19:02:23,279 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (401, -2015, 'Invalid API-key, IP, or permissions for action.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '70', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:30 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'eb53be6a-df16-497d-bb4e-2ad647e55b73', 'x-mbx-used-weight': '50', 'x-mbx-used-weight-1m': '50', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e8216cd21bf445380ea790eef0090996.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'VAhqkdwb-a99NCpl6s1WYQvxDvN6tzqUTmhZUcC52Xq9YnL9ZekXAQ=='})
+2021-10-25 19:02:23,436 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (401, -2015, 'Invalid API-key, IP, or permissions for action.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '70', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:30 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'de75f387-68d3-4ab4-9cbe-ab4aaaaf88f6', 'x-mbx-used-weight': '60', 'x-mbx-used-weight-1m': '60', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e8216cd21bf445380ea790eef0090996.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'KM5d05Ne0HfF1IC3IIsFvm8ashetXsjKAgQ_TVPrboJYaLmBHJ1O7g=='})
+2021-10-25 19:02:23,689 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (401, -2015, 'Invalid API-key, IP, or permissions for action.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '70', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:30 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'de75f387-68d3-4ab4-9cbe-ab4aaaaf88f6', 'x-mbx-used-weight': '70', 'x-mbx-used-weight-1m': '70', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e8216cd21bf445380ea790eef0090996.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'kwHk7a2lBD3QuUKAXZ6UrEoN49_Y2yPpIvYEmYqrrdUURu1VJk_KsQ=='})
+2021-10-25 19:02:23,893 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (401, -2015, 'Invalid API-key, IP, or permissions for action.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '70', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:30 GMT', 'Server': 'nginx', 'x-mbx-uuid': '6984a96c-02e0-45b2-8296-706229e6ba58', 'x-mbx-used-weight': '80', 'x-mbx-used-weight-1m': '80', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e8216cd21bf445380ea790eef0090996.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'EdTrANbbQxEoTnKtVvb358e_9L9j3lAGZVf9xyBXvG1gcY-hDNXNFg=='})
+2021-10-25 19:02:32,276 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:02:32,699 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:39 GMT', 'Server': 'nginx', 'x-mbx-uuid': '1839af30-a756-423a-b2b8-e3df225ac4bd', 'x-mbx-used-weight': '90', 'x-mbx-used-weight-1m': '90', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 ead256cd567b3d0f8e32db9114a9d1bb.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'IgLwuo6V_eve3yvAUldgtwC-QbaPjO--AitcWxXWb2n_2K-ZZLoRkQ=='})
+2021-10-25 19:02:33,307 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:32:40 GMT', 'Server': 'nginx', 'x-mbx-uuid': '09c6987d-e624-407d-a991-b7234c035a70', 'x-mbx-used-weight': '100', 'x-mbx-used-weight-1m': '100', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 ead256cd567b3d0f8e32db9114a9d1bb.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'ij9n8Dxqh-S2MyOsDXjpqLmeup27x8HX9gI1QcCDufPJUd4uZ74fXg=='})
+2021-10-25 19:06:49,634 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:06:50,900 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:36:57 GMT', 'Server': 'nginx', 'x-mbx-uuid': '5f9571c6-7496-432e-a1d2-e0f9df71aa1b', 'x-mbx-used-weight': '10', 'x-mbx-used-weight-1m': '10', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'e3Ro6hu-MhFZUo685ag03CeOYg_4ZXt48_RtBFclKOvrAJZFrSftyg=='})
+2021-10-25 19:06:51,062 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:36:58 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'a3d5b895-5501-4731-849e-3f117fe66279', 'x-mbx-used-weight': '20', 'x-mbx-used-weight-1m': '20', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': '6vz2P59l7fQ9QuXEXKDZWXEG1b89IGTG2rQ1Oer3Q4S8tao-0Li4HA=='})
+2021-10-25 19:06:51,228 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:36:58 GMT', 'Server': 'nginx', 'x-mbx-uuid': '2eeb3616-5364-4a5d-83ea-6e4f74eea094', 'x-mbx-used-weight': '30', 'x-mbx-used-weight-1m': '30', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'xtYsLYIYj42UGmHBF1oPj2eMLUHpzGFltpzMqMuAfcpShRyL_5i-9w=='})
+2021-10-25 19:06:51,407 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:36:58 GMT', 'Server': 'nginx', 'x-mbx-uuid': '0800cbce-9ad7-4a94-86f6-493ad4c4661e', 'x-mbx-used-weight': '40', 'x-mbx-used-weight-1m': '40', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'dwf8V0GUqdJ-7DBEyDHr3IPVmuPxgAyn5fHfatBJQ1en9X7BimFcsA=='})
+2021-10-25 19:06:51,576 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:36:58 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'b68ce261-53cc-4195-b21f-d81c1bc5230d', 'x-mbx-used-weight': '50', 'x-mbx-used-weight-1m': '50', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'th8q5lnasaO7b4thfjnaei5tdN5Dn04JYwdrHzAse0lCXcM75A60vQ=='})
+2021-10-25 19:06:52,222 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:36:59 GMT', 'Server': 'nginx', 'x-mbx-uuid': '095fab38-b400-4789-9dc6-9e3f31b8ebdf', 'x-mbx-used-weight': '60', 'x-mbx-used-weight-1m': '60', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'YIZ7awZfZ3vJINIZ31oODvJb9TyOM1YlAXm0T7i8h9QLXCv-lY0exQ=='})
+2021-10-25 19:06:52,463 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:36:59 GMT', 'Server': 'nginx', 'x-mbx-uuid': '0950e32e-d72d-4af9-8a37-b67224a7255f', 'x-mbx-used-weight': '70', 'x-mbx-used-weight-1m': '70', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': '6gosJ2gRo17JPGi2GAq4Zh5m6rl0TMKiopshQ7lvlDQSoVgjfiCG-w=='})
+2021-10-25 19:06:52,634 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:36:59 GMT', 'Server': 'nginx', 'x-mbx-uuid': '44058414-1349-4898-b424-ad643720e426', 'x-mbx-used-weight': '80', 'x-mbx-used-weight-1m': '80', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'oNJtJNgj8abpHn6zfgCPEyACFXpyj69U-QjmtcWSkS7uqDRbL9NtZA=='})
+2021-10-25 19:06:53,025 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:37:00 GMT', 'Server': 'nginx', 'x-mbx-uuid': '28ef7c5b-cca2-401d-9bbf-d45cbda31ec6', 'x-mbx-used-weight': '10', 'x-mbx-used-weight-1m': '10', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'MZGdMMnoswFgzWYsroJ0-WzAxDYfcQ8slXFoBLLsRmaruMmP8YNlBg=='})
+2021-10-25 19:06:53,514 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:37:00 GMT', 'Server': 'nginx', 'x-mbx-uuid': '0800cbce-9ad7-4a94-86f6-493ad4c4661e', 'x-mbx-used-weight': '20', 'x-mbx-used-weight-1m': '20', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'wNNNO3rj8T8P6MHkPW3eINyYR9000PqU1Llsk_GslQs30-xry4BJ9A=='})
+2021-10-25 19:06:54,054 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:37:00 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'a3d5b895-5501-4731-849e-3f117fe66279', 'x-mbx-used-weight': '30', 'x-mbx-used-weight-1m': '30', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': 'h6AC8HcKhgutTVcQ_fCOLta_qJ57Z6eFZyGeM-JhwLJ9KkbZh_NkgA=='})
+2021-10-25 19:06:54,318 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:37:01 GMT', 'Server': 'nginx', 'x-mbx-uuid': '1edcd0aa-5c81-4a98-a65c-28f65adac768', 'x-mbx-used-weight': '40', 'x-mbx-used-weight-1m': '40', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': '7FBCeTn20qArDDxXPPd6mlLdbPYqxDb1mhjP-4_9hOk2UZMmOEQA0A=='})
+2021-10-25 19:06:54,504 - MARKET - ERROR   : error when cancelling order
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 60, in get_order_det
+    o_orders=client.account()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 332, in account
+    return self.sign_request("GET", url_path, {**kwargs})
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside of the recvWindow.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '79', 'Connection': 'keep-alive', 'Date': 'Mon, 25 Oct 2021 13:37:01 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'd738862b-9f64-4e1a-9f4e-168c6f1c1beb', 'x-mbx-used-weight': '50', 'x-mbx-used-weight-1m': '50', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MAA50-C2', 'X-Amz-Cf-Id': '90hy2zokiFODy9xQqVSxwXhQEsiHvZReIxE1K0uEjf3UokzDyPQojA=='})
+2021-10-25 19:08:02,359 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:08:18,267 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:09:09,945 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:09:38,320 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:10:05,803 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:10:52,023 - MARKET - INFO   : Starting the seller_stoploss
+2021-10-25 19:11:05,695 - SELLER_stoploss - INFO   : Starting the seller_stoploss
+2021-10-25 19:12:08,947 - SELLER_stoploss - INFO   : OBERALL bought orders:{} Updated orders: ['3795303']
+2021-10-26 20:11:24,766 - MARKET_1hr - INFO   : Hello
+2021-10-26 20:11:24,779 - MARKET_1hr - INFO   : Getting the last 24hr data
+2021-10-26 20:12:44,725 - MARKET_1hr - INFO   : Hello
+2021-10-26 20:12:44,727 - MARKET_1hr - INFO   : Getting the last 24hr data
+2021-10-26 20:17:26,572 - MARKET_1hr - INFO   : Got last 24hr dtaa
+2021-10-26 20:17:27,026 - MARKET_1hr - INFO   : req time:0 sec
+2021-10-26 20:17:27,311 - MARKET_1hr - DEBUG   : err_key'BCCUSDT'
+2021-10-26 20:17:27,311 - MARKET_1hr - DEBUG   : err_key'VENUSDT'
+2021-10-26 20:17:27,315 - MARKET_1hr - DEBUG   : err_key'PAXUSDT'
+2021-10-26 20:17:27,315 - MARKET_1hr - DEBUG   : err_key'BCHABCUSDT'
+2021-10-26 20:17:27,315 - MARKET_1hr - DEBUG   : err_key'BCHSVUSDT'
+2021-10-26 20:17:27,320 - MARKET_1hr - DEBUG   : err_key'USDSUSDT'
+2021-10-26 20:17:27,321 - MARKET_1hr - ERROR   : lesser than -0.8 CELRUSDT :October 26 20:17:27:  [-0.04009355162045072, -0.8196779459946123, 0.17086670131874263, 0.14959]
+2021-10-26 20:17:27,325 - MARKET_1hr - ERROR   : Greter than 2 ATOMUSDT :October 26 20:17:27:  [-0.24844720496894762, 1.374459300648002, 0.3428865571139206, 40.15]
+2021-10-26 20:17:27,325 - MARKET_1hr - ERROR   : lesser than -0.8 ONEUSDT :October 26 20:17:27:  [-0.14691755664800954, -0.8658768835426124, 0.33056259477747857, 0.35342]
+2021-10-26 20:17:27,325 - MARKET_1hr - DEBUG   : err_key'USDSBUSDT'
+2021-10-26 20:17:27,329 - MARKET_1hr - DEBUG   : err_key'ERDUSDT'
+2021-10-26 20:17:27,329 - MARKET_1hr - DEBUG   : err_key'NPXSUSDT'
+2021-10-26 20:17:27,334 - MARKET_1hr - DEBUG   : err_key'STORMUSDT'
+2021-10-26 20:17:27,337 - MARKET_1hr - DEBUG   : err_key'HCUSDT'
+2021-10-26 20:17:27,337 - MARKET_1hr - DEBUG   : err_key'MCOUSDT'
+2021-10-26 20:17:27,341 - MARKET_1hr - DEBUG   : err_key'BULLUSDT'
+2021-10-26 20:17:27,341 - MARKET_1hr - DEBUG   : err_key'BEARUSDT'
+2021-10-26 20:17:27,341 - MARKET_1hr - DEBUG   : err_key'ETHBULLUSDT'
+2021-10-26 20:17:27,345 - MARKET_1hr - DEBUG   : err_key'ETHBEARUSDT'
+2021-10-26 20:17:27,345 - MARKET_1hr - DEBUG   : err_key'EOSBULLUSDT'
+2021-10-26 20:17:27,349 - MARKET_1hr - DEBUG   : err_key'EOSBEARUSDT'
+2021-10-26 20:17:27,349 - MARKET_1hr - DEBUG   : err_key'XRPBULLUSDT'
+2021-10-26 20:17:27,349 - MARKET_1hr - DEBUG   : err_key'XRPBEARUSDT'
+2021-10-26 20:17:27,349 - MARKET_1hr - DEBUG   : err_key'STRATUSDT'
+2021-10-26 20:17:27,353 - MARKET_1hr - DEBUG   : err_key'BNBBULLUSDT'
+2021-10-26 20:17:27,353 - MARKET_1hr - DEBUG   : err_key'BNBBEARUSDT'
+2021-10-26 20:17:27,357 - MARKET_1hr - DEBUG   : err_key'XZCUSDT'
+2021-10-26 20:17:27,359 - MARKET_1hr - DEBUG   : err_key'LENDUSDT'
+2021-10-26 20:17:27,359 - MARKET_1hr - DEBUG   : err_key'BKRWUSDT'
+2021-10-26 20:17:27,363 - MARKET_1hr - DEBUG   : err_key'DAIUSDT'
+2021-10-26 20:17:27,367 - MARKET_1hr - ERROR   : lesser than -0.8 RUNEUSDT :October 26 20:17:27:  [-0.30345471521941875, -0.8642143838071082, 0.28307962652922386, 12.813]
+2021-10-26 20:17:27,367 - MARKET_1hr - WARNING   : its buy time: RUNEUSDT 12.813:October 26 20:17:27:  [-0.30345471521941875, -0.8642143838071082, 0.28307962652922386, 12.813]
+2021-10-26 20:17:27,383 - TRADE - INFO   : Got BUY req: RUNEUSDT p:12.787374
+2021-10-26 20:17:29,025 - TRADE - INFO   : Buying RUNEUSDT Q:1.9 P:12.787
+2021-10-26 20:17:30,336 - MARKET_1hr - ERROR   : lesser than -0.8 BADGERUSDT :October 26 20:17:30:  [0.03351206434316878, -1.4255497787422382, 0.24588855394252065, 29.85]
+2021-10-26 20:17:30,345 - MARKET_1hr - ERROR   : lesser than -0.8 BETAUSDT :October 26 20:17:30:  [0.0, -0.813482260532315, 0.1093142519528213, 1.80003]
+2021-10-26 22:35:54,869 - MARKET_1hr - INFO   : req time:1 sec
+2021-10-26 22:35:54,889 - MARKET_1hr - WARNING   : its buy time: CELRUSDT 0.15187:October 26 22:35:54:  [1.5241660538806097, -0.4595514158937201, 0.1984850554526583, 0.15187]
+2021-10-26 22:35:54,895 - TRADE - INFO   : Got BUY req: CELRUSDT p:0.15156626
+2021-10-26 22:35:56,536 - TRADE - INFO   : Buying CELRUSDT Q:164.9 P:0.15156
+2021-10-26 22:35:57,924 - MARKET_1hr - ERROR   : Greter than 2 ATOMUSDT :October 26 22:35:57:  [1.1207970112079773, 1.4680551799734434, 0.3587622806668605, 40.6]
+2021-10-26 22:35:57,924 - MARKET_1hr - WARNING   : its buy time: ONEUSDT 0.3517:October 26 22:35:57:  [-0.48667308018787825, -0.7563264129093455, 0.3138843156965529, 0.3517]
+2021-10-26 22:35:57,928 - MARKET_1hr - ERROR   : Tooo much +ve change in a day, rejecting buy:15.690789473684216%
+2021-10-26 22:35:57,930 - MARKET_1hr - INFO   : Buy didn't complete ,next timemayb
+2021-10-26 22:35:57,931 - MARKET_1hr - ERROR   : lesser than -0.8 FTMUSDT :October 26 22:35:57:  [-0.21998166819432005, -0.8390782721841157, 0.3358211303159228, 3.2658]
+2021-10-26 22:35:57,931 - MARKET_1hr - WARNING   : its buy time: FTMUSDT 3.2658:October 26 22:35:57:  [-0.21998166819432005, -0.8390782721841157, 0.3358211303159228, 3.2658]
+2021-10-26 22:35:57,935 - MARKET_1hr - ERROR   : Tooo much +ve change in a day, rejecting buy:17.10413080895008%
+2021-10-26 22:35:57,936 - MARKET_1hr - INFO   : Buy didn't complete ,next timemayb
+2021-10-26 22:35:57,959 - MARKET_1hr - ERROR   : Greter than 2 GRTUSDT :October 26 22:35:57:  [3.1848852901484572, 1.3979260676810856, 0.5423250578519553, 1.1469]
+2021-10-26 22:35:57,963 - MARKET_1hr - ERROR   : lesser than -0.8 BADGERUSDT :October 26 22:35:57:  [1.9765494137353428, -0.8706234931943394, 0.28120816332604764, 30.44]
+2021-10-26 22:35:57,964 - MARKET_1hr - WARNING   : its buy time: BADGERUSDT 30.44:October 26 22:35:57:  [1.9765494137353428, -0.8706234931943394, 0.28120816332604764, 30.44]
+2021-10-26 22:35:57,967 - TRADE - INFO   : Got BUY req: BADGERUSDT p:30.37912
+2021-10-26 22:35:59,576 - TRADE - INFO   : Buying BADGERUSDT Q:0.82 P:30.37
+2021-10-26 22:36:00,793 - MARKET_1hr - ERROR   : Greter than 2 SHIBUSDT :October 26 22:36:00:  [2.8312081262156887, 1.6966028107307338, 0.2752671319910162, 4.758e-05]

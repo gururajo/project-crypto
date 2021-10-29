@@ -6,7 +6,7 @@
 	"canTrade": true,
 	"canWithdraw": true,
 	"canDeposit": true,
-	"updateTime": 1634895409670,
+	"updateTime": 1635267956876,
 	"accountType": "SPOT",
 	"balances": [
 		{
@@ -31,7 +31,7 @@
 		},
 		{
 			"asset": "BNB",
-			"free": "0.02322361",
+			"free": "0.02171683",
 			"locked": "0.00000000"
 		},
 		{
@@ -66,8 +66,8 @@
 		},
 		{
 			"asset": "USDT",
-			"free": "22.61126960",
-			"locked": "12.63240000"
+			"free": "93.88364860",
+			"locked": "24.99224400"
 		},
 		{
 			"asset": "HSR",
@@ -427,7 +427,7 @@
 		{
 			"asset": "LSK",
 			"free": "0.00000000",
-			"locked": "0.00000000"
+			"locked": "6.50000000"
 		},
 		{
 			"asset": "BCD",
@@ -1182,7 +1182,7 @@
 		{
 			"asset": "CTSI",
 			"free": "0.00000000",
-			"locked": "13.00000000"
+			"locked": "0.00000000"
 		},
 		{
 			"asset": "CHR",
@@ -1487,7 +1487,7 @@
 		{
 			"asset": "NBS",
 			"free": "0.00000000",
-			"locked": "1692.40000000"
+			"locked": "0.00000000"
 		},
 		{
 			"asset": "WING",
@@ -1776,7 +1776,7 @@
 		},
 		{
 			"asset": "SKL",
-			"free": "97.00000000",
+			"free": "0.00000000",
 			"locked": "0.00000000"
 		},
 		{
@@ -1907,7 +1907,7 @@
 		{
 			"asset": "FIRO",
 			"free": "0.00000000",
-			"locked": "0.00000000"
+			"locked": "2.00000000"
 		},
 		{
 			"asset": "LIT",
@@ -2302,7 +2302,7 @@
 		{
 			"asset": "CHESS",
 			"free": "0.00000000",
-			"locked": "0.00000000"
+			"locked": "6.80000000"
 		}
 	],
 	"permissions": [

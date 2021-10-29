@@ -1,6 +1,6 @@
 import logging,sys
 import logging.config
-import json,re
+import json,re,time
 from binance.spot import Spot
 
 logging.config.fileConfig('log_config.conf')
@@ -57,7 +57,10 @@ def get_order_det():
     success=False
     while not success:
         try:
-            client.cancel_order("SKLUSDT",orderId=294534582)
+            o_orders=client.time()
+            print(o_orders)
+            print(time.time())
+            print(time.time()-(o_orders["serverTime"]/1000))
             success=True
         except Exception as e:
             if e.error_code == -2011:

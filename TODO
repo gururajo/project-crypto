@@ -9,3 +9,10 @@
 -Done: in make diff .py add id len of total rows >9 + neg keys then only call stratergy
 - Add dont buy these ina a file and check  .. .. ... you know it do it like that add buy price aslo
 - create a PNL script
+-Done: update seller_stoploss where bought orders be stored in hdd
+-Done: before buying check if neg_trig is true from diff report
+-Done: make another buying auto for 1hr
+-Done: say what u r doing in seller stoploss, you just buy stuff
+- looks like -1.0 is fine for make_diff_report_1hr as trigger but check if largeris better
+-Done: keep atleast two slots in usdt for emergency case (second time buys by seller stoploss)
+- dynamic buy price
