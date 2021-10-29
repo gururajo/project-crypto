@@ -349,6 +349,7 @@ def main(boot_json):
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         boot_json["started"]=True
+        boot_json["last_report"]=report_name
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         # time.sleep(10)

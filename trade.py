@@ -5,7 +5,10 @@ import logging.config
 
 logging.config.fileConfig('log_config.conf')
 logger = logging.getLogger("TRADE")
+buy_price_thres=25.0
+
 def get_corrected_price(symbol,price):
+    global buy_price_thres
     with open("exchange.json","r") as f:
         exchanges=json.load(f)
         exchanges=exchanges["symbols"]
@@ -32,7 +35,7 @@ def get_corrected_price(symbol,price):
     print("T ",tick_size)
     print("Q:" , q_stepsize)
     price=int(price/tick_size)/(1/tick_size)
-    quantity=25.0/price
+    quantity=buy_price_thres/price
     quantity=int(quantity/q_stepsize)/(1/q_stepsize)
     try:
         gap=re.search("\.0*1",str('{:.10f}'.format(tick_size))).group()
@@ -58,6 +61,8 @@ def get_corrected_price(symbol,price):
 
 
 def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False):
+
+    global buy_price_thres
     with open("keys.json","r") as f:
         keys=json.load(f)
 
@@ -85,7 +90,13 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False):
         if re.search(re.escape(str(symbol)),str(open_orders)):
             logger.error("There's already an open order , oreder req rejected")
             return None
-    if balance > 25:
+        if balance < 3*buy_price_thres:
+            logger.error("all easy buy slots are already fillled, present slots are for stoploss only")
+            return None
+
+
+
+    if balance > buy_price_thres:
         ret=get_corrected_price(symbol,price)
         if ret:
             price,quantity=ret

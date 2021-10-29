@@ -1,3 +1,4 @@
+from os import truncate
 from binance.spot import Spot
 import json,time,re
 import logging,sys
@@ -82,6 +83,16 @@ def cancel_n_place_new(client,new_b_id,bought_orders_with_old,s_orders):
     new_sell_order={new_b_id:new_sell_order}
     return old_b_id,new_b_id,new_sell_order
 
+def check_if_neg_trig_is_true(symbol):
+    with open("boot.json","r") as f:
+        boot_json=json.load(f)
+    diff=boot_json["last_report"]
+    with open(diff,"r") as f:
+        diff=json.load(f)
+    if diff[symbol]["neg_trig"][1]:
+        return True
+    else:
+        return False
 
 
 
@@ -118,6 +129,7 @@ def main():
     bought_orders=[]
     bought_orders_with_old={}
     added_orders={}
+
     while True:
         time.sleep(3*60)
         updated_orders={}
@@ -128,6 +140,10 @@ def main():
         except Exception as e:
             logger.exception("error when getting get_open_orders()")
 
+        with open("bought_orders.json","r") as f:
+            uo=json.load(f)
+        bought_orders=uo["bought_orders"]
+        bought_orders_with_old=uo['bought_orders_with_old']
         with open("sell_orders.json","r") as f:
             s_orders=json.load(f)
 
@@ -137,7 +153,7 @@ def main():
                     symbol=s_orders[b_order_id]["symbol"]
                     sell_orderid=s_orders[b_order_id]["orderId"]
                     old_price=float(s_orders[b_order_id]["price"])
-                    #update this Olay, you have to remove the old sell order
+                    #update this Olay, you have to remove the old sell order-Done
                     if b_order_id in bought_orders:
                         try:
                             ret =cancel_n_place_new(client,b_order_id,bought_orders_with_old,s_orders)
@@ -177,6 +193,10 @@ def main():
                             continue
                         new_price=float(price["price"])
                         if get_per_change(old_price,new_price) < -20:
+                            logger.info("price dropped -20, so buying again to reduce avg bought price")
+                            if check_if_neg_trig_is_true(symbol):
+                                logger.info("not a good time to buy, neg_trig is true")
+                                continue
                             try:
                                 order=trade.buy(symbol,price=get_per(new_price,-0.2),force=True)
                                 if order == None:
@@ -244,6 +264,10 @@ def main():
         boot_json["seller_stoploss_started"]=True
         with open("boot.json","w") as wf:
             json.dump(boot_json,wf, sort_keys=False,indent='\t', separators=(',', ': '))
+
+        with open("bought_orders.json","w") as wf:
+            json.dump({"bought_orders_with_old":bought_orders_with_old,"bought_orders":bought_orders},wf, sort_keys=False,indent='\t', separators=(',', ': '))
+
 
 
 if __name__== "__main__":
