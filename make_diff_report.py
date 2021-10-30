@@ -86,9 +86,11 @@ def strategy(cryp,time_key,currency):
     if last_5_avg>1.3:
         logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["pos_trig"]=[last_5_avg,True]
+        return True
     if last_5_avg<-0.8:
         logger.error("lesser than -0.8 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
+        return True
     last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:

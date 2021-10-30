@@ -10,7 +10,7 @@
 - Add dont buy these ina a file and check  .. .. ... you know it do it like that add buy price aslo
 - create a PNL script
 -Done: update seller_stoploss where bought orders be stored in hdd
--Done: before buying check if neg_trig is true from diff report
+-Done: before buying check if neg_trig is true from diff report in seller stoploss
 -Done: make another buying auto for 1hr
 -Done: say what u r doing in seller stoploss, you just buy stuff
 - looks like -1.0 is fine for make_diff_report_1hr as trigger but check if largeris better
