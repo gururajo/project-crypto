@@ -25,7 +25,7 @@ import logging.config
 import trade
 
 sec = 60
-min = 60
+min = 60*4
 neg_keys_c=8
 
 if len(sys.argv)==2:
@@ -39,7 +39,7 @@ report_name = "reports/report_"+str(min)+"m_"+time.strftime("%B %d %H-%M")+".jso
 
 
 logging.config.fileConfig('log_config.conf')
-logger = logging.getLogger("MARKET_1hr")
+logger = logging.getLogger("MARKET_4hr")
 
 
 def get_present():
@@ -87,14 +87,14 @@ def strategy(cryp,time_key,currency):
     #     logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
     #     cryp["pos_trig"]=[last_5_avg,True]
     #     return True
-    if last_5_avg<-1.5:
-        logger.error("lesser than -1.5 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+    if last_5_avg<-2.0:
+        logger.error("lesser than -2.0 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
         return True
     last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:
-        if -0.4 < last_3_avg < 1 and last_5_avg < -0.8:
+        if -0.4 < last_3_avg < 1 and last_5_avg < -1.5:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             if cryp["change"]> 15 or cryp["change_24hr"]>15:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
@@ -114,7 +114,7 @@ def strategy(cryp,time_key,currency):
         elif last_3_avg >2:
             # logger.warning("last 3 avg > 3%")
             cryp["neg_trig"]=[0,False]
-            logger.warning("last 3 avg greater than 3, setting false "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
+            logger.warning("last 3 avg greater than 2%, setting false "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
     # if cryp["pos_trig"][1]:
     #     if last_5_avg < .3:
     #         logger.warning("if you own this selit: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
@@ -125,22 +125,22 @@ def boot():
     with open("boot.json","r") as f:
         boot_json=json.load(f)
     print("started booy:",boot_json)
-    if boot_json["started_1hr"]:
-        boot_json["started_1hr"]=False
+    if boot_json["started_4hr"]:
+        boot_json["started_4hr"]=False
         with open("boot.json","w") as wf:
             boot_json=json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         logger.info("Found started is true, so set it false and waiting for double wait time")
         time.sleep(sec*min+300)
         with open("boot.json","r") as f:
             boot_json=json.load(f)
-        if boot_json["started_1hr"]:
+        if boot_json["started_4hr"]:
             logger.info("Okay its running, bye!!")
             sys.exit()
         else:
-            boot_json["started_1hr"]=True
+            boot_json["started_4hr"]=True
             # print(boot_json)
     else:
-        boot_json["started_1hr"]=True
+        boot_json["started_4hr"]=True
     print(boot_json)
     return boot_json
 
@@ -172,7 +172,7 @@ def get_last24(diff):
                 continue
             time.sleep(0.5)
             try:
-                past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=1h&startTime="+str(int((time.time()- (2*86400))*1000))+"&endTime="+str(int(time.time()*1000)))
+                past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=4h&startTime="+str(int((time.time()- (3*86400))*1000))+"&endTime="+str(int(time.time()*1000)))
             except Exception:
                 logger.exception("ticker_problem")
                 continue
@@ -239,7 +239,7 @@ def get_last24(diff):
                     diff[cryp]["neg_trig"]=[0,False]
                     diff[cryp]["volume"]=float(ticker[5])*float(ticker[4])
             # break
-    time.sleep(30*60)
+    time.sleep(25*60)
     return diff
 
     # sys.exit()
@@ -266,7 +266,7 @@ def main(boot_json):
             logger.error("some error in Connection")
             with open("boot.json","r") as f:
                 boot_json=json.load(f)
-            boot_json["started_1hr"]=True
+            boot_json["started_4hr"]=True
             with open("boot.json","w") as wf:
                 json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
             time.sleep(20)
@@ -352,7 +352,7 @@ def main(boot_json):
         tickers+=1
         with open("boot.json","r") as f:
             boot_json=json.load(f)
-        boot_json["started_1hr"]=True
+        boot_json["started_4hr"]=True
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         # time.sleep(10)
@@ -365,13 +365,13 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         with open("boot.json","r") as f:
             boot_json=json.load(f)
-        boot_json["started_1hr"]=False
+        boot_json["started_4hr"]=False
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
     except Exception as e:
         logger.exception("main func exception"+str(e))
         with open("boot.json","r") as f:
             boot_json=json.load(f)
-        boot_json["started_1hr"]=False
+        boot_json["started_4hr"]=False
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))

@@ -1,6 +1,8 @@
 {
 	"started": false,
-	"started_1hr": true,
+	"started_1hr": false,
+	"started_4hr": false,
+	"started_1d": false,
 	"last_report": "reports/report_15m_October 15 15-23.json",
 	"seller_started": true,
 	"seller_stoploss_started": false

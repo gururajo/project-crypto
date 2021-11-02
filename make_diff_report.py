@@ -83,10 +83,10 @@ def strategy(cryp,time_key,currency):
 
     last_5_avg=cryp[time_key][1]
 
-    if last_5_avg>1.3:
-        logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
-        cryp["pos_trig"]=[last_5_avg,True]
-        return True
+    # if last_5_avg>1.3:
+    #     logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+    #     cryp["pos_trig"]=[last_5_avg,True]
+    #     return True
     if last_5_avg<-0.8:
         logger.error("lesser than -0.8 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
@@ -109,16 +109,16 @@ def strategy(cryp,time_key,currency):
                 logger.exception("Buy order exception:"+ str(e))
                 return None
             cryp["neg_trig"]=[0,False]
-        elif -0.4 < last_3_avg :
-            logger.warning("Last 3 avg is greater than -0.4 but last_5_avg is not < -0.45: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
+        # elif -0.4 < last_3_avg :
+        #     logger.warning("Last 3 avg is greater than -0.4 but last_5_avg is not < -0.45: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
         elif last_3_avg >2:
             # logger.warning("last 3 avg > 3%")
             cryp["neg_trig"]=[0,False]
             logger.warning("last 3 avg greater than 3, setting false "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-    if cryp["pos_trig"][1]:
-        if last_5_avg < .3:
-            logger.warning("if you own this selit: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
-            cryp["pos_trig"]=[0,False]
+    # if cryp["pos_trig"][1]:
+    #     if last_5_avg < .3:
+    #         logger.warning("if you own this selit: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
+    #         cryp["pos_trig"]=[0,False]
     return True
 
 def boot():
