@@ -2939,3 +2939,5 @@ binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside o
 2021-10-26 22:36:00,793 - MARKET_1hr - ERROR   : Greter than 2 SHIBUSDT :October 26 22:36:00:  [2.8312081262156887, 1.6966028107307338, 0.2752671319910162, 4.758e-05]
 2021-11-02 15:34:54,784 - MARKET_4hr - INFO   : Hello
 2021-11-02 15:34:54,799 - MARKET_4hr - INFO   : Getting the last 24hr data
+2021-11-02 15:36:19,028 - MARKET_1d - INFO   : Hello
+2021-11-02 15:36:19,030 - MARKET_1d - INFO   : Getting the last 24hr data
