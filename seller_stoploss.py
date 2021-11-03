@@ -8,6 +8,7 @@ import logging.config
 
 logging.config.fileConfig('log_config.conf')
 logger = logging.getLogger("SELLER_stoploss")
+min=10
 
 def get_per(principle,percentage):
     return principle * ((100 + percentage)/ 100)
@@ -104,7 +105,7 @@ def boot():
         with open("boot.json","w") as wf:
             json.dump(boot_json,wf, sort_keys=False,indent='\t', separators=(',', ': '))
         logger.info("Looks like seller_stoploss is started, setting as false and waiting for 12 mins")
-        time.sleep(3.5*60)
+        time.sleep(10.1*60)
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         if boot_json["seller_stoploss_started"]:
@@ -118,6 +119,7 @@ def boot():
     return boot_json
 
 def main():
+    global min
     boot_json=boot()
     #
     #
@@ -131,7 +133,7 @@ def main():
     added_orders={}
 
     while True:
-        time.sleep(3*60)
+        time.sleep(min*60)
         updated_orders={}
         try:
             o_orders=client.get_open_orders()
@@ -247,6 +249,10 @@ def main():
                     # continue
         if len(list(bought_orders_with_old.keys()))>0 or len(list(updated_orders.keys()))>0:
             logger.info("OBERALL bought orders:"+str(bought_orders_with_old)+" Updated orders: "+str(list(updated_orders.keys())))
+        if len(list(bought_orders_with_old.keys()))>0:
+            min=3
+        if len(list(bought_orders_with_old.keys()))==0:
+            min=10
         with open("sell_orders.json","r") as f:
             s_orders=json.load(f)
         to_write={}
