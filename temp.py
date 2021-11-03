@@ -69,8 +69,36 @@ def get_order_det():
                 logger.exception("error when cancelling order")
     print("Done")
 
+def get_dynamic_price(client):
+    # client=Spot()
+    wallet=client.account()
+    total=0.0
+    for crypt in wallet["balances"]:
+        if float(crypt["free"]) > 0.0 or float(crypt["locked"]) > 0.0:
+            if crypt["asset"]!="USDT":
+                symbol=crypt["asset"]+"USDT"
+            else:
+                total+=float(crypt["free"]) + float(crypt["locked"])
+                continue
+            # print(symbol)
+            try:
+                price=client.ticker_price(symbol)
+                time.sleep(0.2)
+            except Exception as e:
+                logger.exception("error when fetching ticker price S:"+str(symbol))
+                return 25
+            price=float(price["price"])
+            total+=(price*float(crypt["free"]))+(price*float(crypt["locked"]))
+    price=int((total-10)/15)
+    if price < 25:
+        price =25
+
+    return price
 
 
-
+with open("keys.json","r") as f:
+    keys=json.load(f)
+logger.info("Starting the seller_stoploss")
+client= Spot(key=keys["api_key"], secret=keys["secret_key"])
 # print(get_corrected_price("TRXUSDT",0.1012))
-print(get_order_det())
+print(get_dynamic_price(client))

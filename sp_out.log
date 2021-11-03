@@ -2941,3 +2941,42 @@ binance.error.ClientError: (400, -1021, 'Timestamp for this request is outside o
 2021-11-02 15:34:54,799 - MARKET_4hr - INFO   : Getting the last 24hr data
 2021-11-02 15:36:19,028 - MARKET_1d - INFO   : Hello
 2021-11-02 15:36:19,030 - MARKET_1d - INFO   : Getting the last 24hr data
+2021-11-02 23:35:05,509 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:35:12,691 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:41:30,757 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:42:02,072 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:42:34,443 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:43:34,305 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:43:35,746 - MARKET - ERROR   : error when fetching ticker price S:USDTUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 80, in get_dynamic_price
+    price=client.ticker_price(symbol)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\market.py", line 205, in ticker_price
+    return self.query("/api/v3/ticker/price", params)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 67, in query
+    return self.send_request("GET", url_path, payload=payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1121, 'Invalid symbol.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '38', 'Connection': 'keep-alive', 'Date': 'Tue, 02 Nov 2021 18:13:35 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'd738862b-9f64-4e1a-9f4e-168c6f1c1beb', 'x-mbx-used-weight': '12', 'x-mbx-used-weight-1m': '12', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 50cac58b596cabc9a79db20889c98bc1.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM52-C1', 'X-Amz-Cf-Id': 'bcVZjCZfTA49kLuPAKgedUOVT8TwbAtmEbdHDVb2S6ZoQIKkYGehqA=='})
+2021-11-02 23:43:50,973 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:43:52,087 - MARKET - ERROR   : error when fetching ticker price S:USDTUSDT
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 81, in get_dynamic_price
+    price=client.ticker_price(symbol)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\market.py", line 205, in ticker_price
+    return self.query("/api/v3/ticker/price", params)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 67, in query
+    return self.send_request("GET", url_path, payload=payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1121, 'Invalid symbol.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '38', 'Connection': 'keep-alive', 'Date': 'Tue, 02 Nov 2021 18:13:51 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'e4ffe1b6-5201-4359-b202-ce8832c65d99', 'x-mbx-used-weight': '29', 'x-mbx-used-weight-1m': '29', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 86ff5414b8411608882320ec79e9e2f7.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM52-C1', 'X-Amz-Cf-Id': 'hI11s3WxtMG9QCR4rT278srP-ep7-8qGcj4-6z8tTscPd-U1_nRtqg=='})
+2021-11-02 23:45:29,420 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:45:43,055 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:46:10,488 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:47:44,017 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:48:02,601 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-02 23:48:05,830 - MARKET - INFO   : Starting the seller_stoploss

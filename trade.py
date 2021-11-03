@@ -9,6 +9,7 @@ buy_price_thres=25.0
 
 def get_corrected_price(symbol,price):
     global buy_price_thres
+
     with open("exchange.json","r") as f:
         exchanges=json.load(f)
         exchanges=exchanges["symbols"]
@@ -59,15 +60,42 @@ def get_corrected_price(symbol,price):
     print("total Amt",price*quantity)
     return price,quantity
 
+def get_dynamic_price(client):
+    # client=Spot()
+    wallet=client.account()
+    total=0.0
+    for crypt in wallet["balances"]:
+        if float(crypt["free"]) > 0.0 or float(crypt["locked"]) > 0.0:
+            if crypt["asset"]!="USDT":
+                symbol=crypt["asset"]+"USDT"
+            else:
+                total+=float(crypt["free"]) + float(crypt["locked"])
+                continue
+            # print(symbol)
+            try:
+                price=client.ticker_price(symbol)
+                time.sleep(0.2)
+            except Exception as e:
+                logger.exception("error when fetching ticker price S:"+str(symbol))
+                return 25
+            price=float(price["price"])
+            total+=(price*float(crypt["free"]))+(price*float(crypt["locked"]))
+    price=int((total-10)/20)
+    if price < 25:
+        price =25
+
+    return price
 
 def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False):
 
     global buy_price_thres
+
     with open("keys.json","r") as f:
         keys=json.load(f)
 
     logger.info("Got BUY req: "+str(symbol)+" p:"+str(price))
     client= Spot(key=keys["api_key"], secret=keys["secret_key"])
+    buy_price_thres=get_dynamic_price(client)
     time.sleep(1)
     try:
         wallet=client.account()
