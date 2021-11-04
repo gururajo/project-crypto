@@ -5,8 +5,11 @@ from binance.spot import Spot
 
 logging.config.fileConfig('log_config.conf')
 logger = logging.getLogger("MARKET")
+buy_price_thres=25
 
 def get_corrected_price(symbol,price):
+    global buy_price_thres
+
     with open("exchange.json","r") as f:
         exchanges=json.load(f)
         exchanges=exchanges["symbols"]
@@ -33,19 +36,31 @@ def get_corrected_price(symbol,price):
     print("T ",tick_size)
     print("Q:" , q_stepsize)
     price=int(price/tick_size)/(1/tick_size)
-    quantity=12.0/price
+    quantity=buy_price_thres/price
     quantity=int(quantity/q_stepsize)/(1/q_stepsize)
     try:
         gap=re.search("\.0*1",str('{:.10f}'.format(tick_size))).group()
-        print("got gap")
-        gap2=re.search("\.[0-9]*",str(price)).group()
+        print("got gap",gap)
+        # print(str('{:.10f}'.format(price)))
+        # print(re.search("\.[0-9]*",str('{:.10f}'.format(price))))
+        gap2=re.search("\.[0-9]*",str('{:.10f}'.format(price))).group()
+        # print("got gap2",gap2)
         if len(gap2) > len(gap):
-            price=float(re.search("[0-9]*\.[0-9]{"+str(len(gap)-1)+"}",str(price)).group())
+            price=re.search("[0-9]*\.[0-9]{"+str(len(gap)-1)+"}",str('{:.10f}'.format(price))).group()
+            # print(price)
     except Exception as e:
-        print("ops",e)
+        print("ops1",e)
+    try:
+        gap=re.search("\.0*1",str('{:.10f}'.format(q_stepsize))).group()
+        print("got gap")
+        gap2=re.search("\.[0-9]*",str('{:.10f}'.format(quantity))).group()
+        if len(gap2) > len(gap):
+            quantity=re.search("[0-9]*\.[0-9]{"+str(len(gap)-1)+"}",str('{:.10f}'.format(quantity))).group()
+    except Exception as e:
+        print("ops2",e)
 
     print(price,quantity)
-    print("total Amt",price*quantity)
+    print("total Amt",float(price)*float(quantity))
     return price,quantity
 
 def get_order_det():
@@ -100,5 +115,5 @@ with open("keys.json","r") as f:
     keys=json.load(f)
 logger.info("Starting the seller_stoploss")
 client= Spot(key=keys["api_key"], secret=keys["secret_key"])
-# print(get_corrected_price("TRXUSDT",0.1012))
-print(get_dynamic_price(client))
+print(get_corrected_price("TRXUSDT",0.1012))
+# print(get_corrected_price("BTCUSDT",60000.89))

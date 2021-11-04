@@ -40,24 +40,27 @@ def get_corrected_price(symbol,price):
     quantity=int(quantity/q_stepsize)/(1/q_stepsize)
     try:
         gap=re.search("\.0*1",str('{:.10f}'.format(tick_size))).group()
-        print("got gap")
-        gap2=re.search("\.[0-9]*",str(price)).group()
+        print("got gap",gap)
+        # print(str('{:.10f}'.format(price)))
+        # print(re.search("\.[0-9]*",str('{:.10f}'.format(price))))
+        gap2=re.search("\.[0-9]*",str('{:.10f}'.format(price))).group()
+        # print("got gap2",gap2)
         if len(gap2) > len(gap):
-            price=float(re.search("[0-9]*\.[0-9]{"+str(len(gap)-1)+"}",str(price)).group())
+            price=re.search("[0-9]*\.[0-9]{"+str(len(gap)-1)+"}",str('{:.10f}'.format(price))).group()
+            # print(price)
     except Exception as e:
-        print("ops",e)
+        print("ops1",e)
     try:
         gap=re.search("\.0*1",str('{:.10f}'.format(q_stepsize))).group()
         print("got gap")
-        gap2=re.search("\.[0-9]*",str(quantity)).group()
+        gap2=re.search("\.[0-9]*",str('{:.10f}'.format(quantity))).group()
         if len(gap2) > len(gap):
-            quantity=float(re.search("[0-9]*\.[0-9]{"+str(len(gap)-1)+"}",str(quantity
-                                                                              )).group())
+            quantity=re.search("[0-9]*\.[0-9]{"+str(len(gap)-1)+"}",str('{:.10f}'.format(quantity))).group()
     except Exception as e:
-        print("ops",e)
+        print("ops2",e)
 
     print(price,quantity)
-    print("total Amt",price*quantity)
+    print("total Amt",float(price)*float(quantity))
     return price,quantity
 
 def get_dynamic_price(client):
