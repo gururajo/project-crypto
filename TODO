@@ -13,6 +13,12 @@
 -Done: before buying check if neg_trig is true from diff report in seller stoploss
 -Done: make another buying auto for 1hr
 -Done: say what u r doing in seller stoploss, you just buy stuff
-- looks like -1.0 is fine for make_diff_report_1hr as trigger but check if largeris better
+-Done: looks like -1.0 is fine for make_diff_report_1hr as trigger but check if largeris better
 -Done: keep atleast two slots in usdt for emergency case (second time buys by seller stoploss)
-- dynamic buy price
+-Done: dynamic buy price
+- copy before u start
+- adjust 1d market diff to buy at first fectch only ( 2days continuoius running seems not posible)
+- set all market neg trig at 1.5%
+- cleaup auto
+- keep updated orders check in try catch with keyError exception
+- keep all logs in different log dir
