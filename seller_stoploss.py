@@ -105,7 +105,7 @@ def boot():
         with open("boot.json","w") as wf:
             json.dump(boot_json,wf, sort_keys=False,indent='\t', separators=(',', ': '))
         logger.info("Looks like seller_stoploss is started, setting as false and waiting for 12 mins")
-        time.sleep(10.1*60)
+        time.sleep(12*60)
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         if boot_json["seller_stoploss_started"]:
@@ -197,7 +197,7 @@ def main():
                         if get_per_change(old_price,new_price) < -20:
                             logger.info("price dropped -20, so buying again to reduce avg bought price")
                             if check_if_neg_trig_is_true(symbol):
-                                logger.info("not a good time to buy, neg_trig is true")
+                                logger.info("not a good time to buy, neg_trig is true: "+str(symbol))
                                 continue
                             try:
                                 order=trade.buy(symbol,price=get_per(new_price,-0.2),force=True)
@@ -227,40 +227,22 @@ def main():
                             break
                     continue
 
-
-                    # symbol=s_orders[b_order_id]["symbol"]
-                    # price=s_orders[b_order_id]["price"]
-                    # try:
-                    #     price=client.ticker_price(symbol)
-                    # except Exception as e:
-                    #     logger.exception("error when fetching ticker price S:"+str(symbol))
-                    #     continue
-                    # new_price=price["price"]
-                    # if get_per_change(price,new_price) < -0.5:
-                    #     try:
-                    #         order=trade.buy(symbol,get_per(new_price,-0.2))
-                    #     except Exception as e:
-                    #         logger.exception("exception occured when placing sell order S:"+str(symbol))
-                    #         continue
-                    # logger.info("Bought "+str(symbol)+" again and again")
-                    # bought_order_id=order["orderId"]
-                    # bought_orders.append(bought_order_id)
-                    # bought_orders_with_old[str(b_order_id)]=bought_order_id
-                    # continue
         if len(list(bought_orders_with_old.keys()))>0 or len(list(updated_orders.keys()))>0:
             logger.info("OBERALL bought orders:"+str(bought_orders_with_old)+" Updated orders: "+str(list(updated_orders.keys())))
         if len(list(bought_orders_with_old.keys()))>0:
-            min=3
+            min=1
         if len(list(bought_orders_with_old.keys()))==0:
             min=10
         with open("sell_orders.json","r") as f:
             s_orders=json.load(f)
         to_write={}
         for b_id in s_orders:
-            if b_id in list(updated_orders.keys()):
+            try:
                 to_write[b_id]=updated_orders[b_id]
-            else:
+                logger.info('updatedorder'+str(b_id))
+            except KeyError:
                 to_write[b_id]=s_orders[b_id]
+                logger.info('Keyyerror:'+str(b_id))
         for b_id in added_orders:
             to_write[b_id]=added_orders[b_id]
         with open("sell_orders.json","w")as wf :
