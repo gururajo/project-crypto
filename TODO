@@ -16,9 +16,10 @@
 -Done: looks like -1.0 is fine for make_diff_report_1hr as trigger but check if largeris better
 -Done: keep atleast two slots in usdt for emergency case (second time buys by seller stoploss)
 -Done: dynamic buy price
-- copy before u start
-- adjust 1d market diff to buy at first fectch only ( 2days continuoius running seems not posible)
+-Done: copy before u start
+-Done: adjust 1d market diff to buy at first fectch only ( 2days continuoius running seems not posible)
 - set all market neg trig at 1.5%
+    looks like -1.3 is working fine
 - cleaup auto
-- keep updated orders check in try catch with keyError exception
+-Done: keep updated orders check in try catch with keyError exception
 - keep all logs in different log dir
