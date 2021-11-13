@@ -83,7 +83,7 @@ def get_dynamic_price(client):
                 return 25
             price=float(price["price"])
             total+=(price*float(crypt["free"]))+(price*float(crypt["locked"]))
-    price=int((total-10)/20)
+    price=int((total-10)/40)
     if price < 25:
         price =25
 

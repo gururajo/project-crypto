@@ -87,14 +87,14 @@ def strategy(cryp,time_key,currency):
     #     logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
     #     cryp["pos_trig"]=[last_5_avg,True]
     #     return True
-    if last_5_avg<-2.0:
-        logger.error("lesser than -2.0 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+    if last_5_avg<-1.3:
+        logger.error("lesser than -1.3 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
-        return True
+        # return True
     last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:
-        if -0.4 < last_3_avg < 1 and last_5_avg < -1.5:
+        if -0.4 < last_3_avg < 1 and last_5_avg < -0.7:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             if cryp["change"]> 15 or cryp["change_24hr"]>15:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
@@ -130,7 +130,7 @@ def boot():
         with open("boot.json","w") as wf:
             boot_json=json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         logger.info("Found started is true, so set it false and waiting for double wait time")
-        time.sleep(sec*min+300)
+        time.sleep(sec*(min+15))
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         if boot_json["started_1d"]:
@@ -213,7 +213,7 @@ def get_last24(diff):
 
 
                                 diff[cryp][time_key] = [change, 0,0, last]
-                                diff[cryp][time_key] = [change, last_n_avg(diff[cryp],7),last_n_avg(diff[cryp],len(diff[cryp])-neg_keys_c), last]
+                                diff[cryp][time_key] = [change, last_n_avg(diff[cryp],8),last_n_avg(diff[cryp],len(diff[cryp])-neg_keys_c), last]
                             else:
                                 diff[cryp][time_key] = [change,till_avg,till_avg , last]
                         else:
@@ -305,7 +305,7 @@ def main(boot_json):
                         time_key=time.strftime("%B %d %H:%M:%S")
                         if len(diff[cryp])- neg_keys_c >7:
                             diff[cryp][time_key] = [change, 0,0, last]
-                            diff[cryp][time_key] = [change, last_n_avg(diff[cryp],7),last_n_avg(diff[cryp],len(diff[cryp])-neg_keys_c), last]
+                            diff[cryp][time_key] = [change, last_n_avg(diff[cryp],8),last_n_avg(diff[cryp],len(diff[cryp])-neg_keys_c), last]
                         else:
                             diff[cryp][time_key] = [change,till_avg,till_avg , last]
                     else:

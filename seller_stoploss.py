@@ -105,7 +105,7 @@ def boot():
         with open("boot.json","w") as wf:
             json.dump(boot_json,wf, sort_keys=False,indent='\t', separators=(',', ': '))
         logger.info("Looks like seller_stoploss is started, setting as false and waiting for 12 mins")
-        time.sleep(12*60)
+        time.sleep(15*60)
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         if boot_json["seller_stoploss_started"]:
@@ -242,7 +242,7 @@ def main():
                 logger.info('updatedorder'+str(b_id))
             except KeyError:
                 to_write[b_id]=s_orders[b_id]
-                logger.info('Keyyerror:'+str(b_id))
+                # logger.info('Keyyerror:'+str(b_id))
         for b_id in added_orders:
             to_write[b_id]=added_orders[b_id]
         with open("sell_orders.json","w")as wf :
