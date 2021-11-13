@@ -3007,3 +3007,11 @@ binance.error.ClientError: (400, -1121, 'Invalid symbol.', {'Content-Type': 'app
 2021-11-05 02:14:11,484 - MARKET - INFO   : Starting the seller_stoploss
 2021-11-05 02:14:50,268 - MARKET - INFO   : Starting the seller_stoploss
 2021-11-05 21:08:27,278 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-13 22:51:28,699 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-13 22:51:49,719 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-14 00:16:32,247 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-14 00:17:42,772 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-14 00:18:17,203 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-14 00:19:10,818 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-14 00:19:45,009 - MARKET - INFO   : Starting the seller_stoploss
+2021-11-14 00:21:50,000 - MARKET - INFO   : Starting the seller_stoploss

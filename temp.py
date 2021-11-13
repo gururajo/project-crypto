@@ -85,9 +85,17 @@ def get_order_det():
     print("Done")
 
 def get_dynamic_price(client):
+
     # client=Spot()
+
     wallet=client.account()
     total=0.0
+    try:
+        prices=client.ticker_price()
+        time.sleep(0.2)
+    except Exception as e:
+        logger.exception("error when fetching ticker prices")
+        return 25
     for crypt in wallet["balances"]:
         if float(crypt["free"]) > 0.0 or float(crypt["locked"]) > 0.0:
             if crypt["asset"]!="USDT":
@@ -96,15 +104,25 @@ def get_dynamic_price(client):
                 total+=float(crypt["free"]) + float(crypt["locked"])
                 continue
             # print(symbol)
-            try:
-                price=client.ticker_price(symbol)
-                time.sleep(0.2)
-            except Exception as e:
-                logger.exception("error when fetching ticker price S:"+str(symbol))
+            # try:
+            #     price=client.ticker_price(symbol)
+            #     time.sleep(0.2)
+            # except Exception as e:
+            #     logger.exception("error when fetching ticker price S:"+str(symbol))
+            #     return 25
+            for price in prices:
+                if price["symbol"]==symbol:
+                    price=float(price["price"])
+                    break
+            else:
+                logger.error("Couldn't find symbol in ticker S:"+str(symbol))
                 return 25
-            price=float(price["price"])
+            # price=float(price["price"])
+            # print(price,symbol)
             total+=(price*float(crypt["free"]))+(price*float(crypt["locked"]))
-    price=int((total-10)/15)
+    print("T:",total)
+
+    price=int((total-10)/40)
     if price < 25:
         price =25
 
@@ -115,5 +133,7 @@ with open("keys.json","r") as f:
     keys=json.load(f)
 logger.info("Starting the seller_stoploss")
 client= Spot(key=keys["api_key"], secret=keys["secret_key"])
-print(get_corrected_price("TRXUSDT",0.1012))
+# print(client.get_orders("CHESSUSDT",startTime=str(int((time.time()- (3*86400))*1000))))
+print(get_dynamic_price(client))
+# print(get_corrected_price("TRXUSDT",0.1012))
 # print(get_corrected_price("BTCUSDT",60000.89))

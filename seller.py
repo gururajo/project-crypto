@@ -1,4 +1,3 @@
-from os import truncate
 from binance.spot import Spot
 import json,time,re
 import logging,sys

@@ -1,0 +1,42 @@
+[
+    {
+        "symbol": "BNBUSDT",
+        "orderId": 3139197383,
+        "orderListId": -1,
+        "clientOrderId": "web_48e97ed7df2243bc931247276f800682",
+        "price": "414.10000000",
+        "origQty": "0.02500000",
+        "executedQty": "0.02500000",
+        "cummulativeQuoteQty": "10.35250000",
+        "status": "FILLED",
+        "timeInForce": "GTC",
+        "type": "LIMIT",
+        "side": "BUY",
+        "stopPrice": "0.00000000",
+        "icebergQty": "0.00000000",
+        "time": 1633931722223,
+        "updateTime": 1633950721554,
+        "isWorking": true,
+        "origQuoteOrderQty": "0.00000000"
+    },
+    {
+        "symbol": "BNBUSDT",
+        "orderId": 3251578866,
+        "orderListId": -1,
+        "clientOrderId": "and_ec19a281c89b4690aa6552bee0ffb119",
+        "price": "540.00000000",
+        "origQty": "0.01900000",
+        "executedQty": "0.01900000",
+        "cummulativeQuoteQty": "10.26000000",
+        "status": "FILLED",
+        "timeInForce": "GTC",
+        "type": "LIMIT",
+        "side": "BUY",
+        "stopPrice": "0.00000000",
+        "icebergQty": "0.00000000",
+        "time": 1635957187240,
+        "updateTime": 1635979435452,
+        "isWorking": true,
+        "origQuoteOrderQty": "0.00000000"
+    }
+]
