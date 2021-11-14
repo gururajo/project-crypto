@@ -64,9 +64,17 @@ def get_corrected_price(symbol,price):
     return price,quantity
 
 def get_dynamic_price(client):
+
     # client=Spot()
+
     wallet=client.account()
     total=0.0
+    try:
+        prices=client.ticker_price()
+        time.sleep(0.2)
+    except Exception as e:
+        logger.exception("error when fetching ticker prices")
+        return 25
     for crypt in wallet["balances"]:
         if float(crypt["free"]) > 0.0 or float(crypt["locked"]) > 0.0:
             if crypt["asset"]!="USDT":
@@ -75,19 +83,30 @@ def get_dynamic_price(client):
                 total+=float(crypt["free"]) + float(crypt["locked"])
                 continue
             # print(symbol)
-            try:
-                price=client.ticker_price(symbol)
-                time.sleep(0.2)
-            except Exception as e:
-                logger.exception("error when fetching ticker price S:"+str(symbol))
+            # try:
+            #     price=client.ticker_price(symbol)
+            #     time.sleep(0.2)
+            # except Exception as e:
+            #     logger.exception("error when fetching ticker price S:"+str(symbol))
+            #     return 25
+            for price in prices:
+                if price["symbol"]==symbol:
+                    price=float(price["price"])
+                    break
+            else:
+                logger.error("Couldn't find symbol in ticker S:"+str(symbol))
                 return 25
-            price=float(price["price"])
+            # price=float(price["price"])
+            # print(price,symbol)
             total+=(price*float(crypt["free"]))+(price*float(crypt["locked"]))
+    print("T:",total)
+
     price=int((total-10)/40)
     if price < 25:
         price =25
 
     return price
+
 
 def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False):
 
@@ -121,7 +140,7 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False):
         if re.search(re.escape(str(symbol)),str(open_orders)):
             logger.error("There's already an open order , oreder req rejected")
             return None
-        if balance < 3*buy_price_thres:
+        if balance < 5*buy_price_thres:
             logger.error("all easy buy slots are already fillled, present slots are for stoploss only")
             return None
 
