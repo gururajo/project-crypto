@@ -18,8 +18,11 @@
 -Done: dynamic buy price
 -Done: copy before u start
 -Done: adjust 1d market diff to buy at first fectch only ( 2days continuoius running seems not posible)
-- set all market neg trig at 1.5%
+- set all market neg trig at -1.5%
     looks like -1.3 is working fine
 - cleaup auto
+    reports removing pending
 -Done: keep updated orders check in try catch with keyError exception
 - keep all logs in different log dir
+-Done seller stoploss, if new sell order is filled/cancelled/updatde create new sell order of old price or dont do  anything
+- updated orders still repeating think of any idea why happenning

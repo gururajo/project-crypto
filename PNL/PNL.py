@@ -32,7 +32,7 @@ def pnl_of_sym(sym,trades,ticker_price):
             buy_price=((buy_price*buy_quant)+(float(trade["price"])*float(trade["executedQty"])))/(buy_quant+float(trade["executedQty"]))
             buy_quant+=float(trade["executedQty"])
             # print("Ab:",buy_price,buy_quant)
-        if trade["status"]=="FILLED" and trade["side"]=="SELL":
+        if trade["status"]=="FILLED" and trade["side"]=="SELL" and buy_quant>=float(trade["executedQty"]):
             # print("Bs:",buy_price,buy_quant)
             pnl+=(float(trade["price"])*float(trade["executedQty"]))-(buy_price*float(trade["executedQty"]))
             buy_quant-=float(trade["executedQty"])
@@ -55,6 +55,7 @@ def main():
     except IndexError:
         days=30
     last_report="trades_"+str(time.strftime("%d-%m-%Y_"+str(days)+".json"))
+    # -f : Fresh
     if "-f" in sys.argv:
         print("-f")
         trades=get_trades(client,days)
@@ -68,7 +69,7 @@ def main():
     pnl=0
     upnl=0
     for trade in trades:
-        # if not trade == "CHESSUSDT":
+        # if not trade == "BADGERUSDT":
         #     continue
         ret=pnl_of_sym(trade,trades[trade],client.ticker_price)
         pnl+=ret[0]
@@ -79,9 +80,9 @@ def main():
     with open(last_report,"w") as wf :
         json.dump(trades,wf, sort_keys=False,indent='\t', separators=(',', ': '))
 
-    print("realized PNL: ",pnl,"$ ",pnl*78,"Rs",sep="")
-    print("unrealized PNL: ",upnl,"$ ",upnl*78,"Rs",sep="")
-    print("overall PNL: ",pnl+upnl,"$ ",(pnl+upnl)*78,"Rs",sep="")
+    print("realized PNL: ",pnl,"$ ",pnl*75,"Rs",sep="")
+    print("unrealized PNL: ",upnl,"$ ",upnl*75,"Rs",sep="")
+    print("overall PNL: ",pnl+upnl,"$ ",(pnl+upnl)*75,"Rs",sep="")
 
     with open("PNLs.json","r") as f:
         past_pnls=json.load(f)

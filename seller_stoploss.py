@@ -37,6 +37,14 @@ def cancel_n_place_new(client,new_b_id,bought_orders_with_old,s_orders):
     symbol=s_orders[new_b_id]["symbol"]
     new_sell_id=s_orders[new_b_id]["orderId"]
     old_sell_id=s_orders[old_b_id]["orderId"]
+
+    old_sell_price=float(s_orders[old_b_id]["price"])
+    new_sell_price=float(s_orders[new_b_id]["price"])
+
+    old_sell_quant=float(s_orders[old_b_id]["origQty"])
+    new_sell_quant=float(s_orders[new_b_id]["origQty"])
+
+    cal_new_sell_price=((old_sell_price*old_sell_quant)+(new_sell_price*new_sell_quant))/(old_sell_quant+new_sell_quant)
     logger.info("Cancelling sell orders OS:"+str(old_sell_id)+" NS"+str(new_sell_id))
 
 
@@ -46,6 +54,7 @@ def cancel_n_place_new(client,new_b_id,bought_orders_with_old,s_orders):
     except Exception as e:
         if e.error_code == -2011:
             logger.info("Looks like already cancelled"+str(new_sell_id))
+            cal_new_sell_price=old_sell_price
 
         else:
             logger.exception("error when cancelling order")
@@ -65,13 +74,7 @@ def cancel_n_place_new(client,new_b_id,bought_orders_with_old,s_orders):
             return None
     logger.info("Successfully cancelled old sell order")
     time.sleep(1)
-    old_sell_price=float(s_orders[old_b_id]["price"])
-    new_sell_price=float(s_orders[new_b_id]["price"])
 
-    old_sell_quant=float(s_orders[old_b_id]["origQty"])
-    new_sell_quant=float(s_orders[new_b_id]["origQty"])
-
-    cal_new_sell_price=((old_sell_price*old_sell_quant)+(new_sell_price*new_sell_quant))/(old_sell_quant+new_sell_quant)
 
     try:
         new_sell_order=trade.sell(symbol=symbol,price=get_per(cal_new_sell_price,.2))
@@ -194,8 +197,8 @@ def main():
                             logger.exception("error when fetching ticker price S:"+str(symbol))
                             continue
                         new_price=float(price["price"])
-                        if get_per_change(old_price,new_price) < -20:
-                            logger.info("price dropped -20, so buying again to reduce avg bought price")
+                        if get_per_change(old_price,new_price) < -25:
+                            logger.info("price dropped -25, so buying again to reduce avg bought price")
                             if check_if_neg_trig_is_true(symbol):
                                 logger.info("not a good time to buy, neg_trig is true: "+str(symbol))
                                 continue

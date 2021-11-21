@@ -1,5 +1,5 @@
 from binance.spot import Spot
-import json,time,re
+import json,time,re,sys
 
 
 
@@ -32,7 +32,7 @@ def pnl_of_sym(sym,trades,ticker_price):
             buy_price=((buy_price*buy_quant)+(float(trade["price"])*float(trade["executedQty"])))/(buy_quant+float(trade["executedQty"]))
             buy_quant+=float(trade["executedQty"])
             # print("Ab:",buy_price,buy_quant)
-        if trade["status"]=="FILLED" and trade["side"]=="SELL":
+        if trade["status"]=="FILLED" and trade["side"]=="SELL" and buy_quant>=float(trade["executedQty"]):
             # print("Bs:",buy_price,buy_quant)
             pnl+=(float(trade["price"])*float(trade["executedQty"]))-(buy_price*float(trade["executedQty"]))
             buy_quant-=float(trade["executedQty"])
@@ -47,11 +47,16 @@ def main():
         keys=json.load(f)
     client= Spot(key=keys["api_key"], secret=keys["secret_key"])
     last_report="trades_"+str(time.strftime("%m-%Y.json"))
-    try:
-        with open(last_report,"r") as f:
-            trades=json.load(f)
-    except FileNotFoundError:
+    # -f : Fresh
+    if "-f" in sys.argv:
+        print("-f")
         trades=get_trades(client)
+    else:
+        try:
+            with open(last_report,"r") as f:
+                trades=json.load(f)
+        except FileNotFoundError:
+            trades=get_trades(client)
     pnl=0
     upnl=0
     for trade in trades:
@@ -66,9 +71,9 @@ def main():
     with open(last_report,"w") as wf :
         orders=json.dump(trades,wf, sort_keys=False,indent='\t', separators=(',', ': '))
 
-    print("realized PNL: ",pnl,"$ ",pnl*78,"Rs",sep="")
-    print("unrealized PNL: ",upnl,"$ ",upnl*78,"Rs",sep="")
-    print("overall PNL: ",pnl+upnl,"$ ",(pnl+upnl)*78,"Rs",sep="")
+    print("realized PNL: ",pnl,"$ ",pnl*75,"Rs",sep="")
+    print("unrealized PNL: ",upnl,"$ ",upnl*75,"Rs",sep="")
+    print("overall PNL: ",pnl+upnl,"$ ",(pnl+upnl)*75,"Rs",sep="")
 
 if __name__== "__main__":
     main()

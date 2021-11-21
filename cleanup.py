@@ -20,6 +20,7 @@ def cleanup_sell_orders_json():
             updated_orders[order]=orders[order]
     with open("sell_orders.json","w") as wf :
         orders=json.dump(updated_orders,wf, sort_keys=False,indent='\t', separators=(',', ': '))
+
 def cleanup_sp_out_log():
     for file in os.listdir("."):
         if file.startswith("sp_out") and file != "sp_out.log":
@@ -27,10 +28,17 @@ def cleanup_sp_out_log():
     with open("sp_out.log","w") as wf:
         wf.write("")
 
+def cleanup_reports_json():
+    for file in os.listdir("reports/"):
+        if file.endswith(".json"):
+            os.remove(os.path.join("reports",file))
+
+
 def main():
      cleanup_orders_json()
      cleanup_sell_orders_json()
      cleanup_sp_out_log()
+     cleanup_reports_json()
 
 
 if __name__== "__main__":
