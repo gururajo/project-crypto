@@ -140,8 +140,7 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False,cryp=None):
         if re.search(re.escape(str(symbol)),str(open_orders)):
             logger.error("There's already an open order , oreder req rejected")
             if cryp!=None:
-                cryp["neg_trig"][1]=False
-                cryp["neg_trig"][0]=0
+                cryp["neg_trig"]=[0,False]
             return None
         if balance < 5*buy_price_thres:
             logger.error("all easy buy slots are already fillled, present slots are for stoploss only")

@@ -121,6 +121,32 @@ def boot():
     print(boot_json)
     return boot_json
 
+def get_slots(client,symb):
+    try:
+        orders=client.get_orders(symb)
+        # print(orders)
+    except Exception:
+        logger.exception("Exceptio when getting trades for stoploss")
+        return None
+    slots=0
+    quantity=0
+    for order in orders:
+        if order["side"]=="BUY" and float(order["executedQty"])>0:
+            slots+=1
+            quantity+=float(order["executedQty"])
+        if order["side"]=="SELL" and float(order["executedQty"])>0:
+            if float(order["executedQty"])==quantity:
+                slots=0
+                quantity=0
+            else:
+                slots-=1
+                quantity-=float(order["executedQty"])
+        if quantity<0:
+            slots=0
+            quantity=0
+    logger.info("Slots: "+str(slots)+" S:"+str(symb))
+    return slots
+
 def main():
     global min
     boot_json=boot()
@@ -198,7 +224,9 @@ def main():
                             continue
                         new_price=float(price["price"])
                         if get_per_change(old_price,new_price) < -25:
-                            logger.info("price dropped -25, so buying again to reduce avg bought price")
+                            if get_per_change(old_price,new_price) > -25 -((get_slots(client,symbol)-1)*7):
+                                continue
+                            logger.info("price dropped "+str(-25 -((get_slots(client,symbol)-1)*7))+", so buying again to reduce avg bought price")
                             if check_if_neg_trig_is_true(symbol):
                                 logger.info("not a good time to buy, neg_trig is true: "+str(symbol))
                                 continue

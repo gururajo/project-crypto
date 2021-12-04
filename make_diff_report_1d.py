@@ -267,7 +267,7 @@ def main(boot_json):
             boot_json["market_1d"][0]=report_name
             with open("boot.json","w") as wf:
                 json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
-            time.sleep(10)
+            time.sleep(100)
             diff = get_last24(diff)
         else:
             with open("boot.json","w") as wf:
@@ -281,7 +281,7 @@ def main(boot_json):
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         sys.exit()
     elif cron:
-        time.sleep(10)
+        time.sleep(100)
         diff = get_last24(diff)
     else:
         logger.info("Not cron call, exiting")
