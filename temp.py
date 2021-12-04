@@ -151,7 +151,7 @@ def get_slots(client,symb):
         if quantity<0:
             slots=0
             quantity=0
-    logger.info("Slots: "+str(slots)+" S:"+str(sym))
+    logger.info("Slots: "+str(slots)+" S:"+str(symb))
     return slots
 
 with open("keys.json","r") as f:
