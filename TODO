@@ -8,7 +8,7 @@
 -Done add force variable in buy func of trade
 -Done: in make diff .py add id len of total rows >9 + neg keys then only call stratergy
 - Add dont buy these ina a file and check  .. .. ... you know it do it like that add buy price aslo
-- create a PNL script
+-Done create a PNL script
 -Done: update seller_stoploss where bought orders be stored in hdd
 -Done: before buying check if neg_trig is true from diff report in seller stoploss
 -Done: make another buying auto for 1hr
@@ -18,11 +18,17 @@
 -Done: dynamic buy price
 -Done: copy before u start
 -Done: adjust 1d market diff to buy at first fectch only ( 2days continuoius running seems not posible)
-- set all market neg trig at -1.5%
+-Done set all market neg trig at -1.5%
     looks like -1.3 is working fine
-- cleaup auto
-    reports removing pending
+-Done cleaup auto
+    reports removing pending-Done
 -Done: keep updated orders check in try catch with keyError exception
 - keep all logs in different log dir
 -Done seller stoploss, if new sell order is filled/cancelled/updatde create new sell order of old price or dont do  anything
-- updated orders still repeating think of any idea why happenning
+-Done updated orders still repeating think of any idea why happenning
+    no idea why its happenning, nut when stoploss restarts its back to normal
+- if pi restarts, start all scripts immediatly, make that check stuff in boot()
+- keep count of slots bought fr each coin, so that stoploss can be updated
+- change true to false in diff for neg-trig if ordered chanceled cause of order already present
+- if 24hr change is >15 dont even set it to true
+

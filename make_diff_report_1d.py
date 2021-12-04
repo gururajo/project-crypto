@@ -255,7 +255,32 @@ def main(boot_json):
     tickers=0
     volume_thres=600000
     diff["last_updated"]=time.time()
-    diff = get_last24(diff)
+
+    if time.time()-boot_json["market_1d"][1]< min*sec:
+        logger.info("Looks like recent old report is available,waiting for "+str((min*sec-(time.time()-boot_json["market_1d"][1]))/sec)+" min")
+        boot_json["started"]=True
+
+        try:
+            with open(boot_json["market_1d"][0],"r") as f:
+                diff=json.load(f)
+        except FileNotFoundError:
+            boot_json["market_1d"][0]=report_name
+            with open("boot.json","w") as wf:
+                json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+            diff = get_last24(diff)
+
+        with open("boot.json","w") as wf:
+            json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+        time.sleep(min*sec-(time.time()-boot_json["market_1d"][1]))
+    elif boot_json["market_1d"][1]>0:
+        boot_json["started"]=False
+        boot_json["market_1d"][1]=-1
+        logger.info("recent old report is invalid now, exiting")
+        with open("boot.json","w") as wf:
+            json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+        sys.exit()
+    else:
+        diff = get_last24(diff)
     logger.info("Got last 24hr dtaa")
 
     while True:
@@ -353,12 +378,14 @@ def main(boot_json):
         with open("boot.json","r") as f:
             boot_json=json.load(f)
         boot_json["started_1d"]=True
+        boot_json["market_1d"]=[report_name,time.time()]
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         # time.sleep(10)
         time.sleep(sec*min)
 
 if __name__ == "__main__":
+    time.sleep(5)
     boot_json=boot()
     try:
         main(boot_json)

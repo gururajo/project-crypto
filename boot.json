@@ -1,9 +1,25 @@
 {
-	"started": false,
+	"started": true,
 	"started_1hr": false,
 	"started_4hr": false,
 	"started_1d": false,
-	"last_report": "reports/report_15m_October 15 15-23.json",
+	"market_15min": [
+		"reports/report_15m_December 04 10-37.json",
+		1638594827.3348482
+	],
+	"market_1d": [
+		"reports/report_1440m_December 03 05-00.json",
+		1638594649.7456706
+	],
+	"market_4hr": [
+		"reports/report_240m_December 04 00-26.json",
+		1638594649.7456706
+	],
+	"market_1hr": [
+		"reports/report_60m_December 03 18-59.json",
+		1638594649.7456706
+	],
 	"seller_started": false,
-	"seller_stoploss_started": false
+	"seller_stoploss_started": false,
+	"last_report": "reports/report_15m_December 04 10-37.json"
 }
