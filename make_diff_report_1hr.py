@@ -100,7 +100,7 @@ def strategy(cryp,time_key,currency):
                 cryp["neg_trig"]=[0,False]
                 return None
             try:
-                order=trade.buy(currency, get_per(cryp[time_key][3],-0.2))
+                order=trade.buy(currency, get_per(cryp[time_key][3],-0.2),cryp=cryp)
                 if not order:
                     logger.info("Damn order didnt complete")
                     return None
