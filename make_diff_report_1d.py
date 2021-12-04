@@ -257,7 +257,7 @@ def main(boot_json):
 
     if time.time()-boot_json["market_1d"][1]< min*sec:
         logger.info("Looks like recent old report is available,waiting for "+str((min*sec-(time.time()-boot_json["market_1d"][1]))/sec)+" min")
-        boot_json["started"]=True
+        boot_json["started_1d"]=True
 
         try:
             with open(boot_json["market_1d"][0],"r") as f:
@@ -267,19 +267,21 @@ def main(boot_json):
             boot_json["market_1d"][0]=report_name
             with open("boot.json","w") as wf:
                 json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+            time.sleep(10)
             diff = get_last24(diff)
         else:
             with open("boot.json","w") as wf:
                 json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         time.sleep(min*sec-(time.time()-boot_json["market_1d"][1]))
     elif boot_json["market_1d"][1]>0:
-        boot_json["started"]=False
+        boot_json["started_1d"]=False
         boot_json["market_1d"][1]=-1
         logger.info("recent old report is invalid now, exiting")
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         sys.exit()
     elif cron:
+        time.sleep(10)
         diff = get_last24(diff)
     else:
         logger.info("Not cron call, exiting")
