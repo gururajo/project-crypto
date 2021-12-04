@@ -29,7 +29,7 @@
     no idea why its happenning, nut when stoploss restarts its back to normal
 -Done if pi restarts, start all scripts immediatly, make that check stuff in boot()
     kept in main not boot, looked like it works fine
-- keep count of slots bought fr each coin, so that stoploss can be updated
+-Done keep count of slots bought fr each coin, so that stoploss percentage can be updated
 -Done change true to false in diff for neg-trig if ordered chanceled cause of order already present
 -Done if 24hr change is >15 dont even set it to true
     ignored since it gives some info

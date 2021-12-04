@@ -124,6 +124,7 @@ def boot():
 def get_slots(client,symb):
     try:
         orders=client.get_orders(symb)
+        time.sleep(0.2)
         # print(orders)
     except Exception:
         logger.exception("Exceptio when getting trades for stoploss")
@@ -224,9 +225,13 @@ def main():
                             continue
                         new_price=float(price["price"])
                         if get_per_change(old_price,new_price) < -25:
-                            if get_per_change(old_price,new_price) > -25 -((get_slots(client,symbol)-1)*7):
+                            slots=get_slots(client,symbol)
+                            if slots==None or slots==0 or slots>=10:
+                                logger.error("SLOTS ERROR: slot returned is either None or equa; to zero/ >10,please check that function"+str(slots))
                                 continue
-                            logger.info("price dropped "+str(-25 -((get_slots(client,symbol)-1)*7))+", so buying again to reduce avg bought price")
+                            if get_per_change(old_price,new_price) > -25 -((slots-1)*7):
+                                continue
+                            logger.info("price dropped "+str(-25 -((slots-1)*7))+", so buying again to reduce avg bought price")
                             if check_if_neg_trig_is_true(symbol):
                                 logger.info("not a good time to buy, neg_trig is true: "+str(symbol))
                                 continue
