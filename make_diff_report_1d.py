@@ -27,9 +27,8 @@ import trade
 sec = 60
 min = 60*24
 neg_keys_c=8
+cron =False
 
-if len(sys.argv)==2:
-    min = int(sys.argv[1])
 try:
     os.mkdir("reports")
 except:
@@ -90,7 +89,7 @@ def strategy(cryp,time_key,currency):
     if last_5_avg<-1.3:
         logger.error("lesser than -1.3 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
-        # return True
+        return True
     last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:
@@ -213,7 +212,7 @@ def get_last24(diff):
 
 
                                 diff[cryp][time_key] = [change, 0,0, last]
-                                diff[cryp][time_key] = [change, last_n_avg(diff[cryp],8),last_n_avg(diff[cryp],len(diff[cryp])-neg_keys_c), last]
+                                diff[cryp][time_key] = [change, last_n_avg(diff[cryp],7),last_n_avg(diff[cryp],len(diff[cryp])-neg_keys_c), last]
                             else:
                                 diff[cryp][time_key] = [change,till_avg,till_avg , last]
                         else:
@@ -251,7 +250,7 @@ def main(boot_json):
     boot_json["last_report"]=report_name
     diff = {}
     diff["started"]=time.strftime("%B %d %H:%M:%S")
-    global neg_keys_c
+    global neg_keys_c,cron
     tickers=0
     volume_thres=600000
     diff["last_updated"]=time.time()
@@ -264,13 +263,14 @@ def main(boot_json):
             with open(boot_json["market_1d"][0],"r") as f:
                 diff=json.load(f)
         except FileNotFoundError:
+            logger.error("File not found!!!!")
             boot_json["market_1d"][0]=report_name
             with open("boot.json","w") as wf:
                 json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
             diff = get_last24(diff)
-
-        with open("boot.json","w") as wf:
-            json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
+        else:
+            with open("boot.json","w") as wf:
+                json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         time.sleep(min*sec-(time.time()-boot_json["market_1d"][1]))
     elif boot_json["market_1d"][1]>0:
         boot_json["started"]=False
@@ -279,8 +279,11 @@ def main(boot_json):
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         sys.exit()
-    else:
+    elif cron:
         diff = get_last24(diff)
+    else:
+        logger.info("Not cron call, exiting")
+        sys.exit()
     logger.info("Got last 24hr dtaa")
 
     while True:
@@ -386,6 +389,10 @@ def main(boot_json):
 
 if __name__ == "__main__":
     time.sleep(5)
+    if len(sys.argv)>1:
+        if sys.argv[1]=="cron":
+            print("CRON")
+            cron=True
     boot_json=boot()
     try:
         main(boot_json)

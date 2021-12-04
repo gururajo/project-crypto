@@ -27,9 +27,9 @@ import trade
 sec = 60
 min = 15
 neg_keys_c=8
+cron=False
 
-if len(sys.argv)==2:
-    min = int(sys.argv[1])
+
 try:
     os.mkdir("reports")
 except:
@@ -249,7 +249,7 @@ def main(boot_json):
     boot_json["last_report"]=report_name
     diff = {}
     diff["started"]=time.strftime("%B %d %H:%M:%S")
-    global neg_keys_c
+    global neg_keys_c,cron
     tickers=0
     volume_thres=600000
     diff["last_updated"]=time.time()
@@ -261,6 +261,7 @@ def main(boot_json):
             with open(boot_json["market_15min"][0],"r") as f:
                 diff=json.load(f)
         except FileNotFoundError:
+            logger.error("File not found!!!!")
             boot_json["market_15min"][0]=report_name
             with open("boot.json","w") as wf:
                 json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
@@ -276,8 +277,11 @@ def main(boot_json):
         with open("boot.json","w") as wf:
             json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
         sys.exit()
-    else:
+    elif cron:
         diff = get_last24(diff)
+    else:
+        logger.info("Not cron call, exiting")
+        sys.exit()
     logger.info("Got last 24hr dtaa")
 
     while True:
@@ -385,6 +389,10 @@ def main(boot_json):
 
 if __name__ == "__main__":
     time.sleep(4)
+    if len(sys.argv)>1:
+        if sys.argv[1]=="cron":
+            print("CRON")
+            cron=True
     boot_json=boot()
     try:
         main(boot_json)
