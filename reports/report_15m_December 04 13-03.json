@@ -1,0 +1,6198 @@
+{
+	"started": "December 04 13:03:10",
+	"last_updated": 1638603190.3940246,
+	"BTCUSDT": {
+		"prev": 47284.99,
+		"start": 47284.99,
+		"change": 0,
+		"change_24hr": -16.957,
+		"range": [
+			47284.99,
+			47284.99
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5315325437.026361
+	},
+	"ETHUSDT": {
+		"prev": 3881.7,
+		"start": 3881.7,
+		"change": 0,
+		"change_24hr": -15.169,
+		"range": [
+			3881.7,
+			3881.7
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4640296918.93029
+	},
+	"BNBUSDT": {
+		"prev": 536.4,
+		"start": 536.4,
+		"change": 0,
+		"change_24hr": -13.428,
+		"range": [
+			536.4,
+			536.4
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1346591618.658
+	},
+	"BCCUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"NEOUSDT": {
+		"prev": 27.6,
+		"start": 27.6,
+		"change": 0,
+		"change_24hr": -26.005,
+		"range": [
+			27.6,
+			27.6
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 44788731.229200006
+	},
+	"LTCUSDT": {
+		"prev": 152.2,
+		"start": 152.2,
+		"change": 0,
+		"change_24hr": -25.209,
+		"range": [
+			152.2,
+			152.2
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 347446968.34045
+	},
+	"QTUMUSDT": {
+		"prev": 10.57,
+		"start": 10.57,
+		"change": 0,
+		"change_24hr": -28.032,
+		"range": [
+			10.57,
+			10.57
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 45677792.83732
+	},
+	"ADAUSDT": {
+		"prev": 1.325,
+		"start": 1.325,
+		"change": 0,
+		"change_24hr": -19.794,
+		"range": [
+			1.325,
+			1.325
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 784007157.5604999
+	},
+	"XRPUSDT": {
+		"prev": 0.7309,
+		"start": 0.7309,
+		"change": 0,
+		"change_24hr": -25.411,
+		"range": [
+			0.7309,
+			0.7309
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 738553924.164536
+	},
+	"EOSUSDT": {
+		"prev": 2.989,
+		"start": 2.989,
+		"change": 0,
+		"change_24hr": -26.252,
+		"range": [
+			2.989,
+			2.989
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 188468206.72337
+	},
+	"TUSDUSDT": {
+		"prev": 0.9983,
+		"start": 0.9983,
+		"change": 0,
+		"change_24hr": -0.1,
+		"range": [
+			0.9983,
+			0.9983
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 89398453.82699999
+	},
+	"IOTAUSDT": {
+		"prev": 1.1407,
+		"start": 1.1407,
+		"change": 0,
+		"change_24hr": -22.211,
+		"range": [
+			1.1407,
+			1.1407
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 51713673.2838
+	},
+	"XLMUSDT": {
+		"prev": 0.2673,
+		"start": 0.2673,
+		"change": 0,
+		"change_24hr": -24.149,
+		"range": [
+			0.2673,
+			0.2673
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 140722149.38463
+	},
+	"ONTUSDT": {
+		"prev": 0.7457,
+		"start": 0.7457,
+		"change": 0,
+		"change_24hr": -27.567,
+		"range": [
+			0.7457,
+			0.7457
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 67202670.38771501
+	},
+	"TRXUSDT": {
+		"prev": 0.08102,
+		"start": 0.08102,
+		"change": 0,
+		"change_24hr": -19.004,
+		"range": [
+			0.08102,
+			0.08102
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 483956645.571872
+	},
+	"ETCUSDT": {
+		"prev": 35.38,
+		"start": 35.38,
+		"change": 0,
+		"change_24hr": -25.248,
+		"range": [
+			35.38,
+			35.38
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 157088510.40444002
+	},
+	"ICXUSDT": {
+		"prev": 1.244,
+		"start": 1.244,
+		"change": 0,
+		"change_24hr": -27.884,
+		"range": [
+			1.244,
+			1.244
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 26940192.505200002
+	},
+	"VENUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"NULSUSDT": {
+		"prev": 0.786,
+		"start": 0.786,
+		"change": 0,
+		"change_24hr": -33.95,
+		"range": [
+			0.786,
+			0.786
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 196033852.55274
+	},
+	"VETUSDT": {
+		"prev": 0.08647,
+		"start": 0.08647,
+		"change": 0,
+		"change_24hr": -25.534,
+		"range": [
+			0.08647,
+			0.08647
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 189872714.23674303
+	},
+	"PAXUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"BCHABCUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"BCHSVUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"USDCUSDT": {
+		"prev": 0.9981,
+		"start": 0.9981,
+		"change": 0,
+		"change_24hr": -0.12,
+		"range": [
+			0.9981,
+			0.9981
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 303633028.124748
+	},
+	"LINKUSDT": {
+		"prev": 18.85,
+		"start": 18.85,
+		"change": 0,
+		"change_24hr": -24.99,
+		"range": [
+			18.85,
+			18.85
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 332451532.1556001
+	},
+	"WAVESUSDT": {
+		"prev": 16.74,
+		"start": 16.74,
+		"change": 0,
+		"change_24hr": -20.057,
+		"range": [
+			16.74,
+			16.74
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 20905811.406719998
+	},
+	"BTTUSDT": {
+		"prev": 0.002405,
+		"start": 0.002405,
+		"change": 0,
+		"change_24hr": -23.554,
+		"range": [
+			0.002405,
+			0.002405
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 78282888.770905
+	},
+	"USDSUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"ONGUSDT": {
+		"prev": 0.8557,
+		"start": 0.8557,
+		"change": 0,
+		"change_24hr": -23.014,
+		"range": [
+			0.8557,
+			0.8557
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 3034871.1090120003
+	},
+	"HOTUSDT": {
+		"prev": 0.008593,
+		"start": 0.008593,
+		"change": 0,
+		"change_24hr": -25.337,
+		"range": [
+			0.008593,
+			0.008593
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 103437396.082033
+	},
+	"ZILUSDT": {
+		"prev": 0.06701,
+		"start": 0.06701,
+		"change": 0,
+		"change_24hr": -22.036,
+		"range": [
+			0.06701,
+			0.06701
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 32694660.513756998
+	},
+	"ZRXUSDT": {
+		"prev": 0.8595,
+		"start": 0.8595,
+		"change": 0,
+		"change_24hr": -22.505,
+		"range": [
+			0.8595,
+			0.8595
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 8090317.354635
+	},
+	"FETUSDT": {
+		"prev": 0.6502,
+		"start": 0.6502,
+		"change": 0,
+		"change_24hr": -12.431,
+		"range": [
+			0.6502,
+			0.6502
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 48584919.3076
+	},
+	"BATUSDT": {
+		"prev": 1.0475,
+		"start": 1.0475,
+		"change": 0,
+		"change_24hr": -25.317,
+		"range": [
+			1.0475,
+			1.0475
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 77464429.8425
+	},
+	"XMRUSDT": {
+		"prev": 194.6,
+		"start": 194.6,
+		"change": 0,
+		"change_24hr": -19.42,
+		"range": [
+			194.6,
+			194.6
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 39173532.340964
+	},
+	"ZECUSDT": {
+		"prev": 169.3,
+		"start": 169.3,
+		"change": 0,
+		"change_24hr": -24.554,
+		"range": [
+			169.3,
+			169.3
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 134225141.80040002
+	},
+	"IOSTUSDT": {
+		"prev": 0.02989,
+		"start": 0.02989,
+		"change": 0,
+		"change_24hr": -25.275,
+		"range": [
+			0.02989,
+			0.02989
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 30854585.03218
+	},
+	"CELRUSDT": {
+		"prev": 0.07567,
+		"start": 0.07567,
+		"change": 0,
+		"change_24hr": -30.635,
+		"range": [
+			0.07567,
+			0.07567
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 51834904.168432005
+	},
+	"DASHUSDT": {
+		"prev": 136.2,
+		"start": 136.2,
+		"change": 0,
+		"change_24hr": -23.397,
+		"range": [
+			136.2,
+			136.2
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 46336536.865073994
+	},
+	"NANOUSDT": {
+		"prev": 4.153,
+		"start": 4.153,
+		"change": 0,
+		"change_24hr": -17.353,
+		"range": [
+			4.153,
+			4.153
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 7758549.50503
+	},
+	"OMGUSDT": {
+		"prev": 5.985,
+		"start": 5.985,
+		"change": 0,
+		"change_24hr": -27.11,
+		"range": [
+			5.985,
+			5.985
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 144330984.4095
+	},
+	"THETAUSDT": {
+		"prev": 4.667,
+		"start": 4.667,
+		"change": 0,
+		"change_24hr": -27.889,
+		"range": [
+			4.667,
+			4.667
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 182052609.179025
+	},
+	"ENJUSDT": {
+		"prev": 2.573,
+		"start": 2.573,
+		"change": 0,
+		"change_24hr": -23.331,
+		"range": [
+			2.573,
+			2.573
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 92168970.6248
+	},
+	"MITHUSDT": {
+		"prev": 0.07408,
+		"start": 0.07408,
+		"change": 0,
+		"change_24hr": -15.598,
+		"range": [
+			0.07408,
+			0.07408
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 79117014.803024
+	},
+	"MATICUSDT": {
+		"prev": 1.866,
+		"start": 1.866,
+		"change": 0,
+		"change_24hr": -16.734,
+		"range": [
+			1.866,
+			1.866
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1044429984.7188
+	},
+	"ATOMUSDT": {
+		"prev": 26.53,
+		"start": 26.53,
+		"change": 0,
+		"change_24hr": -12.529,
+		"range": [
+			26.53,
+			26.53
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 433228894.1386
+	},
+	"TFUELUSDT": {
+		"prev": 0.2488,
+		"start": 0.2488,
+		"change": 0,
+		"change_24hr": -17.888,
+		"range": [
+			0.2488,
+			0.2488
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 26019142.568239998
+	},
+	"ONEUSDT": {
+		"prev": 0.18461,
+		"start": 0.18461,
+		"change": 0,
+		"change_24hr": -27.652,
+		"range": [
+			0.18461,
+			0.18461
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 107824103.77704
+	},
+	"FTMUSDT": {
+		"prev": 1.5477,
+		"start": 1.5477,
+		"change": 0,
+		"change_24hr": -26.318,
+		"range": [
+			1.5477,
+			1.5477
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 279866051.5959
+	},
+	"ALGOUSDT": {
+		"prev": 1.5214,
+		"start": 1.5214,
+		"change": 0,
+		"change_24hr": -20.578,
+		"range": [
+			1.5214,
+			1.5214
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 125198739.95580001
+	},
+	"USDSBUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"GTOUSDT": {
+		"prev": 0.07486,
+		"start": 0.07486,
+		"change": 0,
+		"change_24hr": 28.913,
+		"range": [
+			0.07486,
+			0.07486
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 345007448.59344393
+	},
+	"ERDUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"DOGEUSDT": {
+		"prev": 0.1608,
+		"start": 0.1608,
+		"change": 0,
+		"change_24hr": -23.647,
+		"range": [
+			0.1608,
+			0.1608
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 664741273.26576
+	},
+	"DUSKUSDT": {
+		"prev": 0.2197,
+		"start": 0.2197,
+		"change": 0,
+		"change_24hr": -20.772,
+		"range": [
+			0.2197,
+			0.2197
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5628825.3879
+	},
+	"ANKRUSDT": {
+		"prev": 0.10471,
+		"start": 0.10471,
+		"change": 0,
+		"change_24hr": -26.699,
+		"range": [
+			0.10471,
+			0.10471
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 50374535.89729
+	},
+	"WINUSDT": {
+		"prev": 0.0005457,
+		"start": 0.0005457,
+		"change": 0,
+		"change_24hr": -22.165,
+		"range": [
+			0.0005457,
+			0.0005457
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 78115917.487875
+	},
+	"COSUSDT": {
+		"prev": 0.04409,
+		"start": 0.04409,
+		"change": 0,
+		"change_24hr": 69.577,
+		"range": [
+			0.04409,
+			0.04409
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 769911507.689745
+	},
+	"NPXSUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"COCOSUSDT": {
+		"prev": 2.3126,
+		"start": 2.3126,
+		"change": 0,
+		"change_24hr": -27.844,
+		"range": [
+			2.3126,
+			2.3126
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 38891304.08840001
+	},
+	"MTLUSDT": {
+		"prev": 2.196,
+		"start": 2.196,
+		"change": 0,
+		"change_24hr": -27.668,
+		"range": [
+			2.196,
+			2.196
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 9501683.89536
+	},
+	"TOMOUSDT": {
+		"prev": 2.473,
+		"start": 2.473,
+		"change": 0,
+		"change_24hr": -20.686,
+		"range": [
+			2.473,
+			2.473
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 12616293.1531
+	},
+	"PERLUSDT": {
+		"prev": 0.08644,
+		"start": 0.08644,
+		"change": 0,
+		"change_24hr": -19.147,
+		"range": [
+			0.08644,
+			0.08644
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 54684863.64066
+	},
+	"DENTUSDT": {
+		"prev": 0.003751,
+		"start": 0.003751,
+		"change": 0,
+		"change_24hr": -23.976,
+		"range": [
+			0.003751,
+			0.003751
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 70459349.020632
+	},
+	"MFTUSDT": {
+		"prev": 0.009584,
+		"start": 0.009584,
+		"change": 0,
+		"change_24hr": -27.057,
+		"range": [
+			0.009584,
+			0.009584
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5265791.307936001
+	},
+	"KEYUSDT": {
+		"prev": 0.013141,
+		"start": 0.013141,
+		"change": 0,
+		"change_24hr": -23.86,
+		"range": [
+			0.013141,
+			0.013141
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 29740343.238859
+	},
+	"STORMUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"DOCKUSDT": {
+		"prev": 0.0754,
+		"start": 0.0754,
+		"change": 0,
+		"change_24hr": -20.807,
+		"range": [
+			0.0754,
+			0.0754
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 26087969.843
+	},
+	"WANUSDT": {
+		"prev": 0.7297,
+		"start": 0.7297,
+		"change": 0,
+		"change_24hr": -22.024,
+		"range": [
+			0.7297,
+			0.7297
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 15134332.393399002
+	},
+	"FUNUSDT": {
+		"prev": 0.01487,
+		"start": 0.01487,
+		"change": 0,
+		"change_24hr": -17.709,
+		"range": [
+			0.01487,
+			0.01487
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6705454.33514
+	},
+	"CVCUSDT": {
+		"prev": 0.3641,
+		"start": 0.3641,
+		"change": 0,
+		"change_24hr": -29.832,
+		"range": [
+			0.3641,
+			0.3641
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 14889392.1649
+	},
+	"CHZUSDT": {
+		"prev": 0.3075,
+		"start": 0.3075,
+		"change": 0,
+		"change_24hr": -26.994,
+		"range": [
+			0.3075,
+			0.3075
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 126189878.925
+	},
+	"BANDUSDT": {
+		"prev": 5.845,
+		"start": 5.845,
+		"change": 0,
+		"change_24hr": -28.545,
+		"range": [
+			5.845,
+			5.845
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 15750589.641009998
+	},
+	"BUSDUSDT": {
+		"prev": 0.9982,
+		"start": 0.9982,
+		"change": 0,
+		"change_24hr": -0.1,
+		"range": [
+			0.9982,
+			0.9982
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 2459199075.051992
+	},
+	"BEAMUSDT": {
+		"prev": 0.7328,
+		"start": 0.7328,
+		"change": 0,
+		"change_24hr": -12.376,
+		"range": [
+			0.7328,
+			0.7328
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 86459250.448
+	},
+	"XTZUSDT": {
+		"prev": 4.014,
+		"start": 4.014,
+		"change": 0,
+		"change_24hr": -22.584,
+		"range": [
+			4.014,
+			4.014
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 56566625.424660005
+	},
+	"RENUSDT": {
+		"prev": 0.7073,
+		"start": 0.7073,
+		"change": 0,
+		"change_24hr": -19.934,
+		"range": [
+			0.7073,
+			0.7073
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 14159741.4244
+	},
+	"RVNUSDT": {
+		"prev": 0.08288,
+		"start": 0.08288,
+		"change": 0,
+		"change_24hr": -24.448,
+		"range": [
+			0.08288,
+			0.08288
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 35788831.642368
+	},
+	"HCUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"HBARUSDT": {
+		"prev": 0.262,
+		"start": 0.262,
+		"change": 0,
+		"change_24hr": -21.908,
+		"range": [
+			0.262,
+			0.262
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 35201266.4456
+	},
+	"NKNUSDT": {
+		"prev": 0.3773,
+		"start": 0.3773,
+		"change": 0,
+		"change_24hr": -24.781,
+		"range": [
+			0.3773,
+			0.3773
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 18849808.0155
+	},
+	"STXUSDT": {
+		"prev": 2.021,
+		"start": 2.021,
+		"change": 0,
+		"change_24hr": -17.611,
+		"range": [
+			2.021,
+			2.021
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 21262859.3516
+	},
+	"KAVAUSDT": {
+		"prev": 3.863,
+		"start": 3.863,
+		"change": 0,
+		"change_24hr": -24.654,
+		"range": [
+			3.863,
+			3.863
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 34735991.81489
+	},
+	"ARPAUSDT": {
+		"prev": 0.10676,
+		"start": 0.10676,
+		"change": 0,
+		"change_24hr": -26.872,
+		"range": [
+			0.10676,
+			0.10676
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 25717296.8288
+	},
+	"IOTXUSDT": {
+		"prev": 0.11894,
+		"start": 0.11894,
+		"change": 0,
+		"change_24hr": -24.683,
+		"range": [
+			0.11894,
+			0.11894
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 47419802.52076
+	},
+	"RLCUSDT": {
+		"prev": 3.545,
+		"start": 3.545,
+		"change": 0,
+		"change_24hr": -18.243,
+		"range": [
+			3.545,
+			3.545
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 102369826.435
+	},
+	"MCOUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"CTXCUSDT": {
+		"prev": 0.648,
+		"start": 0.648,
+		"change": 0,
+		"change_24hr": 43.426,
+		"range": [
+			0.648,
+			0.648
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 831895724.36232
+	},
+	"BCHUSDT": {
+		"prev": 448.3,
+		"start": 448.3,
+		"change": 0,
+		"change_24hr": -19.861,
+		"range": [
+			448.3,
+			448.3
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 152897186.46524101
+	},
+	"TROYUSDT": {
+		"prev": 0.011559,
+		"start": 0.011559,
+		"change": 0,
+		"change_24hr": -11.385,
+		"range": [
+			0.011559,
+			0.011559
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 64080526.284033
+	},
+	"VITEUSDT": {
+		"prev": 0.09295,
+		"start": 0.09295,
+		"change": 0,
+		"change_24hr": -25.836,
+		"range": [
+			0.09295,
+			0.09295
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 17907483.737715
+	},
+	"FTTUSDT": {
+		"prev": 43.49,
+		"start": 43.49,
+		"change": 0,
+		"change_24hr": -11.803,
+		"range": [
+			43.49,
+			43.49
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 56815957.428610004
+	},
+	"EURUSDT": {
+		"prev": 1.12,
+		"start": 1.12,
+		"change": 0,
+		"change_24hr": -0.709,
+		"range": [
+			1.12,
+			1.12
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 85426964.29120001
+	},
+	"OGNUSDT": {
+		"prev": 0.7268,
+		"start": 0.7268,
+		"change": 0,
+		"change_24hr": -28.605,
+		"range": [
+			0.7268,
+			0.7268
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 29831011.347187996
+	},
+	"DREPUSDT": {
+		"prev": 0.8764,
+		"start": 0.8764,
+		"change": 0,
+		"change_24hr": -14.389,
+		"range": [
+			0.8764,
+			0.8764
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 28426267.122399997
+	},
+	"BULLUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"BEARUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"ETHBULLUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"ETHBEARUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"TCTUSDT": {
+		"prev": 0.03831,
+		"start": 0.03831,
+		"change": 0,
+		"change_24hr": -7.217,
+		"range": [
+			0.03831,
+			0.03831
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 97606951.06185
+	},
+	"WRXUSDT": {
+		"prev": 1.163,
+		"start": 1.163,
+		"change": 0,
+		"change_24hr": -18.443,
+		"range": [
+			1.163,
+			1.163
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 43842499.9972
+	},
+	"BTSUSDT": {
+		"prev": 0.03901,
+		"start": 0.03901,
+		"change": 0,
+		"change_24hr": -24.851,
+		"range": [
+			0.03901,
+			0.03901
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 23356525.930293
+	},
+	"LSKUSDT": {
+		"prev": 2.744,
+		"start": 2.744,
+		"change": 0,
+		"change_24hr": -23.18,
+		"range": [
+			2.744,
+			2.744
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4808299.6752
+	},
+	"BNTUSDT": {
+		"prev": 3.315,
+		"start": 3.315,
+		"change": 0,
+		"change_24hr": -18.37,
+		"range": [
+			3.315,
+			3.315
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4245753.44505
+	},
+	"LTOUSDT": {
+		"prev": 0.3622,
+		"start": 0.3622,
+		"change": 0,
+		"change_24hr": -22.623,
+		"range": [
+			0.3622,
+			0.3622
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 14720455.6136
+	},
+	"EOSBULLUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"EOSBEARUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"XRPBULLUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"XRPBEARUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"STRATUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"AIONUSDT": {
+		"prev": 0.1602,
+		"start": 0.1602,
+		"change": 0,
+		"change_24hr": -25.627,
+		"range": [
+			0.1602,
+			0.1602
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 15954736.442400001
+	},
+	"MBLUSDT": {
+		"prev": 0.009539,
+		"start": 0.009539,
+		"change": 0,
+		"change_24hr": -29.664,
+		"range": [
+			0.009539,
+			0.009539
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6934032.674617001
+	},
+	"COTIUSDT": {
+		"prev": 0.3235,
+		"start": 0.3235,
+		"change": 0,
+		"change_24hr": -28.492,
+		"range": [
+			0.3235,
+			0.3235
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 45316028.163
+	},
+	"BNBBULLUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"BNBBEARUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"STPTUSDT": {
+		"prev": 0.1062,
+		"start": 0.1062,
+		"change": 0,
+		"change_24hr": -28.35,
+		"range": [
+			0.1062,
+			0.1062
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 10965089.18988
+	},
+	"WTCUSDT": {
+		"prev": 1.0109,
+		"start": 1.0109,
+		"change": 0,
+		"change_24hr": -32.508,
+		"range": [
+			1.0109,
+			1.0109
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 89429098.62836398
+	},
+	"DATAUSDT": {
+		"prev": 0.13303,
+		"start": 0.13303,
+		"change": 0,
+		"change_24hr": -21.747,
+		"range": [
+			0.13303,
+			0.13303
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 19045990.571775
+	},
+	"XZCUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"SOLUSDT": {
+		"prev": 190.76,
+		"start": 190.76,
+		"change": 0,
+		"change_24hr": -18.384,
+		"range": [
+			190.76,
+			190.76
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 902414818.5616
+	},
+	"CTSIUSDT": {
+		"prev": 0.7939,
+		"start": 0.7939,
+		"change": 0,
+		"change_24hr": -24.513,
+		"range": [
+			0.7939,
+			0.7939
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 53978069.98410001
+	},
+	"HIVEUSDT": {
+		"prev": 1.8125,
+		"start": 1.8125,
+		"change": 0,
+		"change_24hr": -15.78,
+		"range": [
+			1.8125,
+			1.8125
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 28879254.875
+	},
+	"CHRUSDT": {
+		"prev": 0.606,
+		"start": 0.606,
+		"change": 0,
+		"change_24hr": -31.811,
+		"range": [
+			0.606,
+			0.606
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 81024891.852
+	},
+	"GXSUSDT": {
+		"prev": 2.8089,
+		"start": 2.8089,
+		"change": 0,
+		"change_24hr": -28.892,
+		"range": [
+			2.8089,
+			2.8089
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 532144861.78086
+	},
+	"ARDRUSDT": {
+		"prev": 0.2633,
+		"start": 0.2633,
+		"change": 0,
+		"change_24hr": -23.437,
+		"range": [
+			0.2633,
+			0.2633
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6853162.657899999
+	},
+	"LENDUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"MDTUSDT": {
+		"prev": 0.05826,
+		"start": 0.05826,
+		"change": 0,
+		"change_24hr": -5.422,
+		"range": [
+			0.05826,
+			0.05826
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 29515607.040846
+	},
+	"STMXUSDT": {
+		"prev": 0.0233,
+		"start": 0.0233,
+		"change": 0,
+		"change_24hr": -29.415,
+		"range": [
+			0.0233,
+			0.0233
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 17169640.2423
+	},
+	"KNCUSDT": {
+		"prev": 1.382,
+		"start": 1.382,
+		"change": 0,
+		"change_24hr": -26.096,
+		"range": [
+			1.382,
+			1.382
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 7538073.8956659995
+	},
+	"REPUSDT": {
+		"prev": 16.83,
+		"start": 16.83,
+		"change": 0,
+		"change_24hr": -22.869,
+		"range": [
+			16.83,
+			16.83
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1644857.9690399996
+	},
+	"LRCUSDT": {
+		"prev": 1.9696,
+		"start": 1.9696,
+		"change": 0,
+		"change_24hr": -24.088,
+		"range": [
+			1.9696,
+			1.9696
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 109720934.6032
+	},
+	"PNTUSDT": {
+		"prev": 0.9422,
+		"start": 0.9422,
+		"change": 0,
+		"change_24hr": -25.887,
+		"range": [
+			0.9422,
+			0.9422
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 10282629.9772
+	},
+	"COMPUSDT": {
+		"prev": 214.8,
+		"start": 214.8,
+		"change": 0,
+		"change_24hr": -20.913,
+		"range": [
+			214.8,
+			214.8
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 17927365.291596
+	},
+	"BKRWUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"SCUSDT": {
+		"prev": 0.01654,
+		"start": 0.01654,
+		"change": 0,
+		"change_24hr": -29.286,
+		"range": [
+			0.01654,
+			0.01654
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 25399267.73512
+	},
+	"ZENUSDT": {
+		"prev": 75.27,
+		"start": 75.27,
+		"change": 0,
+		"change_24hr": -25.127,
+		"range": [
+			75.27,
+			75.27
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 43497688.4706
+	},
+	"SNXUSDT": {
+		"prev": 5.433,
+		"start": 5.433,
+		"change": 0,
+		"change_24hr": -26.799,
+		"range": [
+			5.433,
+			5.433
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 24516647.873859
+	},
+	"VTHOUSDT": {
+		"prev": 0.00663,
+		"start": 0.00663,
+		"change": 0,
+		"change_24hr": -21.972,
+		"range": [
+			0.00663,
+			0.00663
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 7883354.36733
+	},
+	"DGBUSDT": {
+		"prev": 0.03587,
+		"start": 0.03587,
+		"change": 0,
+		"change_24hr": -27.345,
+		"range": [
+			0.03587,
+			0.03587
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 14035951.822534999
+	},
+	"GBPUSDT": {
+		"prev": 1.308,
+		"start": 1.308,
+		"change": 0,
+		"change_24hr": -1.654,
+		"range": [
+			1.308,
+			1.308
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 19951115.7528
+	},
+	"SXPUSDT": {
+		"prev": 1.556,
+		"start": 1.556,
+		"change": 0,
+		"change_24hr": -31.514,
+		"range": [
+			1.556,
+			1.556
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 50147758.076576
+	},
+	"MKRUSDT": {
+		"prev": 2507.0,
+		"start": 2507.0,
+		"change": 0,
+		"change_24hr": -14.291,
+		"range": [
+			2507.0,
+			2507.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 10691993.991999999
+	},
+	"DAIUSDT": {
+		"prev": 0.0,
+		"start": 0.0,
+		"change": 0,
+		"change_24hr": 0.0,
+		"range": [
+			0.0,
+			0.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 0.0
+	},
+	"DCRUSDT": {
+		"prev": 89.8,
+		"start": 89.8,
+		"change": 0,
+		"change_24hr": -16.465,
+		"range": [
+			89.8,
+			89.8
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1134258.3401600001
+	},
+	"STORJUSDT": {
+		"prev": 1.6521,
+		"start": 1.6521,
+		"change": 0,
+		"change_24hr": -28.632,
+		"range": [
+			1.6521,
+			1.6521
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 25231520.4753
+	},
+	"MANAUSDT": {
+		"prev": 3.2817,
+		"start": 3.2817,
+		"change": 0,
+		"change_24hr": -23.628,
+		"range": [
+			3.2817,
+			3.2817
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 502426803.0801
+	},
+	"AUDUSDT": {
+		"prev": 0.6861,
+		"start": 0.6861,
+		"change": 0,
+		"change_24hr": -2.708,
+		"range": [
+			0.6861,
+			0.6861
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 52224988.06362001
+	},
+	"YFIUSDT": {
+		"prev": 22873.92,
+		"start": 22873.92,
+		"change": 0,
+		"change_24hr": -20.962,
+		"range": [
+			22873.92,
+			22873.92
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 20070531.5935728
+	},
+	"BALUSDT": {
+		"prev": 15.61,
+		"start": 15.61,
+		"change": 0,
+		"change_24hr": -23.217,
+		"range": [
+			15.61,
+			15.61
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 13081408.280639999
+	},
+	"BLZUSDT": {
+		"prev": 0.2371,
+		"start": 0.2371,
+		"change": 0,
+		"change_24hr": -31.216,
+		"range": [
+			0.2371,
+			0.2371
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 10801916.7935
+	},
+	"IRISUSDT": {
+		"prev": 0.09767,
+		"start": 0.09767,
+		"change": 0,
+		"change_24hr": -21.951,
+		"range": [
+			0.09767,
+			0.09767
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 14818033.409602001
+	},
+	"KMDUSDT": {
+		"prev": 0.8993,
+		"start": 0.8993,
+		"change": 0,
+		"change_24hr": -21.28,
+		"range": [
+			0.8993,
+			0.8993
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 17066387.5109
+	},
+	"JSTUSDT": {
+		"prev": 0.05942,
+		"start": 0.05942,
+		"change": 0,
+		"change_24hr": -20.805,
+		"range": [
+			0.05942,
+			0.05942
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 21968630.232094
+	},
+	"SRMUSDT": {
+		"prev": 4.229,
+		"start": 4.229,
+		"change": 0,
+		"change_24hr": -23.123,
+		"range": [
+			4.229,
+			4.229
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 26352358.38561
+	},
+	"ANTUSDT": {
+		"prev": 3.903,
+		"start": 3.903,
+		"change": 0,
+		"change_24hr": -28.095,
+		"range": [
+			3.903,
+			3.903
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 8364313.57287
+	},
+	"CRVUSDT": {
+		"prev": 3.448,
+		"start": 3.448,
+		"change": 0,
+		"change_24hr": -25.945,
+		"range": [
+			3.448,
+			3.448
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 118717986.284
+	},
+	"SANDUSDT": {
+		"prev": 5.0438,
+		"start": 5.0438,
+		"change": 0,
+		"change_24hr": -22.66,
+		"range": [
+			5.0438,
+			5.0438
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 732090759.0146
+	},
+	"OCEANUSDT": {
+		"prev": 0.9665,
+		"start": 0.9665,
+		"change": 0,
+		"change_24hr": -25.39,
+		"range": [
+			0.9665,
+			0.9665
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 59812229.435
+	},
+	"NMRUSDT": {
+		"prev": 35.41,
+		"start": 35.41,
+		"change": 0,
+		"change_24hr": -15.61,
+		"range": [
+			35.41,
+			35.41
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 3238234.1248699995
+	},
+	"DOTUSDT": {
+		"prev": 27.59,
+		"start": 27.59,
+		"change": 0,
+		"change_24hr": -23.169,
+		"range": [
+			27.59,
+			27.59
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 576785333.7696999
+	},
+	"LUNAUSDT": {
+		"prev": 55.58,
+		"start": 55.58,
+		"change": 0,
+		"change_24hr": -19.156,
+		"range": [
+			55.58,
+			55.58
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 780370491.11392
+	},
+	"RSRUSDT": {
+		"prev": 0.03471,
+		"start": 0.03471,
+		"change": 0,
+		"change_24hr": -29.95,
+		"range": [
+			0.03471,
+			0.03471
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 43828754.953425
+	},
+	"PAXGUSDT": {
+		"prev": 1780.0,
+		"start": 1780.0,
+		"change": 0,
+		"change_24hr": 0.451,
+		"range": [
+			1780.0,
+			1780.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 11787345.654
+	},
+	"WNXMUSDT": {
+		"prev": 59.62,
+		"start": 59.62,
+		"change": 0,
+		"change_24hr": -18.995,
+		"range": [
+			59.62,
+			59.62
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1786261.1073999999
+	},
+	"TRBUSDT": {
+		"prev": 36.58,
+		"start": 36.58,
+		"change": 0,
+		"change_24hr": -29.382,
+		"range": [
+			36.58,
+			36.58
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 8912851.9802
+	},
+	"BZRXUSDT": {
+		"prev": 0.2777,
+		"start": 0.2777,
+		"change": 0,
+		"change_24hr": -24.579,
+		"range": [
+			0.2777,
+			0.2777
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 67423080.9721
+	},
+	"SUSHIUSDT": {
+		"prev": 5.569,
+		"start": 5.569,
+		"change": 0,
+		"change_24hr": -24.539,
+		"range": [
+			5.569,
+			5.569
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 95944036.215248
+	},
+	"YFIIUSDT": {
+		"prev": 2716.0,
+		"start": 2716.0,
+		"change": 0,
+		"change_24hr": -21.548,
+		"range": [
+			2716.0,
+			2716.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5806937.982328
+	},
+	"KSMUSDT": {
+		"prev": 290.3,
+		"start": 290.3,
+		"change": 0,
+		"change_24hr": -21.371,
+		"range": [
+			290.3,
+			290.3
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 30967280.23996
+	},
+	"EGLDUSDT": {
+		"prev": 274.62,
+		"start": 274.62,
+		"change": 0,
+		"change_24hr": -21.454,
+		"range": [
+			274.62,
+			274.62
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 160289657.8524
+	},
+	"DIAUSDT": {
+		"prev": 1.577,
+		"start": 1.577,
+		"change": 0,
+		"change_24hr": -19.541,
+		"range": [
+			1.577,
+			1.577
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 14038744.7988
+	},
+	"RUNEUSDT": {
+		"prev": 7.56,
+		"start": 7.56,
+		"change": 0,
+		"change_24hr": -27.856,
+		"range": [
+			7.56,
+			7.56
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 57443147.34983999
+	},
+	"FIOUSDT": {
+		"prev": 0.2166,
+		"start": 0.2166,
+		"change": 0,
+		"change_24hr": 3.192,
+		"range": [
+			0.2166,
+			0.2166
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 187170603.49466398
+	},
+	"UMAUSDT": {
+		"prev": 9.861,
+		"start": 9.861,
+		"change": 0,
+		"change_24hr": -22.066,
+		"range": [
+			9.861,
+			9.861
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6628213.1484
+	},
+	"BELUSDT": {
+		"prev": 1.864,
+		"start": 1.864,
+		"change": 0,
+		"change_24hr": -30.37,
+		"range": [
+			1.864,
+			1.864
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 74724532.1112
+	},
+	"WINGUSDT": {
+		"prev": 16.09,
+		"start": 16.09,
+		"change": 0,
+		"change_24hr": -20.739,
+		"range": [
+			16.09,
+			16.09
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5373920.226170001
+	},
+	"UNIUSDT": {
+		"prev": 16.62,
+		"start": 16.62,
+		"change": 0,
+		"change_24hr": -24.455,
+		"range": [
+			16.62,
+			16.62
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 113334804.75690001
+	},
+	"NBSUSDT": {
+		"prev": 0.01704,
+		"start": 0.01704,
+		"change": 0,
+		"change_24hr": -29.848,
+		"range": [
+			0.01704,
+			0.01704
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4128363.786504
+	},
+	"OXTUSDT": {
+		"prev": 0.4027,
+		"start": 0.4027,
+		"change": 0,
+		"change_24hr": -20.115,
+		"range": [
+			0.4027,
+			0.4027
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 8335413.6059
+	},
+	"SUNUSDT": {
+		"prev": 0.02442,
+		"start": 0.02442,
+		"change": 0,
+		"change_24hr": -21.605,
+		"range": [
+			0.02442,
+			0.02442
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 35189438.36364
+	},
+	"AVAXUSDT": {
+		"prev": 92.1,
+		"start": 92.1,
+		"change": 0,
+		"change_24hr": -15.349,
+		"range": [
+			92.1,
+			92.1
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 523386301.81799996
+	},
+	"HNTUSDT": {
+		"prev": 30.18,
+		"start": 30.18,
+		"change": 0,
+		"change_24hr": -22.036,
+		"range": [
+			30.18,
+			30.18
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 24089196.7416
+	},
+	"FLMUSDT": {
+		"prev": 0.3979,
+		"start": 0.3979,
+		"change": 0,
+		"change_24hr": -29.149,
+		"range": [
+			0.3979,
+			0.3979
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 24876033.336675998
+	},
+	"ORNUSDT": {
+		"prev": 6.385,
+		"start": 6.385,
+		"change": 0,
+		"change_24hr": -17.496,
+		"range": [
+			6.385,
+			6.385
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5804950.460899999
+	},
+	"UTKUSDT": {
+		"prev": 0.3066,
+		"start": 0.3066,
+		"change": 0,
+		"change_24hr": -20.302,
+		"range": [
+			0.3066,
+			0.3066
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 28934239.099122
+	},
+	"XVSUSDT": {
+		"prev": 18.62,
+		"start": 18.62,
+		"change": 0,
+		"change_24hr": -17.683,
+		"range": [
+			18.62,
+			18.62
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 13431159.6657
+	},
+	"ALPHAUSDT": {
+		"prev": 0.7806,
+		"start": 0.7806,
+		"change": 0,
+		"change_24hr": -17.248,
+		"range": [
+			0.7806,
+			0.7806
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 38077082.222147994
+	},
+	"AAVEUSDT": {
+		"prev": 188.0,
+		"start": 188.0,
+		"change": 0,
+		"change_24hr": -22.602,
+		"range": [
+			188.0,
+			188.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 65199254.911199994
+	},
+	"NEARUSDT": {
+		"prev": 7.986,
+		"start": 7.986,
+		"change": 0,
+		"change_24hr": -5.109,
+		"range": [
+			7.986,
+			7.986
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 200501347.53
+	},
+	"FILUSDT": {
+		"prev": 37.92,
+		"start": 37.92,
+		"change": 0,
+		"change_24hr": -28.641,
+		"range": [
+			37.92,
+			37.92
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 707118183.4956961
+	},
+	"INJUSDT": {
+		"prev": 10.522,
+		"start": 10.522,
+		"change": 0,
+		"change_24hr": -16.126,
+		"range": [
+			10.522,
+			10.522
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 9148258.202
+	},
+	"AUDIOUSDT": {
+		"prev": 1.73,
+		"start": 1.73,
+		"change": 0,
+		"change_24hr": -24.815,
+		"range": [
+			1.73,
+			1.73
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 26162579.251399998
+	},
+	"CTKUSDT": {
+		"prev": 1.606,
+		"start": 1.606,
+		"change": 0,
+		"change_24hr": -27.885,
+		"range": [
+			1.606,
+			1.606
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 23968521.26064
+	},
+	"AKROUSDT": {
+		"prev": 0.02362,
+		"start": 0.02362,
+		"change": 0,
+		"change_24hr": -30.407,
+		"range": [
+			0.02362,
+			0.02362
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 10761859.6656
+	},
+	"AXSUSDT": {
+		"prev": 109.2,
+		"start": 109.2,
+		"change": 0,
+		"change_24hr": -21.844,
+		"range": [
+			109.2,
+			109.2
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 243450935.364
+	},
+	"HARDUSDT": {
+		"prev": 0.9526,
+		"start": 0.9526,
+		"change": 0,
+		"change_24hr": -11.731,
+		"range": [
+			0.9526,
+			0.9526
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 29101266.9904
+	},
+	"DNTUSDT": {
+		"prev": 0.1527,
+		"start": 0.1527,
+		"change": 0,
+		"change_24hr": -18.56,
+		"range": [
+			0.1527,
+			0.1527
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 15121671.25128
+	},
+	"STRAXUSDT": {
+		"prev": 1.462,
+		"start": 1.462,
+		"change": 0,
+		"change_24hr": -27.802,
+		"range": [
+			1.462,
+			1.462
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4357498.222279999
+	},
+	"UNFIUSDT": {
+		"prev": 8.183,
+		"start": 8.183,
+		"change": 0,
+		"change_24hr": -31.729,
+		"range": [
+			8.183,
+			8.183
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 20879237.524299
+	},
+	"ROSEUSDT": {
+		"prev": 0.27011,
+		"start": 0.27011,
+		"change": 0,
+		"change_24hr": -25.003,
+		"range": [
+			0.27011,
+			0.27011
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 83689733.541137
+	},
+	"AVAUSDT": {
+		"prev": 1.91,
+		"start": 1.91,
+		"change": 0,
+		"change_24hr": -17.316,
+		"range": [
+			1.91,
+			1.91
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4043437.7782999994
+	},
+	"XEMUSDT": {
+		"prev": 0.1263,
+		"start": 0.1263,
+		"change": 0,
+		"change_24hr": -25.0,
+		"range": [
+			0.1263,
+			0.1263
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 9475438.038593998
+	},
+	"SKLUSDT": {
+		"prev": 0.2231,
+		"start": 0.2231,
+		"change": 0,
+		"change_24hr": -30.412,
+		"range": [
+			0.2231,
+			0.2231
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 31985211.856609996
+	},
+	"SUSDUSDT": {
+		"prev": 0.997,
+		"start": 0.997,
+		"change": 0,
+		"change_24hr": 0.1,
+		"range": [
+			0.997,
+			0.997
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 136803.8535
+	},
+	"GRTUSDT": {
+		"prev": 0.6978,
+		"start": 0.6978,
+		"change": 0,
+		"change_24hr": -22.398,
+		"range": [
+			0.6978,
+			0.6978
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 80485735.508844
+	},
+	"JUVUSDT": {
+		"prev": 8.63,
+		"start": 8.63,
+		"change": 0,
+		"change_24hr": -20.093,
+		"range": [
+			8.63,
+			8.63
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1250158.9823300003
+	},
+	"PSGUSDT": {
+		"prev": 14.53,
+		"start": 14.53,
+		"change": 0,
+		"change_24hr": -16.205,
+		"range": [
+			14.53,
+			14.53
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 2374803.86166
+	},
+	"1INCHUSDT": {
+		"prev": 2.488,
+		"start": 2.488,
+		"change": 0,
+		"change_24hr": -28.238,
+		"range": [
+			2.488,
+			2.488
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 74968498.00448
+	},
+	"REEFUSDT": {
+		"prev": 0.01834,
+		"start": 0.01834,
+		"change": 0,
+		"change_24hr": -25.265,
+		"range": [
+			0.01834,
+			0.01834
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 28321041.95214
+	},
+	"OGUSDT": {
+		"prev": 4.445,
+		"start": 4.445,
+		"change": 0,
+		"change_24hr": -14.355,
+		"range": [
+			4.445,
+			4.445
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1357372.69927
+	},
+	"ATMUSDT": {
+		"prev": 7.4,
+		"start": 7.4,
+		"change": 0,
+		"change_24hr": -14.352,
+		"range": [
+			7.4,
+			7.4
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1524226.1814000001
+	},
+	"ASRUSDT": {
+		"prev": 3.958,
+		"start": 3.958,
+		"change": 0,
+		"change_24hr": -17.507,
+		"range": [
+			3.958,
+			3.958
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 915249.071778
+	},
+	"CELOUSDT": {
+		"prev": 3.72,
+		"start": 3.72,
+		"change": 0,
+		"change_24hr": -25.659,
+		"range": [
+			3.72,
+			3.72
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 32707800.540000003
+	},
+	"RIFUSDT": {
+		"prev": 0.1953,
+		"start": 0.1953,
+		"change": 0,
+		"change_24hr": -23.171,
+		"range": [
+			0.1953,
+			0.1953
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1553151.1779
+	},
+	"BTCSTUSDT": {
+		"prev": 24.07,
+		"start": 24.07,
+		"change": 0,
+		"change_24hr": -24.38,
+		"range": [
+			24.07,
+			24.07
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 15104745.5463
+	},
+	"TRUUSDT": {
+		"prev": 0.3218,
+		"start": 0.3218,
+		"change": 0,
+		"change_24hr": -30.721,
+		"range": [
+			0.3218,
+			0.3218
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 7214651.485795999
+	},
+	"CKBUSDT": {
+		"prev": 0.02355,
+		"start": 0.02355,
+		"change": 0,
+		"change_24hr": -18.456,
+		"range": [
+			0.02355,
+			0.02355
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 17116202.360400002
+	},
+	"TWTUSDT": {
+		"prev": 0.865,
+		"start": 0.865,
+		"change": 0,
+		"change_24hr": -19.385,
+		"range": [
+			0.865,
+			0.865
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 28041313.91675
+	},
+	"FIROUSDT": {
+		"prev": 6.414,
+		"start": 6.414,
+		"change": 0,
+		"change_24hr": -22.207,
+		"range": [
+			6.414,
+			6.414
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 3519880.6926
+	},
+	"LITUSDT": {
+		"prev": 3.486,
+		"start": 3.486,
+		"change": 0,
+		"change_24hr": -31.297,
+		"range": [
+			3.486,
+			3.486
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 31382897.4921
+	},
+	"SFPUSDT": {
+		"prev": 1.8183,
+		"start": 1.8183,
+		"change": 0,
+		"change_24hr": -27.251,
+		"range": [
+			1.8183,
+			1.8183
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 78079591.2072
+	},
+	"DODOUSDT": {
+		"prev": 1.023,
+		"start": 1.023,
+		"change": 0,
+		"change_24hr": -26.981,
+		"range": [
+			1.023,
+			1.023
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 24699114.899612997
+	},
+	"CAKEUSDT": {
+		"prev": 10.93,
+		"start": 10.93,
+		"change": 0,
+		"change_24hr": -16.819,
+		"range": [
+			10.93,
+			10.93
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 59208936.15069
+	},
+	"ACMUSDT": {
+		"prev": 5.414,
+		"start": 5.414,
+		"change": 0,
+		"change_24hr": -15.314,
+		"range": [
+			5.414,
+			5.414
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1095671.9474199999
+	},
+	"BADGERUSDT": {
+		"prev": 15.45,
+		"start": 15.45,
+		"change": 0,
+		"change_24hr": -26.253,
+		"range": [
+			15.45,
+			15.45
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 8816169.845999999
+	},
+	"FISUSDT": {
+		"prev": 1.294,
+		"start": 1.294,
+		"change": 0,
+		"change_24hr": -22.93,
+		"range": [
+			1.294,
+			1.294
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 9377901.177666
+	},
+	"OMUSDT": {
+		"prev": 0.2016,
+		"start": 0.2016,
+		"change": 0,
+		"change_24hr": -15.152,
+		"range": [
+			0.2016,
+			0.2016
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 44115927.795072
+	},
+	"PONDUSDT": {
+		"prev": 0.08415,
+		"start": 0.08415,
+		"change": 0,
+		"change_24hr": -15.892,
+		"range": [
+			0.08415,
+			0.08415
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 27798600.450901505
+	},
+	"DEGOUSDT": {
+		"prev": 7.56,
+		"start": 7.56,
+		"change": 0,
+		"change_24hr": -18.093,
+		"range": [
+			7.56,
+			7.56
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 9662869.792799998
+	},
+	"ALICEUSDT": {
+		"prev": 14.54,
+		"start": 14.54,
+		"change": 0,
+		"change_24hr": -31.253,
+		"range": [
+			14.54,
+			14.54
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 182766824.6568
+	},
+	"LINAUSDT": {
+		"prev": 0.03936,
+		"start": 0.03936,
+		"change": 0,
+		"change_24hr": -27.727,
+		"range": [
+			0.03936,
+			0.03936
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 50767570.026873596
+	},
+	"PERPUSDT": {
+		"prev": 11.21,
+		"start": 11.21,
+		"change": 0,
+		"change_24hr": -13.902,
+		"range": [
+			11.21,
+			11.21
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4809814.37899
+	},
+	"RAMPUSDT": {
+		"prev": 0.2379,
+		"start": 0.2379,
+		"change": 0,
+		"change_24hr": -19.818,
+		"range": [
+			0.2379,
+			0.2379
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 12930715.099965
+	},
+	"SUPERUSDT": {
+		"prev": 1.3767,
+		"start": 1.3767,
+		"change": 0,
+		"change_24hr": -21.943,
+		"range": [
+			1.3767,
+			1.3767
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 21628151.1147
+	},
+	"CFXUSDT": {
+		"prev": 0.2361,
+		"start": 0.2361,
+		"change": 0,
+		"change_24hr": -25.871,
+		"range": [
+			0.2361,
+			0.2361
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 13762206.368808601
+	},
+	"EPSUSDT": {
+		"prev": 0.3538,
+		"start": 0.3538,
+		"change": 0,
+		"change_24hr": -21.967,
+		"range": [
+			0.3538,
+			0.3538
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 24119484.029232398
+	},
+	"AUTOUSDT": {
+		"prev": 761.7,
+		"start": 761.7,
+		"change": 0,
+		"change_24hr": -19.14,
+		"range": [
+			761.7,
+			761.7
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5067610.3368456
+	},
+	"TKOUSDT": {
+		"prev": 1.412,
+		"start": 1.412,
+		"change": 0,
+		"change_24hr": -19.452,
+		"range": [
+			1.412,
+			1.412
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 9797982.61204
+	},
+	"PUNDIXUSDT": {
+		"prev": 1.039,
+		"start": 1.039,
+		"change": 0,
+		"change_24hr": -24.982,
+		"range": [
+			1.039,
+			1.039
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4168683.011699
+	},
+	"TLMUSDT": {
+		"prev": 0.2618,
+		"start": 0.2618,
+		"change": 0,
+		"change_24hr": -31.214,
+		"range": [
+			0.2618,
+			0.2618
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 141632904.644
+	},
+	"BTGUSDT": {
+		"prev": 41.76,
+		"start": 41.76,
+		"change": 0,
+		"change_24hr": -23.08,
+		"range": [
+			41.76,
+			41.76
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1437967.8072
+	},
+	"MIRUSDT": {
+		"prev": 2.323,
+		"start": 2.323,
+		"change": 0,
+		"change_24hr": -13.353,
+		"range": [
+			2.323,
+			2.323
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 11608997.976626
+	},
+	"BARUSDT": {
+		"prev": 8.97,
+		"start": 8.97,
+		"change": 0,
+		"change_24hr": -14.571,
+		"range": [
+			8.97,
+			8.97
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1333914.1686000002
+	},
+	"FORTHUSDT": {
+		"prev": 11.37,
+		"start": 11.37,
+		"change": 0,
+		"change_24hr": -18.26,
+		"range": [
+			11.37,
+			11.37
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 2996358.1577999997
+	},
+	"BAKEUSDT": {
+		"prev": 1.303,
+		"start": 1.303,
+		"change": 0,
+		"change_24hr": -25.458,
+		"range": [
+			1.303,
+			1.303
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 33161145.038099997
+	},
+	"BURGERUSDT": {
+		"prev": 3.106,
+		"start": 3.106,
+		"change": 0,
+		"change_24hr": -18.456,
+		"range": [
+			3.106,
+			3.106
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6436891.7936
+	},
+	"SLPUSDT": {
+		"prev": 0.041,
+		"start": 0.041,
+		"change": 0,
+		"change_24hr": -25.993,
+		"range": [
+			0.041,
+			0.041
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 94261049.631
+	},
+	"SHIBUSDT": {
+		"prev": 3.504e-05,
+		"start": 3.504e-05,
+		"change": 0,
+		"change_24hr": -16.272,
+		"range": [
+			3.504e-05,
+			3.504e-05
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1002200067.9887785
+	},
+	"ICPUSDT": {
+		"prev": 29.18,
+		"start": 29.18,
+		"change": 0,
+		"change_24hr": -29.415,
+		"range": [
+			29.18,
+			29.18
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 154426861.1292
+	},
+	"ARUSDT": {
+		"prev": 46.45,
+		"start": 46.45,
+		"change": 0,
+		"change_24hr": -18.494,
+		"range": [
+			46.45,
+			46.45
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 45150957.004
+	},
+	"POLSUSDT": {
+		"prev": 3.385,
+		"start": 3.385,
+		"change": 0,
+		"change_24hr": -13.582,
+		"range": [
+			3.385,
+			3.385
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5714138.9525
+	},
+	"MDXUSDT": {
+		"prev": 0.543,
+		"start": 0.543,
+		"change": 0,
+		"change_24hr": -23.088,
+		"range": [
+			0.543,
+			0.543
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 9831354.266400002
+	},
+	"MASKUSDT": {
+		"prev": 10.88,
+		"start": 10.88,
+		"change": 0,
+		"change_24hr": -28.398,
+		"range": [
+			10.88,
+			10.88
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 42214109.504
+	},
+	"LPTUSDT": {
+		"prev": 38.14,
+		"start": 38.14,
+		"change": 0,
+		"change_24hr": -26.64,
+		"range": [
+			38.14,
+			38.14
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 14720951.865799999
+	},
+	"NUUSDT": {
+		"prev": 0.7613,
+		"start": 0.7613,
+		"change": 0,
+		"change_24hr": -14.104,
+		"range": [
+			0.7613,
+			0.7613
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 29033459.051799998
+	},
+	"XVGUSDT": {
+		"prev": 0.01805,
+		"start": 0.01805,
+		"change": 0,
+		"change_24hr": -26.923,
+		"range": [
+			0.01805,
+			0.01805
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6897606.6396
+	},
+	"ATAUSDT": {
+		"prev": 0.7641,
+		"start": 0.7641,
+		"change": 0,
+		"change_24hr": -28.274,
+		"range": [
+			0.7641,
+			0.7641
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 23001995.7144
+	},
+	"GTCUSDT": {
+		"prev": 11.669,
+		"start": 11.669,
+		"change": 0,
+		"change_24hr": -22.844,
+		"range": [
+			11.669,
+			11.669
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 34808320.1053
+	},
+	"TORNUSDT": {
+		"prev": 35.96,
+		"start": 35.96,
+		"change": 0,
+		"change_24hr": -24.786,
+		"range": [
+			35.96,
+			35.96
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 2524600.568
+	},
+	"KEEPUSDT": {
+		"prev": 0.7125,
+		"start": 0.7125,
+		"change": 0,
+		"change_24hr": -13.563,
+		"range": [
+			0.7125,
+			0.7125
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 38424005.6625
+	},
+	"ERNUSDT": {
+		"prev": 10.125,
+		"start": 10.125,
+		"change": 0,
+		"change_24hr": -18.373,
+		"range": [
+			10.125,
+			10.125
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5816489.5125
+	},
+	"KLAYUSDT": {
+		"prev": 1.252,
+		"start": 1.252,
+		"change": 0,
+		"change_24hr": -19.382,
+		"range": [
+			1.252,
+			1.252
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 18225266.8448
+	},
+	"PHAUSDT": {
+		"prev": 0.4963,
+		"start": 0.4963,
+		"change": 0,
+		"change_24hr": -22.283,
+		"range": [
+			0.4963,
+			0.4963
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5688877.4614
+	},
+	"BONDUSDT": {
+		"prev": 21.14,
+		"start": 21.14,
+		"change": 0,
+		"change_24hr": -16.935,
+		"range": [
+			21.14,
+			21.14
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 7133738.8738
+	},
+	"MLNUSDT": {
+		"prev": 88.5,
+		"start": 88.5,
+		"change": 0,
+		"change_24hr": -13.32,
+		"range": [
+			88.5,
+			88.5
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 3360134.7240000004
+	},
+	"DEXEUSDT": {
+		"prev": 13.75,
+		"start": 13.75,
+		"change": 0,
+		"change_24hr": -3.711,
+		"range": [
+			13.75,
+			13.75
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 18400231.9875
+	},
+	"C98USDT": {
+		"prev": 2.316,
+		"start": 2.316,
+		"change": 0,
+		"change_24hr": -26.266,
+		"range": [
+			2.316,
+			2.316
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 39362222.31119999
+	},
+	"CLVUSDT": {
+		"prev": 0.868,
+		"start": 0.868,
+		"change": 0,
+		"change_24hr": -23.118,
+		"range": [
+			0.868,
+			0.868
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 7293833.338400001
+	},
+	"QNTUSDT": {
+		"prev": 161.3,
+		"start": 161.3,
+		"change": 0,
+		"change_24hr": -20.069,
+		"range": [
+			161.3,
+			161.3
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 11756240.4934
+	},
+	"FLOWUSDT": {
+		"prev": 9.5,
+		"start": 9.5,
+		"change": 0,
+		"change_24hr": -21.227,
+		"range": [
+			9.5,
+			9.5
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 31421999.455000002
+	},
+	"TVKUSDT": {
+		"prev": 0.2654,
+		"start": 0.2654,
+		"change": 0,
+		"change_24hr": -27.998,
+		"range": [
+			0.2654,
+			0.2654
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 14830163.189000001
+	},
+	"MINAUSDT": {
+		"prev": 3.715,
+		"start": 3.715,
+		"change": 0,
+		"change_24hr": -16.723,
+		"range": [
+			3.715,
+			3.715
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 37282759.24
+	},
+	"RAYUSDT": {
+		"prev": 9.007,
+		"start": 9.007,
+		"change": 0,
+		"change_24hr": -19.537,
+		"range": [
+			9.007,
+			9.007
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 20975897.908
+	},
+	"FARMUSDT": {
+		"prev": 100.2,
+		"start": 100.2,
+		"change": 0,
+		"change_24hr": -16.915,
+		"range": [
+			100.2,
+			100.2
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 2352089.4894
+	},
+	"ALPACAUSDT": {
+		"prev": 0.618,
+		"start": 0.618,
+		"change": 0,
+		"change_24hr": -14.321,
+		"range": [
+			0.618,
+			0.618
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 9497821.126799999
+	},
+	"QUICKUSDT": {
+		"prev": 265.8,
+		"start": 265.8,
+		"change": 0,
+		"change_24hr": -20.443,
+		"range": [
+			265.8,
+			265.8
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1328134.5552
+	},
+	"MBOXUSDT": {
+		"prev": 7.346,
+		"start": 7.346,
+		"change": 0,
+		"change_24hr": -21.918,
+		"range": [
+			7.346,
+			7.346
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 143342063.1168
+	},
+	"FORUSDT": {
+		"prev": 0.06979,
+		"start": 0.06979,
+		"change": 0,
+		"change_24hr": -16.966,
+		"range": [
+			0.06979,
+			0.06979
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 14011568.78009
+	},
+	"REQUSDT": {
+		"prev": 0.4851,
+		"start": 0.4851,
+		"change": 0,
+		"change_24hr": -23.474,
+		"range": [
+			0.4851,
+			0.4851
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 37216973.871
+	},
+	"GHSTUSDT": {
+		"prev": 2.57,
+		"start": 2.57,
+		"change": 0,
+		"change_24hr": -8.606,
+		"range": [
+			2.57,
+			2.57
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 10125630.379999999
+	},
+	"WAXPUSDT": {
+		"prev": 0.4557,
+		"start": 0.4557,
+		"change": 0,
+		"change_24hr": -25.576,
+		"range": [
+			0.4557,
+			0.4557
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 41700200.157
+	},
+	"TRIBEUSDT": {
+		"prev": 0.9843,
+		"start": 0.9843,
+		"change": 0,
+		"change_24hr": -12.955,
+		"range": [
+			0.9843,
+			0.9843
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5412556.4427
+	},
+	"GNOUSDT": {
+		"prev": 385.2,
+		"start": 385.2,
+		"change": 0,
+		"change_24hr": -18.493,
+		"range": [
+			385.2,
+			385.2
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1088531.6724
+	},
+	"XECUSDT": {
+		"prev": 0.00011129,
+		"start": 0.00011129,
+		"change": 0,
+		"change_24hr": -24.58,
+		"range": [
+			0.00011129,
+			0.00011129
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 26275446.51133246
+	},
+	"ELFUSDT": {
+		"prev": 0.381,
+		"start": 0.381,
+		"change": 0,
+		"change_24hr": -28.14,
+		"range": [
+			0.381,
+			0.381
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 8311827.7248
+	},
+	"DYDXUSDT": {
+		"prev": 9.456,
+		"start": 9.456,
+		"change": 0,
+		"change_24hr": -29.878,
+		"range": [
+			9.456,
+			9.456
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 152633518.95503998
+	},
+	"POLYUSDT": {
+		"prev": 0.539,
+		"start": 0.539,
+		"change": 0,
+		"change_24hr": -26.296,
+		"range": [
+			0.539,
+			0.539
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 8173200.127400001
+	},
+	"IDEXUSDT": {
+		"prev": 0.25665,
+		"start": 0.25665,
+		"change": 0,
+		"change_24hr": -26.878,
+		"range": [
+			0.25665,
+			0.25665
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 16505448.973664999
+	},
+	"VIDTUSDT": {
+		"prev": 0.718,
+		"start": 0.718,
+		"change": 0,
+		"change_24hr": -19.75,
+		"range": [
+			0.718,
+			0.718
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 7787520.6219999995
+	},
+	"USDPUSDT": {
+		"prev": 0.9982,
+		"start": 0.9982,
+		"change": 0,
+		"change_24hr": -0.11,
+		"range": [
+			0.9982,
+			0.9982
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 3064404.37555
+	},
+	"GALAUSDT": {
+		"prev": 0.42179,
+		"start": 0.42179,
+		"change": 0,
+		"change_24hr": -24.182,
+		"range": [
+			0.42179,
+			0.42179
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 498889698.4893
+	},
+	"ILVUSDT": {
+		"prev": 1333.2,
+		"start": 1333.2,
+		"change": 0,
+		"change_24hr": -16.351,
+		"range": [
+			1333.2,
+			1333.2
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 34066591.6668
+	},
+	"YGGUSDT": {
+		"prev": 5.967,
+		"start": 5.967,
+		"change": 0,
+		"change_24hr": -25.608,
+		"range": [
+			5.967,
+			5.967
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 25599913.9929
+	},
+	"SYSUSDT": {
+		"prev": 0.5734,
+		"start": 0.5734,
+		"change": 0,
+		"change_24hr": -25.946,
+		"range": [
+			0.5734,
+			0.5734
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 16455335.1486
+	},
+	"DFUSDT": {
+		"prev": 0.1544,
+		"start": 0.1544,
+		"change": 0,
+		"change_24hr": -17.697,
+		"range": [
+			0.1544,
+			0.1544
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6091194.564800001
+	},
+	"FIDAUSDT": {
+		"prev": 7.37,
+		"start": 7.37,
+		"change": 0,
+		"change_24hr": -18.491,
+		"range": [
+			7.37,
+			7.37
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 3163782.545
+	},
+	"FRONTUSDT": {
+		"prev": 0.7726,
+		"start": 0.7726,
+		"change": 0,
+		"change_24hr": -23.747,
+		"range": [
+			0.7726,
+			0.7726
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4609483.8022
+	},
+	"CVPUSDT": {
+		"prev": 1.239,
+		"start": 1.239,
+		"change": 0,
+		"change_24hr": -16.284,
+		"range": [
+			1.239,
+			1.239
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 3938597.1324000005
+	},
+	"AGLDUSDT": {
+		"prev": 1.698,
+		"start": 1.698,
+		"change": 0,
+		"change_24hr": -27.929,
+		"range": [
+			1.698,
+			1.698
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 8303141.552399999
+	},
+	"RADUSDT": {
+		"prev": 10.483,
+		"start": 10.483,
+		"change": 0,
+		"change_24hr": -18.528,
+		"range": [
+			10.483,
+			10.483
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 10078495.623900002
+	},
+	"BETAUSDT": {
+		"prev": 0.93288,
+		"start": 0.93288,
+		"change": 0,
+		"change_24hr": -26.488,
+		"range": [
+			0.93288,
+			0.93288
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 33315520.84536
+	},
+	"RAREUSDT": {
+		"prev": 1.244,
+		"start": 1.244,
+		"change": 0,
+		"change_24hr": -25.687,
+		"range": [
+			1.244,
+			1.244
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6919306.514
+	},
+	"LAZIOUSDT": {
+		"prev": 3.9239,
+		"start": 3.9239,
+		"change": 0,
+		"change_24hr": -21.443,
+		"range": [
+			3.9239,
+			3.9239
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 2664978.29023
+	},
+	"CHESSUSDT": {
+		"prev": 1.93,
+		"start": 1.93,
+		"change": 0,
+		"change_24hr": -22.985,
+		"range": [
+			1.93,
+			1.93
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 13215025.169
+	},
+	"ADXUSDT": {
+		"prev": 0.5914,
+		"start": 0.5914,
+		"change": 0,
+		"change_24hr": -22.804,
+		"range": [
+			0.5914,
+			0.5914
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 19193759.849
+	},
+	"AUCTIONUSDT": {
+		"prev": 26.84,
+		"start": 26.84,
+		"change": 0,
+		"change_24hr": -24.902,
+		"range": [
+			26.84,
+			26.84
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 22740404.4516
+	},
+	"DARUSDT": {
+		"prev": 2.22152,
+		"start": 2.22152,
+		"change": 0,
+		"change_24hr": -29.305,
+		"range": [
+			2.22152,
+			2.22152
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 67917098.07959999
+	},
+	"BNXUSDT": {
+		"prev": 84.6,
+		"start": 84.6,
+		"change": 0,
+		"change_24hr": -24.8,
+		"range": [
+			84.6,
+			84.6
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 8880905.726999998
+	},
+	"RGTUSDT": {
+		"prev": 20.51,
+		"start": 20.51,
+		"change": 0,
+		"change_24hr": -20.442,
+		"range": [
+			20.51,
+			20.51
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1461052.2059
+	},
+	"MOVRUSDT": {
+		"prev": 241.9,
+		"start": 241.9,
+		"change": 0,
+		"change_24hr": -20.922,
+		"range": [
+			241.9,
+			241.9
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 11589951.2621
+	},
+	"CITYUSDT": {
+		"prev": 9.09,
+		"start": 9.09,
+		"change": 0,
+		"change_24hr": -15.442,
+		"range": [
+			9.09,
+			9.09
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1883499.9038999998
+	},
+	"ENSUSDT": {
+		"prev": 45.59,
+		"start": 45.59,
+		"change": 0,
+		"change_24hr": -22.729,
+		"range": [
+			45.59,
+			45.59
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 108557739.9842
+	},
+	"KP3RUSDT": {
+		"prev": 780.0,
+		"start": 780.0,
+		"change": 0,
+		"change_24hr": -24.288,
+		"range": [
+			780.0,
+			780.0
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6013363.199999999
+	},
+	"QIUSDT": {
+		"prev": 0.1881,
+		"start": 0.1881,
+		"change": 0,
+		"change_24hr": -21.853,
+		"range": [
+			0.1881,
+			0.1881
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 22807472.044499997
+	},
+	"PORTOUSDT": {
+		"prev": 2.8416,
+		"start": 2.8416,
+		"change": 0,
+		"change_24hr": -22.445,
+		"range": [
+			2.8416,
+			2.8416
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 3193840.2178559997
+	},
+	"POWRUSDT": {
+		"prev": 0.4434,
+		"start": 0.4434,
+		"change": 0,
+		"change_24hr": -25.915,
+		"range": [
+			0.4434,
+			0.4434
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4814619.4374
+	},
+	"VGXUSDT": {
+		"prev": 3.76,
+		"start": 3.76,
+		"change": 0,
+		"change_24hr": -17.634,
+		"range": [
+			3.76,
+			3.76
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 4498351.2
+	},
+	"JASMYUSDT": {
+		"prev": 0.1302,
+		"start": 0.1302,
+		"change": 0,
+		"change_24hr": -23.993,
+		"range": [
+			0.1302,
+			0.1302
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 20259667.50402
+	},
+	"AMPUSDT": {
+		"prev": 0.05155,
+		"start": 0.05155,
+		"change": 0,
+		"change_24hr": -10.829,
+		"range": [
+			0.05155,
+			0.05155
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 6405924.20805
+	},
+	"PLAUSDT": {
+		"prev": 1.745,
+		"start": 1.745,
+		"change": 0,
+		"change_24hr": -24.163,
+		"range": [
+			1.745,
+			1.745
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 5779465.0931
+	},
+	"PYRUSDT": {
+		"prev": 28.12,
+		"start": 28.12,
+		"change": 0,
+		"change_24hr": -29.347,
+		"range": [
+			28.12,
+			28.12
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 17192626.658320002
+	},
+	"RNDRUSDT": {
+		"prev": 4.623,
+		"start": 4.623,
+		"change": 0,
+		"change_24hr": -18.709,
+		"range": [
+			4.623,
+			4.623
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 15341726.04123
+	},
+	"ALCXUSDT": {
+		"prev": 280.7,
+		"start": 280.7,
+		"change": 0,
+		"change_24hr": -15.324,
+		"range": [
+			280.7,
+			280.7
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 1550051.05598
+	},
+	"SANTOSUSDT": {
+		"prev": 4.383,
+		"start": 4.383,
+		"change": 0,
+		"change_24hr": -36.108,
+		"range": [
+			4.383,
+			4.383
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 13720829.62905
+	},
+	"MCUSDT": {
+		"prev": 7.06,
+		"start": 7.06,
+		"change": 0,
+		"change_24hr": -26.535,
+		"range": [
+			7.06,
+			7.06
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 26832626.7004
+	},
+	"ANYUSDT": {
+		"prev": 14.7,
+		"start": 14.7,
+		"change": 0,
+		"change_24hr": -2.13,
+		"range": [
+			14.7,
+			14.7
+		],
+		"pos_trig": [
+			0,
+			false
+		],
+		"neg_trig": [
+			0,
+			false
+		],
+		"volume": 18644104.961999997
+	}
+}

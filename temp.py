@@ -128,12 +128,50 @@ def get_dynamic_price(client):
 
     return price
 
+def get_slots(client,symb):
+    try:
+        orders=client.get_orders(symb)
+        # print(orders)
+    except Exception:
+        logger.exception("Exceptio when getting trades for stoploss")
+        return None
+    slots=0
+    quantity=0
+    for order in orders:
+        if order["side"]=="BUY" and float(order["executedQty"])>0:
+            slots+=1
+            quantity+=float(order["executedQty"])
+        if order["side"]=="SELL" and float(order["executedQty"])>0:
+            if float(order["executedQty"])==quantity:
+                slots=0
+                quantity=0
+            else:
+                slots-=1
+                quantity-=float(order["executedQty"])
+        if quantity<0:
+            slots=0
+            quantity=0
+    logger.info("Slots: "+str(slots)+" S:"+str(sym))
+    return slots
 
 with open("keys.json","r") as f:
     keys=json.load(f)
 logger.info("Starting the seller_stoploss")
 client= Spot(key=keys["api_key"], secret=keys["secret_key"])
+# client.trades
 # print(client.get_orders("CHESSUSDT",startTime=str(int((time.time()- (3*86400))*1000))))
-print(get_dynamic_price(client))
+# print(get_slots(client,input()+"USDT"))
 # print(get_corrected_price("TRXUSDT",0.1012))
 # print(get_corrected_price("BTCUSDT",60000.89))
+check_slots=True
+if check_slots:
+    symbols=client.exchange_info()["symbols"]
+    time.sleep(.5)
+    for symbol in symbols:
+        sym=symbol["symbol"]
+        if not sym.endswith("USDT") or sym.endswith("BULLUSDT") or sym.endswith("BEARUSDT"):
+            continue
+        slots=get_slots(client,sym)
+        if slots!=0:
+            print(sym,slots)
+        time.sleep(.4)

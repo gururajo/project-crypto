@@ -1,0 +1,1276 @@
+2021-12-02 23:24:29,570 - MARKET - INFO   : Hello
+2021-12-02 23:24:29,571 - MARKET - INFO   : Getting the last 24hr data
+2021-12-02 23:28:43,937 - MARKET - INFO   : Got last 24hr dtaa
+2021-12-02 23:28:44,324 - MARKET - INFO   : req time:0 sec
+2021-12-02 23:28:44,325 - MARKET - DEBUG   : err_key'BCCUSDT'
+2021-12-02 23:28:44,327 - MARKET - DEBUG   : err_key'VENUSDT'
+2021-12-02 23:28:44,328 - MARKET - DEBUG   : err_key'PAXUSDT'
+2021-12-02 23:28:44,329 - MARKET - DEBUG   : err_key'BCHABCUSDT'
+2021-12-02 23:28:44,329 - MARKET - DEBUG   : err_key'BCHSVUSDT'
+2021-12-02 23:28:44,330 - MARKET - DEBUG   : err_key'USDSUSDT'
+2021-12-02 23:28:44,332 - MARKET - DEBUG   : err_key'USDSBUSDT'
+2021-12-02 23:28:44,333 - MARKET - DEBUG   : err_key'ERDUSDT'
+2021-12-02 23:28:44,334 - MARKET - DEBUG   : err_key'NPXSUSDT'
+2021-12-02 23:28:44,336 - MARKET - DEBUG   : err_key'STORMUSDT'
+2021-12-02 23:28:44,337 - MARKET - DEBUG   : err_key'HCUSDT'
+2021-12-02 23:28:44,338 - MARKET - DEBUG   : err_key'MCOUSDT'
+2021-12-02 23:28:44,339 - MARKET - DEBUG   : err_key'BULLUSDT'
+2021-12-02 23:28:44,340 - MARKET - DEBUG   : err_key'BEARUSDT'
+2021-12-02 23:28:44,340 - MARKET - DEBUG   : err_key'ETHBULLUSDT'
+2021-12-02 23:28:44,341 - MARKET - DEBUG   : err_key'ETHBEARUSDT'
+2021-12-02 23:28:44,342 - MARKET - DEBUG   : err_key'EOSBULLUSDT'
+2021-12-02 23:28:44,343 - MARKET - DEBUG   : err_key'EOSBEARUSDT'
+2021-12-02 23:28:44,343 - MARKET - DEBUG   : err_key'XRPBULLUSDT'
+2021-12-02 23:28:44,344 - MARKET - DEBUG   : err_key'XRPBEARUSDT'
+2021-12-02 23:28:44,344 - MARKET - DEBUG   : err_key'STRATUSDT'
+2021-12-02 23:28:44,345 - MARKET - DEBUG   : err_key'BNBBULLUSDT'
+2021-12-02 23:28:44,346 - MARKET - DEBUG   : err_key'BNBBEARUSDT'
+2021-12-02 23:28:44,347 - MARKET - DEBUG   : err_key'XZCUSDT'
+2021-12-02 23:28:44,348 - MARKET - ERROR   : lesser than -1.3 GXSUSDT :December 02 23:28:44:  [2.376999038713614, -3.601741564392923, 1.6935633024005101, 2.343]
+2021-12-02 23:28:44,349 - MARKET - DEBUG   : err_key'LENDUSDT'
+2021-12-02 23:28:44,350 - MARKET - DEBUG   : err_key'BKRWUSDT'
+2021-12-02 23:28:44,351 - MARKET - DEBUG   : err_key'DAIUSDT'
+2021-12-02 23:29:52,564 - MARKET - INFO   : Hello
+2021-12-02 23:29:52,565 - MARKET - INFO   : Looks like recent old report is available,
+2021-12-02 23:30:46,164 - MARKET - INFO   : Hello
+2021-12-02 23:30:46,165 - MARKET - INFO   : Looks like recent old report is available,waiting for 778.5775022506714 secs
+2021-12-02 23:31:11,846 - MARKET - INFO   : Hello
+2021-12-02 23:31:11,847 - MARKET - INFO   : Looks like recent old report is available,waiting for 12.54826525847117 secs
+2021-12-02 23:31:30,678 - MARKET - INFO   : Hello
+2021-12-02 23:31:30,679 - MARKET - INFO   : Looks like recent old report is available,waiting for 12.234398631254832 min
+2021-12-02 23:31:40,097 - MARKET - INFO   : Hello
+2021-12-02 23:31:40,098 - MARKET - INFO   : Looks like recent old report is available,waiting for 12.077401514848074 min
+2021-12-02 23:34:16,931 - MARKET - INFO   : Hello
+2021-12-02 23:34:16,931 - MARKET - INFO   : Looks like recent old report is available,waiting for 9.463526686032614 min
+2021-12-02 23:42:47,231 - MARKET - INFO   : Hello
+2021-12-02 23:42:47,231 - MARKET - INFO   : Looks like recent old report is available,waiting for 0.9585315465927124 min
+2021-12-02 23:43:37,161 - MARKET - INFO   : Hello
+2021-12-02 23:43:37,161 - MARKET - INFO   : Looks like recent old report is available,waiting for 0.1263566493988037 min
+2021-12-02 23:43:44,751 - MARKET - INFO   : Got last 24hr dtaa
+2021-12-02 23:43:45,360 - MARKET - INFO   : req time:0 sec
+2021-12-02 23:43:45,368 - MARKET - ERROR   : lesser than -1.3 GXSUSDT :December 02 23:43:45:  [-2.8126333760136606, -4.345434636461203, 1.6583871141084587, 2.2771]
+2021-12-02 23:45:53,247 - MARKET - INFO   : Hello
+2021-12-02 23:45:53,248 - MARKET - INFO   : recent old report is invalid now, exiting
+2021-12-02 23:46:26,974 - MARKET - INFO   : Hello
+2021-12-02 23:46:26,974 - MARKET - INFO   : Getting the last 24hr data
+2021-12-02 23:47:19,328 - MARKET - INFO   : Found started is true, so set it false and waiting for double wait time
+2021-12-02 23:47:22,620 - MARKET - INFO   : Hello
+2021-12-02 23:47:22,621 - MARKET - INFO   : Looks like recent old report is available,waiting for 14.265817515055339 min
+2021-12-02 23:47:50,107 - MARKET - INFO   : Hello
+2021-12-02 23:47:50,108 - MARKET - INFO   : Looks like recent old report is available,waiting for 13.80770674943924 min
+2021-12-02 23:48:15,236 - MARKET - INFO   : Hello
+2021-12-02 23:48:15,236 - MARKET - INFO   : Looks like recent old report is available,waiting for 13.388891347249348 min
+2021-12-03 00:12:02,356 - MARKET - INFO   : Hello
+2021-12-03 00:12:02,358 - MARKET - INFO   : recent old report is invalid now, exiting
+2021-12-03 00:12:07,702 - MARKET - INFO   : Hello
+2021-12-03 00:12:07,704 - MARKET - INFO   : Getting the last 24hr data
+2021-12-03 00:13:20,076 - MARKET - INFO   : Found started is true, so set it false and waiting for double wait time
+2021-12-03 17:18:28,448 - MARKET - INFO   : Hello
+2021-12-03 17:18:28,448 - MARKET - INFO   : Getting the last 24hr data
+2021-12-04 10:17:19,195 - MARKET - INFO   : Hello
+2021-12-04 10:17:19,197 - MARKET - INFO   : Getting the last 24hr data
+2021-12-04 10:17:40,465 - MARKET - ERROR   : OOOOHH SHIET
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020070EE5310>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020070EE5310>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 157, in get_last24
+    exchanges = requests.get("https://api.binance.com/api/v1/exchangeInfo")
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020070EE5310>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2021-12-04 10:18:06,075 - MARKET - INFO   : Hello
+2021-12-04 10:18:06,076 - MARKET - INFO   : Getting the last 24hr data
+2021-12-04 10:32:09,698 - MARKET - INFO   : Hello
+2021-12-04 10:32:09,700 - MARKET - INFO   : Getting the last 24hr data
+2021-12-04 10:37:48,845 - MARKET - INFO   : Hello
+2021-12-04 10:37:48,847 - MARKET - INFO   : Getting the last 24hr data
+2021-12-04 10:39:35,788 - MARKET - ERROR   : ticker_problem
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000022B495EE520>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=DREPUSDT&interval=15m&startTime=1638508154752&endTime=1638594554752 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022B495EE520>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 175, in get_last24
+    past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=15m&startTime="+str(int((time.time()- 86400)*1000))+"&endTime="+str(int(time.time()*1000)))
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=DREPUSDT&interval=15m&startTime=1638508154752&endTime=1638594554752 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022B495EE520>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2021-12-04 10:40:40,518 - MARKET - ERROR   : ticker_problem
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000022B4960FE20>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=MKRUSDT&interval=15m&startTime=1638508219474&endTime=1638594619474 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022B4960FE20>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 175, in get_last24
+    past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=15m&startTime="+str(int((time.time()- 86400)*1000))+"&endTime="+str(int(time.time()*1000)))
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=MKRUSDT&interval=15m&startTime=1638508219474&endTime=1638594619474 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022B4960FE20>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2021-12-04 10:42:19,054 - MARKET - ERROR   : ticker_problem
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000022B495EEF10>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=DEGOUSDT&interval=15m&startTime=1638508318003&endTime=1638594718003 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022B495EEF10>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 175, in get_last24
+    past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=15m&startTime="+str(int((time.time()- 86400)*1000))+"&endTime="+str(int(time.time()*1000)))
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=DEGOUSDT&interval=15m&startTime=1638508318003&endTime=1638594718003 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022B495EEF10>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2021-12-04 10:43:45,004 - MARKET - INFO   : Got last 24hr dtaa
+2021-12-04 10:43:45,567 - MARKET - INFO   : req time:0 sec
+2021-12-04 10:43:45,571 - MARKET - DEBUG   : err_key'BCCUSDT'
+2021-12-04 10:43:45,575 - MARKET - ERROR   : lesser than -1.3 NEOUSDT :December 04 10:43:45:  [-0.593990216631732, -1.8637054932184198, -0.25681975738569784, 28.45]
+2021-12-04 10:43:45,575 - MARKET - ERROR   : lesser than -1.3 LTCUSDT :December 04 10:43:45:  [-0.8312020460358128, -2.094984508206398, -0.26319386961111857, 155.1]
+2021-12-04 10:43:45,579 - MARKET - ERROR   : lesser than -1.3 QTUMUSDT :December 04 10:43:45:  [-0.6668493651228522, -2.1745538672195868, -0.2910003488448237, 10.874]
+2021-12-04 10:43:45,582 - MARKET - ERROR   : lesser than -1.3 ADAUSDT :December 04 10:43:45:  [-0.30349013657056173, -1.869912856234917, -0.24593824448193924, 1.314]
+2021-12-04 10:43:45,584 - MARKET - ERROR   : lesser than -1.3 XRPUSDT :December 04 10:43:45:  [-2.1443246019517264, -2.286491604790002, -0.24320457044831342, 0.7621]
+2021-12-04 10:43:45,585 - MARKET - ERROR   : lesser than -1.3 EOSUSDT :December 04 10:43:45:  [0.031545741324917664, -2.0328261451921015, -0.22693337036040265, 3.171]
+2021-12-04 10:43:45,589 - MARKET - ERROR   : lesser than -1.3 IOTAUSDT :December 04 10:43:45:  [-0.3596821413634438, -1.3558400249441824, -0.21821874046846265, 1.1912]
+2021-12-04 10:43:45,589 - MARKET - ERROR   : lesser than -1.3 ONTUSDT :December 04 10:43:45:  [-0.925201980714099, -2.1169659642969436, -0.3039365634249737, 0.7603]
+2021-12-04 10:43:45,593 - MARKET - ERROR   : lesser than -1.3 ETCUSDT :December 04 10:43:45:  [-0.684751119304709, -1.924711741428204, -0.22343706381553166, 37.71]
+2021-12-04 10:43:45,596 - MARKET - ERROR   : lesser than -1.3 ICXUSDT :December 04 10:43:45:  [0.0, -1.8368100625766364, -0.2901587761590477, 1.283]
+2021-12-04 10:43:45,596 - MARKET - DEBUG   : err_key'VENUSDT'
+2021-12-04 10:43:45,600 - MARKET - ERROR   : lesser than -1.3 NULSUSDT :December 04 10:43:45:  [0.8798050893340484, -1.462359978308369, -0.34196516679846334, 0.7453]
+2021-12-04 10:43:45,600 - MARKET - ERROR   : lesser than -1.3 VETUSDT :December 04 10:43:45:  [0.23413981491803765, -2.050663836565558, -0.23773117589784756, 0.0899]
+2021-12-04 10:43:45,604 - MARKET - DEBUG   : err_key'PAXUSDT'
+2021-12-04 10:43:45,604 - MARKET - DEBUG   : err_key'BCHABCUSDT'
+2021-12-04 10:43:45,604 - MARKET - DEBUG   : err_key'BCHSVUSDT'
+2021-12-04 10:43:45,608 - MARKET - ERROR   : lesser than -1.3 LINKUSDT :December 04 10:43:45:  [-1.070882202957679, -2.003200405109473, -0.24481339876300653, 19.4]
+2021-12-04 10:43:45,611 - MARKET - ERROR   : lesser than -1.3 WAVESUSDT :December 04 10:43:45:  [-0.22087244616233653, -2.1827675598211314, -0.13634809700523082, 18.07]
+2021-12-04 10:43:45,614 - MARKET - ERROR   : lesser than -1.3 BTTUSDT :December 04 10:43:45:  [-0.999999999999994, -1.9663585040108515, -0.23773489651413013, 0.002475]
+2021-12-04 10:43:45,615 - MARKET - DEBUG   : err_key'USDSUSDT'
+2021-12-04 10:43:45,615 - MARKET - ERROR   : lesser than -1.3 ONGUSDT :December 04 10:43:45:  [-0.3576617860735544, -1.4222031144775564, -0.22033828735062155, 0.8915]
+2021-12-04 10:43:45,619 - MARKET - ERROR   : lesser than -1.3 HOTUSDT :December 04 10:43:45:  [0.5125815470643131, -2.8357654836008583, -0.28444571073291547, 0.008628]
+2021-12-04 10:43:45,619 - MARKET - ERROR   : lesser than -1.3 ZILUSDT :December 04 10:43:45:  [-0.1491201908738279, -2.2680151689608086, -0.2424330752681589, 0.06696]
+2021-12-04 10:43:45,624 - MARKET - ERROR   : lesser than -1.3 ZRXUSDT :December 04 10:43:45:  [-1.1907487978016904, -1.8556800067840284, -0.2497415485229668, 0.863]
+2021-12-04 10:43:45,626 - MARKET - ERROR   : lesser than -1.3 BATUSDT :December 04 10:43:45:  [1.053452984783471, -1.9267654436039685, -0.2851078038074048, 1.036]
+2021-12-04 10:43:45,626 - MARKET - ERROR   : lesser than -1.3 XMRUSDT :December 04 10:43:45:  [0.10015022533801557, -1.378296453916447, -0.18672507856157564, 199.9]
+2021-12-04 10:43:45,630 - MARKET - ERROR   : lesser than -1.3 ZECUSDT :December 04 10:43:45:  [0.8875739644970414, -2.3195970508750547, -0.26537697097192653, 170.5]
+2021-12-04 10:43:45,632 - MARKET - ERROR   : lesser than -1.3 IOSTUSDT :December 04 10:43:45:  [-0.06779661016948876, -2.556700694168665, -0.30143117657265767, 0.02948]
+2021-12-04 10:43:45,632 - MARKET - ERROR   : lesser than -1.3 CELRUSDT :December 04 10:43:45:  [-2.169169554614295, -2.920228037430263, -0.37015402289756777, 0.07622]
+2021-12-04 10:43:45,637 - MARKET - ERROR   : lesser than -1.3 DASHUSDT :December 04 10:43:45:  [-1.2743628185907174, -2.806294547891497, -0.2988566637135141, 131.7]
+2021-12-04 10:43:45,641 - MARKET - ERROR   : lesser than -1.3 OMGUSDT :December 04 10:43:45:  [0.6798316607316254, -2.1857820459910755, -0.261677162975218, 6.22]
+2021-12-04 10:43:45,643 - MARKET - ERROR   : lesser than -1.3 THETAUSDT :December 04 10:43:45:  [-1.8362178134233984, -3.229725473809886, -0.3080249991749258, 4.651]
+2021-12-04 10:43:45,644 - MARKET - ERROR   : lesser than -1.3 ENJUSDT :December 04 10:43:45:  [-0.5988023952095681, -2.2729418805622195, -0.2827676768611688, 2.49]
+2021-12-04 10:43:45,648 - MARKET - ERROR   : lesser than -1.3 MITHUSDT :December 04 10:43:45:  [1.4960020634511326, -1.332493252531418, -0.057045349826265225, 0.0787]
+2021-12-04 10:43:45,648 - MARKET - ERROR   : lesser than -1.3 TFUELUSDT :December 04 10:43:45:  [0.27058368766912794, -1.7636322709159138, -0.1364190234790784, 0.2594]
+2021-12-04 10:43:45,652 - MARKET - ERROR   : lesser than -1.3 ONEUSDT :December 04 10:43:45:  [0.491642084562445, -2.642452066252692, -0.3225292014344398, 0.18396]
+2021-12-04 10:43:45,652 - MARKET - ERROR   : lesser than -1.3 FTMUSDT :December 04 10:43:45:  [-3.663214422708102, -2.969803035149844, -0.313386426911715, 1.5069]
+2021-12-04 10:43:45,656 - MARKET - DEBUG   : err_key'USDSBUSDT'
+2021-12-04 10:43:45,656 - MARKET - ERROR   : lesser than -1.3 GTOUSDT :December 04 10:43:45:  [-4.045401629802102, -1.617552351348785, 0.2754074372905629, 0.06594]
+2021-12-04 10:43:45,661 - MARKET - DEBUG   : err_key'ERDUSDT'
+2021-12-04 10:43:45,661 - MARKET - ERROR   : lesser than -1.3 DOGEUSDT :December 04 10:43:45:  [-0.17751479289942157, -1.878552210542464, -0.2123284030879136, 0.1687]
+2021-12-04 10:43:45,665 - MARKET - ERROR   : lesser than -1.3 ANKRUSDT :December 04 10:43:45:  [0.028666985188713204, -2.200644963019063, -0.31196210466134394, 0.10468]
+2021-12-04 10:43:45,668 - MARKET - ERROR   : lesser than -1.3 WINUSDT :December 04 10:43:45:  [-0.24242424242424832, -1.3478729301693995, -0.20267444418461136, 0.0005761]
+2021-12-04 10:43:45,669 - MARKET - ERROR   : lesser than -1.3 COSUSDT :December 04 10:43:45:  [-2.2214962430578247, -2.5256437302636034, 0.35406929916112295, 0.02993]
+2021-12-04 10:43:45,669 - MARKET - DEBUG   : err_key'NPXSUSDT'
+2021-12-04 10:43:45,674 - MARKET - ERROR   : lesser than -1.3 COCOSUSDT :December 04 10:43:45:  [-2.3406040268456407, -1.954807070161545, -0.31095000479727697, 2.3282]
+2021-12-04 10:43:45,676 - MARKET - ERROR   : lesser than -1.3 MTLUSDT :December 04 10:43:45:  [0.8665511265164653, -1.9763889406947126, -0.25645319440835374, 2.328]
+2021-12-04 10:43:45,677 - MARKET - ERROR   : lesser than -1.3 TOMOUSDT :December 04 10:43:45:  [-1.3001912045889197, -2.6405079980059027, -0.2060475453746352, 2.581]
+2021-12-04 10:43:45,681 - MARKET - ERROR   : lesser than -1.3 PERLUSDT :December 04 10:43:45:  [2.4818334264952484, -1.6009415101052469, -0.08246381516039199, 0.09167]
+2021-12-04 10:43:45,681 - MARKET - ERROR   : lesser than -1.3 DENTUSDT :December 04 10:43:45:  [-3.672587614018251, -3.010520906265223, -0.18502441746173712, 0.004013]
+2021-12-04 10:43:45,685 - MARKET - ERROR   : lesser than -1.3 MFTUSDT :December 04 10:43:45:  [0.38833018022504073, -1.8916744953675857, -0.25703029542993383, 0.010082]
+2021-12-04 10:43:45,685 - MARKET - DEBUG   : err_key'STORMUSDT'
+2021-12-04 10:43:45,685 - MARKET - ERROR   : lesser than -1.3 DOCKUSDT :December 04 10:43:45:  [1.239451476793244, -1.669656392374245, -0.2250142726107396, 0.07678]
+2021-12-04 10:43:45,690 - MARKET - ERROR   : lesser than -1.3 WANUSDT :December 04 10:43:45:  [-1.4282070900280526, -1.6553322332250395, -0.13340491353856518, 0.773]
+2021-12-04 10:43:45,692 - MARKET - ERROR   : lesser than -1.3 FUNUSDT :December 04 10:43:45:  [-1.7890191239975237, -1.3146511578679536, -0.11440418682637916, 0.01592]
+2021-12-04 10:43:45,692 - MARKET - ERROR   : lesser than -1.3 CVCUSDT :December 04 10:43:45:  [-1.6740779492545024, -2.271578630477475, -0.3189309892520464, 0.3759]
+2021-12-04 10:43:45,696 - MARKET - ERROR   : lesser than -1.3 CHZUSDT :December 04 10:43:45:  [-3.3440514469453437, -2.9672578969172902, -0.33302642482030215, 0.3006]
+2021-12-04 10:43:45,696 - MARKET - ERROR   : lesser than -1.3 BANDUSDT :December 04 10:43:45:  [-1.4205483977535562, -2.2680102323779736, -0.32646265326387297, 5.968]
+2021-12-04 10:43:45,700 - MARKET - ERROR   : lesser than -1.3 XTZUSDT :December 04 10:43:45:  [-1.4172053704624659, -1.744274994614803, -0.23411965102860935, 3.965]
+2021-12-04 10:43:45,700 - MARKET - ERROR   : lesser than -1.3 RENUSDT :December 04 10:43:45:  [1.3835401511909917, -1.6628457311121603, -0.20723130314762753, 0.7108]
+2021-12-04 10:43:45,706 - MARKET - ERROR   : lesser than -1.3 RVNUSDT :December 04 10:43:45:  [-1.9387993459472026, -2.507393189107887, -0.24097469627891557, 0.08396]
+2021-12-04 10:43:45,707 - MARKET - DEBUG   : err_key'HCUSDT'
+2021-12-04 10:43:45,707 - MARKET - ERROR   : lesser than -1.3 HBARUSDT :December 04 10:43:45:  [-1.096822995461427, -2.0330322793690425, -0.24328401060928276, 0.2615]
+2021-12-04 10:43:45,711 - MARKET - ERROR   : lesser than -1.3 NKNUSDT :December 04 10:43:45:  [-1.6926738957947676, -2.5864507338851856, -0.28511159087184307, 0.3717]
+2021-12-04 10:43:45,711 - MARKET - ERROR   : lesser than -1.3 STXUSDT :December 04 10:43:45:  [-0.47080979284370195, -1.5435354508798833, -0.1456605072685788, 2.114]
+2021-12-04 10:43:45,715 - MARKET - ERROR   : lesser than -1.3 KAVAUSDT :December 04 10:43:45:  [-2.0905923344947643, -2.1058087886982615, -0.2596042863776282, 3.934]
+2021-12-04 10:43:45,715 - MARKET - ERROR   : lesser than -1.3 ARPAUSDT :December 04 10:43:45:  [-1.176577891280554, -2.34009777113754, -0.2976096820032497, 0.10835]
+2021-12-04 10:43:45,721 - MARKET - ERROR   : lesser than -1.3 IOTXUSDT :December 04 10:43:45:  [-1.30086724482988, -1.9191307093030425, -0.28739657351368414, 0.11836]
+2021-12-04 10:43:45,722 - MARKET - ERROR   : lesser than -1.3 RLCUSDT :December 04 10:43:45:  [-1.879895561357704, -2.1407427006747843, -0.10943449194797278, 3.758]
+2021-12-04 10:43:45,722 - MARKET - DEBUG   : err_key'MCOUSDT'
+2021-12-04 10:43:45,726 - MARKET - ERROR   : lesser than -1.3 CTXCUSDT :December 04 10:43:45:  [0.8302889405513127, -2.5726284343732067, 0.6028381314846768, 0.6072]
+2021-12-04 10:43:45,726 - MARKET - ERROR   : lesser than -1.3 BCHUSDT :December 04 10:43:45:  [-1.5193665739353783, -1.6458371482677714, -0.193585704396939, 460.2]
+2021-12-04 10:43:45,730 - MARKET - ERROR   : lesser than -1.3 TROYUSDT :December 04 10:43:45:  [0.14502709716815448, -1.8903539127310829, 0.08718783538867388, 0.01312]
+2021-12-04 10:43:45,730 - MARKET - ERROR   : lesser than -1.3 VITEUSDT :December 04 10:43:45:  [-3.2635723166183177, -2.06123503270522, -0.24041115088312223, 0.09337]
+2021-12-04 10:43:45,736 - MARKET - ERROR   : lesser than -1.3 OGNUSDT :December 04 10:43:45:  [-2.4035251702497016, -2.9559393674694836, -0.3272896664525928, 0.7309]
+2021-12-04 10:43:45,737 - MARKET - DEBUG   : err_key'DREPUSDT'
+2021-12-04 10:43:45,737 - MARKET - DEBUG   : err_key'BULLUSDT'
+2021-12-04 10:43:45,737 - MARKET - DEBUG   : err_key'BEARUSDT'
+2021-12-04 10:43:45,737 - MARKET - DEBUG   : err_key'ETHBULLUSDT'
+2021-12-04 10:43:45,741 - MARKET - DEBUG   : err_key'ETHBEARUSDT'
+2021-12-04 10:43:45,741 - MARKET - ERROR   : lesser than -1.3 TCTUSDT :December 04 10:43:45:  [-0.19406709176601225, -1.4431119854904715, -0.03348773646673579, 0.036]
+2021-12-04 10:43:45,745 - MARKET - ERROR   : lesser than -1.3 WRXUSDT :December 04 10:43:45:  [0.600343053173252, -1.3305025986013388, -0.26130384386725497, 1.173]
+2021-12-04 10:43:45,745 - MARKET - ERROR   : lesser than -1.3 BTSUSDT :December 04 10:43:45:  [-1.950523311132258, -1.939181653961166, -0.2330212937730295, 0.04122]
+2021-12-04 10:43:45,750 - MARKET - ERROR   : lesser than -1.3 LSKUSDT :December 04 10:43:45:  [-0.9725599166377222, -1.8468835986611887, -0.21922461916558303, 2.851]
+2021-12-04 10:43:45,752 - MARKET - ERROR   : lesser than -1.3 LTOUSDT :December 04 10:43:45:  [-1.756793851221525, -1.9024488935778625, -0.2590844418254719, 0.3579]
+2021-12-04 10:43:45,752 - MARKET - DEBUG   : err_key'EOSBULLUSDT'
+2021-12-04 10:43:45,752 - MARKET - DEBUG   : err_key'EOSBEARUSDT'
+2021-12-04 10:43:45,756 - MARKET - DEBUG   : err_key'XRPBULLUSDT'
+2021-12-04 10:43:45,756 - MARKET - DEBUG   : err_key'XRPBEARUSDT'
+2021-12-04 10:43:45,756 - MARKET - DEBUG   : err_key'STRATUSDT'
+2021-12-04 10:43:45,760 - MARKET - ERROR   : lesser than -1.3 AIONUSDT :December 04 10:43:45:  [0.0, -1.885884216127944, -0.24371379000599017, 0.1653]
+2021-12-04 10:43:45,760 - MARKET - ERROR   : lesser than -1.3 MBLUSDT :December 04 10:43:45:  [-3.193277310924373, -2.152934657097213, -0.33309605867378794, 0.009792]
+2021-12-04 10:43:45,765 - MARKET - ERROR   : lesser than -1.3 COTIUSDT :December 04 10:43:45:  [-1.7009847806624838, -2.642110426094088, -0.3050093217866409, 0.3294]
+2021-12-04 10:43:45,768 - MARKET - DEBUG   : err_key'BNBBULLUSDT'
+2021-12-04 10:43:45,768 - MARKET - DEBUG   : err_key'BNBBEARUSDT'
+2021-12-04 10:43:45,768 - MARKET - ERROR   : lesser than -1.3 STPTUSDT :December 04 10:43:45:  [-2.032008631541088, -2.0933062383630543, -0.3058112989639756, 0.10896]
+2021-12-04 10:43:45,772 - MARKET - ERROR   : lesser than -1.3 WTCUSDT :December 04 10:43:45:  [-1.3761928679055795, -1.8290698635472828, -0.3257014050585753, 0.9818]
+2021-12-04 10:43:45,772 - MARKET - ERROR   : lesser than -1.3 DATAUSDT :December 04 10:43:45:  [-1.5447690167655033, -1.4028048746622601, -0.27561699128014777, 0.13448]
+2021-12-04 10:43:45,776 - MARKET - DEBUG   : err_key'XZCUSDT'
+2021-12-04 10:43:45,776 - MARKET - ERROR   : lesser than -1.3 CTSIUSDT :December 04 10:43:45:  [-2.4290998766954437, -2.352318294898114, -0.2976073156556484, 0.7913]
+2021-12-04 10:43:45,780 - MARKET - ERROR   : lesser than -1.3 HIVEUSDT :December 04 10:43:45:  [-12.317726284532583, -2.9993513724340866, -0.24831080095669247, 1.6536]
+2021-12-04 10:43:45,782 - MARKET - ERROR   : lesser than -1.3 CHRUSDT :December 04 10:43:45:  [-2.8028503562945275, -3.045711970779673, -0.35556654737861343, 0.6138]
+2021-12-04 10:43:45,782 - MARKET - ERROR   : lesser than -1.3 ARDRUSDT :December 04 10:43:45:  [-0.8941344778254657, -1.6927889904381386, -0.19405973335543192, 0.2771]
+2021-12-04 10:43:45,787 - MARKET - DEBUG   : err_key'LENDUSDT'
+2021-12-04 10:43:45,787 - MARKET - ERROR   : lesser than -1.3 MDTUSDT :December 04 10:43:45:  [1.1952191235059817, -1.692743526700994, 0.004566941081565186, 0.05842]
+2021-12-04 10:43:45,787 - MARKET - ERROR   : lesser than -1.3 STMXUSDT :December 04 10:43:45:  [-1.9215044971381774, -2.315963523060365, -0.3292673552832155, 0.02399]
+2021-12-04 10:43:45,791 - MARKET - ERROR   : lesser than -1.3 KNCUSDT :December 04 10:43:45:  [-0.6189821182943533, -1.679895668640523, -0.25339386882321097, 1.445]
+2021-12-04 10:43:45,795 - MARKET - ERROR   : lesser than -1.3 LRCUSDT :December 04 10:43:45:  [-2.0441288359117427, -1.9979464152531268, -0.2888242647176038, 1.9312]
+2021-12-04 10:43:45,797 - MARKET - ERROR   : lesser than -1.3 PNTUSDT :December 04 10:43:45:  [-0.8041237113401979, -2.379094554486245, -0.30554023553456106, 0.9622]
+2021-12-04 10:43:45,798 - MARKET - ERROR   : lesser than -1.3 COMPUSDT :December 04 10:43:45:  [-2.7276930189551574, -2.1740376457279873, -0.2497470441410221, 210.4]
+2021-12-04 10:43:45,798 - MARKET - DEBUG   : err_key'BKRWUSDT'
+2021-12-04 10:43:45,802 - MARKET - ERROR   : lesser than -1.3 SCUSDT :December 04 10:43:45:  [-2.426343154246102, -2.0451747231018422, -0.3041330022787015, 0.01689]
+2021-12-04 10:43:45,802 - MARKET - ERROR   : lesser than -1.3 ZENUSDT :December 04 10:43:45:  [-2.7209087306828534, -2.635651858593274, -0.30353708986433503, 73.65]
+2021-12-04 10:43:45,806 - MARKET - ERROR   : lesser than -1.3 SNXUSDT :December 04 10:43:45:  [-3.0722484807562522, -2.023351953854898, -0.24785982250932095, 5.742]
+2021-12-04 10:43:45,806 - MARKET - ERROR   : lesser than -1.3 DGBUSDT :December 04 10:43:45:  [-3.3532622822978935, -2.5482941535483654, -0.2693337047149397, 0.03718]
+2021-12-04 10:43:45,813 - MARKET - ERROR   : lesser than -1.3 SXPUSDT :December 04 10:43:45:  [-4.243119266055049, -2.7927319807985085, -0.3047558663874957, 1.67]
+2021-12-04 10:43:45,814 - MARKET - DEBUG   : err_key'MKRUSDT'
+2021-12-04 10:43:45,814 - MARKET - DEBUG   : err_key'DAIUSDT'
+2021-12-04 10:43:45,818 - MARKET - ERROR   : lesser than -1.3 STORJUSDT :December 04 10:43:45:  [-0.6634464296106533, -2.1437865348707086, -0.2984508690945274, 1.7069]
+2021-12-04 10:43:45,820 - MARKET - ERROR   : lesser than -1.3 MANAUSDT :December 04 10:43:45:  [-2.0106013525863595, -2.0301886006973318, -0.29615558406231995, 3.2166]
+2021-12-04 10:43:45,822 - MARKET - ERROR   : lesser than -1.3 YFIUSDT :December 04 10:43:45:  [-3.1063256360972, -1.6135503286141553, -0.1955764036568286, 23677.82]
+2021-12-04 10:43:45,823 - MARKET - ERROR   : lesser than -1.3 BALUSDT :December 04 10:43:45:  [-2.9375764993880074, -1.907350309391262, -0.23325218967883676, 15.86]
+2021-12-04 10:43:45,823 - MARKET - ERROR   : lesser than -1.3 BLZUSDT :December 04 10:43:45:  [-2.337559429477027, -2.3045497240508754, -0.301210241808008, 0.2465]
+2021-12-04 10:43:45,830 - MARKET - ERROR   : lesser than -1.3 IRISUSDT :December 04 10:43:45:  [-0.6321233598314413, -1.3367858536049504, -0.14012595743264508, 0.10375]
+2021-12-04 10:43:45,833 - MARKET - ERROR   : lesser than -1.3 JSTUSDT :December 04 10:43:45:  [-1.3369409517746198, -1.3323354718670777, -0.18960463747629483, 0.06199]
+2021-12-04 10:43:45,833 - MARKET - ERROR   : lesser than -1.3 SRMUSDT :December 04 10:43:45:  [-1.1060948081263993, -1.5082436015302625, -0.22659851724464053, 4.381]
+2021-12-04 10:43:45,837 - MARKET - ERROR   : lesser than -1.3 ANTUSDT :December 04 10:43:45:  [-1.2599951538647833, -1.689451320344567, -0.2940254379488329, 4.075]
+2021-12-04 10:43:45,837 - MARKET - ERROR   : lesser than -1.3 CRVUSDT :December 04 10:43:45:  [-3.8660495507759296, -2.228017058892424, -0.2703678776264608, 3.531]
+2021-12-04 10:43:45,841 - MARKET - ERROR   : lesser than -1.3 SANDUSDT :December 04 10:43:45:  [-0.9218129643460817, -1.9334120792292868, -0.24978343443055942, 5.0409]
+2021-12-04 10:43:45,841 - MARKET - ERROR   : lesser than -1.3 OCEANUSDT :December 04 10:43:45:  [-3.109168570577122, -1.9705207434127439, -0.277925390804926, 0.9754]
+2021-12-04 10:43:45,846 - MARKET - ERROR   : lesser than -1.3 DOTUSDT :December 04 10:43:45:  [-3.0737704918032858, -1.8054323605853646, -0.22807155785879796, 28.38]
+2021-12-04 10:43:45,847 - MARKET - ERROR   : lesser than -1.3 RSRUSDT :December 04 10:43:45:  [-2.9671210906174816, -1.942500986234475, -0.31857280741669985, 0.0363]
+2021-12-04 10:43:45,847 - MARKET - ERROR   : lesser than -1.3 WNXMUSDT :December 04 10:43:45:  [-1.1673791515948715, -2.031277242912526, -0.19490369430264246, 60.11]
+2021-12-04 10:43:45,852 - MARKET - ERROR   : lesser than -1.3 TRBUSDT :December 04 10:43:45:  [-3.3195020746887995, -2.769290247427777, -0.31824859241119013, 37.28]
+2021-12-04 10:43:45,852 - MARKET - ERROR   : lesser than -1.3 BZRXUSDT :December 04 10:43:45:  [-2.9258098223615527, -2.052280015436362, -0.26107779579179985, 0.2787]
+2021-12-04 10:43:45,856 - MARKET - ERROR   : lesser than -1.3 SUSHIUSDT :December 04 10:43:45:  [-4.690990320178701, -3.402208995433409, -0.3530139677237618, 5.12]
+2021-12-04 10:43:45,860 - MARKET - ERROR   : lesser than -1.3 YFIIUSDT :December 04 10:43:45:  [-3.2740213523131674, -2.0685141430766154, -0.23886354342974692, 2718.0]
+2021-12-04 10:43:45,862 - MARKET - ERROR   : lesser than -1.3 EGLDUSDT :December 04 10:43:45:  [-1.8454038997214526, -2.078634408545877, -0.20663566763159044, 281.9]
+2021-12-04 10:43:45,863 - MARKET - ERROR   : lesser than -1.3 RUNEUSDT :December 04 10:43:45:  [-3.9785862027010475, -2.3516278181776795, -0.2699193949624533, 7.892]
+2021-12-04 10:43:45,867 - MARKET - ERROR   : lesser than -1.3 FIOUSDT :December 04 10:43:45:  [-1.6267123287671226, -3.3843126712971245, 0.31400518613992384, 0.2298]
+2021-12-04 10:43:45,867 - MARKET - ERROR   : lesser than -1.3 UMAUSDT :December 04 10:43:45:  [-1.7276995305164418, -1.4611427440348652, -0.18095899707335494, 10.466]
+2021-12-04 10:43:45,871 - MARKET - ERROR   : lesser than -1.3 BELUSDT :December 04 10:43:45:  [-3.2429816069699773, -2.24108056223939, -0.22621989385350003, 1.999]
+2021-12-04 10:43:45,871 - MARKET - ERROR   : lesser than -1.3 WINGUSDT :December 04 10:43:45:  [-2.4013722126929573, -1.519862792262624, -0.16994331388588893, 17.07]
+2021-12-04 10:43:45,875 - MARKET - ERROR   : lesser than -1.3 UNIUSDT :December 04 10:43:45:  [-2.565597667638471, -1.9363625820079962, -0.2812043678942084, 16.71]
+2021-12-04 10:43:45,877 - MARKET - ERROR   : lesser than -1.3 NBSUSDT :December 04 10:43:45:  [-1.5991471215351716, -1.5453066796260768, -0.2689911234786128, 0.01846]
+2021-12-04 10:43:45,877 - MARKET - ERROR   : lesser than -1.3 OXTUSDT :December 04 10:43:45:  [-2.0813623462630155, -1.5981840320138005, -0.1744728668152589, 0.414]
+2021-12-04 10:43:45,882 - MARKET - ERROR   : lesser than -1.3 AVAXUSDT :December 04 10:43:45:  [-2.3310023310023404, -1.8434561096556794, -0.1921391903247782, 87.99]
+2021-12-04 10:43:45,882 - MARKET - ERROR   : lesser than -1.3 HNTUSDT :December 04 10:43:45:  [-2.233169129720853, -1.4783550224968995, -0.266330375338302, 29.77]
+2021-12-04 10:43:45,886 - MARKET - ERROR   : lesser than -1.3 FLMUSDT :December 04 10:43:45:  [-2.9376641987103014, -2.964217107352988, -0.2871763919755635, 0.4064]
+2021-12-04 10:43:45,886 - MARKET - ERROR   : lesser than -1.3 XVSUSDT :December 04 10:43:45:  [-1.1075949367088653, -1.8336702340636495, -0.17254825420604805, 18.75]
+2021-12-04 10:43:45,891 - MARKET - ERROR   : lesser than -1.3 ALPHAUSDT :December 04 10:43:45:  [-2.090989735141309, -2.7486497547762236, -0.19055596736441194, 0.7726]
+2021-12-04 10:43:45,893 - MARKET - ERROR   : lesser than -1.3 AAVEUSDT :December 04 10:43:45:  [-1.3749338974087755, -2.047119844186594, -0.2602753096827964, 186.5]
+2021-12-04 10:43:45,893 - MARKET - ERROR   : lesser than -1.3 NEARUSDT :December 04 10:43:45:  [-1.8724173553718952, -1.9350680946198817, -0.1018524629808502, 7.599]
+2021-12-04 10:43:45,897 - MARKET - ERROR   : lesser than -1.3 FILUSDT :December 04 10:43:45:  [-1.6137566137566124, -2.940016652799422, -0.35069358694850883, 37.19]
+2021-12-04 10:43:45,897 - MARKET - ERROR   : lesser than -1.3 AUDIOUSDT :December 04 10:43:45:  [-3.213077790304393, -2.4762170567127706, -0.2789950867515424, 1.717]
+2021-12-04 10:43:45,901 - MARKET - ERROR   : lesser than -1.3 CTKUSDT :December 04 10:43:45:  [-2.2905364677516595, -2.7566239476136203, -0.32316965175087053, 1.621]
+2021-12-04 10:43:45,901 - MARKET - ERROR   : lesser than -1.3 AKROUSDT :December 04 10:43:45:  [-1.132812500000008, -2.1469913518112755, -0.2869571240353711, 0.02531]
+2021-12-04 10:43:45,907 - MARKET - ERROR   : lesser than -1.3 HARDUSDT :December 04 10:43:45:  [-1.1435710167211244, -3.193573831023069, -0.03903590223100805, 1.0287]
+2021-12-04 10:43:45,907 - MARKET - ERROR   : lesser than -1.3 DNTUSDT :December 04 10:43:45:  [-0.613496932515338, -1.4073645590994133, -0.1284920742742401, 0.162]
+2021-12-04 10:43:45,912 - MARKET - ERROR   : lesser than -1.3 STRAXUSDT :December 04 10:43:45:  [-1.0000000000000009, -1.7169955547697573, -0.23892473328693062, 1.584]
+2021-12-04 10:43:45,912 - MARKET - ERROR   : lesser than -1.3 UNFIUSDT :December 04 10:43:45:  [-1.7484555309476668, -2.6788286947881756, -0.3056103785755605, 8.429]
+2021-12-04 10:43:45,916 - MARKET - ERROR   : lesser than -1.3 XEMUSDT :December 04 10:43:45:  [-1.8896447467876059, -2.127836929889852, -0.25613651237639173, 0.1298]
+2021-12-04 10:43:45,916 - MARKET - ERROR   : lesser than -1.3 SKLUSDT :December 04 10:43:45:  [-2.2652388797363994, -2.5743535995957236, -0.2926738604913505, 0.2373]
+2021-12-04 10:43:45,922 - MARKET - ERROR   : lesser than -1.3 GRTUSDT :December 04 10:43:45:  [-1.5053128689492308, -2.3775378812418353, -0.2812182065546458, 0.6674]
+2021-12-04 10:43:45,922 - MARKET - ERROR   : lesser than -1.3 JUVUSDT :December 04 10:43:45:  [-0.6718924972004535, -1.3154803475148624, -0.19268127507340702, 8.87]
+2021-12-04 10:43:45,927 - MARKET - ERROR   : lesser than -1.3 1INCHUSDT :December 04 10:43:45:  [-1.7241379310344842, -2.495222532646809, -0.31250739234814173, 2.508]
+2021-12-04 10:43:45,928 - MARKET - ERROR   : lesser than -1.3 REEFUSDT :December 04 10:43:45:  [-2.1074815595363594, -2.1863616212258488, -0.2688860759646297, 0.01858]
+2021-12-04 10:43:45,932 - MARKET - ERROR   : lesser than -1.3 CELOUSDT :December 04 10:43:45:  [-0.5882352941176504, -2.2851710399745118, -0.2534065600540149, 3.887]
+2021-12-04 10:43:45,932 - MARKET - ERROR   : lesser than -1.3 BTCSTUSDT :December 04 10:43:45:  [-1.604278074866298, -1.5598036646037197, -0.2928380786856707, 23.92]
+2021-12-04 10:43:45,937 - MARKET - ERROR   : lesser than -1.3 TRUUSDT :December 04 10:43:45:  [-6.048269845885428, -2.4622099075128863, -0.33379690827797415, 0.3231]
+2021-12-04 10:43:45,939 - MARKET - ERROR   : lesser than -1.3 CKBUSDT :December 04 10:43:45:  [-0.9950248756218931, -1.7472553702130225, -0.159156295747978, 0.02388]
+2021-12-04 10:43:45,939 - MARKET - ERROR   : lesser than -1.3 TWTUSDT :December 04 10:43:45:  [-1.0872134247222862, -1.7689776399247523, -0.23845777690781597, 0.837]
+2021-12-04 10:43:45,943 - MARKET - ERROR   : lesser than -1.3 LITUSDT :December 04 10:43:45:  [-2.5836279575741146, -2.8563624052519994, -0.3304899318869344, 3.582]
+2021-12-04 10:43:45,943 - MARKET - ERROR   : lesser than -1.3 SFPUSDT :December 04 10:43:45:  [-0.8800757533559748, -1.7693054452121557, -0.2775007204776874, 1.7795]
+2021-12-04 10:43:45,947 - MARKET - ERROR   : lesser than -1.3 DODOUSDT :December 04 10:43:45:  [-1.132075471698114, -2.2303029763961386, -0.28916984374176563, 1.048]
+2021-12-04 10:43:45,947 - MARKET - ERROR   : lesser than -1.3 CAKEUSDT :December 04 10:43:45:  [-0.18165304268846116, -1.3892255358546557, -0.18371530463204888, 10.99]
+2021-12-04 10:43:45,952 - MARKET - ERROR   : lesser than -1.3 FISUSDT :December 04 10:43:45:  [-3.135768435561688, -1.7214500305879077, -0.16109723741039714, 1.4055]
+2021-12-04 10:43:45,953 - MARKET - ERROR   : lesser than -1.3 PONDUSDT :December 04 10:43:45:  [-1.2246286427032516, -1.4202769499338344, -0.1325974497042274, 0.08711]
+2021-12-04 10:43:45,953 - MARKET - DEBUG   : err_key'DEGOUSDT'
+2021-12-04 10:43:45,958 - MARKET - ERROR   : lesser than -1.3 ALICEUSDT :December 04 10:43:45:  [-1.9872249822569152, -3.446528790923011, -0.4271444391389916, 13.81]
+2021-12-04 10:43:45,958 - MARKET - ERROR   : lesser than -1.3 LINAUSDT :December 04 10:43:45:  [-0.7961399276236524, -2.3354018257964015, -0.27897612576965874, 0.04112]
+2021-12-04 10:43:45,962 - MARKET - ERROR   : lesser than -1.3 SUPERUSDT :December 04 10:43:45:  [0.17289333233105078, -1.7159737498281713, -0.24982210354263532, 1.3326]
+2021-12-04 10:43:45,962 - MARKET - ERROR   : lesser than -1.3 CFXUSDT :December 04 10:43:45:  [-0.2784407319013659, -1.6951365777683038, -0.2192864821319834, 0.2507]
+2021-12-04 10:43:45,968 - MARKET - ERROR   : lesser than -1.3 EPSUSDT :December 04 10:43:45:  [-1.0353066100344994, -2.0058607982637082, -0.15945665954610097, 0.3728]
+2021-12-04 10:43:45,969 - MARKET - ERROR   : lesser than -1.3 AUTOUSDT :December 04 10:43:45:  [-1.8067846607669673, -1.517893490805623, -0.15943639557208383, 798.9]
+2021-12-04 10:43:45,969 - MARKET - ERROR   : lesser than -1.3 PUNDIXUSDT :December 04 10:43:45:  [0.18450184501845032, -1.6067965479727484, -0.24426136774743756, 1.086]
+2021-12-04 10:43:45,973 - MARKET - ERROR   : lesser than -1.3 TLMUSDT :December 04 10:43:45:  [-1.218637992831546, -2.610894506460226, -0.3169622813658102, 0.2756]
+2021-12-04 10:43:45,973 - MARKET - ERROR   : lesser than -1.3 BTGUSDT :December 04 10:43:45:  [0.06843065693429295, -1.4388264287833157, -0.21015609163113957, 43.87]
+2021-12-04 10:43:45,977 - MARKET - ERROR   : lesser than -1.3 BARUSDT :December 04 10:43:45:  [-0.21905805038336637, -1.3055590237319525, -0.14640041043468646, 9.11]
+2021-12-04 10:43:45,982 - MARKET - ERROR   : lesser than -1.3 BAKEUSDT :December 04 10:43:45:  [-0.8727272727272735, -2.657171512178558, -0.22773185576589058, 1.363]
+2021-12-04 10:43:45,984 - MARKET - ERROR   : lesser than -1.3 SLPUSDT :December 04 10:43:45:  [-1.5909090909090893, -1.3432635735889658, -0.23288459002746856, 0.0433]
+2021-12-04 10:43:45,985 - MARKET - ERROR   : lesser than -1.3 SHIBUSDT :December 04 10:43:45:  [-0.7256488975718696, -1.3032319902252296, -0.14358594393832977, 3.557e-05]
+2021-12-04 10:43:45,985 - MARKET - ERROR   : lesser than -1.3 ICPUSDT :December 04 10:43:45:  [-1.7728168089297411, -2.7726194437601785, -0.3041620290441334, 29.92]
+2021-12-04 10:43:45,989 - MARKET - ERROR   : lesser than -1.3 ARUSDT :December 04 10:43:45:  [-0.04420866489832698, -2.051352783825934, -0.22303447852803218, 45.22]
+2021-12-04 10:43:45,993 - MARKET - ERROR   : lesser than -1.3 MASKUSDT :December 04 10:43:45:  [-0.2656294469215489, -2.3967738172356374, -0.35567064449769586, 10.513]
+2021-12-04 10:43:45,993 - MARKET - ERROR   : lesser than -1.3 LPTUSDT :December 04 10:43:45:  [-0.8060182697474401, -2.560812457563536, -0.3304916003070098, 36.92]
+2021-12-04 10:43:45,997 - MARKET - ERROR   : lesser than -1.3 NUUSDT :December 04 10:43:45:  [0.15906680805939688, -1.423669423535236, -0.1618172016119254, 0.7556]
+2021-12-04 10:43:45,999 - MARKET - ERROR   : lesser than -1.3 XVGUSDT :December 04 10:43:45:  [-0.5635245901639292, -1.5290014998847379, -0.2082055465204373, 0.01941]
+2021-12-04 10:43:45,999 - MARKET - ERROR   : lesser than -1.3 ATAUSDT :December 04 10:43:45:  [0.06321112515802085, -2.691336236941269, -0.29081177726455115, 0.7915]
+2021-12-04 10:43:46,003 - MARKET - ERROR   : lesser than -1.3 GTCUSDT :December 04 10:43:46:  [-0.3175133689839594, -1.4156016304358643, -0.26078145909741385, 11.93]
+2021-12-04 10:43:46,003 - MARKET - ERROR   : lesser than -1.3 TORNUSDT :December 04 10:43:46:  [-0.26730820636192015, -1.3432268573054682, -0.22393358843088904, 37.31]
+2021-12-04 10:43:46,007 - MARKET - ERROR   : lesser than -1.3 KEEPUSDT :December 04 10:43:46:  [-0.028731504094252115, -1.757426610754479, -0.15844158515253737, 0.6959]
+2021-12-04 10:43:46,007 - MARKET - ERROR   : lesser than -1.3 KLAYUSDT :December 04 10:43:46:  [-0.07886435331231166, -1.4902358060558665, -0.1917774437612322, 1.267]
+2021-12-04 10:43:46,013 - MARKET - ERROR   : lesser than -1.3 PHAUSDT :December 04 10:43:46:  [-0.6587870567719354, -1.4012201024312765, -0.21273166921961043, 0.5127]
+2021-12-04 10:43:46,014 - MARKET - ERROR   : lesser than -1.3 C98USDT :December 04 10:43:46:  [-0.9001636661211047, -2.363487776358483, -0.24395871723513932, 2.422]
+2021-12-04 10:43:46,014 - MARKET - ERROR   : lesser than -1.3 CLVUSDT :December 04 10:43:46:  [-0.9615384615384623, -1.4930298537692674, -0.1816543910556004, 0.927]
+2021-12-04 10:43:46,018 - MARKET - ERROR   : lesser than -1.3 FLOWUSDT :December 04 10:43:46:  [0.41067761806980646, -1.5805169321010237, -0.2086307639631669, 9.78]
+2021-12-04 10:43:46,022 - MARKET - ERROR   : lesser than -1.3 TVKUSDT :December 04 10:43:46:  [-0.5370569280343722, -2.0090852866237983, -0.28586526721842725, 0.2778]
+2021-12-04 10:43:46,022 - MARKET - ERROR   : lesser than -1.3 ALPACAUSDT :December 04 10:43:46:  [-0.8133971291866018, -1.866200625475776, -0.146819785023546, 0.6219]
+2021-12-04 10:43:46,027 - MARKET - ERROR   : lesser than -1.3 FORUSDT :December 04 10:43:46:  [0.12300123001230934, -2.392869180584006, -0.1454049714090407, 0.07326]
+2021-12-04 10:43:46,028 - MARKET - ERROR   : lesser than -1.3 REQUSDT :December 04 10:43:46:  [-0.1397484527849938, -1.4405543503596747, -0.22660507830436083, 0.5002]
+2021-12-04 10:43:46,028 - MARKET - ERROR   : lesser than -1.3 WAXPUSDT :December 04 10:43:46:  [-0.9188361408882042, -2.1039883866101006, -0.29478162240776856, 0.4529]
+2021-12-04 10:43:46,033 - MARKET - ERROR   : lesser than -1.3 XECUSDT :December 04 10:43:46:  [0.5776038755356849, -2.458392963285932, -0.3074040963215938, 0.00010796]
+2021-12-04 10:43:46,037 - MARKET - ERROR   : lesser than -1.3 ELFUSDT :December 04 10:43:46:  [0.12906556530717617, -2.263111120331945, -0.2997533905113023, 0.3879]
+2021-12-04 10:43:46,037 - MARKET - ERROR   : lesser than -1.3 DYDXUSDT :December 04 10:43:46:  [2.7647663658174237, -3.811171873338089, -0.3702325713253569, 8.995]
+2021-12-04 10:43:46,041 - MARKET - ERROR   : lesser than -1.3 POLYUSDT :December 04 10:43:46:  [0.21104467112205044, -1.6717473181631166, -0.24794101171613311, 0.5698]
+2021-12-04 10:43:46,044 - MARKET - ERROR   : lesser than -1.3 IDEXUSDT :December 04 10:43:46:  [0.13503086419753743, -2.0138788619195602, -0.30355120319183043, 0.25955]
+2021-12-04 10:43:46,047 - MARKET - ERROR   : lesser than -1.3 GALAUSDT :December 04 10:43:46:  [0.06670669068106796, -2.0628728130256566, -0.19321478994643457, 0.45003]
+2021-12-04 10:43:46,048 - MARKET - ERROR   : lesser than -1.3 YGGUSDT :December 04 10:43:46:  [-0.8357441337190692, -1.9190345190030313, -0.2409810494395441, 6.17]
+2021-12-04 10:43:46,052 - MARKET - ERROR   : lesser than -1.3 SYSUSDT :December 04 10:43:46:  [0.0, -1.8285057703532333, -0.26119043938954845, 0.59]
+2021-12-04 10:43:46,052 - MARKET - ERROR   : lesser than -1.3 FRONTUSDT :December 04 10:43:46:  [0.8740613073987438, -1.6350433621487122, -0.17715783976348987, 0.8194]
+2021-12-04 10:43:46,058 - MARKET - ERROR   : lesser than -1.3 CVPUSDT :December 04 10:43:46:  [0.0, -2.003625879037291, -0.1628445891469753, 1.249]
+2021-12-04 10:43:46,060 - MARKET - ERROR   : lesser than -1.3 AGLDUSDT :December 04 10:43:46:  [-0.6124721603563542, -2.247255888623014, -0.26751311266442923, 1.785]
+2021-12-04 10:43:46,062 - MARKET - ERROR   : lesser than -1.3 BETAUSDT :December 04 10:43:46:  [0.009248032224246642, -1.3035749580568263, -0.2593398720697226, 0.97327]
+2021-12-04 10:43:46,062 - MARKET - ERROR   : lesser than -1.3 RAREUSDT :December 04 10:43:46:  [0.8403361344537909, -1.6203436480692024, -0.23207851357145157, 1.32]
+2021-12-04 10:43:46,066 - MARKET - ERROR   : lesser than -1.3 LAZIOUSDT :December 04 10:43:46:  [0.17677214071061575, -1.6503853318082364, -0.2216386280427778, 3.9669]
+2021-12-04 10:43:46,069 - MARKET - ERROR   : lesser than -1.3 ADXUSDT :December 04 10:43:46:  [0.09821574725815108, -1.5191576308601609, -0.19784003105353865, 0.6115]
+2021-12-04 10:43:46,069 - MARKET - ERROR   : lesser than -1.3 AUCTIONUSDT :December 04 10:43:46:  [-0.334896182183516, -2.7204292087824493, -0.055047305022378416, 29.76]
+2021-12-04 10:43:46,069 - MARKET - ERROR   : lesser than -1.3 DARUSDT :December 04 10:43:46:  [-1.4899038545734753, -1.9604034666827208, -0.2854282531753652, 2.25001]
+2021-12-04 10:43:46,077 - MARKET - ERROR   : lesser than -1.3 ENSUSDT :December 04 10:43:46:  [0.08800880088008613, -1.4630432892077645, -0.29298596819508377, 45.49]
+2021-12-04 10:43:46,078 - MARKET - ERROR   : lesser than -1.3 QIUSDT :December 04 10:43:46:  [-0.10172939979654412, -1.6650281232171498, -0.21466347168256916, 0.1964]
+2021-12-04 10:43:46,081 - MARKET - ERROR   : lesser than -1.3 JASMYUSDT :December 04 10:43:46:  [-1.1086474501108656, -1.9103232842863156, -0.26812049743106225, 0.1338]
+2021-12-04 10:43:46,081 - MARKET - ERROR   : lesser than -1.3 PLAUSDT :December 04 10:43:46:  [-0.5107832009080657, -2.018096825660799, -0.28817471054236127, 1.753]
+2021-12-04 10:43:46,085 - MARKET - ERROR   : lesser than -1.3 RNDRUSDT :December 04 10:43:46:  [-0.07088846880907641, -2.360504136529012, -0.33132365834385186, 4.229]
+2021-12-04 10:43:46,088 - MARKET - ERROR   : lesser than -1.3 MCUSDT :December 04 10:43:46:  [0.0, -1.4436932875097557, -0.3151809915826456, 7.02]
+2021-12-04 10:58:48,440 - MARKET - INFO   : req time:1 sec
+2021-12-04 10:58:48,444 - MARKET - ERROR   : lesser than -1.3 BTCUSDT :December 04 10:58:48:  [-6.82877364372928, -1.8593378407128196, -0.22794439804656877, 45500.01]
+2021-12-04 10:58:48,444 - MARKET - ERROR   : lesser than -1.3 ETHUSDT :December 04 10:58:48:  [-6.637048038512742, -1.488408375051346, -0.2336028918352374, 3646.01]
+2021-12-04 10:58:48,448 - MARKET - ERROR   : lesser than -1.3 BNBUSDT :December 04 10:58:48:  [-3.4424059012672674, -1.573441172199488, -0.1975930522171962, 510.5]
+2021-12-04 10:58:48,448 - MARKET - ERROR   : lesser than -1.3 NEOUSDT :December 04 10:58:48:  [-15.536028119507902, -3.753771782479287, -0.4296718777053284, 24.03]
+2021-12-04 10:58:48,452 - MARKET - ERROR   : lesser than -1.3 LTCUSDT :December 04 10:58:48:  [-12.37911025145067, -3.4677026723431976, -0.4051782574471944, 135.9]
+2021-12-04 10:58:48,452 - MARKET - ERROR   : lesser than -1.3 QTUMUSDT :December 04 10:58:48:  [-21.197351480595913, -4.827428083407918, -0.5327776241699317, 8.569]
+2021-12-04 10:58:48,456 - MARKET - ERROR   : lesser than -1.3 ADAUSDT :December 04 10:58:48:  [-6.164383561643833, -2.5035785930047045, -0.32472392733890065, 1.233]
+2021-12-04 10:58:48,456 - MARKET - ERROR   : lesser than -1.3 XRPUSDT :December 04 10:58:48:  [-14.63062590211259, -4.168320550711972, -0.4074920715787755, 0.6506]
+2021-12-04 10:58:48,460 - MARKET - ERROR   : lesser than -1.3 EOSUSDT :December 04 10:58:48:  [-18.164616840113517, -4.211720393212052, -0.42928097204684834, 2.595]
+2021-12-04 10:58:48,464 - MARKET - ERROR   : lesser than -1.3 IOTAUSDT :December 04 10:58:48:  [-13.683680322364006, -3.132066459331532, -0.3693211177292809, 1.0282]
+2021-12-04 10:58:48,464 - MARKET - ERROR   : lesser than -1.3 XLMUSDT :December 04 10:58:48:  [-18.745595489781536, -3.6658919766474694, -0.40519910992038616, 0.2306]
+2021-12-04 10:58:48,468 - MARKET - ERROR   : lesser than -1.3 ONTUSDT :December 04 10:58:48:  [-17.887675917401026, -4.246342525862052, -0.5099398164909039, 0.6243]
+2021-12-04 10:58:48,468 - MARKET - ERROR   : lesser than -1.3 TRXUSDT :December 04 10:58:48:  [-9.815146094215848, -2.3791232191348017, -0.2775455169716958, 0.07562]
+2021-12-04 10:58:48,472 - MARKET - ERROR   : lesser than -1.3 ETCUSDT :December 04 10:58:48:  [-19.888623707239457, -4.482274471119601, -0.4398689284993427, 30.21]
+2021-12-04 10:58:48,472 - MARKET - ERROR   : lesser than -1.3 ICXUSDT :December 04 10:58:48:  [-12.62665627435697, -3.269814042441839, -0.4396640601786714, 1.121]
+2021-12-04 10:58:48,476 - MARKET - ERROR   : lesser than -1.3 NULSUSDT :December 04 10:58:48:  [-14.356634912115926, -3.322073586799604, -0.4729673584110099, 0.6383]
+2021-12-04 10:58:48,480 - MARKET - ERROR   : lesser than -1.3 VETUSDT :December 04 10:58:48:  [-18.164627363737484, -4.244026194705328, -0.43931087503353267, 0.07357]
+2021-12-04 10:58:48,480 - MARKET - ERROR   : lesser than -1.3 LINKUSDT :December 04 10:58:48:  [-16.85567010309278, -4.105167428825347, -0.4346244955319375, 16.13]
+2021-12-04 10:58:48,485 - MARKET - ERROR   : lesser than -1.3 WAVESUSDT :December 04 10:58:48:  [-14.665190924183733, -3.966647648557335, -0.30180628056499276, 15.42]
+2021-12-04 10:58:48,486 - MARKET - ERROR   : lesser than -1.3 BTTUSDT :December 04 10:58:48:  [-16.080808080808094, -3.95785239024158, -0.41557124039319543, 0.002077]
+2021-12-04 10:58:48,486 - MARKET - ERROR   : lesser than -1.3 ONGUSDT :December 04 10:58:48:  [-10.947840717891184, -2.8964059542840266, -0.34626221322873624, 0.7939]
+2021-12-04 10:58:48,490 - MARKET - ERROR   : lesser than -1.3 HOTUSDT :December 04 10:58:48:  [-23.446917014371817, -5.844161595284764, -0.5389525924195746, 0.006605]
+2021-12-04 10:58:48,490 - MARKET - ERROR   : lesser than -1.3 ZILUSDT :December 04 10:58:48:  [-17.323775388291526, -4.416889080885765, -0.4364905326687281, 0.05536]
+2021-12-04 10:58:48,494 - MARKET - ERROR   : lesser than -1.3 ZRXUSDT :December 04 10:58:48:  [-14.820393974507533, -3.653969238048386, -0.4108826625289533, 0.7351]
+2021-12-04 10:58:48,494 - MARKET - ERROR   : lesser than -1.3 FETUSDT :December 04 10:58:48:  [-10.333628579864179, -2.377407894980082, -0.19304785971400654, 0.6074]
+2021-12-04 10:58:48,498 - MARKET - ERROR   : lesser than -1.3 BATUSDT :December 04 10:58:48:  [-13.04054054054054, -3.384346261493718, -0.4388632458310454, 0.9009]
+2021-12-04 10:58:48,502 - MARKET - ERROR   : lesser than -1.3 XMRUSDT :December 04 10:58:48:  [-8.504252126063031, -2.3407460909299194, -0.278211968247994, 182.9]
+2021-12-04 10:58:48,503 - MARKET - ERROR   : lesser than -1.3 ZECUSDT :December 04 10:58:48:  [-11.788856304985334, -3.5785493121314635, -0.4027000761276357, 150.4]
+2021-12-04 10:58:48,503 - MARKET - ERROR   : lesser than -1.3 IOSTUSDT :December 04 10:58:48:  [-18.147896879240164, -4.762721717181394, -0.5014651343578868, 0.02413]
+2021-12-04 10:58:48,507 - MARKET - ERROR   : lesser than -1.3 CELRUSDT :December 04 10:58:48:  [-19.48307530831802, -5.376023524511751, -0.572031268602797, 0.06137]
+2021-12-04 10:58:48,511 - MARKET - ERROR   : lesser than -1.3 DASHUSDT :December 04 10:58:48:  [-12.908124525436588, -4.269949665855236, -0.4456047059622343, 114.7]
+2021-12-04 10:58:48,511 - MARKET - ERROR   : lesser than -1.3 NANOUSDT :December 04 10:58:48:  [-14.196242171189983, -2.902547348198884, -0.30264001188962586, 3.699]
+2021-12-04 10:58:48,515 - MARKET - ERROR   : lesser than -1.3 OMGUSDT :December 04 10:58:48:  [-19.758842443729908, -4.718368758589152, -0.4798738261682188, 4.991]
+2021-12-04 10:58:48,515 - MARKET - ERROR   : lesser than -1.3 THETAUSDT :December 04 10:58:48:  [-19.221672758546543, -5.414835761060731, -0.5222534800454209, 3.757]
+2021-12-04 10:58:48,519 - MARKET - ERROR   : lesser than -1.3 ENJUSDT :December 04 10:58:48:  [-12.65060240963857, -3.6853762356165967, -0.4294873976072013, 2.175]
+2021-12-04 10:58:48,519 - MARKET - ERROR   : lesser than -1.3 MITHUSDT :December 04 10:58:48:  [-16.65819567979671, -3.6463191732696427, -0.2357242554656651, 0.06559]
+2021-12-04 10:58:48,523 - MARKET - ERROR   : lesser than -1.3 MATICUSDT :December 04 10:58:48:  [-12.934259754142168, -2.770078060245513, -0.29027757208850385, 1.629]
+2021-12-04 10:58:48,523 - MARKET - ERROR   : lesser than -1.3 ATOMUSDT :December 04 10:58:48:  [-11.723372781065082, -2.6255509716323813, -0.18199273076360625, 23.87]
+2021-12-04 10:58:48,527 - MARKET - ERROR   : lesser than -1.3 TFUELUSDT :December 04 10:58:48:  [-15.53585196607557, -3.51218876507447, -0.3024499932737547, 0.2191]
+2021-12-04 10:58:48,527 - MARKET - ERROR   : lesser than -1.3 ONEUSDT :December 04 10:58:48:  [-20.88497499456404, -5.128568081213811, -0.5444761243525996, 0.14554]
+2021-12-04 10:58:48,531 - MARKET - ERROR   : lesser than -1.3 FTMUSDT :December 04 10:58:48:  [-14.247793483310101, -4.639705587115976, -0.47695787539598783, 1.2922]
+2021-12-04 10:58:48,531 - MARKET - ERROR   : lesser than -1.3 ALGOUSDT :December 04 10:58:48:  [-10.130021346788283, -2.32564109601928, -0.32292586330266887, 1.3893]
+2021-12-04 10:58:48,535 - MARKET - ERROR   : lesser than -1.3 GTOUSDT :December 04 10:58:48:  [-14.801334546557474, -3.7224112960732896, 0.10510222798669062, 0.05618]
+2021-12-04 10:58:48,539 - MARKET - ERROR   : lesser than -1.3 DOGEUSDT :December 04 10:58:48:  [-20.272673384706568, -4.523243498567684, -0.434051263822711, 0.1345]
+2021-12-04 10:58:48,539 - MARKET - ERROR   : lesser than -1.3 DUSKUSDT :December 04 10:58:48:  [-3.9982030548068246, -1.4676362817423527, -0.2583367105500517, 0.2137]
+2021-12-04 10:58:48,543 - MARKET - ERROR   : lesser than -1.3 ANKRUSDT :December 04 10:58:48:  [-10.403133358807793, -3.3010529614371924, -0.42906423818629497, 0.09379]
+2021-12-04 10:58:48,543 - MARKET - ERROR   : lesser than -1.3 WINUSDT :December 04 10:58:48:  [-12.324249262280853, -3.0116353019774107, -0.3399463571615143, 0.0005051]
+2021-12-04 10:58:48,547 - MARKET - ERROR   : lesser than -1.3 COSUSDT :December 04 10:58:48:  [-12.462412295355822, -5.017293728348411, 0.13773802258720955, 0.0262]
+2021-12-04 10:58:48,547 - MARKET - ERROR   : lesser than -1.3 COCOSUSDT :December 04 10:58:48:  [-18.379005240099637, -4.4736898202408595, -0.5049684075288888, 1.9003]
+2021-12-04 10:58:48,552 - MARKET - ERROR   : lesser than -1.3 MTLUSDT :December 04 10:58:48:  [-19.544673539518893, -4.513002937930645, -0.466666624087636, 1.873]
+2021-12-04 10:58:48,553 - MARKET - ERROR   : lesser than -1.3 TOMOUSDT :December 04 10:58:48:  [-19.023634250290588, -5.024348925292705, -0.4061619193137654, 2.09]
+2021-12-04 10:58:48,553 - MARKET - ERROR   : lesser than -1.3 PERLUSDT :December 04 10:58:48:  [-16.035780517072112, -3.624083525720264, -0.3202553094755444, 0.07697]
+2021-12-04 10:58:48,557 - MARKET - ERROR   : lesser than -1.3 DENTUSDT :December 04 10:58:48:  [-19.710939446797905, -5.3763579334046625, -0.4059437357867755, 0.003222]
+2021-12-04 10:58:48,557 - MARKET - ERROR   : lesser than -1.3 MFTUSDT :December 04 10:58:48:  [-14.709383058916881, -3.623194276820772, -0.41538937506744916, 0.008599]
+2021-12-04 10:58:48,561 - MARKET - ERROR   : lesser than -1.3 KEYUSDT :December 04 10:58:48:  [-6.81088027414864, -1.5346145970935623, -0.24037739215813803, 0.013053]
+2021-12-04 10:58:48,565 - MARKET - ERROR   : lesser than -1.3 DOCKUSDT :December 04 10:58:48:  [-14.105235738473567, -3.509668604402401, -0.3846375535091855, 0.06595]
+2021-12-04 10:58:48,566 - MARKET - ERROR   : lesser than -1.3 WANUSDT :December 04 10:58:48:  [-15.88615782664942, -3.610938006416568, -0.3083581113168834, 0.6502]
+2021-12-04 10:58:48,570 - MARKET - ERROR   : lesser than -1.3 FUNUSDT :December 04 10:58:48:  [-10.489949748743715, -2.772352380555436, -0.22607632633840233, 0.01425]
+2021-12-04 10:58:48,570 - MARKET - ERROR   : lesser than -1.3 CVCUSDT :December 04 10:58:48:  [-17.850492152168126, -4.5440056772359565, -0.5142909206331134, 0.3088]
+2021-12-04 10:58:48,574 - MARKET - ERROR   : lesser than -1.3 CHZUSDT :December 04 10:58:48:  [-16.600133067198936, -4.824941196065487, -0.5210990609361653, 0.2507]
+2021-12-04 10:58:48,574 - MARKET - ERROR   : lesser than -1.3 BANDUSDT :December 04 10:58:48:  [-17.376005361930293, -4.469666311026885, -0.5228043213569714, 4.931]
+2021-12-04 10:58:48,578 - MARKET - ERROR   : lesser than -1.3 BEAMUSDT :December 04 10:58:48:  [-16.67295360241419, -2.9721297525727883, -0.19294091124607207, 0.6627]
+2021-12-04 10:58:48,578 - MARKET - ERROR   : lesser than -1.3 XTZUSDT :December 04 10:58:48:  [-15.359394703656998, -3.65212361756803, -0.4138382138031457, 3.356]
+2021-12-04 10:58:48,582 - MARKET - ERROR   : lesser than -1.3 RENUSDT :December 04 10:58:48:  [-5.3742262239729905, -2.1470536288286506, -0.2751465431336607, 0.6726]
+2021-12-04 10:58:48,582 - MARKET - ERROR   : lesser than -1.3 RVNUSDT :December 04 10:58:48:  [-17.901381610290613, -4.725138659423353, -0.4396463610448278, 0.06893]
+2021-12-04 10:58:48,586 - MARKET - ERROR   : lesser than -1.3 HBARUSDT :December 04 10:58:48:  [-16.40535372848949, -4.017621738692183, -0.42424502922340984, 0.2186]
+2021-12-04 10:58:48,586 - MARKET - ERROR   : lesser than -1.3 NKNUSDT :December 04 10:58:48:  [-12.34866828087167, -4.0537913603717515, -0.41959977560141953, 0.3258]
+2021-12-04 10:58:48,590 - MARKET - ERROR   : lesser than -1.3 STXUSDT :December 04 10:58:48:  [-14.758751182592237, -3.1981256089303614, -0.3051688198879129, 1.802]
+2021-12-04 10:58:48,590 - MARKET - ERROR   : lesser than -1.3 KAVAUSDT :December 04 10:58:48:  [-18.8357905439756, -4.462522035807968, -0.46580503996708406, 3.193]
+2021-12-04 10:58:48,594 - MARKET - ERROR   : lesser than -1.3 ARPAUSDT :December 04 10:58:48:  [-17.803414859252424, -4.346544950975049, -0.4927338539823715, 0.08906]
+2021-12-04 10:58:48,598 - MARKET - ERROR   : lesser than -1.3 IOTXUSDT :December 04 10:58:48:  [-4.5201081446434666, -2.3085579232437063, -0.3441097520352944, 0.11301]
+2021-12-04 10:58:48,598 - MARKET - ERROR   : lesser than -1.3 RLCUSDT :December 04 10:58:48:  [-7.450771687067584, -2.9250266111522256, -0.21842124870648355, 3.478]
+2021-12-04 10:58:48,602 - MARKET - ERROR   : lesser than -1.3 CTXCUSDT :December 04 10:58:48:  [-9.568511198945972, -2.682260045900327, 0.3634428773148382, 0.5491]
+2021-12-04 10:58:48,602 - MARKET - ERROR   : lesser than -1.3 BCHUSDT :December 04 10:58:48:  [-22.598870056497177, -4.645167889392451, -0.4376764064352204, 356.2]
+2021-12-04 10:58:48,606 - MARKET - ERROR   : lesser than -1.3 TROYUSDT :December 04 10:58:48:  [-2.263719512195125, -2.0024040646182417, 0.0583357788361816, 0.012823]
+2021-12-04 10:58:48,606 - MARKET - ERROR   : lesser than -1.3 VITEUSDT :December 04 10:58:48:  [-15.7009746171147, -4.074519338774082, -0.44812345978767887, 0.07871]
+2021-12-04 10:58:48,610 - MARKET - ERROR   : lesser than -1.3 FTTUSDT :December 04 10:58:48:  [-6.1133317658123705, -1.7111011496861326, -0.21657653046587425, 39.93]
+2021-12-04 10:58:48,610 - MARKET - ERROR   : lesser than -1.3 OGNUSDT :December 04 10:58:48:  [-19.510192912847167, -5.32772638313248, -0.5459898298644877, 0.5883]
+2021-12-04 10:58:48,616 - MARKET - ERROR   : lesser than -1.3 TCTUSDT :December 04 10:58:48:  [-16.94444444444444, -3.3991127161972323, -0.22362845144146826, 0.0299]
+2021-12-04 10:58:48,616 - MARKET - ERROR   : lesser than -1.3 WRXUSDT :December 04 10:58:48:  [-11.3384484228474, -2.7177228051875106, -0.3543397007744394, 1.04]
+2021-12-04 10:58:48,620 - MARKET - ERROR   : lesser than -1.3 BTSUSDT :December 04 10:58:48:  [-15.380883066472585, -3.8557467909511374, -0.38027091034339383, 0.03488]
+2021-12-04 10:58:48,620 - MARKET - ERROR   : lesser than -1.3 LSKUSDT :December 04 10:58:48:  [-15.082427218519822, -3.7774781037844747, -0.3901044356442095, 2.421]
+2021-12-04 10:58:48,624 - MARKET - ERROR   : lesser than -1.3 BNTUSDT :December 04 10:58:48:  [-10.443407234539093, -2.3214000854221237, -0.2767621014006388, 3.07]
+2021-12-04 10:58:48,624 - MARKET - ERROR   : lesser than -1.3 LTOUSDT :December 04 10:58:48:  [-14.64096116233585, -3.778039576224579, -0.42486315348732284, 0.3055]
+2021-12-04 10:58:48,628 - MARKET - ERROR   : lesser than -1.3 AIONUSDT :December 04 10:58:48:  [-10.284331518451308, -3.18913688590821, -0.3575661295970286, 0.1483]
+2021-12-04 10:58:48,628 - MARKET - ERROR   : lesser than -1.3 MBLUSDT :December 04 10:58:48:  [-17.514297385620907, -4.447266834071825, -0.5388202973866238, 0.008077]
+2021-12-04 10:58:48,657 - MARKET - ERROR   : lesser than -1.3 COTIUSDT :December 04 10:58:48:  [-21.25075895567699, -5.24416364130731, -0.5416040469810824, 0.2594]
+2021-12-04 10:58:48,664 - MARKET - ERROR   : lesser than -1.3 STPTUSDT :December 04 10:58:48:  [-15.574522760646106, -3.999824258864552, -0.4792685937283825, 0.09199]
+2021-12-04 10:58:48,668 - MARKET - ERROR   : lesser than -1.3 WTCUSDT :December 04 10:58:48:  [-15.349358321450401, -3.760285688261558, -0.609043958186642, 0.8311]
+2021-12-04 10:58:48,697 - MARKET - ERROR   : lesser than -1.3 DATAUSDT :December 04 10:58:48:  [-4.878048780487792, -1.82270596264751, -0.3114918960926473, 0.12792]
+2021-12-04 10:58:48,704 - MARKET - ERROR   : lesser than -1.3 SOLUSDT :December 04 10:58:48:  [-5.916374827549616, -1.4006308765104765, -0.27191373722470735, 177.31]
+2021-12-04 10:58:48,707 - MARKET - ERROR   : lesser than -1.3 CTSIUSDT :December 04 10:58:48:  [-12.915455579426254, -3.9105093885989186, -0.4412447835706527, 0.6891]
+2021-12-04 10:58:48,739 - MARKET - ERROR   : lesser than -1.3 HIVEUSDT :December 04 10:58:48:  [-16.388485728108364, -4.983801769964122, -0.43165220372743307, 1.3826]
+2021-12-04 10:58:48,743 - MARKET - ERROR   : lesser than -1.3 CHRUSDT :December 04 10:58:48:  [-16.112740306288693, -4.929121972694195, -0.5438222711700926, 0.5149]
+2021-12-04 10:58:48,747 - MARKET - ERROR   : lesser than -1.3 GXSUSDT :December 04 10:58:48:  [-6.120804428561421, -1.7177826354822998, -0.21974080686626826, 2.6795]
+2021-12-04 10:58:48,751 - MARKET - ERROR   : lesser than -1.3 ARDRUSDT :December 04 10:58:48:  [-10.682064236737645, -3.036057977978849, -0.31227227351766673, 0.2475]
+2021-12-04 10:58:48,751 - MARKET - ERROR   : lesser than -1.3 MDTUSDT :December 04 10:58:48:  [-8.729887024991442, -2.4851180844841534, -0.08240687330990891, 0.05332]
+2021-12-04 10:58:48,756 - MARKET - ERROR   : lesser than -1.3 STMXUSDT :December 04 10:58:48:  [-15.464776990412677, -4.252820284402611, -0.49717429625617254, 0.02028]
+2021-12-04 10:58:48,758 - MARKET - ERROR   : lesser than -1.3 KNCUSDT :December 04 10:58:48:  [-14.256055363321796, -3.374459747115592, -0.4118148137988484, 1.239]
+2021-12-04 10:58:48,759 - MARKET - ERROR   : lesser than -1.3 REPUSDT :December 04 10:58:48:  [-5.774569683509176, -1.8885715079455017, -0.2600430292703456, 16.97]
+2021-12-04 10:58:48,759 - MARKET - ERROR   : lesser than -1.3 LRCUSDT :December 04 10:58:48:  [-12.47928748964375, -3.4617470202200056, -0.43578767460184015, 1.6902]
+2021-12-04 10:58:48,764 - MARKET - ERROR   : lesser than -1.3 PNTUSDT :December 04 10:58:48:  [-18.76948659322387, -4.891706109977359, -0.4875905105085907, 0.7816]
+2021-12-04 10:58:48,768 - MARKET - ERROR   : lesser than -1.3 COMPUSDT :December 04 10:58:48:  [-10.17110266159696, -3.295772525549288, -0.3696195026756242, 189.0]
+2021-12-04 10:58:48,770 - MARKET - ERROR   : lesser than -1.3 SCUSDT :December 04 10:58:48:  [-11.249259917110711, -3.3379992125392874, -0.4340636270610062, 0.01499]
+2021-12-04 10:58:48,771 - MARKET - ERROR   : lesser than -1.3 ZENUSDT :December 04 10:58:48:  [-14.60964019008826, -4.486947221798273, -0.4713021243562109, 62.89]
+2021-12-04 10:58:48,771 - MARKET - ERROR   : lesser than -1.3 SNXUSDT :December 04 10:58:48:  [-20.532915360501573, -4.631852487782962, -0.4743590063201742, 4.563]
+2021-12-04 10:58:48,775 - MARKET - ERROR   : lesser than -1.3 VTHOUSDT :December 04 10:58:48:  [-13.68955308050191, -2.942958418055256, -0.2887177373112152, 0.006122]
+2021-12-04 10:58:48,775 - MARKET - ERROR   : lesser than -1.3 DGBUSDT :December 04 10:58:48:  [-19.60731576116191, -5.019718166535654, -0.47812720547076126, 0.02989]
+2021-12-04 10:58:48,779 - MARKET - ERROR   : lesser than -1.3 SXPUSDT :December 04 10:58:48:  [-21.137724550898206, -5.44144030363628, -0.538873165466598, 1.317]
+2021-12-04 10:58:48,783 - MARKET - ERROR   : lesser than -1.3 DCRUSDT :December 04 10:58:48:  [-12.78825995807128, -2.741260508807721, -0.2562031355986917, 83.2]
+2021-12-04 10:58:48,786 - MARKET - ERROR   : lesser than -1.3 STORJUSDT :December 04 10:58:48:  [-14.335930634483574, -3.7510013204143067, -0.4601341045780561, 1.4622]
+2021-12-04 10:58:48,787 - MARKET - ERROR   : lesser than -1.3 MANAUSDT :December 04 10:58:48:  [-12.89871292669279, -3.561300689317467, -0.43785025256907883, 2.8017]
+2021-12-04 10:58:48,787 - MARKET - ERROR   : lesser than -1.3 YFIUSDT :December 04 10:58:48:  [-23.151413432486606, -4.70271482781063, -0.45066375143429993, 18196.07]
+2021-12-04 10:58:48,792 - MARKET - ERROR   : lesser than -1.3 BALUSDT :December 04 10:58:48:  [-14.24968474148802, -3.659978438590389, -0.39680117703290757, 13.6]
+2021-12-04 10:58:48,792 - MARKET - ERROR   : lesser than -1.3 BLZUSDT :December 04 10:58:48:  [-20.081135902636913, -4.775366348381203, -0.5246603130971054, 0.197]
+2021-12-04 10:58:48,796 - MARKET - ERROR   : lesser than -1.3 IRISUSDT :December 04 10:58:48:  [-13.571084337349394, -3.101540373449076, -0.3090507038330149, 0.08967]
+2021-12-04 10:58:48,796 - MARKET - ERROR   : lesser than -1.3 KMDUSDT :December 04 10:58:48:  [-11.123925351226669, -2.5299454444453273, -0.3299762915783792, 0.8477]
+2021-12-04 10:58:48,800 - MARKET - ERROR   : lesser than -1.3 JSTUSDT :December 04 10:58:48:  [-7.727052750443623, -2.2579956136240233, -0.27547951523604586, 0.0572]
+2021-12-04 10:58:48,800 - MARKET - ERROR   : lesser than -1.3 SRMUSDT :December 04 10:58:48:  [-6.802099977174161, -2.260327116104606, -0.310017757559058, 4.083]
+2021-12-04 10:58:48,805 - MARKET - ERROR   : lesser than -1.3 ANTUSDT :December 04 10:58:48:  [-13.325153374233132, -3.422051343804889, -0.4442153347206746, 3.532]
+2021-12-04 10:58:48,806 - MARKET - ERROR   : lesser than -1.3 CRVUSDT :December 04 10:58:48:  [-15.661285754743695, -4.134480248739493, -0.44742523605871865, 2.978]
+2021-12-04 10:58:48,806 - MARKET - ERROR   : lesser than -1.3 SANDUSDT :December 04 10:58:48:  [-10.480271380110691, -3.0162682608365623, -0.37706356626082826, 4.5126]
+2021-12-04 10:58:48,810 - MARKET - ERROR   : lesser than -1.3 OCEANUSDT :December 04 10:58:48:  [-10.221447611236416, -3.0848079967481814, -0.4009194343168549, 0.8757]
+2021-12-04 10:58:48,810 - MARKET - ERROR   : lesser than -1.3 NMRUSDT :December 04 10:58:48:  [-7.439999999999998, -2.2973742791491096, -0.17248870655503765, 34.71]
+2021-12-04 10:58:48,814 - MARKET - ERROR   : lesser than -1.3 DOTUSDT :December 04 10:58:48:  [-10.112755461592663, -2.8564805755762683, -0.34141641817344, 25.51]
+2021-12-04 10:58:48,817 - MARKET - ERROR   : lesser than -1.3 LUNAUSDT :December 04 10:58:48:  [-7.066571733713063, -1.5028013194732925, -0.2850707607928259, 52.21]
+2021-12-04 10:58:48,820 - MARKET - ERROR   : lesser than -1.3 RSRUSDT :December 04 10:58:48:  [-18.016528925619827, -4.187411079411407, -0.5148383660252493, 0.02976]
+2021-12-04 10:58:48,820 - MARKET - ERROR   : lesser than -1.3 WNXMUSDT :December 04 10:58:48:  [-14.207286641157877, -3.8553397743831783, -0.3492525732630051, 51.57]
+2021-12-04 10:58:48,824 - MARKET - ERROR   : lesser than -1.3 TRBUSDT :December 04 10:58:48:  [-18.48175965665236, -4.995189993085715, -0.5266437223543399, 30.39]
+2021-12-04 10:58:48,824 - MARKET - ERROR   : lesser than -1.3 BZRXUSDT :December 04 10:58:48:  [-10.513096519555075, -3.253119471304451, -0.3767029958516459, 0.2494]
+2021-12-04 10:58:48,828 - MARKET - ERROR   : lesser than -1.3 SUSHIUSDT :December 04 10:58:48:  [-10.859375, -4.4918758072801, -0.4805966445654095, 4.564]
+2021-12-04 10:58:48,828 - MARKET - ERROR   : lesser than -1.3 YFIIUSDT :December 04 10:58:48:  [-15.857247976453273, -4.048302287646083, -0.4125974354547316, 2287.0]
+2021-12-04 10:58:48,832 - MARKET - ERROR   : lesser than -1.3 KSMUSDT :December 04 10:58:48:  [-14.299900695134077, -2.9407438025562755, -0.35160432856357093, 258.9]
+2021-12-04 10:58:48,832 - MARKET - ERROR   : lesser than -1.3 EGLDUSDT :December 04 10:58:48:  [-12.071656615821205, -3.418260782793834, -0.33965778180268896, 247.87]
+2021-12-04 10:58:48,836 - MARKET - ERROR   : lesser than -1.3 DIAUSDT :December 04 10:58:48:  [-17.28833629366489, -3.2441213549555608, -0.32259983262268926, 1.397]
+2021-12-04 10:58:48,836 - MARKET - ERROR   : lesser than -1.3 RUNEUSDT :December 04 10:58:48:  [-14.799797263051193, -3.9122577023161353, -0.433253519792187, 6.724]
+2021-12-04 10:58:48,841 - MARKET - ERROR   : lesser than -1.3 FIOUSDT :December 04 10:58:48:  [-21.1923411662315, -5.9300850372009615, 0.05692275293879361, 0.1811]
+2021-12-04 10:58:48,842 - MARKET - ERROR   : lesser than -1.3 UMAUSDT :December 04 10:58:48:  [-9.239442002675318, -2.637110866542623, -0.285707568174169, 9.499]
+2021-12-04 10:58:48,846 - MARKET - ERROR   : lesser than -1.3 BELUSDT :December 04 10:58:48:  [-17.20860430215108, -4.456187994323127, -0.4357841930456938, 1.655]
+2021-12-04 10:58:48,846 - MARKET - ERROR   : lesser than -1.3 WINGUSDT :December 04 10:58:48:  [-15.992970123022848, -3.6167017645228206, -0.34586501381574297, 14.34]
+2021-12-04 10:58:48,846 - MARKET - ERROR   : lesser than -1.3 UNIUSDT :December 04 10:58:48:  [-17.05565529622981, -4.1124681005170185, -0.4656193140823952, 13.86]
+2021-12-04 10:58:48,850 - MARKET - ERROR   : lesser than -1.3 NBSUSDT :December 04 10:58:48:  [-12.134344528710738, -3.0152615845597874, -0.4105280581512848, 0.01622]
+2021-12-04 10:58:48,853 - MARKET - ERROR   : lesser than -1.3 OXTUSDT :December 04 10:58:48:  [-5.169082125603859, -2.3273819067611763, -0.2403286799792667, 0.3926]
+2021-12-04 10:58:48,855 - MARKET - ERROR   : lesser than -1.3 SUNUSDT :December 04 10:58:48:  [-7.072691552062866, -2.1087806474546076, -0.2818526745742492, 0.02365]
+2021-12-04 10:58:48,855 - MARKET - ERROR   : lesser than -1.3 AVAXUSDT :December 04 10:58:48:  [-7.966814410728482, -2.387104701787764, -0.29084311604858604, 80.98]
+2021-12-04 10:58:48,859 - MARKET - ERROR   : lesser than -1.3 HNTUSDT :December 04 10:58:48:  [-15.686933154182055, -3.7279825434000893, -0.4408060206797976, 25.1]
+2021-12-04 10:58:48,859 - MARKET - ERROR   : lesser than -1.3 FLMUSDT :December 04 10:58:48:  [-21.259842519685034, -5.4905252759236935, -0.5299233532622394, 0.32]
+2021-12-04 10:58:48,863 - MARKET - ERROR   : lesser than -1.3 ORNUSDT :December 04 10:58:48:  [-10.541439806412583, -2.392936116302889, -0.2646773235017519, 5.915]
+2021-12-04 10:58:48,863 - MARKET - ERROR   : lesser than -1.3 UTKUSDT :December 04 10:58:48:  [-30.82907853148554, -3.498938320187572, -0.1563691065076865, 0.2845]
+2021-12-04 10:58:48,869 - MARKET - ERROR   : lesser than -1.3 XVSUSDT :December 04 10:58:48:  [-9.439999999999998, -3.001748314149217, -0.28604096638539567, 16.98]
+2021-12-04 10:58:48,869 - MARKET - ERROR   : lesser than -1.3 ALPHAUSDT :December 04 10:58:48:  [-5.707998964535324, -3.172480825357949, -0.2621745114504704, 0.7285]
+2021-12-04 10:58:48,873 - MARKET - ERROR   : lesser than -1.3 AAVEUSDT :December 04 10:58:48:  [-11.474530831099198, -3.3293609446034216, -0.39253951209584503, 165.1]
+2021-12-04 10:58:48,873 - MARKET - ERROR   : lesser than -1.3 NEARUSDT :December 04 10:58:48:  [-15.094091327806295, -3.6101569565599974, -0.258198997129842, 6.452]
+2021-12-04 10:58:48,877 - MARKET - ERROR   : lesser than -1.3 FILUSDT :December 04 10:58:48:  [-6.372680828179611, -3.4130189838872376, -0.42464554367817897, 34.82]
+2021-12-04 10:58:48,877 - MARKET - ERROR   : lesser than -1.3 INJUSDT :December 04 10:58:48:  [-5.657492354740066, -1.389784594934414, -0.24397959849696924, 9.872]
+2021-12-04 10:58:48,881 - MARKET - ERROR   : lesser than -1.3 AUDIOUSDT :December 04 10:58:48:  [-13.51193942923704, -4.058231946269443, -0.43022392088034034, 1.485]
+2021-12-04 10:58:48,881 - MARKET - ERROR   : lesser than -1.3 CTKUSDT :December 04 10:58:48:  [-18.32202344231955, -5.013123217977467, -0.5241867598893724, 1.324]
+2021-12-04 10:58:48,885 - MARKET - ERROR   : lesser than -1.3 AKROUSDT :December 04 10:58:48:  [-17.93757408139075, -4.332161699755105, -0.47412238541007523, 0.02077]
+2021-12-04 10:58:48,888 - MARKET - ERROR   : lesser than -1.3 AXSUSDT :December 04 10:58:48:  [-8.249847547695802, -2.1627517970375423, -0.2833412193122614, 105.32]
+2021-12-04 10:58:48,890 - MARKET - ERROR   : lesser than -1.3 HARDUSDT :December 04 10:58:48:  [-14.066297268397001, -4.24528781046399, -0.19477423767981464, 0.884]
+2021-12-04 10:58:48,890 - MARKET - ERROR   : lesser than -1.3 DNTUSDT :December 04 10:58:48:  [-16.234567901234577, -4.251857148253099, -0.313894601318351, 0.1357]
+2021-12-04 10:58:48,894 - MARKET - ERROR   : lesser than -1.3 STRAXUSDT :December 04 10:58:48:  [-17.92929292929293, -3.9431275853710614, -0.43911649815619225, 1.3]
+2021-12-04 10:58:48,894 - MARKET - ERROR   : lesser than -1.3 UNFIUSDT :December 04 10:58:48:  [-21.16502550717761, -5.2899259641408465, -0.543505951219974, 6.645]
+2021-12-04 10:58:48,898 - MARKET - ERROR   : lesser than -1.3 ROSEUSDT :December 04 10:58:48:  [-13.272083241089211, -2.7183258364218803, -0.41364099616763633, 0.23505]
+2021-12-04 10:58:48,898 - MARKET - ERROR   : lesser than -1.3 AVAUSDT :December 04 10:58:48:  [-7.919799498746874, -2.138025709963986, -0.23203696281646966, 1.837]
+2021-12-04 10:58:48,902 - MARKET - ERROR   : lesser than -1.3 XEMUSDT :December 04 10:58:48:  [-16.024653312788907, -4.1149297881893165, -0.4388368679934807, 0.109]
+2021-12-04 10:58:48,904 - MARKET - ERROR   : lesser than -1.3 SKLUSDT :December 04 10:58:48:  [-23.177412557943537, -5.335961986994254, -0.5447068332176171, 0.1823]
+2021-12-04 10:58:48,905 - MARKET - ERROR   : lesser than -1.3 GRTUSDT :December 04 10:58:48:  [-18.040155828588546, -4.482298967949738, -0.48434257853023743, 0.547]
+2021-12-04 10:58:48,909 - MARKET - ERROR   : lesser than -1.3 JUVUSDT :December 04 10:58:48:  [-4.509582863585103, -1.8717041241549164, -0.247101195088381, 8.47]
+2021-12-04 10:58:48,909 - MARKET - ERROR   : lesser than -1.3 PSGUSDT :December 04 10:58:48:  [-7.407407407407403, -1.8517195039865373, -0.21582409668375727, 14.0]
+2021-12-04 10:58:48,913 - MARKET - ERROR   : lesser than -1.3 1INCHUSDT :December 04 10:58:48:  [-16.148325358851668, -4.412040050968084, -0.4935018316539703, 2.103]
+2021-12-04 10:58:48,913 - MARKET - ERROR   : lesser than -1.3 REEFUSDT :December 04 10:58:48:  [-13.5091496232508, -3.7219701953451314, -0.42218269589610774, 0.01607]
+2021-12-04 10:58:48,918 - MARKET - ERROR   : lesser than -1.3 OGUSDT :December 04 10:58:48:  [-9.437539498630704, -1.7041923250075204, -0.18822793706793295, 4.299]
+2021-12-04 10:58:48,919 - MARKET - ERROR   : lesser than -1.3 ATMUSDT :December 04 10:58:48:  [-5.584415584415591, -1.5320938957746062, -0.18232805979126324, 7.27]
+2021-12-04 10:58:48,919 - MARKET - ERROR   : lesser than -1.3 ASRUSDT :December 04 10:58:48:  [-7.661945669839806, -1.6352081487647012, -0.18720496614324794, 3.977]
+2021-12-04 10:58:48,923 - MARKET - ERROR   : lesser than -1.3 CELOUSDT :December 04 10:58:48:  [-18.70337020838693, -4.7639045624999525, -0.46011485491972665, 3.16]
+2021-12-04 10:58:48,927 - MARKET - ERROR   : lesser than -1.3 RIFUSDT :December 04 10:58:48:  [-9.416628387689489, -2.1010466193062274, -0.266238161650039, 0.1972]
+2021-12-04 10:58:48,927 - MARKET - ERROR   : lesser than -1.3 BTCSTUSDT :December 04 10:58:48:  [-10.200668896321075, -2.781886287652526, -0.4026647891005268, 21.48]
+2021-12-04 10:58:48,931 - MARKET - ERROR   : lesser than -1.3 TRUUSDT :December 04 10:58:48:  [-24.20303311668214, -5.604877946114187, -0.5991634885467505, 0.2449]
+2021-12-04 10:58:48,934 - MARKET - ERROR   : lesser than -1.3 CKBUSDT :December 04 10:58:48:  [-10.971524288107194, -2.8287432603281504, -0.2961656406999904, 0.02126]
+2021-12-04 10:58:48,934 - MARKET - ERROR   : lesser than -1.3 TWTUSDT :December 04 10:58:48:  [-22.019115890083636, -4.556557832288119, -0.47584567977475295, 0.6527]
+2021-12-04 10:58:48,938 - MARKET - ERROR   : lesser than -1.3 FIROUSDT :December 04 10:58:48:  [-10.764705882352944, -2.4199772514366775, -0.2916891852508459, 6.068]
+2021-12-04 10:58:48,938 - MARKET - ERROR   : lesser than -1.3 LITUSDT :December 04 10:58:48:  [-18.509212730318254, -5.105060920682404, -0.5237232080369844, 2.919]
+2021-12-04 10:58:48,942 - MARKET - ERROR   : lesser than -1.3 SFPUSDT :December 04 10:58:48:  [-2.978364709187983, -2.073798690740322, -0.3534833112944955, 1.7265]
+2021-12-04 10:58:48,942 - MARKET - ERROR   : lesser than -1.3 DODOUSDT :December 04 10:58:48:  [-17.74809160305344, -4.185496287682988, -0.4828592217828926, 0.862]
+2021-12-04 10:58:48,946 - MARKET - ERROR   : lesser than -1.3 CAKEUSDT :December 04 10:58:48:  [-8.189262966333033, -2.4413484869984496, -0.27587190864721356, 10.09]
+2021-12-04 10:58:48,946 - MARKET - ERROR   : lesser than -1.3 BADGERUSDT :December 04 10:58:48:  [-7.521578298397034, -2.159467843987715, -0.3382412700156682, 15.0]
+2021-12-04 10:58:48,950 - MARKET - ERROR   : lesser than -1.3 FISUSDT :December 04 10:58:48:  [-19.950195659907504, -4.305362725327908, -0.39096921977227744, 1.1251]
+2021-12-04 10:58:48,950 - MARKET - ERROR   : lesser than -1.3 OMUSDT :December 04 10:58:48:  [-19.742679680567875, -4.046442176202762, -0.20453133994573883, 0.1809]
+2021-12-04 10:58:48,954 - MARKET - ERROR   : lesser than -1.3 PONDUSDT :December 04 10:58:48:  [-10.044770979221681, -2.6817155188686823, -0.24437519697721677, 0.07836]
+2021-12-04 10:58:48,958 - MARKET - ERROR   : lesser than -1.3 ALICEUSDT :December 04 10:58:48:  [-11.585807385952206, -4.4658292424373105, -0.5615748282332665, 12.21]
+2021-12-04 10:58:48,958 - MARKET - ERROR   : lesser than -1.3 LINAUSDT :December 04 10:58:48:  [-18.579766536964968, -4.672454940099665, -0.47246926377934095, 0.03348]
+2021-12-04 10:58:48,962 - MARKET - ERROR   : lesser than -1.3 PERPUSDT :December 04 10:58:48:  [-5.193661971830985, -1.3948767416464545, -0.186660096452299, 10.77]
+2021-12-04 10:58:48,962 - MARKET - ERROR   : lesser than -1.3 RAMPUSDT :December 04 10:58:48:  [-14.129615674453666, -2.8198638377457663, -0.26830478306548033, 0.2279]
+2021-12-04 10:58:48,966 - MARKET - ERROR   : lesser than -1.3 SUPERUSDT :December 04 10:58:48:  [-12.531892540897497, -3.395274216954507, -0.3912725904025869, 1.1656]
+2021-12-04 10:58:48,966 - MARKET - ERROR   : lesser than -1.3 CFXUSDT :December 04 10:58:48:  [-19.50538492221778, -4.148572754525559, -0.4366735133493019, 0.2018]
+2021-12-04 10:58:48,970 - MARKET - ERROR   : lesser than -1.3 EPSUSDT :December 04 10:58:48:  [-19.52789699570816, -4.523135119909725, -0.37797209854726577, 0.3]
+2021-12-04 10:58:48,970 - MARKET - ERROR   : lesser than -1.3 AUTOUSDT :December 04 10:58:48:  [-18.738265114532474, -3.94756971853947, -0.3598528866121033, 649.2]
+2021-12-04 10:58:48,974 - MARKET - ERROR   : lesser than -1.3 TKOUSDT :December 04 10:58:48:  [-12.517006802721085, -2.6491210303338817, -0.3179385665998261, 1.286]
+2021-12-04 10:58:48,974 - MARKET - ERROR   : lesser than -1.3 PUNDIXUSDT :December 04 10:58:48:  [-22.651933701657466, -4.596481658061747, -0.49214449054220316, 0.84]
+2021-12-04 10:58:48,978 - MARKET - ERROR   : lesser than -1.3 TLMUSDT :December 04 10:58:48:  [-22.423802612481865, -5.290442417135959, -0.5683329233422558, 0.2138]
+2021-12-04 10:58:48,978 - MARKET - ERROR   : lesser than -1.3 BTGUSDT :December 04 10:58:48:  [-23.34169136083883, -4.570698690858037, -0.4678271010640763, 33.63]
+2021-12-04 10:58:48,984 - MARKET - ERROR   : lesser than -1.3 MIRUSDT :December 04 10:58:48:  [-10.06263048016702, -2.2633823628279357, -0.20192229374417126, 2.154]
+2021-12-04 10:58:48,984 - MARKET - ERROR   : lesser than -1.3 BARUSDT :December 04 10:58:48:  [-5.817782656421508, -2.1366708317921677, -0.21620246265658527, 8.58]
+2021-12-04 10:58:48,988 - MARKET - ERROR   : lesser than -1.3 FORTHUSDT :December 04 10:58:48:  [-7.5062552126772335, -2.0375837004751616, -0.2263150367375837, 11.09]
+2021-12-04 10:58:48,988 - MARKET - ERROR   : lesser than -1.3 BAKEUSDT :December 04 10:58:48:  [-18.1951577402788, -4.892843397153454, -0.43028048176898576, 1.115]
+2021-12-04 10:58:48,992 - MARKET - ERROR   : lesser than -1.3 BURGERUSDT :December 04 10:58:48:  [-12.277353689567432, -2.8750435426233554, -0.3422253383543726, 2.758]
+2021-12-04 10:58:48,992 - MARKET - ERROR   : lesser than -1.3 SLPUSDT :December 04 10:58:48:  [-19.39953810623556, -3.8450843812183053, -0.45120766466933643, 0.0349]
+2021-12-04 10:58:48,996 - MARKET - ERROR   : lesser than -1.3 SHIBUSDT :December 04 10:58:48:  [-11.217317964576893, -2.6568769453521393, -0.26756664363092747, 3.158e-05]
+2021-12-04 10:58:48,996 - MARKET - ERROR   : lesser than -1.3 ICPUSDT :December 04 10:58:48:  [-16.443850267379684, -4.594376560358776, -0.48228801732147575, 25.0]
+2021-12-04 10:58:49,000 - MARKET - ERROR   : lesser than -1.3 ARUSDT :December 04 10:58:49:  [-14.26360017691286, -3.712639472493079, -0.3796501545426733, 38.77]
+2021-12-04 10:58:49,000 - MARKET - ERROR   : lesser than -1.3 POLSUSDT :December 04 10:58:49:  [-5.887708649468891, -1.6735353988712178, -0.23864265390587905, 3.101]
+2021-12-04 10:58:49,004 - MARKET - ERROR   : lesser than -1.3 MDXUSDT :December 04 10:58:49:  [-9.807355516637468, -2.348427031937619, -0.3100252794533869, 0.515]
+2021-12-04 10:58:49,004 - MARKET - ERROR   : lesser than -1.3 MASKUSDT :December 04 10:58:49:  [-16.275087986302676, -4.309082893018038, -0.5366537551566939, 8.802]
+2021-12-04 10:58:49,008 - MARKET - ERROR   : lesser than -1.3 LPTUSDT :December 04 10:58:49:  [-10.563380281690137, -3.6613358863596863, -0.4550146392851712, 33.02]
+2021-12-04 10:58:49,008 - MARKET - ERROR   : lesser than -1.3 NUUSDT :December 04 10:58:49:  [-10.508205399682375, -2.6105695732063317, -0.28070936459847146, 0.6762]
+2021-12-04 10:58:49,012 - MARKET - ERROR   : lesser than -1.3 XVGUSDT :December 04 10:58:49:  [-17.722823286965475, -3.8364849981546327, -0.41979921841319406, 0.01597]
+2021-12-04 10:58:49,012 - MARKET - ERROR   : lesser than -1.3 ATAUSDT :December 04 10:58:49:  [-19.01452937460518, -4.932595874712611, -0.502210086567026, 0.641]
+2021-12-04 10:58:49,016 - MARKET - ERROR   : lesser than -1.3 GTCUSDT :December 04 10:58:49:  [-4.970662196144175, -1.9289649950182057, -0.30250879770305095, 11.337]
+2021-12-04 10:58:49,016 - MARKET - ERROR   : lesser than -1.3 TORNUSDT :December 04 10:58:49:  [-9.300455641919052, -2.4003512639622415, -0.326242989757149, 33.84]
+2021-12-04 10:58:49,020 - MARKET - ERROR   : lesser than -1.3 KEEPUSDT :December 04 10:58:49:  [-12.501796235091245, -3.2828017506402927, -0.2997206176254104, 0.6089]
+2021-12-04 10:58:49,020 - MARKET - ERROR   : lesser than -1.3 ERNUSDT :December 04 10:58:49:  [-8.789009189336724, -1.9922640031970118, -0.2195069899825094, 10.025]
+2021-12-04 10:58:49,024 - MARKET - ERROR   : lesser than -1.3 KLAYUSDT :December 04 10:58:49:  [-15.548539857932111, -3.3061872953855818, -0.3567801401641681, 1.07]
+2021-12-04 10:58:49,028 - MARKET - ERROR   : lesser than -1.3 PHAUSDT :December 04 10:58:49:  [-7.645796762239139, -2.2414352463059473, -0.29697626742261757, 0.4735]
+2021-12-04 10:58:49,028 - MARKET - ERROR   : lesser than -1.3 BONDUSDT :December 04 10:58:49:  [-8.92531876138434, -2.2240639162415086, -0.24372462846025342, 20.0]
+2021-12-04 10:58:49,032 - MARKET - ERROR   : lesser than -1.3 MLNUSDT :December 04 10:58:49:  [-7.826086956521743, -1.878406001280806, -0.17972309480157292, 84.8]
+2021-12-04 10:58:49,036 - MARKET - ERROR   : lesser than -1.3 DEXEUSDT :December 04 10:58:49:  [-6.487695749440723, -1.4835351476988936, -0.09236651486604508, 12.54]
+2021-12-04 10:58:49,036 - MARKET - ERROR   : lesser than -1.3 C98USDT :December 04 10:58:49:  [-15.400495458298934, -4.285103979018362, -0.4161487886329826, 2.049]
+2021-12-04 10:58:49,040 - MARKET - ERROR   : lesser than -1.3 CLVUSDT :December 04 10:58:49:  [-17.799352750809064, -3.9110889761309346, -0.39548880683438664, 0.762]
+2021-12-04 10:58:49,044 - MARKET - ERROR   : lesser than -1.3 FLOWUSDT :December 04 10:58:49:  [-6.33946830265848, -2.1991363438963334, -0.28194774549057433, 9.16]
+2021-12-04 10:58:49,044 - MARKET - ERROR   : lesser than -1.3 TVKUSDT :December 04 10:58:49:  [-20.518358531317492, -4.508188846244949, -0.513306215111544, 0.2208]
+2021-12-04 10:58:49,048 - MARKET - ERROR   : lesser than -1.3 MINAUSDT :December 04 10:58:49:  [-7.518796992481209, -1.8572500885888634, -0.2455690422184214, 3.444]
+2021-12-04 10:58:49,048 - MARKET - ERROR   : lesser than -1.3 RAYUSDT :December 04 10:58:49:  [-8.876772082878952, -2.2305948655765784, -0.2914827755399588, 8.356]
+2021-12-04 10:58:49,052 - MARKET - ERROR   : lesser than -1.3 FARMUSDT :December 04 10:58:49:  [-14.25818882466281, -2.650891147048527, -0.3030989401799481, 89.0]
+2021-12-04 10:58:49,052 - MARKET - ERROR   : lesser than -1.3 ALPACAUSDT :December 04 10:58:49:  [-6.721337835664907, -2.7138108273219985, -0.22277285083664872, 0.5801]
+2021-12-04 10:58:49,056 - MARKET - ERROR   : lesser than -1.3 QUICKUSDT :December 04 10:58:49:  [-5.844155844155841, -2.063028845116903, -0.23639015156589058, 261.0]
+2021-12-04 10:58:49,061 - MARKET - ERROR   : lesser than -1.3 MBOXUSDT :December 04 10:58:49:  [-12.528171814927752, -2.7649168285624635, -0.3357645414618414, 6.598]
+2021-12-04 10:58:49,061 - MARKET - ERROR   : lesser than -1.3 FORUSDT :December 04 10:58:49:  [-10.715260715260728, -3.230601809327097, -0.28023639248679644, 0.06541]
+2021-12-04 10:58:49,066 - MARKET - ERROR   : lesser than -1.3 REQUSDT :December 04 10:58:49:  [-9.37624950019992, -2.4048226147343414, -0.3057285319652157, 0.4533]
+2021-12-04 10:58:49,067 - MARKET - ERROR   : lesser than -1.3 WAXPUSDT :December 04 10:58:49:  [-11.128284389489954, -3.487647193526063, -0.42855262813229444, 0.4025]
+2021-12-04 10:58:49,071 - MARKET - ERROR   : lesser than -1.3 GNOUSDT :December 04 10:58:49:  [-11.777888446215142, -1.9004604567282406, -0.2907924766202967, 354.3]
+2021-12-04 10:58:49,071 - MARKET - ERROR   : lesser than -1.3 XECUSDT :December 04 10:58:49:  [-21.98962578732864, -5.228020863865539, -0.5445558591380358, 8.422e-05]
+2021-12-04 10:58:49,075 - MARKET - ERROR   : lesser than -1.3 ELFUSDT :December 04 10:58:49:  [-16.937354988399083, -4.379314324436503, -0.4884428481178245, 0.3222]
+2021-12-04 10:58:49,075 - MARKET - ERROR   : lesser than -1.3 DYDXUSDT :December 04 10:58:49:  [-11.851028349082814, -5.103474696059556, -0.5114631655584605, 7.929]
+2021-12-04 10:58:49,079 - MARKET - ERROR   : lesser than -1.3 POLYUSDT :December 04 10:58:49:  [-11.232011232011223, -3.0272155716096165, -0.3735702440203818, 0.5058]
+2021-12-04 10:58:49,079 - MARKET - ERROR   : lesser than -1.3 IDEXUSDT :December 04 10:58:49:  [-6.133692930071273, -2.659990301841835, -0.3695426109641825, 0.24363]
+2021-12-04 10:58:49,083 - MARKET - ERROR   : lesser than -1.3 VIDTUSDT :December 04 10:58:49:  [-16.192170818505346, -3.448321044648902, -0.27931454662774363, 0.6594]
+2021-12-04 10:58:49,085 - MARKET - ERROR   : lesser than -1.3 GALAUSDT :December 04 10:58:49:  [-13.045796946870206, -3.7130324297945627, -0.3345619466561438, 0.39132]
+2021-12-04 10:58:49,086 - MARKET - ERROR   : lesser than -1.3 ILVUSDT :December 04 10:58:49:  [-9.11227351982411, -1.9340513972727653, -0.29533263504567914, 1198.9]
+2021-12-04 10:58:49,090 - MARKET - ERROR   : lesser than -1.3 YGGUSDT :December 04 10:58:49:  [-16.27228525121555, -4.0102134174068125, -0.4217735459719056, 5.166]
+2021-12-04 10:58:49,090 - MARKET - ERROR   : lesser than -1.3 SYSUSDT :December 04 10:58:49:  [-16.96610169491525, -3.986700861129762, -0.44390875787079165, 0.4899]
+2021-12-04 10:58:49,090 - MARKET - ERROR   : lesser than -1.3 DFUSDT :December 04 10:58:49:  [-8.832612723903633, -2.2364535359397353, -0.2441902430903569, 0.1476]
+2021-12-04 10:58:49,094 - MARKET - ERROR   : lesser than -1.3 FIDAUSDT :December 04 10:58:49:  [-6.83322079675895, -1.403648680006977, -0.26855549386167776, 6.899]
+2021-12-04 10:58:49,098 - MARKET - ERROR   : lesser than -1.3 FRONTUSDT :December 04 10:58:49:  [-18.428118135220895, -4.053903504622964, -0.3922879872845595, 0.6684]
+2021-12-04 10:58:49,101 - MARKET - ERROR   : lesser than -1.3 CVPUSDT :December 04 10:58:49:  [-8.807045636509214, -3.1034847926818605, -0.2629659541482793, 1.139]
+2021-12-04 10:58:49,103 - MARKET - ERROR   : lesser than -1.3 AGLDUSDT :December 04 10:58:49:  [-22.01680672268908, -5.249792773976586, -0.514761876566939, 1.392]
+2021-12-04 10:58:49,103 - MARKET - ERROR   : lesser than -1.3 RADUSDT :December 04 10:58:49:  [-4.654377880184322, -1.367725385266673, -0.2351072088807984, 10.345]
+2021-12-04 10:58:49,107 - MARKET - ERROR   : lesser than -1.3 BETAUSDT :December 04 10:58:49:  [-8.753994266750228, -2.3178059443457353, -0.3642628790887613, 0.88807]
+2021-12-04 10:58:49,107 - MARKET - ERROR   : lesser than -1.3 RAREUSDT :December 04 10:58:49:  [-19.621212121212128, -4.02815513482806, -0.449973562815923, 1.061]
+2021-12-04 10:58:49,111 - MARKET - ERROR   : lesser than -1.3 LAZIOUSDT :December 04 10:58:49:  [-10.801885603367861, -3.0101199918572052, -0.34612586965757364, 3.5384]
+2021-12-04 10:58:49,111 - MARKET - ERROR   : lesser than -1.3 CHESSUSDT :December 04 10:58:49:  [-18.789043728976456, -3.456674118053559, -0.3547674018512556, 1.69]
+2021-12-04 10:58:49,115 - MARKET - ERROR   : lesser than -1.3 ADXUSDT :December 04 10:58:49:  [-12.461161079313172, -3.2196789654635842, -0.36277347569950325, 0.5353]
+2021-12-04 10:58:49,115 - MARKET - ERROR   : lesser than -1.3 AUCTIONUSDT :December 04 10:58:49:  [-17.271505376344088, -4.884003634463672, -0.24615904753218834, 24.62]
+2021-12-04 10:58:49,119 - MARKET - ERROR   : lesser than -1.3 DARUSDT :December 04 10:58:49:  [-13.002164434824737, -3.496233907178921, -0.4280392070426845, 1.95746]
+2021-12-04 10:58:49,119 - MARKET - ERROR   : lesser than -1.3 BNXUSDT :December 04 10:58:49:  [-15.105386416861833, -2.9162150843283823, -0.42136181578627785, 72.5]
+2021-12-04 10:58:49,123 - MARKET - ERROR   : lesser than -1.3 RGTUSDT :December 04 10:58:49:  [-9.354536950420956, -2.184328789648756, -0.2832045172695245, 19.38]
+2021-12-04 10:58:49,123 - MARKET - ERROR   : lesser than -1.3 MOVRUSDT :December 04 10:58:49:  [-13.460756405042698, -2.6210270676965415, -0.36445967906002086, 212.8]
+2021-12-04 10:58:49,127 - MARKET - ERROR   : lesser than -1.3 CITYUSDT :December 04 10:58:49:  [-2.0652173913043423, -1.4657256423763505, -0.18225254038586589, 9.01]
+2021-12-04 10:58:49,127 - MARKET - ERROR   : lesser than -1.3 ENSUSDT :December 04 10:58:49:  [-11.93668938228182, -2.879855718777036, -0.4125622373714666, 40.06]
+2021-12-04 10:58:49,132 - MARKET - ERROR   : lesser than -1.3 KP3RUSDT :December 04 10:58:49:  [-16.64595516569201, -3.3599370179383024, -0.4023768420184781, 684.17]
+2021-12-04 10:58:49,132 - MARKET - ERROR   : lesser than -1.3 QIUSDT :December 04 10:58:49:  [-7.484725050916492, -2.6567401531697494, -0.31124050781102996, 0.1817]
+2021-12-04 10:58:49,136 - MARKET - ERROR   : lesser than -1.3 PORTOUSDT :December 04 10:58:49:  [-13.478118876551262, -3.00779044063005, -0.3319440430872821, 2.6493]
+2021-12-04 10:58:49,136 - MARKET - ERROR   : lesser than -1.3 POWRUSDT :December 04 10:58:49:  [-19.74221267454351, -3.9690858265979183, -0.46763486772170104, 0.3736]
+2021-12-04 10:58:49,140 - MARKET - ERROR   : lesser than -1.3 VGXUSDT :December 04 10:58:49:  [-6.8904593639576, -1.5256607870419538, -0.22386031806042236, 3.689]
+2021-12-04 10:58:49,140 - MARKET - ERROR   : lesser than -1.3 JASMYUSDT :December 04 10:58:49:  [-14.424514200298951, -3.8872082817231615, -0.42157821383057364, 0.1145]
+2021-12-04 10:58:49,144 - MARKET - ERROR   : lesser than -1.3 PLAUSDT :December 04 10:58:49:  [-20.479178551055334, -4.661506812672234, -0.49953002410181374, 1.394]
+2021-12-04 10:58:49,145 - MARKET - ERROR   : lesser than -1.3 PYRUSDT :December 04 10:58:49:  [-17.956157317859446, -3.4377922743175264, -0.41871426725177835, 25.45]
+2021-12-04 10:58:49,145 - MARKET - ERROR   : lesser than -1.3 RNDRUSDT :December 04 10:58:49:  [-3.0976590210451698, -2.250839451663663, -0.3760341110100569, 4.098]
+2021-12-04 10:58:49,149 - MARKET - ERROR   : lesser than -1.3 SANTOSUSDT :December 04 10:58:49:  [-9.041095890410965, -2.0493608363835873, -0.5035878443082911, 4.316]
+2021-12-04 10:58:49,153 - MARKET - ERROR   : lesser than -1.3 MCUSDT :December 04 10:58:49:  [-10.398860398860393, -2.8190721693153713, -0.4421899173432489, 6.29]
+2021-12-04 10:59:04,025 - MARKET - INFO   : Hello
+2021-12-04 10:59:04,028 - MARKET - INFO   : Looks like recent old report is available,waiting for 14.782487531503042 min
+2021-12-04 10:59:50,448 - MARKET - INFO   : Hello
+2021-12-04 10:59:50,449 - MARKET - INFO   : Looks like recent old report is available,waiting for 14.008799417813618 min
+2021-12-04 10:59:50,451 - MARKET - ERROR   : File not found!!!!
+2021-12-04 10:59:50,454 - MARKET - INFO   : Getting the last 24hr data
+2021-12-04 13:02:54,316 - MARKET - INFO   : Hello
+2021-12-04 13:02:54,317 - MARKET - INFO   : recent old report is invalid now, exiting
+2021-12-04 13:03:10,394 - MARKET - INFO   : Hello
+2021-12-04 13:03:10,394 - MARKET - INFO   : Got last 24hr dtaa
+2021-12-04 13:03:11,173 - MARKET - INFO   : req time:0 sec
+2021-12-04 13:03:11,174 - MARKET - DEBUG   : err_key'BTCUSDT'
+2021-12-04 13:03:11,174 - MARKET - DEBUG   : err_key'ETHUSDT'
+2021-12-04 13:03:11,174 - MARKET - DEBUG   : err_key'BNBUSDT'
+2021-12-04 13:03:11,175 - MARKET - DEBUG   : err_key'BCCUSDT'
+2021-12-04 13:03:11,175 - MARKET - DEBUG   : err_key'NEOUSDT'
+2021-12-04 13:03:11,176 - MARKET - DEBUG   : err_key'LTCUSDT'
+2021-12-04 13:03:11,176 - MARKET - DEBUG   : err_key'QTUMUSDT'
+2021-12-04 13:03:11,176 - MARKET - DEBUG   : err_key'ADAUSDT'
+2021-12-04 13:03:11,177 - MARKET - DEBUG   : err_key'XRPUSDT'
+2021-12-04 13:03:11,177 - MARKET - DEBUG   : err_key'EOSUSDT'
+2021-12-04 13:03:11,177 - MARKET - DEBUG   : err_key'TUSDUSDT'
+2021-12-04 13:03:11,178 - MARKET - DEBUG   : err_key'IOTAUSDT'
+2021-12-04 13:03:11,178 - MARKET - DEBUG   : err_key'XLMUSDT'
+2021-12-04 13:03:11,178 - MARKET - DEBUG   : err_key'ONTUSDT'
+2021-12-04 13:03:11,179 - MARKET - DEBUG   : err_key'TRXUSDT'
+2021-12-04 13:03:11,179 - MARKET - DEBUG   : err_key'ETCUSDT'
+2021-12-04 13:03:11,180 - MARKET - DEBUG   : err_key'ICXUSDT'
+2021-12-04 13:03:11,181 - MARKET - DEBUG   : err_key'VENUSDT'
+2021-12-04 13:03:11,183 - MARKET - DEBUG   : err_key'NULSUSDT'
+2021-12-04 13:03:11,183 - MARKET - DEBUG   : err_key'VETUSDT'
+2021-12-04 13:03:11,183 - MARKET - DEBUG   : err_key'PAXUSDT'
+2021-12-04 13:03:11,184 - MARKET - DEBUG   : err_key'BCHABCUSDT'
+2021-12-04 13:03:11,184 - MARKET - DEBUG   : err_key'BCHSVUSDT'
+2021-12-04 13:03:11,185 - MARKET - DEBUG   : err_key'USDCUSDT'
+2021-12-04 13:03:11,185 - MARKET - DEBUG   : err_key'LINKUSDT'
+2021-12-04 13:03:11,185 - MARKET - DEBUG   : err_key'WAVESUSDT'
+2021-12-04 13:03:11,185 - MARKET - DEBUG   : err_key'BTTUSDT'
+2021-12-04 13:03:11,186 - MARKET - DEBUG   : err_key'USDSUSDT'
+2021-12-04 13:03:11,186 - MARKET - DEBUG   : err_key'ONGUSDT'
+2021-12-04 13:03:11,186 - MARKET - DEBUG   : err_key'HOTUSDT'
+2021-12-04 13:03:11,187 - MARKET - DEBUG   : err_key'ZILUSDT'
+2021-12-04 13:03:11,187 - MARKET - DEBUG   : err_key'ZRXUSDT'
+2021-12-04 13:03:11,187 - MARKET - DEBUG   : err_key'FETUSDT'
+2021-12-04 13:03:11,187 - MARKET - DEBUG   : err_key'BATUSDT'
+2021-12-04 13:03:11,188 - MARKET - DEBUG   : err_key'XMRUSDT'
+2021-12-04 13:03:11,188 - MARKET - DEBUG   : err_key'ZECUSDT'
+2021-12-04 13:03:11,188 - MARKET - DEBUG   : err_key'IOSTUSDT'
+2021-12-04 13:03:11,189 - MARKET - DEBUG   : err_key'CELRUSDT'
+2021-12-04 13:03:11,189 - MARKET - DEBUG   : err_key'DASHUSDT'
+2021-12-04 13:03:11,190 - MARKET - DEBUG   : err_key'NANOUSDT'
+2021-12-04 13:03:11,190 - MARKET - DEBUG   : err_key'OMGUSDT'
+2021-12-04 13:03:11,190 - MARKET - DEBUG   : err_key'THETAUSDT'
+2021-12-04 13:03:11,190 - MARKET - DEBUG   : err_key'ENJUSDT'
+2021-12-04 13:03:11,191 - MARKET - DEBUG   : err_key'MITHUSDT'
+2021-12-04 13:03:11,191 - MARKET - DEBUG   : err_key'MATICUSDT'
+2021-12-04 13:03:11,191 - MARKET - DEBUG   : err_key'ATOMUSDT'
+2021-12-04 13:03:11,192 - MARKET - DEBUG   : err_key'TFUELUSDT'
+2021-12-04 13:03:11,192 - MARKET - DEBUG   : err_key'ONEUSDT'
+2021-12-04 13:03:11,192 - MARKET - DEBUG   : err_key'FTMUSDT'
+2021-12-04 13:03:11,192 - MARKET - DEBUG   : err_key'ALGOUSDT'
+2021-12-04 13:03:11,193 - MARKET - DEBUG   : err_key'USDSBUSDT'
+2021-12-04 13:03:11,193 - MARKET - DEBUG   : err_key'GTOUSDT'
+2021-12-04 13:03:11,193 - MARKET - DEBUG   : err_key'ERDUSDT'
+2021-12-04 13:03:11,194 - MARKET - DEBUG   : err_key'DOGEUSDT'
+2021-12-04 13:03:11,194 - MARKET - DEBUG   : err_key'DUSKUSDT'
+2021-12-04 13:03:11,194 - MARKET - DEBUG   : err_key'ANKRUSDT'
+2021-12-04 13:03:11,195 - MARKET - DEBUG   : err_key'WINUSDT'
+2021-12-04 13:03:11,195 - MARKET - DEBUG   : err_key'COSUSDT'
+2021-12-04 13:03:11,195 - MARKET - DEBUG   : err_key'NPXSUSDT'
+2021-12-04 13:03:11,196 - MARKET - DEBUG   : err_key'COCOSUSDT'
+2021-12-04 13:03:11,197 - MARKET - DEBUG   : err_key'MTLUSDT'
+2021-12-04 13:03:11,198 - MARKET - DEBUG   : err_key'TOMOUSDT'
+2021-12-04 13:03:11,199 - MARKET - DEBUG   : err_key'PERLUSDT'
+2021-12-04 13:03:11,200 - MARKET - DEBUG   : err_key'DENTUSDT'
+2021-12-04 13:03:11,200 - MARKET - DEBUG   : err_key'MFTUSDT'
+2021-12-04 13:03:11,201 - MARKET - DEBUG   : err_key'KEYUSDT'
+2021-12-04 13:03:11,201 - MARKET - DEBUG   : err_key'STORMUSDT'
+2021-12-04 13:03:11,201 - MARKET - DEBUG   : err_key'DOCKUSDT'
+2021-12-04 13:03:11,202 - MARKET - DEBUG   : err_key'WANUSDT'
+2021-12-04 13:03:11,202 - MARKET - DEBUG   : err_key'FUNUSDT'
+2021-12-04 13:03:11,202 - MARKET - DEBUG   : err_key'CVCUSDT'
+2021-12-04 13:03:11,202 - MARKET - DEBUG   : err_key'CHZUSDT'
+2021-12-04 13:03:11,203 - MARKET - DEBUG   : err_key'BANDUSDT'
+2021-12-04 13:03:11,203 - MARKET - DEBUG   : err_key'BUSDUSDT'
+2021-12-04 13:03:11,203 - MARKET - DEBUG   : err_key'BEAMUSDT'
+2021-12-04 13:03:11,204 - MARKET - DEBUG   : err_key'XTZUSDT'
+2021-12-04 13:03:11,204 - MARKET - DEBUG   : err_key'RENUSDT'
+2021-12-04 13:03:11,204 - MARKET - DEBUG   : err_key'RVNUSDT'
+2021-12-04 13:03:11,205 - MARKET - DEBUG   : err_key'HCUSDT'
+2021-12-04 13:03:11,205 - MARKET - DEBUG   : err_key'HBARUSDT'
+2021-12-04 13:03:11,205 - MARKET - DEBUG   : err_key'NKNUSDT'
+2021-12-04 13:03:11,206 - MARKET - DEBUG   : err_key'STXUSDT'
+2021-12-04 13:03:11,206 - MARKET - DEBUG   : err_key'KAVAUSDT'
+2021-12-04 13:03:11,206 - MARKET - DEBUG   : err_key'ARPAUSDT'
+2021-12-04 13:03:11,207 - MARKET - DEBUG   : err_key'IOTXUSDT'
+2021-12-04 13:03:11,207 - MARKET - DEBUG   : err_key'RLCUSDT'
+2021-12-04 13:03:11,207 - MARKET - DEBUG   : err_key'MCOUSDT'
+2021-12-04 13:03:11,208 - MARKET - DEBUG   : err_key'CTXCUSDT'
+2021-12-04 13:03:11,208 - MARKET - DEBUG   : err_key'BCHUSDT'
+2021-12-04 13:03:11,208 - MARKET - DEBUG   : err_key'TROYUSDT'
+2021-12-04 13:03:11,209 - MARKET - DEBUG   : err_key'VITEUSDT'
+2021-12-04 13:03:11,209 - MARKET - DEBUG   : err_key'FTTUSDT'
+2021-12-04 13:03:11,209 - MARKET - DEBUG   : err_key'EURUSDT'
+2021-12-04 13:03:11,210 - MARKET - DEBUG   : err_key'OGNUSDT'
+2021-12-04 13:03:11,210 - MARKET - DEBUG   : err_key'DREPUSDT'
+2021-12-04 13:03:11,210 - MARKET - DEBUG   : err_key'BULLUSDT'
+2021-12-04 13:03:11,210 - MARKET - DEBUG   : err_key'BEARUSDT'
+2021-12-04 13:03:11,211 - MARKET - DEBUG   : err_key'ETHBULLUSDT'
+2021-12-04 13:03:11,211 - MARKET - DEBUG   : err_key'ETHBEARUSDT'
+2021-12-04 13:03:11,211 - MARKET - DEBUG   : err_key'TCTUSDT'
+2021-12-04 13:03:11,212 - MARKET - DEBUG   : err_key'WRXUSDT'
+2021-12-04 13:03:11,212 - MARKET - DEBUG   : err_key'BTSUSDT'
+2021-12-04 13:03:11,213 - MARKET - DEBUG   : err_key'LSKUSDT'
+2021-12-04 13:03:11,215 - MARKET - DEBUG   : err_key'BNTUSDT'
+2021-12-04 13:03:11,216 - MARKET - DEBUG   : err_key'LTOUSDT'
+2021-12-04 13:03:11,217 - MARKET - DEBUG   : err_key'EOSBULLUSDT'
+2021-12-04 13:03:11,217 - MARKET - DEBUG   : err_key'EOSBEARUSDT'
+2021-12-04 13:03:11,217 - MARKET - DEBUG   : err_key'XRPBULLUSDT'
+2021-12-04 13:03:11,218 - MARKET - DEBUG   : err_key'XRPBEARUSDT'
+2021-12-04 13:03:11,218 - MARKET - DEBUG   : err_key'STRATUSDT'
+2021-12-04 13:03:11,219 - MARKET - DEBUG   : err_key'AIONUSDT'
+2021-12-04 13:03:11,219 - MARKET - DEBUG   : err_key'MBLUSDT'
+2021-12-04 13:03:11,219 - MARKET - DEBUG   : err_key'COTIUSDT'
+2021-12-04 13:03:11,220 - MARKET - DEBUG   : err_key'BNBBULLUSDT'
+2021-12-04 13:03:11,220 - MARKET - DEBUG   : err_key'BNBBEARUSDT'
+2021-12-04 13:03:11,220 - MARKET - DEBUG   : err_key'STPTUSDT'
+2021-12-04 13:03:11,221 - MARKET - DEBUG   : err_key'WTCUSDT'
+2021-12-04 13:03:11,221 - MARKET - DEBUG   : err_key'DATAUSDT'
+2021-12-04 13:03:11,221 - MARKET - DEBUG   : err_key'XZCUSDT'
+2021-12-04 13:03:11,222 - MARKET - DEBUG   : err_key'SOLUSDT'
+2021-12-04 13:03:11,222 - MARKET - DEBUG   : err_key'CTSIUSDT'
+2021-12-04 13:03:11,223 - MARKET - DEBUG   : err_key'HIVEUSDT'
+2021-12-04 13:03:11,223 - MARKET - DEBUG   : err_key'CHRUSDT'
+2021-12-04 13:03:11,224 - MARKET - DEBUG   : err_key'GXSUSDT'
+2021-12-04 13:03:11,224 - MARKET - DEBUG   : err_key'ARDRUSDT'
+2021-12-04 13:03:11,224 - MARKET - DEBUG   : err_key'LENDUSDT'
+2021-12-04 13:03:11,225 - MARKET - DEBUG   : err_key'MDTUSDT'
+2021-12-04 13:03:11,225 - MARKET - DEBUG   : err_key'STMXUSDT'
+2021-12-04 13:03:11,225 - MARKET - DEBUG   : err_key'KNCUSDT'
+2021-12-04 13:03:11,225 - MARKET - DEBUG   : err_key'REPUSDT'
+2021-12-04 13:03:11,226 - MARKET - DEBUG   : err_key'LRCUSDT'
+2021-12-04 13:03:11,226 - MARKET - DEBUG   : err_key'PNTUSDT'
+2021-12-04 13:03:11,226 - MARKET - DEBUG   : err_key'COMPUSDT'
+2021-12-04 13:03:11,227 - MARKET - DEBUG   : err_key'BKRWUSDT'
+2021-12-04 13:03:11,227 - MARKET - DEBUG   : err_key'SCUSDT'
+2021-12-04 13:03:11,227 - MARKET - DEBUG   : err_key'ZENUSDT'
+2021-12-04 13:03:11,228 - MARKET - DEBUG   : err_key'SNXUSDT'
+2021-12-04 13:03:11,228 - MARKET - DEBUG   : err_key'VTHOUSDT'
+2021-12-04 13:03:11,228 - MARKET - DEBUG   : err_key'DGBUSDT'
+2021-12-04 13:03:11,229 - MARKET - DEBUG   : err_key'GBPUSDT'
+2021-12-04 13:03:11,229 - MARKET - DEBUG   : err_key'SXPUSDT'
+2021-12-04 13:03:11,230 - MARKET - DEBUG   : err_key'MKRUSDT'
+2021-12-04 13:03:11,231 - MARKET - DEBUG   : err_key'DAIUSDT'
+2021-12-04 13:03:11,232 - MARKET - DEBUG   : err_key'DCRUSDT'
+2021-12-04 13:03:11,233 - MARKET - DEBUG   : err_key'STORJUSDT'
+2021-12-04 13:03:11,233 - MARKET - DEBUG   : err_key'MANAUSDT'
+2021-12-04 13:03:11,233 - MARKET - DEBUG   : err_key'AUDUSDT'
+2021-12-04 13:03:11,233 - MARKET - DEBUG   : err_key'YFIUSDT'
+2021-12-04 13:03:11,234 - MARKET - DEBUG   : err_key'BALUSDT'
+2021-12-04 13:03:11,234 - MARKET - DEBUG   : err_key'BLZUSDT'
+2021-12-04 13:03:11,234 - MARKET - DEBUG   : err_key'IRISUSDT'
+2021-12-04 13:03:11,235 - MARKET - DEBUG   : err_key'KMDUSDT'
+2021-12-04 13:03:11,235 - MARKET - DEBUG   : err_key'JSTUSDT'
+2021-12-04 13:03:11,235 - MARKET - DEBUG   : err_key'SRMUSDT'
+2021-12-04 13:03:11,235 - MARKET - DEBUG   : err_key'ANTUSDT'
+2021-12-04 13:03:11,236 - MARKET - DEBUG   : err_key'CRVUSDT'
+2021-12-04 13:03:11,236 - MARKET - DEBUG   : err_key'SANDUSDT'
+2021-12-04 13:03:11,236 - MARKET - DEBUG   : err_key'OCEANUSDT'
+2021-12-04 13:03:11,236 - MARKET - DEBUG   : err_key'NMRUSDT'
+2021-12-04 13:03:11,237 - MARKET - DEBUG   : err_key'DOTUSDT'
+2021-12-04 13:03:11,237 - MARKET - DEBUG   : err_key'LUNAUSDT'
+2021-12-04 13:03:11,237 - MARKET - DEBUG   : err_key'RSRUSDT'
+2021-12-04 13:03:11,238 - MARKET - DEBUG   : err_key'PAXGUSDT'
+2021-12-04 13:03:11,238 - MARKET - DEBUG   : err_key'WNXMUSDT'
+2021-12-04 13:03:11,238 - MARKET - DEBUG   : err_key'TRBUSDT'
+2021-12-04 13:03:11,238 - MARKET - DEBUG   : err_key'BZRXUSDT'
+2021-12-04 13:03:11,239 - MARKET - DEBUG   : err_key'SUSHIUSDT'
+2021-12-04 13:03:11,239 - MARKET - DEBUG   : err_key'YFIIUSDT'
+2021-12-04 13:03:11,239 - MARKET - DEBUG   : err_key'KSMUSDT'
+2021-12-04 13:03:11,240 - MARKET - DEBUG   : err_key'EGLDUSDT'
+2021-12-04 13:03:11,240 - MARKET - DEBUG   : err_key'DIAUSDT'
+2021-12-04 13:03:11,240 - MARKET - DEBUG   : err_key'RUNEUSDT'
+2021-12-04 13:03:11,241 - MARKET - DEBUG   : err_key'FIOUSDT'
+2021-12-04 13:03:11,241 - MARKET - DEBUG   : err_key'UMAUSDT'
+2021-12-04 13:03:11,242 - MARKET - DEBUG   : err_key'BELUSDT'
+2021-12-04 13:03:11,242 - MARKET - DEBUG   : err_key'WINGUSDT'
+2021-12-04 13:03:11,242 - MARKET - DEBUG   : err_key'UNIUSDT'
+2021-12-04 13:03:11,242 - MARKET - DEBUG   : err_key'NBSUSDT'
+2021-12-04 13:03:11,243 - MARKET - DEBUG   : err_key'OXTUSDT'
+2021-12-04 13:03:11,243 - MARKET - DEBUG   : err_key'SUNUSDT'
+2021-12-04 13:03:11,243 - MARKET - DEBUG   : err_key'AVAXUSDT'
+2021-12-04 13:03:11,244 - MARKET - DEBUG   : err_key'HNTUSDT'
+2021-12-04 13:03:11,244 - MARKET - DEBUG   : err_key'FLMUSDT'
+2021-12-04 13:03:11,244 - MARKET - DEBUG   : err_key'ORNUSDT'
+2021-12-04 13:03:11,245 - MARKET - DEBUG   : err_key'UTKUSDT'
+2021-12-04 13:03:11,245 - MARKET - DEBUG   : err_key'XVSUSDT'
+2021-12-04 13:03:11,245 - MARKET - DEBUG   : err_key'ALPHAUSDT'
+2021-12-04 13:03:11,246 - MARKET - DEBUG   : err_key'AAVEUSDT'
+2021-12-04 13:03:11,246 - MARKET - DEBUG   : err_key'NEARUSDT'
+2021-12-04 13:03:11,247 - MARKET - DEBUG   : err_key'FILUSDT'
+2021-12-04 13:03:11,248 - MARKET - DEBUG   : err_key'INJUSDT'
+2021-12-04 13:03:11,248 - MARKET - DEBUG   : err_key'AUDIOUSDT'
+2021-12-04 13:03:11,249 - MARKET - DEBUG   : err_key'CTKUSDT'
+2021-12-04 13:03:11,249 - MARKET - DEBUG   : err_key'AKROUSDT'
+2021-12-04 13:03:11,250 - MARKET - DEBUG   : err_key'AXSUSDT'
+2021-12-04 13:03:11,250 - MARKET - DEBUG   : err_key'HARDUSDT'
+2021-12-04 13:03:11,250 - MARKET - DEBUG   : err_key'DNTUSDT'
+2021-12-04 13:03:11,250 - MARKET - DEBUG   : err_key'STRAXUSDT'
+2021-12-04 13:03:11,251 - MARKET - DEBUG   : err_key'UNFIUSDT'
+2021-12-04 13:03:11,251 - MARKET - DEBUG   : err_key'ROSEUSDT'
+2021-12-04 13:03:11,251 - MARKET - DEBUG   : err_key'AVAUSDT'
+2021-12-04 13:03:11,252 - MARKET - DEBUG   : err_key'XEMUSDT'
+2021-12-04 13:03:11,252 - MARKET - DEBUG   : err_key'SKLUSDT'
+2021-12-04 13:03:11,252 - MARKET - DEBUG   : err_key'SUSDUSDT'
+2021-12-04 13:03:11,253 - MARKET - DEBUG   : err_key'GRTUSDT'
+2021-12-04 13:03:11,253 - MARKET - DEBUG   : err_key'JUVUSDT'
+2021-12-04 13:03:11,253 - MARKET - DEBUG   : err_key'PSGUSDT'
+2021-12-04 13:03:11,254 - MARKET - DEBUG   : err_key'1INCHUSDT'
+2021-12-04 13:03:11,254 - MARKET - DEBUG   : err_key'REEFUSDT'
+2021-12-04 13:03:11,254 - MARKET - DEBUG   : err_key'OGUSDT'
+2021-12-04 13:03:11,255 - MARKET - DEBUG   : err_key'ATMUSDT'
+2021-12-04 13:03:11,255 - MARKET - DEBUG   : err_key'ASRUSDT'
+2021-12-04 13:03:11,256 - MARKET - DEBUG   : err_key'CELOUSDT'
+2021-12-04 13:03:11,256 - MARKET - DEBUG   : err_key'RIFUSDT'
+2021-12-04 13:03:11,256 - MARKET - DEBUG   : err_key'BTCSTUSDT'
+2021-12-04 13:03:11,257 - MARKET - DEBUG   : err_key'TRUUSDT'
+2021-12-04 13:03:11,257 - MARKET - DEBUG   : err_key'CKBUSDT'
+2021-12-04 13:03:11,257 - MARKET - DEBUG   : err_key'TWTUSDT'
+2021-12-04 13:03:11,257 - MARKET - DEBUG   : err_key'FIROUSDT'
+2021-12-04 13:03:11,258 - MARKET - DEBUG   : err_key'LITUSDT'
+2021-12-04 13:03:11,258 - MARKET - DEBUG   : err_key'SFPUSDT'
+2021-12-04 13:03:11,258 - MARKET - DEBUG   : err_key'DODOUSDT'
+2021-12-04 13:03:11,258 - MARKET - DEBUG   : err_key'CAKEUSDT'
+2021-12-04 13:03:11,259 - MARKET - DEBUG   : err_key'ACMUSDT'
+2021-12-04 13:03:11,259 - MARKET - DEBUG   : err_key'BADGERUSDT'
+2021-12-04 13:03:11,259 - MARKET - DEBUG   : err_key'FISUSDT'
+2021-12-04 13:03:11,259 - MARKET - DEBUG   : err_key'OMUSDT'
+2021-12-04 13:03:11,260 - MARKET - DEBUG   : err_key'PONDUSDT'
+2021-12-04 13:03:11,260 - MARKET - DEBUG   : err_key'DEGOUSDT'
+2021-12-04 13:03:11,260 - MARKET - DEBUG   : err_key'ALICEUSDT'
+2021-12-04 13:03:11,261 - MARKET - DEBUG   : err_key'LINAUSDT'
+2021-12-04 13:03:11,261 - MARKET - DEBUG   : err_key'PERPUSDT'
+2021-12-04 13:03:11,261 - MARKET - DEBUG   : err_key'RAMPUSDT'
+2021-12-04 13:03:11,262 - MARKET - DEBUG   : err_key'SUPERUSDT'
+2021-12-04 13:03:11,262 - MARKET - DEBUG   : err_key'CFXUSDT'
+2021-12-04 13:03:11,263 - MARKET - DEBUG   : err_key'EPSUSDT'
+2021-12-04 13:03:11,264 - MARKET - DEBUG   : err_key'AUTOUSDT'
+2021-12-04 13:03:11,265 - MARKET - DEBUG   : err_key'TKOUSDT'
+2021-12-04 13:03:11,266 - MARKET - DEBUG   : err_key'PUNDIXUSDT'
+2021-12-04 13:03:11,266 - MARKET - DEBUG   : err_key'TLMUSDT'
+2021-12-04 13:03:11,267 - MARKET - DEBUG   : err_key'BTGUSDT'
+2021-12-04 13:03:11,267 - MARKET - DEBUG   : err_key'MIRUSDT'
+2021-12-04 13:03:11,268 - MARKET - DEBUG   : err_key'BARUSDT'
+2021-12-04 13:03:11,268 - MARKET - DEBUG   : err_key'FORTHUSDT'
+2021-12-04 13:03:11,268 - MARKET - DEBUG   : err_key'BAKEUSDT'
+2021-12-04 13:03:11,269 - MARKET - DEBUG   : err_key'BURGERUSDT'
+2021-12-04 13:03:11,269 - MARKET - DEBUG   : err_key'SLPUSDT'
+2021-12-04 13:03:11,269 - MARKET - DEBUG   : err_key'SHIBUSDT'
+2021-12-04 13:03:11,270 - MARKET - DEBUG   : err_key'ICPUSDT'
+2021-12-04 13:03:11,270 - MARKET - DEBUG   : err_key'ARUSDT'
+2021-12-04 13:03:11,270 - MARKET - DEBUG   : err_key'POLSUSDT'
+2021-12-04 13:03:11,271 - MARKET - DEBUG   : err_key'MDXUSDT'
+2021-12-04 13:03:11,271 - MARKET - DEBUG   : err_key'MASKUSDT'
+2021-12-04 13:03:11,271 - MARKET - DEBUG   : err_key'LPTUSDT'
+2021-12-04 13:03:11,272 - MARKET - DEBUG   : err_key'NUUSDT'
+2021-12-04 13:03:11,272 - MARKET - DEBUG   : err_key'XVGUSDT'
+2021-12-04 13:03:11,272 - MARKET - DEBUG   : err_key'ATAUSDT'
+2021-12-04 13:03:11,273 - MARKET - DEBUG   : err_key'GTCUSDT'
+2021-12-04 13:03:11,273 - MARKET - DEBUG   : err_key'TORNUSDT'
+2021-12-04 13:03:11,273 - MARKET - DEBUG   : err_key'KEEPUSDT'
+2021-12-04 13:03:11,273 - MARKET - DEBUG   : err_key'ERNUSDT'
+2021-12-04 13:03:11,274 - MARKET - DEBUG   : err_key'KLAYUSDT'
+2021-12-04 13:03:11,274 - MARKET - DEBUG   : err_key'PHAUSDT'
+2021-12-04 13:03:11,274 - MARKET - DEBUG   : err_key'BONDUSDT'
+2021-12-04 13:03:11,275 - MARKET - DEBUG   : err_key'MLNUSDT'
+2021-12-04 13:03:11,275 - MARKET - DEBUG   : err_key'DEXEUSDT'
+2021-12-04 13:03:11,275 - MARKET - DEBUG   : err_key'C98USDT'
+2021-12-04 13:03:11,276 - MARKET - DEBUG   : err_key'CLVUSDT'
+2021-12-04 13:03:11,276 - MARKET - DEBUG   : err_key'QNTUSDT'
+2021-12-04 13:03:11,276 - MARKET - DEBUG   : err_key'FLOWUSDT'
+2021-12-04 13:03:11,277 - MARKET - DEBUG   : err_key'TVKUSDT'
+2021-12-04 13:03:11,277 - MARKET - DEBUG   : err_key'MINAUSDT'
+2021-12-04 13:03:11,277 - MARKET - DEBUG   : err_key'RAYUSDT'
+2021-12-04 13:03:11,277 - MARKET - DEBUG   : err_key'FARMUSDT'
+2021-12-04 13:03:11,278 - MARKET - DEBUG   : err_key'ALPACAUSDT'
+2021-12-04 13:03:11,278 - MARKET - DEBUG   : err_key'QUICKUSDT'
+2021-12-04 13:03:11,279 - MARKET - DEBUG   : err_key'MBOXUSDT'
+2021-12-04 13:03:11,279 - MARKET - DEBUG   : err_key'FORUSDT'
+2021-12-04 13:03:11,280 - MARKET - DEBUG   : err_key'REQUSDT'
+2021-12-04 13:03:11,281 - MARKET - DEBUG   : err_key'GHSTUSDT'
+2021-12-04 13:03:11,282 - MARKET - DEBUG   : err_key'WAXPUSDT'
+2021-12-04 13:03:11,283 - MARKET - DEBUG   : err_key'TRIBEUSDT'
+2021-12-04 13:03:11,283 - MARKET - DEBUG   : err_key'GNOUSDT'
+2021-12-04 13:03:11,283 - MARKET - DEBUG   : err_key'XECUSDT'
+2021-12-04 13:03:11,284 - MARKET - DEBUG   : err_key'ELFUSDT'
+2021-12-04 13:03:11,284 - MARKET - DEBUG   : err_key'DYDXUSDT'
+2021-12-04 13:03:11,284 - MARKET - DEBUG   : err_key'POLYUSDT'
+2021-12-04 13:03:11,284 - MARKET - DEBUG   : err_key'IDEXUSDT'
+2021-12-04 13:03:11,285 - MARKET - DEBUG   : err_key'VIDTUSDT'
+2021-12-04 13:03:11,285 - MARKET - DEBUG   : err_key'USDPUSDT'
+2021-12-04 13:03:11,285 - MARKET - DEBUG   : err_key'GALAUSDT'
+2021-12-04 13:03:11,285 - MARKET - DEBUG   : err_key'ILVUSDT'
+2021-12-04 13:03:11,286 - MARKET - DEBUG   : err_key'YGGUSDT'
+2021-12-04 13:03:11,286 - MARKET - DEBUG   : err_key'SYSUSDT'
+2021-12-04 13:03:11,287 - MARKET - DEBUG   : err_key'DFUSDT'
+2021-12-04 13:03:11,287 - MARKET - DEBUG   : err_key'FIDAUSDT'
+2021-12-04 13:03:11,287 - MARKET - DEBUG   : err_key'FRONTUSDT'
+2021-12-04 13:03:11,287 - MARKET - DEBUG   : err_key'CVPUSDT'
+2021-12-04 13:03:11,288 - MARKET - DEBUG   : err_key'AGLDUSDT'
+2021-12-04 13:03:11,288 - MARKET - DEBUG   : err_key'RADUSDT'
+2021-12-04 13:03:11,288 - MARKET - DEBUG   : err_key'BETAUSDT'
+2021-12-04 13:03:11,288 - MARKET - DEBUG   : err_key'RAREUSDT'
+2021-12-04 13:03:11,289 - MARKET - DEBUG   : err_key'LAZIOUSDT'
+2021-12-04 13:03:11,289 - MARKET - DEBUG   : err_key'CHESSUSDT'
+2021-12-04 13:03:11,290 - MARKET - DEBUG   : err_key'ADXUSDT'
+2021-12-04 13:03:11,290 - MARKET - DEBUG   : err_key'AUCTIONUSDT'
+2021-12-04 13:03:11,290 - MARKET - DEBUG   : err_key'DARUSDT'
+2021-12-04 13:03:11,290 - MARKET - DEBUG   : err_key'BNXUSDT'
+2021-12-04 13:03:11,291 - MARKET - DEBUG   : err_key'RGTUSDT'
+2021-12-04 13:03:11,291 - MARKET - DEBUG   : err_key'MOVRUSDT'
+2021-12-04 13:03:11,292 - MARKET - DEBUG   : err_key'CITYUSDT'
+2021-12-04 13:03:11,292 - MARKET - DEBUG   : err_key'ENSUSDT'
+2021-12-04 13:03:11,292 - MARKET - DEBUG   : err_key'KP3RUSDT'
+2021-12-04 13:03:11,292 - MARKET - DEBUG   : err_key'QIUSDT'
+2021-12-04 13:03:11,293 - MARKET - DEBUG   : err_key'PORTOUSDT'
+2021-12-04 13:03:11,293 - MARKET - DEBUG   : err_key'POWRUSDT'
+2021-12-04 13:03:11,293 - MARKET - DEBUG   : err_key'VGXUSDT'
+2021-12-04 13:03:11,293 - MARKET - DEBUG   : err_key'JASMYUSDT'
+2021-12-04 13:03:11,294 - MARKET - DEBUG   : err_key'AMPUSDT'
+2021-12-04 13:03:11,294 - MARKET - DEBUG   : err_key'PLAUSDT'
+2021-12-04 13:03:11,294 - MARKET - DEBUG   : err_key'PYRUSDT'
+2021-12-04 13:03:11,294 - MARKET - DEBUG   : err_key'RNDRUSDT'
+2021-12-04 13:03:11,295 - MARKET - DEBUG   : err_key'ALCXUSDT'
+2021-12-04 13:03:11,295 - MARKET - DEBUG   : err_key'SANTOSUSDT'
+2021-12-04 13:03:11,296 - MARKET - DEBUG   : err_key'MCUSDT'
+2021-12-04 13:03:11,296 - MARKET - DEBUG   : err_key'ANYUSDT'
+2021-12-04 13:04:22,218 - MARKET - INFO   : Hello
+2021-12-04 13:04:22,219 - MARKET - INFO   : recent old report is invalid now, exiting
+2021-12-04 13:05:44,848 - MARKET - INFO   : Hello
+2021-12-04 13:05:44,849 - MARKET - INFO   : Not cron call, exiting
+2021-12-04 13:05:54,419 - MARKET - INFO   : Hello
+2021-12-04 13:05:54,420 - MARKET - INFO   : Getting the last 24hr data
+2021-12-04 15:19:14,780 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:19:14,816 - MARKET - ERROR   : Exceptio when getting trades for stoploss
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 133, in get_slots
+    orders=client.get_trades(symb)
+AttributeError: 'Spot' object has no attribute 'get_trades'
+2021-12-04 15:20:16,715 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:21:47,553 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:22:18,742 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:23:50,954 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:27:29,663 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:27:48,679 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:28:24,757 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:28:38,917 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:29:28,314 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:29:49,037 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:29:54,391 - MARKET - ERROR   : Exceptio when getting trades for stoploss
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 133, in get_slots
+    orders=client.get_orders(symb)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 180, in get_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 116, in send_request
+    self._handle_exception(response)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 169, in _handle_exception
+    raise ClientError(status_code, err["code"], err["msg"], response.headers)
+binance.error.ClientError: (400, -1121, 'Invalid symbol.', {'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '38', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Dec 2021 09:59:55 GMT', 'Server': 'nginx', 'x-mbx-uuid': 'f804ad5f-a683-430c-80f1-b3bf78303e65', 'x-mbx-used-weight': '20', 'x-mbx-used-weight-1m': '20', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'X-Frame-Options': 'SAMEORIGIN', 'X-Xss-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'", 'X-Content-Security-Policy': "default-src 'self'", 'X-WebKit-CSP': "default-src 'self'", 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b51f06534550bd51b115c6a809767232.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM52-C1', 'X-Amz-Cf-Id': 'zGrsBBxfxCuu3bwlKPmcRCVLn9VRmhke2c7sMroTY0EHT9qWS64XbQ=='})
+2021-12-04 15:29:56,788 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:30:07,575 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:30:14,651 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:30:45,323 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:30:54,167 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:31:08,995 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:31:22,736 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:31:30,271 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:31:35,069 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:31:40,475 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:35:21,654 - MARKET - INFO   : Hello
+2021-12-04 15:35:21,656 - MARKET - INFO   : Not cron call, exiting
+2021-12-04 15:36:04,310 - MARKET_1d - INFO   : Hello
+2021-12-04 15:36:04,312 - MARKET_1d - INFO   : Looks like recent old report is available,waiting for 1144.7572120547295 min
+2021-12-04 15:36:04,315 - MARKET_1d - ERROR   : File not found!!!!
+2021-12-04 15:37:44,320 - MARKET_1d - INFO   : Getting the last 24hr data
+2021-12-04 15:48:56,678 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:49:29,034 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:50:56,304 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:51:57,340 - MARKET - ERROR   : Exceptio when getting trades for stoploss
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\program_files\Anaconda\envs\secpod\lib\http\client.py", line 1345, in getresponse
+    response.begin()
+  File "D:\program_files\Anaconda\envs\secpod\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "D:\program_files\Anaconda\envs\secpod\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\program_files\Anaconda\envs\secpod\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "D:\program_files\Anaconda\envs\secpod\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "D:\program_files\Anaconda\envs\secpod\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\packages\six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\program_files\Anaconda\envs\secpod\lib\http\client.py", line 1345, in getresponse
+    response.begin()
+  File "D:\program_files\Anaconda\envs\secpod\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "D:\program_files\Anaconda\envs\secpod\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\program_files\Anaconda\envs\secpod\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "D:\program_files\Anaconda\envs\secpod\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "D:\program_files\Anaconda\envs\secpod\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\temp.py", line 133, in get_slots
+    orders=client.get_orders(symb)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\spot\account.py", line 180, in get_orders
+    return self.sign_request("GET", url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 82, in sign_request
+    return self.send_request(http_method, url_path, payload)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\binance\api.py", line 114, in send_request
+    response = self._dispatch_request(http_method)(**params)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2021-12-04 15:57:35,263 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:57:48,460 - MARKET - INFO   : Starting the seller_stoploss
+2021-12-04 15:57:50,094 - MARKET - INFO   : Slots: 0 S:BTCUSDT
+2021-12-04 15:57:50,819 - MARKET - INFO   : Slots: 0 S:ETHUSDT
+2021-12-04 15:57:51,458 - MARKET - INFO   : Slots: 3 S:BNBUSDT
+2021-12-04 15:57:52,178 - MARKET - INFO   : Slots: 0 S:BCCUSDT
