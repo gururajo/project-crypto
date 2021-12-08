@@ -8,18 +8,18 @@
 		-1
 	],
 	"market_1d": [
-		"reports/report_1440m_December 04 15-35.json",
+		"reports/report_1440m_December 05 05-00.json",
 		1638594649.7456706
 	],
 	"market_4hr": [
-		"reports/report_240m_December 04 00-26.json",
-		1638594649.7456706
+		"reports/report_240m_December 05 10-17.json",
+		1638705493.5783374
 	],
 	"market_1hr": [
-		"reports/report_60m_December 03 18-59.json",
-		1638594649.7456706
+		"reports/report_60m_December 05 14-58.json",
+		-1
 	],
 	"seller_started": false,
 	"seller_stoploss_started": false,
-	"last_report": "reports/report_1440m_December 04 15-35.json"
+	"last_report": "reports/report_15m_December 05 14-58.json"
 }

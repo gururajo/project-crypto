@@ -236,7 +236,7 @@ def main():
                                 logger.info("not a good time to buy, neg_trig is true: "+str(symbol))
                                 continue
                             try:
-                                order=trade.buy(symbol,price=get_per(new_price,-0.2),force=True)
+                                order=trade.buy(symbol,price=get_per(new_price,-0.5),force=True)
                                 if order == None:
                                     logger.error("exception occured when placing buy order S:"+str(symbol))
                                     continue

@@ -99,12 +99,10 @@ def get_dynamic_price(client):
             # price=float(price["price"])
             # print(price,symbol)
             total+=(price*float(crypt["free"]))+(price*float(crypt["locked"]))
-    print("T:",total)
-
     price=int((total-10)/40)
     if price < 25:
         price =25
-
+    logger.info("T:"+str(total)+" slot_price:"+str(price))
     return price
 
 
@@ -243,5 +241,5 @@ def sell(symbol,price,type_o="LIMIT",timeInforce="GTC"):
 
 if __name__=="__main__":
     # buy(symbol="TRXUSDT",quantity=200,price=0.0965)
-    print(buy(symbol="BTCUSDT",price=61608.2))
-    # pass
+    # print(buy(symbol="BTCUSDT",price=61608.2))
+    pass
