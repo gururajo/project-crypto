@@ -33,4 +33,6 @@
 -Done change true to false in diff for neg-trig if ordered chanceled cause of order already present
 -Done if 24hr change is >15 dont even set it to true
     ignored since it gives some info
-- ADD backup Boot json if reading regular boot failed
+-Done ADD backup Boot json if reading regular boot failed, can be added in boot() only
+-Done last3avg make it -0.5 to 0.5
+-Done update the file not found part in makediff report

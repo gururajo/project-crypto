@@ -94,7 +94,7 @@ def strategy(cryp,time_key,currency):
     last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:
-        if -0.4 < last_3_avg < 1 and last_5_avg < -0.8:
+        if -0.4 < last_3_avg < 0.5 and last_5_avg < -0.8:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             if cryp["change"]> 15 or cryp["change_24hr"]>15:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
@@ -122,8 +122,13 @@ def strategy(cryp,time_key,currency):
     return True
 
 def boot():
-    with open("boot.json","r") as f:
-        boot_json=json.load(f)
+    try:
+        with open("boot.json","r") as f:
+            boot_json=json.load(f)
+    except Exception:
+        logger.exception("Booot file currupted, recovering from backup")
+        with open("boot_bk.json","r") as f:
+            boot_json=json.load(f)
     print("started booy:",boot_json)
     if boot_json["started"]:
         boot_json["started"]=False
@@ -262,11 +267,11 @@ def main(boot_json):
                 diff=json.load(f)
         except FileNotFoundError:
             logger.error("File not found!!!!")
-            boot_json["market_15min"][0]=report_name
+            boot_json["started"]=False
+            boot_json["market_15min"][1]=-1
             with open("boot.json","w") as wf:
                 json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
-            time.sleep(100)
-            diff = get_last24(diff)
+            sys.exit()
         else:
             with open("boot.json","w") as wf:
                 json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))

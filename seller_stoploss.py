@@ -101,8 +101,13 @@ def check_if_neg_trig_is_true(symbol):
 
 
 def boot():
-    with open("boot.json","r") as f:
-        boot_json=json.load(f)
+    try:
+        with open("boot.json","r") as f:
+            boot_json=json.load(f)
+    except Exception:
+        logger.exception("Booot file currupted, recovering from backup")
+        with open("boot_bk.json","r") as f:
+            boot_json=json.load(f)
     if boot_json["seller_stoploss_started"]:
         boot_json["seller_stoploss_started"]=False
         with open("boot.json","w") as wf:
@@ -229,9 +234,9 @@ def main():
                             if slots==None or slots==0 or slots>=10:
                                 logger.error("SLOTS ERROR: slot returned is either None or equa; to zero/ >10,please check that function"+str(slots))
                                 continue
-                            if get_per_change(old_price,new_price) > -25 -((slots-1)*7):
+                            if get_per_change(old_price,new_price) > -25 -((slots-1)*5):
                                 continue
-                            logger.info("price dropped "+str(-25 -((slots-1)*7))+", so buying again to reduce avg bought price")
+                            logger.info("price dropped "+str(-25 -((slots-1)*5))+", so buying again to reduce avg bought price")
                             if check_if_neg_trig_is_true(symbol):
                                 logger.info("not a good time to buy, neg_trig is true: "+str(symbol))
                                 continue

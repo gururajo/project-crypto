@@ -1,0 +1,25 @@
+{
+	"started": true,
+	"started_1hr": true,
+	"started_4hr": true,
+	"started_1d": true,
+	"market_15min": [
+		"",
+		-1
+	],
+	"market_1d": [
+		"",
+		-1
+	],
+	"market_4hr": [
+		"",
+		-1
+	],
+	"market_1hr": [
+		"",
+		-1
+	],
+	"seller_started": true,
+	"seller_stoploss_started": true,
+	"last_report": "reports/report_15m_December 05 14-58.json"
+}

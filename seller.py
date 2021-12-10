@@ -12,8 +12,13 @@ def get_per(principle,percentage):
     return principle * ((100 + percentage)/ 100)
 
 def boot():
-    with open("boot.json","r") as f:
-        boot_json=json.load(f)
+    try:
+        with open("boot.json","r") as f:
+            boot_json=json.load(f)
+    except Exception:
+        logger.exception("Booot file currupted, recovering from backup")
+        with open("boot_bk.json","r") as f:
+            boot_json=json.load(f)
     if boot_json["seller_started"]:
         boot_json["seller_started"]=False
         with open("boot.json","w") as wf:
