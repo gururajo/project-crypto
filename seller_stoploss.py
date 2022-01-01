@@ -217,6 +217,7 @@ def main():
                         continue
                     if new_order_det["status"]== "FILLED" or new_order_det["status"]== "CANCELED" or new_order_det["status"]== "PENDING_CANCEL" or new_order_det["status"]== "REJECTED" or new_order_det["status"]== "EXPIRED":
                         updated_orders[b_order_id]=new_order_det
+                        logger.info("updated order: "+str(symbol)+" "+str(new_order_det["cummulativeQuoteQty"]))
                         continue
                     elif new_order_det["status"]== "NEW" :
                         #understand this , osmthing wrong
@@ -231,7 +232,7 @@ def main():
                         new_price=float(price["price"])
                         if get_per_change(old_price,new_price) < -25:
                             slots=get_slots(client,symbol)
-                            if slots==None or slots==0 or slots>=10:
+                            if slots==None or slots==0 or slots>5:
                                 logger.error("SLOTS ERROR: slot returned is either None or equa; to zero/ >10,please check that function"+str(slots))
                                 continue
                             if get_per_change(old_price,new_price) > -25 -((slots-1)*5):

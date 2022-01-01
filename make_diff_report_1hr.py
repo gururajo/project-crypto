@@ -27,7 +27,8 @@ import trade
 sec = 60
 min = 60
 neg_keys_c=8
-cron=False
+cron =False
+buys_done=0
 
 try:
     os.mkdir("reports")
@@ -79,7 +80,7 @@ def get_per(principle,percentage):
     return principle * ((100 + percentage)/ 100)
 
 def strategy(cryp,time_key,currency):
-
+    global buys_done
     last_5_avg=cryp[time_key][1]
 
     # if last_5_avg>1.3:
@@ -100,10 +101,14 @@ def strategy(cryp,time_key,currency):
                 cryp["neg_trig"]=[0,False]
                 return None
             try:
+                if buys_done>3:
+                    logger.info("4 orders already created in this session")
+                    return None
                 order=trade.buy(currency, get_per(cryp[time_key][3],-0.2),cryp=cryp)
                 if not order:
                     logger.info("Damn order didnt complete")
                     return None
+                buys_done+=1
             except Exception as e:
                 logger.exception("Buy order exception:"+ str(e))
                 return None
@@ -296,7 +301,7 @@ def main(boot_json):
 
     while True:
         diff["last_updated"]=time.time()
-
+        buys_done=0
         market = get_present()
         if not market:
             logger.error("some error in Connection")

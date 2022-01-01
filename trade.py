@@ -99,7 +99,7 @@ def get_dynamic_price(client):
             # price=float(price["price"])
             # print(price,symbol)
             total+=(price*float(crypt["free"]))+(price*float(crypt["locked"]))
-    price=int((total-10)/40)
+    price=int((total-10)/60)
     if price < 25:
         price =25
     logger.info("T:"+str(total)+" slot_price:"+str(price))
@@ -140,8 +140,8 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False,cryp=None):
             if cryp!=None:
                 cryp["neg_trig"]=[0,False]
             return None
-        if balance < 5*buy_price_thres:
-            logger.error("all easy buy slots are already fillled, present slots are for stoploss only")
+        if balance < 16*buy_price_thres:
+            logger.error("all easy buy slots are already fillled, present slots are for stoploss only: "+str(balance))
             return None
 
 
@@ -159,6 +159,7 @@ def buy(symbol,price,type_o="LIMIT",timeInforce="GTC",force=False,cryp=None):
         # client.new_order(symbol="",side="BUY",type="LIMIT",timeInForce="GTC",quantity=quantity,price=price)
         try:
             order=client.new_order(symbol=symbol,side="BUY",type=type_o,timeInForce=timeInforce,quantity=quantity,price=price)
+            time.sleep(1)
         except Exception:
             logger.exception("Buy error")
             return None

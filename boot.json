@@ -1,25 +1,25 @@
 {
 	"started": false,
-	"started_1hr": false,
-	"started_4hr": false,
-	"started_1d": false,
+	"started_1hr": true,
+	"started_4hr": true,
+	"started_1d": true,
 	"market_15min": [
-		"reports/report_15m_December 04 13-03.json",
-		-1
+		"reports/report_15m_December 27 08-44.json",
+		1640672616.314051
 	],
 	"market_1d": [
-		"reports/report_1440m_December 05 05-00.json",
-		1638594649.7456706
+		"reports/report_1440m_December 27 08-44.json",
+		1640649511.00246
 	],
 	"market_4hr": [
-		"reports/report_240m_December 05 10-17.json",
-		1638705493.5783374
+		"reports/report_240m_December 27 08-44.json",
+		1640662244.3503547
 	],
 	"market_1hr": [
-		"reports/report_60m_December 05 14-58.json",
-		-1
+		"reports/report_60m_December 27 08-44.json",
+		1640672105.6631415
 	],
-	"seller_started": false,
-	"seller_stoploss_started": false,
-	"last_report": "reports/report_15m_December 05 14-58.json"
+	"seller_started": true,
+	"seller_stoploss_started": true,
+	"last_report": "reports/report_15m_December 27 08-44.json"
 }
