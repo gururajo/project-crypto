@@ -22,10 +22,16 @@ pi@raspberrypi:~/project_crypto $ crontab -l
 # For more information see the manual pages of crontab(5) and cron(8)
 #
 # m h  dom mon dow   command
-52 * * * * /home/pi/start_crypto.sh
+52 * * * * /home/pi/start_cryptos.sh
 53 * * * * /home/pi/seller_starter.sh
 54 * * * * /home/pi/seller_stoploss.sh
-59 */2 * * * /home/pi/start_crypto_1hr.sh
-26 */8 * * * /home/pi/start_crypto_4hr.sh
-00 05 */2 * * /home/pi/start_crypto_1d.sh
+59 */2 * * * /home/pi/start_crypto_1hrs.sh
+26 */8 * * * /home/pi/start_crypto_4hrs.sh
+00 05 */2 * * /home/pi/start_crypto_1ds.sh
 @reboot /home/pi/create_new.sh
+@reboot /home/pi/start_crypto.sh
+@reboot /home/pi/start_crypto_1hr.sh
+@reboot /home/pi/start_crypto_4hr.sh
+@reboot /home/pi/start_crypto_1d.sh
+@reboot vncserver :1
+
