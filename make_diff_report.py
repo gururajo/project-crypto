@@ -87,22 +87,22 @@ def strategy(cryp,time_key,currency):
     #     logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
     #     cryp["pos_trig"]=[last_5_avg,True]
     #     return True
-    if last_5_avg<-1.3:
-        logger.error("lesser than -1.3 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+    if last_5_avg<-1.5:
+        logger.error("lesser than -1.5 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
         return True
     last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:
-        if -0.4 < last_3_avg < 0.5 and last_5_avg < -0.7:
+        if -0.4 < last_3_avg < 0.5 and last_5_avg < -0.8:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             if cryp["change"]> 15 or cryp["change_24hr"]>15:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
                 cryp["neg_trig"]=[0,False]
                 return None
             try:
-                if buys_done>3:
-                    logger.info("4 orders already created in this session")
+                if buys_done>2:
+                    logger.info("3 orders already created in this session")
                     return None
                 order=trade.buy(currency, get_per(cryp[time_key][3],-0.2),cryp=cryp)
                 if not order:
@@ -260,9 +260,9 @@ def main(boot_json):
     diff = {}
     diff["started"]=time.strftime("%B %d %H:%M:%S")
     global neg_keys_c,cron
-    global min,sec
+    global min,sec,buys_done
     tickers=0
-    volume_thres=600000
+    volume_thres=1000000
     diff["last_updated"]=time.time()
     if time.time()-boot_json["market_15min"][1]< min*sec:
         logger.info("Looks like recent old report is available,waiting for "+str((min*sec-(time.time()-boot_json["market_15min"][1]))/sec)+" min")
@@ -356,7 +356,7 @@ def main(boot_json):
                         if strategy(diff[cryp],time_key,cryp)==None:
                             logger.info("Buy didn't complete ,next timemayb")
                     else:
-                        print("allowed",cryp,volume)
+                        print("not allowed",cryp,volume)
                     #     logger.debug("OOps not good trading volume:"+str(cryp)+" "+str(coin["volume"])+" "+str(last)+" "+str(float(coin["volume"])*last))
 
                     if len(diff[cryp])-neg_keys_c >69:

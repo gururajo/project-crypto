@@ -87,22 +87,22 @@ def strategy(cryp,time_key,currency):
     #     logger.error("Greter than 2 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
     #     cryp["pos_trig"]=[last_5_avg,True]
     #     return True
-    if last_5_avg<-1.3:
-        logger.error("lesser than -1.3 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
+    if last_5_avg<-1.5:
+        logger.error("lesser than -1.5 "+str(currency)+" :"+str(time_key)+":  "+str(cryp[time_key]))
         cryp["neg_trig"]=[last_5_avg,True]
         return True
     last_3_avg=last_n_avg(cryp,3)
 
     if cryp["neg_trig"][1]:
-        if -0.4 < last_3_avg < 0.5 and last_5_avg < -0.7:
+        if -0.4 < last_3_avg < 0.5 and last_5_avg < -0.8:
             logger.warning("its buy time: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
             if cryp["change"]> 15 or cryp["change_24hr"]>15:
                 logger.error("Tooo much +ve change in a day, rejecting buy:"+str(cryp["change"])+"%")
                 cryp["neg_trig"]=[0,False]
                 return None
             try:
-                if buys_done>3:
-                    logger.info("4 orders already created in this session")
+                if buys_done>2:
+                    logger.info("3 orders already created in this session")
                     return None
                 order=trade.buy(currency, get_per(cryp[time_key][3],-0.2),cryp=cryp)
                 if not order:
@@ -118,7 +118,7 @@ def strategy(cryp,time_key,currency):
         elif last_3_avg > 2:
             # logger.warning("last 3 avg > 3%")
             cryp["neg_trig"]=[0,False]
-            logger.warning("last 0.5 avg greater than 2%, setting false "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
+            logger.warning("last 3 avg greater than 2%, setting false "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
     # if cryp["pos_trig"][1]:
     #     if last_5_avg < .3:
     #         logger.warning("if you own this selit: "+str(currency)+" "+str(cryp[time_key][3])+":"+str(time_key)+":  "+str(cryp[time_key]))
