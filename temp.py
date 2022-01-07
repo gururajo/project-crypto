@@ -1,4 +1,5 @@
-import logging,sys
+import logging,sys, requests
+from os import replace
 import logging.config
 import json,re,time
 from binance.spot import Spot
@@ -163,7 +164,7 @@ client= Spot(key=keys["api_key"], secret=keys["secret_key"])
 # print(get_slots(client,input()+"USDT"))
 # print(get_corrected_price("TRXUSDT",0.1012))
 # print(get_corrected_price("BTCUSDT",60000.89))
-print(get_dynamic_price(client))
+# print(get_dynamic_price(client))
 check_slots=False
 if check_slots:
     symbols=client.exchange_info()["symbols"]
@@ -182,3 +183,75 @@ if check_slots:
 
         time.sleep(.4)
     print(t_slots)
+# res=requests.get("https://www.binance.com/exchange-api/v2/public/asset-service/product/get-products").json()
+# page=0
+# overall_market=[]
+# try:
+#     while True:
+#         res=requests.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page="+str(page)).json()
+#         if len(res)>0:
+#             print(len(res),page)
+#             for r in res:
+#                 overall_market.append(r)
+#         else:
+#             break
+#         page+=1
+#         time.sleep(1)
+# except KeyboardInterrupt:
+#     with open("market_info_coingecko.json","w") as wf:
+#         json.dump(overall_market,wf, sort_keys=False,indent='\t', separators=(',', ': '))
+# except Exception as e:
+#     print(e)
+#     with open("market_info_coingecko.json","w") as wf:
+#         json.dump(overall_market,wf, sort_keys=False,indent='\t', separators=(',', ': '))
+# with open("market_info_coingecko.json","w") as wf:
+#         json.dump(overall_market,wf, sort_keys=False,indent='\t', separators=(',', ': '))
+
+
+# res=requests.get("https://api.binance.com/api/v3/ticker/24hr").json()
+# with open("market_info.json","w") as wf:
+#         json.dump(res,wf, sort_keys=False,indent='\t', separators=(',', ': '))
+
+def create_market_cap_data():
+    try:
+        exchange=requests.get("https://api.binance.com/api/v3/ticker/24hr").json()
+    except Exception:
+        return {"last_updated":0,"symbols":{}}
+    try:
+        market_cap=requests.get("https://www.binance.com/exchange-api/v2/public/asset-service/product/get-products").json()["data"]
+    except Exception:
+        return {"last_updated":0,"symbols":{}}
+    result_data={}
+    for coin in exchange:
+        symbol=str(coin["symbol"])
+        if not symbol.endswith("USDT"):
+            continue
+        symbol=symbol.replace("USDT","")
+        if symbol.endswith("UP") or symbol.endswith("DOWN") or symbol.endswith("BULL") or symbol.endswith("BEAR"):
+            continue
+        for c in market_cap:
+            if c["s"]==symbol+"USDT":
+                try:
+                    result_data[symbol+"USDT"]=float(c["cs"])*float(coin["lastPrice"])
+                    break
+                except Exception:
+                    continue
+        else:
+            logger.warning("Not found in B data "+str(symbol))
+    with open("market_cap_data.json","w") as wf:
+        json.dump({"last_updated":time.time(),"symbols": result_data },wf, sort_keys=False,indent='\t', separators=(',', ': '))
+    return {"last_updated":time.time(),"symbols": result_data }
+
+def get_market_cap(symbol):
+    try:
+        with open("market_cap_data.json","r") as f:
+            market_cap=json.load(f)
+    except Exception:
+        market_cap=create_market_cap_data()
+    if market_cap["last_updated"] < (time.time()- (24*60*60)):
+        market_cap=create_market_cap_data()
+    try:
+        return market_cap["symbols"][symbol]
+    except Exception:
+        return 0
+print(get_market_cap("XRPUSDT"))

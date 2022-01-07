@@ -4,8 +4,8 @@
 	"started_4hr": true,
 	"started_1d": true,
 	"market_15min": [
-		"reports/report_15m_December 27 08-44.json",
-		1640672616.314051
+		"reports/report_15m_January 08 00-35.json",
+		1641582856.8235087
 	],
 	"market_1d": [
 		"reports/report_1440m_December 27 08-44.json",
@@ -21,5 +21,5 @@
 	],
 	"seller_started": true,
 	"seller_stoploss_started": true,
-	"last_report": "reports/report_15m_December 27 08-44.json"
+	"last_report": "reports/report_15m_January 08 00-35.json"
 }

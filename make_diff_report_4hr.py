@@ -79,6 +79,53 @@ def align_report(report):
 def get_per(principle,percentage):
     return principle * ((100 + percentage)/ 100)
 
+def create_market_cap_data():
+    try:
+        exchange=requests.get("https://api.binance.com/api/v3/ticker/24hr").json()
+    except Exception:
+        return {"last_updated":0,"symbols":{}}
+    try:
+        market_cap=requests.get("https://www.binance.com/exchange-api/v2/public/asset-service/product/get-products").json()["data"]
+    except Exception:
+        return {"last_updated":0,"symbols":{}}
+    result_data={}
+    for coin in exchange:
+        symbol=str(coin["symbol"])
+        if not symbol.endswith("USDT"):
+            continue
+        symbol=symbol.replace("USDT","")
+        if symbol.endswith("UP") or symbol.endswith("DOWN") or symbol.endswith("BULL") or symbol.endswith("BEAR"):
+            continue
+        for c in market_cap:
+            if c["s"]==symbol+"USDT":
+                try:
+                    result_data[symbol+"USDT"]=float(c["cs"])*float(coin["lastPrice"])
+                    break
+                except Exception:
+                    continue
+        else:
+            logger.warning("Not found in B data "+str(symbol))
+    with open("market_cap_data.json","w") as wf:
+        json.dump({"last_updated":time.time(),"symbols": result_data },wf, sort_keys=False,indent='\t', separators=(',', ': '))
+    return {"last_updated":time.time(),"symbols": result_data }
+
+def get_market_cap(symbol):
+    try:
+        with open("market_cap_data.json","r") as f:
+            market_cap=json.load(f)
+    except Exception:
+        logger.info("Market_cap data not available. creating new")
+        market_cap=create_market_cap_data()
+    if market_cap["last_updated"] < (time.time()- (24*60*60)):
+        logger.info("Market_cap data invalid npw. creating new")
+        market_cap=create_market_cap_data()
+    try:
+        return market_cap["symbols"][symbol]
+    except Exception:
+        logger.error("symbol market cap not found"+str(symbol))
+        return 0
+
+
 def strategy(cryp,time_key,currency):
     global buys_done
     last_5_avg=cryp[time_key][1]
@@ -103,6 +150,10 @@ def strategy(cryp,time_key,currency):
             try:
                 if buys_done>2:
                     logger.info("3 orders already created in this session")
+                    return None
+                if get_market_cap(currency) < 25000000:
+                    logger.info("lesser than threshold market cap, rejecting buy")
+                    cryp["neg_trig"]=[0,False]
                     return None
                 order=trade.buy(currency, get_per(cryp[time_key][3],-0.2),cryp=cryp)
                 if not order:
@@ -264,7 +315,7 @@ def main(boot_json):
     global neg_keys_c,cron
     global min,sec,buys_done
     tickers=0
-    volume_thres=600000
+    volume_thres=1000000
     diff["last_updated"]=time.time()
     if time.time()-boot_json["market_4hr"][1]< min*sec:
         logger.info("Looks like recent old report is available,waiting for "+str((min*sec-(time.time()-boot_json["market_4hr"][1]))/sec)+" min")

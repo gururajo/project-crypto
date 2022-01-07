@@ -1685,3 +1685,248 @@ binance.error.ClientError: (400, -1121, 'Invalid symbol.', {'Content-Type': 'app
 2021-12-05 17:00:53,419 - MARKET - INFO   : Slots: 0 S:MCUSDT
 2021-12-05 17:00:53,990 - MARKET - INFO   : Slots: 0 S:ANYUSDT
 2021-12-05 17:06:25,771 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:15:51,122 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:17:10,027 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:21:13,884 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:36:34,759 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:37:16,348 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:41:07,306 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:41:48,541 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:42:16,507 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:42:37,578 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:43:10,237 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:44:06,775 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:46:17,329 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 15:57:59,314 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 16:03:05,551 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 16:03:14,946 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 16:04:15,004 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 16:04:44,595 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 16:07:03,880 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 16:08:06,695 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 16:10:12,927 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 17:38:32,740 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:19:49,962 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:20:35,486 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:20:53,048 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:24:18,249 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:25:35,522 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:26:45,885 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:32:08,839 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:37:19,973 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:37:21,191 - MARKET - WARNING   : Not found in B data BCC
+2022-01-07 18:37:21,202 - MARKET - WARNING   : Not found in B data VEN
+2022-01-07 18:37:21,206 - MARKET - WARNING   : Not found in B data PAX
+2022-01-07 18:37:21,209 - MARKET - WARNING   : Not found in B data BCHABC
+2022-01-07 18:37:21,211 - MARKET - WARNING   : Not found in B data BCHSV
+2022-01-07 18:37:21,214 - MARKET - WARNING   : Not found in B data USDS
+2022-01-07 18:37:21,223 - MARKET - WARNING   : Not found in B data USDSB
+2022-01-07 18:37:21,225 - MARKET - WARNING   : Not found in B data ERD
+2022-01-07 18:37:21,228 - MARKET - WARNING   : Not found in B data NPXS
+2022-01-07 18:37:21,233 - MARKET - WARNING   : Not found in B data STORM
+2022-01-07 18:37:21,240 - MARKET - WARNING   : Not found in B data HC
+2022-01-07 18:37:21,245 - MARKET - WARNING   : Not found in B data MCO
+2022-01-07 18:37:21,249 - MARKET - WARNING   : Not found in B data EUR
+2022-01-07 18:37:21,254 - MARKET - WARNING   : Not found in B data STRAT
+2022-01-07 18:37:21,259 - MARKET - WARNING   : Not found in B data XZC
+2022-01-07 18:37:21,263 - MARKET - WARNING   : Not found in B data LEND
+2022-01-07 18:37:21,268 - MARKET - WARNING   : Not found in B data BKRW
+2022-01-07 18:37:21,273 - MARKET - WARNING   : Not found in B data GBP
+2022-01-07 18:37:21,277 - MARKET - WARNING   : Not found in B data DAI
+2022-01-07 18:37:21,281 - MARKET - WARNING   : Not found in B data AUD
+2022-01-07 18:37:21,292 - MARKET - WARNING   : Not found in B data BZRX
+2022-01-07 18:39:09,735 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:39:10,983 - MARKET - WARNING   : Not found in B data BCC
+2022-01-07 18:39:10,987 - MARKET - WARNING   : Not found in B data VEN
+2022-01-07 18:39:10,991 - MARKET - WARNING   : Not found in B data PAX
+2022-01-07 18:39:10,992 - MARKET - WARNING   : Not found in B data BCHABC
+2022-01-07 18:39:10,995 - MARKET - WARNING   : Not found in B data BCHSV
+2022-01-07 18:39:10,999 - MARKET - WARNING   : Not found in B data USDS
+2022-01-07 18:39:11,006 - MARKET - WARNING   : Not found in B data USDSB
+2022-01-07 18:39:11,008 - MARKET - WARNING   : Not found in B data ERD
+2022-01-07 18:39:11,012 - MARKET - WARNING   : Not found in B data NPXS
+2022-01-07 18:39:11,017 - MARKET - WARNING   : Not found in B data STORM
+2022-01-07 18:39:11,020 - MARKET - WARNING   : Not found in B data HC
+2022-01-07 18:39:11,027 - MARKET - WARNING   : Not found in B data MCO
+2022-01-07 18:39:11,033 - MARKET - WARNING   : Not found in B data EUR
+2022-01-07 18:39:11,040 - MARKET - WARNING   : Not found in B data STRAT
+2022-01-07 18:39:11,046 - MARKET - WARNING   : Not found in B data XZC
+2022-01-07 18:39:11,050 - MARKET - WARNING   : Not found in B data LEND
+2022-01-07 18:39:11,056 - MARKET - WARNING   : Not found in B data BKRW
+2022-01-07 18:39:11,059 - MARKET - WARNING   : Not found in B data GBP
+2022-01-07 18:39:11,062 - MARKET - WARNING   : Not found in B data DAI
+2022-01-07 18:39:11,066 - MARKET - WARNING   : Not found in B data AUD
+2022-01-07 18:39:11,075 - MARKET - WARNING   : Not found in B data BZRX
+2022-01-07 18:56:25,547 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:56:41,339 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:57:39,383 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:57:41,053 - MARKET - WARNING   : Not found in B data BCC
+2022-01-07 18:57:41,060 - MARKET - WARNING   : Not found in B data VEN
+2022-01-07 18:57:41,063 - MARKET - WARNING   : Not found in B data PAX
+2022-01-07 18:57:41,065 - MARKET - WARNING   : Not found in B data BCHABC
+2022-01-07 18:57:41,067 - MARKET - WARNING   : Not found in B data BCHSV
+2022-01-07 18:57:41,071 - MARKET - WARNING   : Not found in B data USDS
+2022-01-07 18:57:41,081 - MARKET - WARNING   : Not found in B data USDSB
+2022-01-07 18:57:41,085 - MARKET - WARNING   : Not found in B data ERD
+2022-01-07 18:57:41,091 - MARKET - WARNING   : Not found in B data NPXS
+2022-01-07 18:57:41,096 - MARKET - WARNING   : Not found in B data STORM
+2022-01-07 18:57:41,102 - MARKET - WARNING   : Not found in B data HC
+2022-01-07 18:57:41,106 - MARKET - WARNING   : Not found in B data MCO
+2022-01-07 18:57:41,111 - MARKET - WARNING   : Not found in B data EUR
+2022-01-07 18:57:41,117 - MARKET - WARNING   : Not found in B data STRAT
+2022-01-07 18:57:41,122 - MARKET - WARNING   : Not found in B data XZC
+2022-01-07 18:57:41,126 - MARKET - WARNING   : Not found in B data LEND
+2022-01-07 18:57:41,131 - MARKET - WARNING   : Not found in B data BKRW
+2022-01-07 18:57:41,135 - MARKET - WARNING   : Not found in B data GBP
+2022-01-07 18:57:41,140 - MARKET - WARNING   : Not found in B data DAI
+2022-01-07 18:57:41,143 - MARKET - WARNING   : Not found in B data AUD
+2022-01-07 18:57:41,149 - MARKET - WARNING   : Not found in B data BZRX
+2022-01-07 18:57:46,296 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 18:57:50,343 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 19:01:04,334 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 19:01:06,014 - MARKET - WARNING   : Not found in B data BCC
+2022-01-07 19:01:06,023 - MARKET - WARNING   : Not found in B data VEN
+2022-01-07 19:01:06,026 - MARKET - WARNING   : Not found in B data PAX
+2022-01-07 19:01:06,028 - MARKET - WARNING   : Not found in B data BCHABC
+2022-01-07 19:01:06,029 - MARKET - WARNING   : Not found in B data BCHSV
+2022-01-07 19:01:06,036 - MARKET - WARNING   : Not found in B data USDS
+2022-01-07 19:01:06,043 - MARKET - WARNING   : Not found in B data USDSB
+2022-01-07 19:01:06,047 - MARKET - WARNING   : Not found in B data ERD
+2022-01-07 19:01:06,051 - MARKET - WARNING   : Not found in B data NPXS
+2022-01-07 19:01:06,056 - MARKET - WARNING   : Not found in B data STORM
+2022-01-07 19:01:06,066 - MARKET - WARNING   : Not found in B data HC
+2022-01-07 19:01:06,074 - MARKET - WARNING   : Not found in B data MCO
+2022-01-07 19:01:06,079 - MARKET - WARNING   : Not found in B data EUR
+2022-01-07 19:01:06,085 - MARKET - WARNING   : Not found in B data STRAT
+2022-01-07 19:01:06,089 - MARKET - WARNING   : Not found in B data XZC
+2022-01-07 19:01:06,092 - MARKET - WARNING   : Not found in B data LEND
+2022-01-07 19:01:06,098 - MARKET - WARNING   : Not found in B data BKRW
+2022-01-07 19:01:06,104 - MARKET - WARNING   : Not found in B data GBP
+2022-01-07 19:01:06,108 - MARKET - WARNING   : Not found in B data DAI
+2022-01-07 19:01:06,112 - MARKET - WARNING   : Not found in B data AUD
+2022-01-07 19:01:06,127 - MARKET - WARNING   : Not found in B data BZRX
+2022-01-07 19:02:09,579 - MARKET - INFO   : Starting the seller_stoploss
+2022-01-07 19:07:49,221 - MARKET - INFO   : Hello
+2022-01-07 19:07:49,223 - MARKET - INFO   : recent old report is invalid now, exiting
+2022-01-07 19:08:34,677 - MARKET - INFO   : Hello
+2022-01-07 19:08:34,678 - MARKET - INFO   : Not cron call, exiting
+2022-01-07 19:08:42,627 - MARKET - INFO   : Hello
+2022-01-07 19:10:22,635 - MARKET - INFO   : Getting the last 24hr data
+2022-01-07 19:16:26,041 - MARKET - INFO   : Got last 24hr dtaa
+2022-01-07 19:16:34,798 - MARKET - INFO   : req time:8 sec
+2022-01-07 19:16:34,806 - MARKET - DEBUG   : err_key'BCCUSDT'
+2022-01-07 19:16:34,808 - MARKET - DEBUG   : err_key'VENUSDT'
+2022-01-07 19:16:34,811 - MARKET - DEBUG   : err_key'PAXUSDT'
+2022-01-07 19:16:34,812 - MARKET - DEBUG   : err_key'BCHABCUSDT'
+2022-01-07 19:16:34,813 - MARKET - DEBUG   : err_key'BCHSVUSDT'
+2022-01-07 19:16:34,815 - MARKET - DEBUG   : err_key'USDSUSDT'
+2022-01-07 19:16:34,823 - MARKET - DEBUG   : err_key'USDSBUSDT'
+2022-01-07 19:16:34,826 - MARKET - DEBUG   : err_key'ERDUSDT'
+2022-01-07 19:16:34,828 - MARKET - DEBUG   : err_key'NPXSUSDT'
+2022-01-07 19:16:34,835 - MARKET - DEBUG   : err_key'STORMUSDT'
+2022-01-07 19:16:34,841 - MARKET - DEBUG   : err_key'HCUSDT'
+2022-01-07 19:16:34,846 - MARKET - DEBUG   : err_key'MCOUSDT'
+2022-01-07 19:16:34,850 - MARKET - DEBUG   : err_key'BULLUSDT'
+2022-01-07 19:16:34,851 - MARKET - DEBUG   : err_key'BEARUSDT'
+2022-01-07 19:16:34,853 - MARKET - DEBUG   : err_key'ETHBULLUSDT'
+2022-01-07 19:16:34,854 - MARKET - DEBUG   : err_key'ETHBEARUSDT'
+2022-01-07 19:16:34,860 - MARKET - DEBUG   : err_key'EOSBULLUSDT'
+2022-01-07 19:16:34,861 - MARKET - DEBUG   : err_key'EOSBEARUSDT'
+2022-01-07 19:16:34,863 - MARKET - DEBUG   : err_key'XRPBULLUSDT'
+2022-01-07 19:16:34,864 - MARKET - DEBUG   : err_key'XRPBEARUSDT'
+2022-01-07 19:16:34,865 - MARKET - DEBUG   : err_key'STRATUSDT'
+2022-01-07 19:16:34,869 - MARKET - DEBUG   : err_key'BNBBULLUSDT'
+2022-01-07 19:16:34,870 - MARKET - DEBUG   : err_key'BNBBEARUSDT'
+2022-01-07 19:16:34,874 - MARKET - DEBUG   : err_key'XZCUSDT'
+2022-01-07 19:16:34,878 - MARKET - DEBUG   : err_key'LENDUSDT'
+2022-01-07 19:16:34,882 - MARKET - DEBUG   : err_key'BKRWUSDT'
+2022-01-07 19:16:34,887 - MARKET - DEBUG   : err_key'DAIUSDT'
+2022-01-07 19:16:34,897 - MARKET - DEBUG   : err_key'BZRXUSDT'
+2022-01-08 00:35:24,010 - MARKET - INFO   : Hello
+2022-01-08 00:35:24,057 - MARKET - INFO   : recent old report is invalid now, exiting
+2022-01-08 00:37:12,688 - MARKET - INFO   : Hello
+2022-01-08 00:38:52,695 - MARKET - INFO   : Getting the last 24hr data
+2022-01-08 00:41:32,574 - MARKET - ERROR   : ticker_problem
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000026325642610>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=CRVUSDT&interval=15m&startTime=1641496271204&endTime=1641582671204 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026325642610>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\documents\project crypto\make_diff_report.py", line 235, in get_last24
+    past_tickers = requests.get("https://api.binance.com/api/v3/klines?symbol="+str(symbol)+"&interval=15m&startTime="+str(int((time.time()- 86400)*1000))+"&endTime="+str(int(time.time()*1000)))
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\program_files\Anaconda\envs\secpod\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=CRVUSDT&interval=15m&startTime=1641496271204&endTime=1641582671204 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026325642610>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2022-01-08 00:44:14,632 - MARKET - INFO   : Got last 24hr dtaa
+2022-01-08 00:44:15,099 - MARKET - INFO   : req time:0 sec
+2022-01-08 00:44:15,102 - MARKET - DEBUG   : err_key'BCCUSDT'
+2022-01-08 00:44:15,105 - MARKET - DEBUG   : err_key'VENUSDT'
+2022-01-08 00:44:15,107 - MARKET - DEBUG   : err_key'PAXUSDT'
+2022-01-08 00:44:15,109 - MARKET - DEBUG   : err_key'BCHABCUSDT'
+2022-01-08 00:44:15,111 - MARKET - DEBUG   : err_key'BCHSVUSDT'
+2022-01-08 00:44:15,113 - MARKET - DEBUG   : err_key'USDSUSDT'
+2022-01-08 00:44:15,117 - MARKET - DEBUG   : err_key'USDSBUSDT'
+2022-01-08 00:44:15,119 - MARKET - DEBUG   : err_key'ERDUSDT'
+2022-01-08 00:44:15,121 - MARKET - DEBUG   : err_key'NPXSUSDT'
+2022-01-08 00:44:15,125 - MARKET - DEBUG   : err_key'STORMUSDT'
+2022-01-08 00:44:15,128 - MARKET - DEBUG   : err_key'HCUSDT'
+2022-01-08 00:44:15,130 - MARKET - DEBUG   : err_key'MCOUSDT'
+2022-01-08 00:44:15,134 - MARKET - DEBUG   : err_key'BULLUSDT'
+2022-01-08 00:44:15,136 - MARKET - DEBUG   : err_key'BEARUSDT'
+2022-01-08 00:44:15,137 - MARKET - DEBUG   : err_key'ETHBULLUSDT'
+2022-01-08 00:44:15,139 - MARKET - DEBUG   : err_key'ETHBEARUSDT'
+2022-01-08 00:44:15,142 - MARKET - DEBUG   : err_key'EOSBULLUSDT'
+2022-01-08 00:44:15,144 - MARKET - DEBUG   : err_key'EOSBEARUSDT'
+2022-01-08 00:44:15,146 - MARKET - DEBUG   : err_key'XRPBULLUSDT'
+2022-01-08 00:44:15,147 - MARKET - DEBUG   : err_key'XRPBEARUSDT'
+2022-01-08 00:44:15,148 - MARKET - DEBUG   : err_key'STRATUSDT'
+2022-01-08 00:44:15,151 - MARKET - DEBUG   : err_key'BNBBULLUSDT'
+2022-01-08 00:44:15,152 - MARKET - DEBUG   : err_key'BNBBEARUSDT'
+2022-01-08 00:44:15,155 - MARKET - DEBUG   : err_key'XZCUSDT'
+2022-01-08 00:44:15,157 - MARKET - DEBUG   : err_key'LENDUSDT'
+2022-01-08 00:44:15,159 - MARKET - DEBUG   : err_key'BKRWUSDT'
+2022-01-08 00:44:15,162 - MARKET - DEBUG   : err_key'DAIUSDT'
+2022-01-08 00:44:15,166 - MARKET - ERROR   : lesser than -1.5 IRISUSDT :January 08 00:44:15:  [0.20999919231079583, -1.6373533039332309, 0.40748840264190084, 0.12407]
+2022-01-08 00:44:15,170 - MARKET - DEBUG   : err_key'CRVUSDT'
+2022-01-08 00:44:15,176 - MARKET - DEBUG   : err_key'BZRXUSDT'
