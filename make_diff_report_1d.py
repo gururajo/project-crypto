@@ -150,7 +150,7 @@ def strategy(cryp,time_key,currency):
                 if buys_done>2:
                     logger.info("3 orders already created in this session")
                     return None
-                if get_market_cap(currency) < 25000000:
+                if get_market_cap(currency) < 45000000:
                     logger.info("lesser than threshold market cap, rejecting buy")
                     cryp["neg_trig"]=[0,False]
                     return None

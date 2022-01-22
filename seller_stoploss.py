@@ -235,14 +235,14 @@ def main():
                             if slots==None or slots==0 or slots>5:
                                 logger.error("SLOTS ERROR: slot returned is either None or equa; to zero/ >10,please check that function"+str(slots))
                                 continue
-                            if get_per_change(old_price,new_price) > -25 -((slots-1)*5):
+                            if get_per_change(old_price,new_price) > -25 -((slots-1)*2.5):
                                 continue
-                            logger.info("price dropped "+str(-25 -((slots-1)*5))+", so buying again to reduce avg bought price")
+                            logger.info("price dropped "+str(-25 -((slots-1)*2.5))+", so buying again to reduce avg bought price")
                             if check_if_neg_trig_is_true(symbol):
                                 logger.info("not a good time to buy, neg_trig is true: "+str(symbol))
                                 continue
                             try:
-                                order=trade.buy(symbol,price=get_per(new_price,-0.5),force=True)
+                                order=trade.buy(symbol,price=get_per(new_price,-1.00),force=True)
                                 if order == None:
                                     logger.error("exception occured when placing buy order S:"+str(symbol))
                                     continue
