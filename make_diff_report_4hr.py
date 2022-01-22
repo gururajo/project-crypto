@@ -155,6 +155,13 @@ def strategy(cryp,time_key,currency):
                     logger.info("lesser than threshold market cap, rejecting buy")
                     cryp["neg_trig"]=[0,False]
                     return None
+                if cryp[time_key][0] > 1:
+                    logger.info("change is greter than 1%, not a good time to buy")
+                    # cryp["neg_trig"]=[0,False]
+                    return None
+                if cryp["volume"]< 2500000:
+                    logger.info("lesser than threshold volume (2.5m), rejecting buy")
+                    cryp["neg_trig"]=[0,False]
                 order=trade.buy(currency, get_per(cryp[time_key][3],-0.2),cryp=cryp)
                 if not order:
                     logger.info("Damn order didnt complete")
