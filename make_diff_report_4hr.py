@@ -29,6 +29,7 @@ min = 60*4
 neg_keys_c=8
 cron =False
 buys_done=0
+order_req=0
 
 try:
     os.mkdir("reports")
@@ -127,7 +128,7 @@ def get_market_cap(symbol):
 
 
 def strategy(cryp,time_key,currency):
-    global buys_done
+    global buys_done,order_req
     last_5_avg=cryp[time_key][1]
 
     # if last_5_avg>1.3:
@@ -162,6 +163,11 @@ def strategy(cryp,time_key,currency):
                 if cryp["volume"]< 2500000:
                     logger.info("lesser than threshold volume (2.5m), rejecting buy")
                     cryp["neg_trig"]=[0,False]
+                    return None
+                if order_req>5:
+                    logger.info("market crash detected, or mayb no funds. (get more money bitch)")
+                    return None
+                order_req+=1
                 order=trade.buy(currency, get_per(cryp[time_key][3],-0.2),cryp=cryp)
                 if not order:
                     logger.info("Damn order didnt complete")
@@ -320,7 +326,7 @@ def main(boot_json):
     diff = {}
     diff["started"]=time.strftime("%B %d %H:%M:%S")
     global neg_keys_c,cron
-    global min,sec,buys_done
+    global min,sec,buys_done,order_req
     tickers=0
     volume_thres=1000000
     diff["last_updated"]=time.time()
@@ -360,6 +366,7 @@ def main(boot_json):
     while True:
         diff["last_updated"]=time.time()
         buys_done=0
+        order_req=0
         market = get_present()
         if not market:
             logger.error("some error in Connection")

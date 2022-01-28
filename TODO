@@ -37,9 +37,12 @@
 -Done last3avg make it -0.5 to 0.5
 -Done update the file not found part in makediff report
 - colourise output
-- think abt it, if last cgange is >2% set trig false,
+-Done think abt it, if last cgange is >2% set trig false,
     better instead of setting false, just don't buy tht time
 - set time limit for buy order
     it doesn't seem right, think abt it
-- update cleanup to store log somewhere
-- volume threshold check
+    not doing it, seems correct but if its tht stable then need accidently also if we get some its for the best
+-Done update cleanup to store log somewhere
+-Done volume threshold check
+    added new check in stratergy
+- if too many buy requests then stop sending buy request, may b thts a crash all money is already invested
