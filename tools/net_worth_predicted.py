@@ -29,7 +29,17 @@ for order in o_orders:
             break
     total_present+=present_price*float(order["origQty"])
     print(order["symbol"],float(order["price"])*float(order["origQty"]),present_price*float(order["origQty"]))
+usdt=0
 for bal in client.account()["balances"]:
-     if bal["asset"]=="USDT":
-        usdt=float(bal["free"]) + float(bal["locked"])
+
+    if bal["asset"]=="USDT":
+        usdt+=float(bal["free"]) + float(bal["locked"])
+    if bal["asset"]=="BNB":
+        symbol="BNBUSDT"
+        for price in prices:
+            if price["symbol"]==symbol:
+                present_price=float(price["price"])
+                break
+
+        usdt+=(float(bal["free"]) + float(bal["locked"]))*present_price
 print(total_worth+usdt,"$"," ",total_present+usdt,"$",sep="")

@@ -12,14 +12,19 @@ except Exception as e:
     print("error when getting get_open_orders()")
 orders_list=[]
 i=0
+with open("sell_orders.json","r") as f:
+    s_orders=json.load(f)
 for order in o_orders:
     symbol=order["symbol"]
     id=order["orderId"]
     orders_list.append(id)
     side=order["side"]
     price=order["price"]
-
-    print(i,symbol,price,side,id)
+    already_present="\tnot present"
+    for o in s_orders:
+        if s_orders[o]["orderId"]==id:
+            already_present="\tyes"
+    print(i,symbol,price,side,id, already_present)
     i+=1
 id_r=int(input())
 print(orders_list[id_r])
