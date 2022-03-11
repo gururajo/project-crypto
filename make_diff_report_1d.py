@@ -155,8 +155,8 @@ def strategy(cryp,time_key,currency):
                     logger.info("lesser than threshold market cap, rejecting buy")
                     cryp["neg_trig"]=[0,False]
                     return None
-                if cryp[time_key][0] > 1:
-                    logger.info("change is greter than 1%, not a good time to buy")
+                if cryp[time_key][0] > 2:
+                    logger.info("change is greter than 2%, not a good time to buy")
                     # cryp["neg_trig"]=[0,False]
                     return None
                 if cryp["volume"]< 2500000:
@@ -362,7 +362,7 @@ def main(boot_json):
         logger.info("Not cron call, exiting")
         sys.exit()
     logger.info("Got last 24hr dtaa")
-
+    err_conn_count=0
     while True:
         diff["last_updated"]=time.time()
         buys_done=0
@@ -376,8 +376,11 @@ def main(boot_json):
             with open("boot.json","w") as wf:
                 json.dump(boot_json, wf, sort_keys=False,indent='\t', separators=(',', ': '))
             time.sleep(20)
+            err_conn_count+=1
+            if err_conn_count>6:
+                sys.exit()
             continue
-
+        err_conn_count=0
         for coin in market:
             cryp=coin["symbol"]
             # print(cryp)

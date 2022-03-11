@@ -41,8 +41,12 @@ def cleanup_sp_out_log():
         os.makedirs("monthly_logs")
     except FileExistsError:
         pass
-    with open(os.path.join(path,"monthly_logs",time.strftime("monthly_log_%B.log")),"a") as wf:
-        wf.write(overall_log)
+    if path == ".":
+        with open(os.path.join(path,"monthly_logs",time.strftime("monthly_log_%B.log",time.gmtime(time.time()+(60*60*24*32)))),"a") as wf:
+            wf.write(overall_log)
+    else:
+        with open(os.path.join(path,"monthly_logs",time.strftime("monthly_log_%B.log")),"a") as wf:
+            wf.write(overall_log)
 
 def cleanup_reports_json():
     for file in os.listdir(os.path.join(path,"reports/")):
